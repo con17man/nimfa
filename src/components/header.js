@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 
 import Navbar from './Navbar';
 
+import '../scss/components/Header.scss';
+
 
 const Header = ({ siteTitle }) => (
   <header className="header">
