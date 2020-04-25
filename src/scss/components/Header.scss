@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  min-height: 50px;
+  background: $black;
+  color: $white;
+
+  &--nvabar {
+    display: block;
+
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $white;
+      border-left: 2px solid $white;
+
+      &:hover {
+        color: $red;
+        font-weight: 700;
+      }
+
+      &:first-child {
+        border-left: none;
+      }
+    }
+  }
+}

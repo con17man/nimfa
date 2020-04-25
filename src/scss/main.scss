@@ -1,5 +1,14 @@
-// 3rd Party Libraries
-@import "libs/normalize.css";
+// // 3rd Party Libraries
+// @import "libs/normalize.css";
 
-@import "colors.scss";
-@import "utilities.scss";
+// @import "colors.scss";
+// @import "utilities.scss";
+
+// // Components
+// @import "components/Header.scss"
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
