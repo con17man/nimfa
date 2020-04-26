@@ -50,11 +50,11 @@ export class Navbar extends Component {
         ];
 
         return (
-            <>
+            <div className="header-navbar divide-x-2 divide-white">
                 {NAVBAR_CATEGORIES.map((category, index) => {
-                    return <Link to={category.url} key={index + 1}> {category.name} </Link>
+                    return <Link to={category.url} key={index + 1} className="pr-2 pl-3 uppercase hover:text-red font-bold"> {category.name} </Link>
                 })}
-            </>
+            </div>
         )
     }
 }

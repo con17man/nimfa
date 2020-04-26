@@ -5,17 +5,14 @@ import PropTypes from 'prop-types';
 import Navbar from './Navbar';
 
 const Header = ({ siteTitle }) => (
-  <header className="header">
+  <header className="header container">
     <div className="header-logo">
       <Link to="/">
-        <img src="../images/gatsby-icon.png" alt={siteTitle} />
+        <img src="../static/images/gatsby-icon.png" alt={siteTitle} />
       </Link>
     </div>
 
-    <div className="header-navbar">
-      <Navbar />
-    </div>
-
+    <Navbar />
   </header>
 );
 

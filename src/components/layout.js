@@ -24,8 +24,9 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div className="container mx-auto">
+      <div className="w-full bg-black text-white">
         <Header siteTitle={data.site.siteMetadata.title} />
+      </div>
 
         <main>{children}</main>
 
@@ -33,7 +34,6 @@ const Layout = ({ children }) => {
           <p>Made with <span role="img" aria-label="love">❤️</span> in Bucharest</p>
           <p>{new Date().getFullYear()}</p>
         </footer>
-      </div>
     </>
   )
 }
