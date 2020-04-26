@@ -4,18 +4,15 @@ import PropTypes from 'prop-types';
 
 import Navbar from './Navbar';
 
-import '../scss/components/Header.scss';
-
-
 const Header = ({ siteTitle }) => (
   <header className="header">
-    <div className="header--logo">
+    <div className="header-logo">
       <Link to="/">
         <img src="../images/gatsby-icon.png" alt={siteTitle} />
       </Link>
     </div>
 
-    <div className="header--navbar">
+    <div className="header-navbar">
       <Navbar />
     </div>
 

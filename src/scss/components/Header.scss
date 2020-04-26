@@ -1,15 +1,9 @@
 .header {
-  display: flex;
-  flex-flow: row nowrap;
-  align-content: center;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1em;
-  min-height: 50px;
-  // background: $black;
-  // color: $white;
+  @apply mx-auto;
+  @apply bg-raisin;
+  @apply text-white;
 
-  &--nvabar {
+  &-nvabar {
     display: block;
 
     a {
