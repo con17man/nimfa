@@ -1,19 +1,20 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+// import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Acasa" />
-    <h1>Acasa</h1>
-    <div style={{ maxWidth: `300px`, margin: `1em auto`, }}>
-      <Image />
-    </div>
 
-    <Link to="/blog/my-first-post/">Go to My first post</Link>
+    <div className="w-full bg-white">
+      <h1>Hello</h1>
+    </div>
+    <div className="w-full bg-grey h-64 p-4">
+      <h1>Hello world!</h1>
+    </div>
 
   </Layout>
 )
