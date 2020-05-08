@@ -6,7 +6,7 @@ export class Navbar extends Component {
 
         const NAVBAR_CATEGORIES = [
             {
-                name: 'company',
+                name: 'Company',
                 url: '/company',
                 children: [
                     { name: 'About Us', url: '/about-us' },
@@ -14,7 +14,7 @@ export class Navbar extends Component {
                 ]
             },
             {
-                name: 'products',
+                name: 'Products',
                 url: '/products',
                 children: [
                     {

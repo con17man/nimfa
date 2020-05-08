@@ -1,0 +1,46 @@
+[{
+  "contact": {
+    "address": {
+      "street": "Soseaua de Centura 107B",
+      "city": "Popesti-Leordeni",
+      "county": "Ilfov",
+      "code": "077160"
+    },
+    "phone": "+40 (0)21 344 64 52",
+    "email": "office@tevi-laminate.ro"
+  },
+  "info": {
+    "links": [
+      {
+        "name": "Despre noi",
+        "url": "/despre"
+      },
+      {
+        "name": "Transport si Logistica",
+        "url": "/logistics"
+      },
+      {
+        "name": "Privacy Policy",
+        "url": "/privacy-policy"
+      },
+      {
+        "name": "Termeni si Conditii",
+        "url": "/terms-and-conds"
+      }
+    ],
+    "social": [
+      {
+        "icon": "facebook",
+        "url": "https://www.facebook.com/SC-NIMFA-COM-SRL-344245936022842"
+      },
+      {
+        "icon": "twitter",
+        "url": "https://twitter.com/"
+      },
+      {
+        "icon": "rss",
+        "url": "/#"
+      }
+    ]
+  }
+}]
