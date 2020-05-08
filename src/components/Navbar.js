@@ -7,7 +7,7 @@ export class Navbar extends Component {
         const NAVBAR_CATEGORIES = [
             {
                 name: 'company',
-                url: '/',
+                url: '/company',
                 children: [
                     { name: 'About Us', url: '/about-us' },
                     { name: 'Advantages', url: '/advantages' },
@@ -45,8 +45,7 @@ export class Navbar extends Component {
                 ]
             },
             { name: 'services', url: '/services', children: [] },
-            { name: 'industries', url: '/industries', children: [] },
-            { name: 'accessories', url: '/accessories', children: [] }
+            { name: 'industries', url: '/industries', children: [] }
         ];
 
         return (
