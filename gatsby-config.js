@@ -3,7 +3,8 @@ const path = require('path');
 module.exports = {
   siteMetadata: {
     title: `Nimfa`,
-    description: `tevi-laminate.ro`,
+    description: `Cel mai mare furnizor de tevi laminate din Romania`,
+    website: `tevi-laminate.ro`,
     author: `Pixelots Digital Agency & CTRD`,
   },
   plugins: [
@@ -25,6 +26,21 @@ module.exports = {
       options: {
         name: `pages`,
         path: `${__dirname}/src/pages`
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data/`
+      }
+    },
+    {
+      resolve: `gatsby-transformer-json`,
+      options: {
+        typeName: ({ node }) => {
+          return node.relativePath.split('.').slice(0, -1).join('.')
+        }
       }
     },
     `gatsby-plugin-react-helmet`,
