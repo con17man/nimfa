@@ -1,6 +1,11 @@
 const plugin = require('tailwindcss/plugin');
 
 module.exports = {
+  purge: [
+    '.src/**/*.js',
+    '.src/**/*.md',
+    '.src/**/*.mdx',
+  ],
 
   corePlugins: {
     container: false, // Disable default .container component & create custom one

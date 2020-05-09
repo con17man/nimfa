@@ -2,7 +2,7 @@ import React from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 
 const Footer = () => {
-  const footerData = useStaticQuery(graphql`
+  const footerDataQuery = useStaticQuery(graphql`
     query FooterDataQuery {
       footer {
         contact {
@@ -31,9 +31,7 @@ const Footer = () => {
 
   const {
     contact: { address: { city, county, street, code }, email, phone },
-    info: { links, social } } = footerData.footer;
-
-  console.log(footerData);
+    info: { links, social } } = footerDataQuery.footer;
 
   return (
     <section className="section flex relative container mx-auto text-white text-center divide-x divide-white">
