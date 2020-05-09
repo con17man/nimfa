@@ -4,4 +4,7 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
+import 'typeface-montserrat';
+import 'typeface-montserrat-alternates';
+
 import './src/scss/main.scss';

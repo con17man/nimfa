@@ -12,6 +12,11 @@ module.exports = {
   },
 
   theme: {
+    fontFamily: {
+      'montserrat': ['Montserrat', 'sans-serif'],
+      'montserrat-alternates': ['Montserrat Alternates', 'sans-serif']
+    },
+
     extend: {
       colors: {
         white: '#FFFFFF',

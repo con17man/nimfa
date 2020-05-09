@@ -2,7 +2,7 @@ import React from 'react';
 
 import SEO from '../components/seo';
 import Layout from '../components/layout';
-import heroImg from '../images/oil-pipe.png';
+import heroImg from '../assets/images/oil-pipe.png';
 
 const IndexPage = () => (
   <Layout>

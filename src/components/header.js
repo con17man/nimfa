@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 
-import Logo from '../images/gatsby-icon.png';
+import Logo from '../assets/images/gatsby-icon.png';
 
 import Navbar from './Navbar';
 
