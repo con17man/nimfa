@@ -2,7 +2,7 @@ import React from 'react';
 
 import SEO from '../components/seo';
 import Layout from '../components/layout';
-import HeroCarousel from '../components/HeroCarousel';
+import HeroCarousel from '../components/heroCarousel';
 
 const IndexPage = () => (
   <Layout>
