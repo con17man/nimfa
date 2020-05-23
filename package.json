@@ -24,6 +24,8 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.0.0",
+    "react-slick": "^0.26.0",
+    "slick-carousel": "^1.8.1",
     "typeface-montserrat": "0.0.75",
     "typeface-montserrat-alternates": "0.0.72"
   },
