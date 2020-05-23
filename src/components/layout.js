@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
           {children}
         </main>
 
-      <footer className="bg-raisin py-16">
+      <footer className="bg-raisin py-20">
         <Footer />
       </footer>
     </>
