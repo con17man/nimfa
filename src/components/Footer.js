@@ -1,8 +1,9 @@
 import React from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
+import Img from "gatsby-image";
 
 const Footer = () => {
-  const footerDataQuery = useStaticQuery(graphql`
+  const queryData = useStaticQuery(graphql`
     query FooterDataQuery {
       footer {
         contact {
@@ -15,12 +16,20 @@ const Footer = () => {
           social { icon, url }
         }
       }
+
+      logo: file(relativePath: {eq: "gatsby-icon.png"}) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `);
 
   const {
     contact: { address: { city, county, street, code, gMap }, email, phone },
-    info: { links, social } } = footerDataQuery.footer;
+    info: { links, social } } = queryData.footer;
 
     const [ aboutLink, logisticsLink, privacyLink, tandcLink ] = links;
 
@@ -39,7 +48,7 @@ const Footer = () => {
       </div>
 
       <div className="w-1/3 px-8">
-        <em>Add LOGO here</em>
+        <Img fluid={queryData.logo.childImageSharp.fluid} />
       </div>
 
       <div className="w-1/3 pl-8">
