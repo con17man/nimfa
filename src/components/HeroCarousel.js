@@ -31,7 +31,7 @@ const Hero = ({ title, link, linkLabel, img }) => (
       <img className="absolute object-cover w-full h-full" src={img} alt="Nimfa" />
     </div>
 
-    <div className="flex flex-col absolute container translate-x-1/2 transform content-center h-full justify-center px-16 py-8 text-white top-0 w-full">
+    <div className="flex flex-col absolute transform content-center h-full justify-center px-16 py-8 text-white top-0 w-full">
       <h1 className="font-montserrat-alternates font-bold text-5xl pb-2">{title}</h1>
       <p className="uppercase">
         <Link to={link} className="font-medium hover:underline">
@@ -49,6 +49,7 @@ class HeroCarousel extends Component {
 
     const settings = {
       dots: false,
+      arrows: false,
       infinite: true,
       autoplay: true,
       autoplaySpeed: 5000,

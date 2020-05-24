@@ -3,18 +3,14 @@ import React from 'react';
 import SEO from '../components/seo';
 import Layout from '../components/layout';
 import HeroCarousel from '../components/heroCarousel';
+import AdvantagesCarousel from '../components/advantagesCarousel';
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
 
     <HeroCarousel />
-
-    {/* ADVANTAGES COMPONENT */}
-    <div className="w-full bg-grey h-64 p-4 flex content-center items-center justify-center">
-      <h1>ADVANTAGES COMPONENT</h1>
-    </div>
-    {/* !ADVANTAGES COMPONENT */}
+    <AdvantagesCarousel />
 
     {/* GOTO COMPONENT */}
     <div className="w-full h-64 p-4 flex content-center items-center justify-center">
