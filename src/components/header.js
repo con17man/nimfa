@@ -28,8 +28,8 @@ const Header = ({ siteTitle }) => {
   const NAVBAR_CATEGORIES = navigationNodesQuery.siteMap.navigation;
 
   return(
-    <div className="w-full bg-black text-white"> {/* add: fixed z-10 */}
-      <header className="container h-20 sm:px-4 lg:px-0 mx-auto flex justify-between content-center items-center">
+    <div className="relative w-full text-white z-10 transition duration-500 ease-in-out js-header-wrapper"> {/* add: fixed z-10 */}
+      <header className="container h-20 sm:px-4 lg:p-4 mx-auto flex justify-between content-center bg-black bg-opacity-50 items-center transition duration-500 ease-in-out js-header">
         <div className="header-logo">
           <Link to="/">
             <img src={Logo} className="h-12" alt={siteTitle} />

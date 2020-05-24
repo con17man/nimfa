@@ -27,11 +27,11 @@ const cards = [
 
 const Hero = ({ title, link, linkLabel, img }) => (
   <div className="relative">
-    <div className="relative pb-5/12">
+    <div className="relative pb-3/6 lg:pb-1/2 xl:pb-4/12">
       <img className="absolute object-cover w-full h-full" src={img} alt="Nimfa" />
     </div>
 
-    <div className="flex flex-col absolute content-center h-full justify-center px-16 py-8 text-white top-0 w-full">
+    <div className="flex flex-col absolute container translate-x-1/2 transform content-center h-full justify-center px-16 py-8 text-white top-0 w-full">
       <h1 className="font-montserrat-alternates font-bold text-5xl pb-2">{title}</h1>
       <p className="uppercase">
         <Link to={link} className="font-medium hover:underline">
@@ -61,7 +61,7 @@ class HeroCarousel extends Component {
 
     return (
       <div className="w-full bg-white">
-        <div className="relative container mx-auto -mb-12">
+        <div className="relative mx-auto -mt-20 js-hero-component">
           <Slider {...settings}>
             {cards.map((card, i) => {
               return <Hero key={i}
