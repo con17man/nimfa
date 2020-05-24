@@ -2,8 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 
+import '../utils/fontawesome';
+
 import Header from './header';
 import Footer from './footer';
+import ContactHeader from './contactHeader';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -18,11 +21,13 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div className="w-full bg-black text-white fixed z-10">
+      <ContactHeader />
+
+      <div className="w-full bg-black text-white"> {/* add: fixed z-10 */}
         <Header siteTitle={data.site.siteMetadata.title} />
       </div>
 
-        <main className="pt-20">
+        <main> {/*add: className="pt-20" */}
           {children}
         </main>
 

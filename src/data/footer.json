@@ -1,4 +1,4 @@
-[{
+{
   "contact": {
     "address": {
       "street": "Soseaua de Centura 107B",
@@ -31,17 +31,21 @@
     ],
     "social": [
       {
-        "icon": "facebook",
+        "icon": "fab,facebook",
         "url": "https://www.facebook.com/SC-NIMFA-COM-SRL-344245936022842"
       },
       {
-        "icon": "twitter",
+        "icon": "fab,instagram",
+        "url": "https://www.instagram.com/"
+      },
+      {
+        "icon": "fab,twitter",
         "url": "https://twitter.com/"
       },
       {
-        "icon": "rss",
+        "icon": "fas,rss",
         "url": "/#"
       }
     ]
   }
-}]
+}

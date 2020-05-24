@@ -1,5 +1,6 @@
 {
-  "navigation": [{
+  "navigation": [
+    {
       "name": "Company",
       "url": "/company",
       "children": [{
@@ -61,13 +62,18 @@
       ]
     },
     {
-      "name": "services",
+      "name": "Services",
       "url": "/services",
       "children": []
     },
     {
-      "name": "industries",
+      "name": "Industries",
       "url": "/industries",
+      "children": []
+    },
+    {
+      "name": "Contact",
+      "url": "/contact",
       "children": []
     }
   ]

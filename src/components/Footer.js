@@ -1,6 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import Img from "gatsby-image";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
   const queryData = useStaticQuery(graphql`
@@ -47,8 +48,8 @@ const Footer = () => {
         <a href={`mailto:${email}`} className="block hover:text-white">{email}</a>
       </div>
 
-      <div className="w-1/3 px-8">
-        <Img fluid={queryData.logo.childImageSharp.fluid} />
+      <div className="w-1/3 px-8 flex flex-col items-center justify-center">
+        <Img fluid={queryData.logo.childImageSharp.fluid} className="w-32" />
       </div>
 
       <div className="w-1/3 pl-8">
@@ -80,7 +81,9 @@ const Footer = () => {
 
         <div className="pt-10">
           {social.map((socialLink, i) => {
-            return <a href={socialLink.url} target="_blank" rel="noopener noreferrer" key={i+1} className="px-2">{socialLink.icon}</a>
+            return <a href={socialLink.url} target="_blank" rel="noopener noreferrer" key={i+1} className="px-2 hover:text-white">
+              <FontAwesomeIcon icon={socialLink.icon.split(',')} />
+            </a>
           })}
         </div>
       </div>
