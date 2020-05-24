@@ -28,23 +28,25 @@ const Header = ({ siteTitle }) => {
   const NAVBAR_CATEGORIES = navigationNodesQuery.siteMap.navigation;
 
   return(
-    <header className="container h-20 sm:px-4 lg:px-0 mx-auto flex justify-between content-center items-center">
-      <div className="header-logo">
-        <Link to="/">
-          <img src={Logo} className="h-12" alt={siteTitle} />
-        </Link>
-      </div>
+    <div className="w-full bg-black text-white"> {/* add: fixed z-10 */}
+      <header className="container h-20 sm:px-4 lg:px-0 mx-auto flex justify-between content-center items-center">
+        <div className="header-logo">
+          <Link to="/">
+            <img src={Logo} className="h-12" alt={siteTitle} />
+          </Link>
+        </div>
 
-      {/* NAVBAR */}
-      <div className="header-navbar divide-x-2 divide-white">
-          {NAVBAR_CATEGORIES.map((category, i) => {
-              return <Link to={category.url} activeClassName="text-red" key={i+1}
-                className="pr-2 pl-3 uppercase hover:text-red font-bold">
-                  {category.name}
-              </Link>
-          })}
-      </div>
-    </header>
+        {/* NAVBAR */}
+        <div className="header-navbar divide-x-2 divide-white">
+            {NAVBAR_CATEGORIES.map((category, i) => {
+                return <Link to={category.url} activeClassName="text-red" key={i+1}
+                  className="pr-2 pl-3 uppercase hover:text-red font-bold">
+                    {category.name}
+                </Link>
+            })}
+        </div>
+      </header>
+    </div>
   );
 };
 

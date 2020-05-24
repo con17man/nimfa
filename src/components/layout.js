@@ -22,18 +22,13 @@ const Layout = ({ children }) => {
   return (
     <>
       <ContactHeader />
-
-      <div className="w-full bg-black text-white"> {/* add: fixed z-10 */}
-        <Header siteTitle={data.site.siteMetadata.title} />
-      </div>
+      <Header siteTitle={data.site.siteMetadata.title} />
 
         <main> {/*add: className="pt-20" */}
           {children}
         </main>
 
-      <footer className="bg-raisin py-20">
-        <Footer />
-      </footer>
+      <Footer />
     </>
   );
 }
