@@ -1,7 +1,7 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
 
 // Icons import
-import { faSearch, faRss, faCaretLeft, faCaretRight, faAngleRight, faFileImage } from '@fortawesome/free-solid-svg-icons';
+import { faSearch, faRss, faCaretLeft, faCaretRight, faAngleRight, faFileImage, faPhoneAlt, faCreditCard, faShippingFast, faBoxOpen } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 library.add(
@@ -12,6 +12,10 @@ library.add(
   faCaretRight,
   faAngleRight,
   faFileImage,
+  faPhoneAlt,
+  faCreditCard,
+  faShippingFast,
+  faBoxOpen,
 
   // Brands Icons
   faFacebook,
