@@ -18,13 +18,19 @@ module.exports = {
     },
 
     extend: {
+
+      inset: {
+        '1/2': '50%',
+      },
+
       colors: {
         white: '#FFFFFF',
         black: '#000000',
         raisin: '#222222',
         grey: '#F1F1F1',
         red: '#DC5C5A',
-        blue: '#040F3C'
+        orange: '#DE5A2E',
+        blue: '#3763A2'
       },
 
       spacing: {

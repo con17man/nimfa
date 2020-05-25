@@ -28,12 +28,12 @@ const advantages = [
 
 const AdvantageItem = ({title, description}) => (
   <div className="adv-item relative text-center px-4">
-    <div className="adv-item-img h-32 w-32 my-6 rounded-full mx-auto bg-red flex justify-center items-center text-6xl text-white">
+    <div className="adv-item-img h-32 w-32 my-6 rounded-full shadow-lg mx-auto bg-red flex justify-center items-center text-6xl text-white">
       <FontAwesomeIcon icon="file-image" />
     </div>
     <p className="adv-item-title font-medium uppercase">{title}</p>
-    <p className="adv-item-separator">--</p>
-    <p className="adv-item-description">{description}</p>
+    <p className="adv-item-separator font-medium">--</p>
+    <p className="adv-item-description text-sm">{description}</p>
   </div>
 );
 
@@ -43,6 +43,7 @@ export class AdvantagesCarousel extends Component {
 
     const sliderSettings = {
       dots: false,
+      arrows: false,
       infinite: false,
       autoplay: false,
       slidesToShow: 4,
@@ -51,7 +52,7 @@ export class AdvantagesCarousel extends Component {
 
     return (
       <div className="adv-wrapper w-full bg-grey -mt-16 pb-40">
-        <div className="adv-slider relative container mx-auto px-16">
+        <div className="adv-slider relative container mx-auto px-20">
           <Slider {...sliderSettings}>
             {advantages.map((adv, i) => {
               return  <AdvantageItem key={i+1}
