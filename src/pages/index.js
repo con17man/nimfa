@@ -6,6 +6,7 @@ import HeroCarousel from '../components/heroCarousel';
 import AdvantagesCarousel from '../components/advantagesCarousel';
 import QuickLinks from '../components/quickLinks';
 import OrderSteps from '../components/orderSteps';
+import SimpleCTA from '../components/simpleCTA';
 
 const IndexPage = () => (
   <Layout>
@@ -15,12 +16,7 @@ const IndexPage = () => (
     <AdvantagesCarousel />
     <QuickLinks />
     <OrderSteps />
-
-    {/* CTA COMPONENT */}
-    <div className="w-full bg-grey h-64 p-4 flex content-center items-center justify-center">
-      <h1>CTA COMPONENT</h1>
-    </div>
-    {/* !CTA COMPONENT */}
+    <SimpleCTA title="We look forward to work with you!" cta={{label: 'Contact', link: '/contact'}} />
 
   </Layout>
 );

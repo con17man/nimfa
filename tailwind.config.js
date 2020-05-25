@@ -28,9 +28,9 @@ module.exports = {
         black: '#000000',
         raisin: '#222222',
         grey: '#F1F1F1',
-        red: '#DC5C5A',
+        red: '#ED5154',
         orange: '#DE5A2E',
-        blue: '#3763A2'
+        blue: '#2764A7'
       },
 
       spacing: {
