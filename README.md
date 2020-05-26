@@ -1,32 +1,22 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://pixelots.com/">
-    <img alt="Gatsby" src="https://pixelots.com/wp-content/uploads/2017/09/main-logo.png" width="60" />
+    <img alt="Gatsby" src="https://pixelots.com/wp-content/uploads/2017/09/main-logo.png" width="64" />
   </a>
 </p>
-<h1 align="center">
-  Pixelots - Nimfa project 🦜
-</h1>
 
-## 🚀 Quick start
+<h1 align="center">Pixelots - Nimfa project 🦜</h1>
 
-  **Navigate into your new site’s directory and start it up.**
+### 🚀 Quick start
 
-    ```shell
-    cd my-default-starter/
-    gatsby develop
-    ```
+  ```shell
+  cd nimfa/
+  gatsby develop
+  ```
 
-1.  **Open the source code and start editing!**
+Nimfa 🦜 is now running at `http://localhost:8000`!
 
-    Your site is now running at `http://localhost:8000`!
+GraphQL testing at `http://localhost:8000/___graphql`
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
-
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/gatsbyjs/gatsby-starter-default)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+### 🀄 Kanban board
+  `https://www.notion.so/constantinradu/0d0590c2853b4518baf2279198ecab26?v=b2563b8fd0ca4b7c81c6a9b6c648be8b`
