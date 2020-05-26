@@ -6,7 +6,7 @@
 
 <h1 align="center">Pixelots - Nimfa project 🦜</h1>
 
-### 🚀 Quick start
+### 🚀Quick start
 
   ```shell
   cd nimfa/
@@ -18,5 +18,4 @@ Nimfa 🦜 is now running at `http://localhost:8000`!
 GraphQL testing at `http://localhost:8000/___graphql`
 
 
-### 🀄 Kanban board
-  `https://www.notion.so/constantinradu/0d0590c2853b4518baf2279198ecab26?v=b2563b8fd0ca4b7c81c6a9b6c648be8b`
+### 🀄Kanban board at [Notion)](https://www.notion.so/constantinradu/0d0590c2853b4518baf2279198ecab26?v=b2563b8fd0ca4b7c81c6a9b6c648be8b)
