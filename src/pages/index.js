@@ -1,12 +1,12 @@
 import React from 'react';
 
-import SEO from '../components/seo';
+import SEO from '../components/SEO';
 import Layout from '../components/layout';
-import HeroCarousel from '../components/heroCarousel';
-import AdvantagesCarousel from '../components/advantagesCarousel';
-import QuickLinks from '../components/quickLinks';
-import OrderSteps from '../components/orderSteps';
-import SimpleCTA from '../components/simpleCTA';
+import HeroCarousel from '../components/HeroCarousel';
+import AdvantagesCarousel from '../components/AdvantagesCarousel';
+import QuickLinks from '../components/QuickLinks';
+import OrderSteps from '../components/OrderSteps';
+import SimpleCTA from '../components/SimpleCTA';
 
 const IndexPage = () => (
   <Layout>

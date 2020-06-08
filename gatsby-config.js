@@ -1,5 +1,10 @@
 const path = require('path');
 
+const resolveConfig = require("tailwindcss/resolveConfig");
+const tailwindConfig = require("./tailwind.config.js");
+
+const fullConfig = resolveConfig(tailwindConfig);
+
 module.exports = {
   siteMetadata: {
     title: `Nimfa`,
@@ -48,12 +53,11 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-sass`,
+      resolve: `gatsby-plugin-postcss`,
       options: {
         postCssPlugins: [
-          require('tailwindcss'),
-          require('./tailwind.config')
-        ],
+          require(`tailwindcss`)(tailwindConfig)
+        ]
       }
     },
     {
@@ -62,8 +66,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: fullConfig.theme.colors.red,
+        theme_color: fullConfig.theme.colors.blue,
         display: `minimal-ui`,
         icon: `src/assets/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },

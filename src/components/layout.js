@@ -4,9 +4,9 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 import '../utils/fontawesome';
 
-import Header from './header';
-import Footer from './footer';
-import ContactHeader from './contactHeader';
+import Header from './Header';
+import Footer from './Footer';
+import ContactHeader from './ContactHeader';
 
 const Layout = ({ children }) => {
 

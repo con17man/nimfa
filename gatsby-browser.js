@@ -7,7 +7,7 @@
 import 'typeface-montserrat';
 import 'typeface-montserrat-alternates';
 
-import './src/scss/main.scss';
+import './src/styles/main.css';
 
 import 'slick-carousel/slick/slick.css';
 import "slick-carousel/slick/slick-theme.css";
