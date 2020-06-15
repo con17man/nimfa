@@ -62,7 +62,7 @@ class HeroCarousel extends Component {
 
     return (
       <div className="w-full bg-white">
-        <div className="relative mx-auto -mt-20 js-hero-component">
+        <div className="relative mx-auto -mt-28 js-hero-component">
           <Slider {...settings}>
             {cards.map((card, i) => {
               return <Hero key={i}

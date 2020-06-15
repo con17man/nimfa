@@ -18,7 +18,7 @@ const ContactHeader = () => {
 
   return(
     <div className="contact-header w-full">
-      <div className="container mx-auto p-4 flex justify-between">
+      <div className="container mx-auto p-2 flex justify-between">
         <div className="contact-header-left flex">
           { /* Filter only fb & insta */
             social.filter(s => s.icon.match(/(instagram)|(facebook)/g)).map((socialLink, i) => {
