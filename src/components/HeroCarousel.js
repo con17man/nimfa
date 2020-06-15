@@ -32,12 +32,16 @@ const Hero = ({ title, link, linkLabel, img }) => (
     </div>
 
     <div className="flex flex-col absolute transform content-center h-full justify-center px-16 py-8 text-white top-0 w-full">
-      <h1 className="font-montserrat-alternates font-bold text-5xl pb-2">{title}</h1>
-      <p className="uppercase">
-        <Link to={link} className="font-medium hover:underline">
-          {linkLabel} <FontAwesomeIcon icon="angle-right" />
-        </Link>
-      </p>
+      <div className="relative">
+        <div className="container mx-auto">
+          <h1 className="font-montserrat-alternates font-bold text-5xl pb-2">{title}</h1>
+          <p className="uppercase">
+            <Link to={link} className="font-medium hover:underline">
+              {linkLabel} <FontAwesomeIcon icon="angle-right" />
+            </Link>
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 );
