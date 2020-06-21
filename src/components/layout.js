@@ -26,13 +26,13 @@ const Layout = ({ children }) => {
         headerWrapper.classList.remove('relative');
         headerWrapper.classList.add('fixed', 'top-0', 'bg-black');
         header.classList.remove('bg-black', 'bg-opacity-50');
-        main.classList.add('pt-20');
+        main.classList.add('pt-28');
       } else {
         // Header NOT on top
         headerWrapper.classList.add('relative');
         headerWrapper.classList.remove('fixed', 'top-0', 'bg-black');
         header.classList.add('bg-black', 'bg-opacity-50');
-        main.classList.remove('pt-20');
+        main.classList.remove('pt-28');
       }
     };
 
