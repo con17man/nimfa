@@ -39,8 +39,8 @@ const Header = ({ siteTitle }) => {
         {/* NAVBAR */}
         <div className="header-navbar divide-x-2 divide-white">
             {NAVBAR_CATEGORIES.map((category, i) => {
-                return <Link to={category.url} activeClassName="text-red" key={i+1}
-                  className="pr-2 pl-3 uppercase hover:text-red font-bold">
+                return <Link to={category.url} activeClassName="text-red-500" key={i+1}
+                  className="pr-2 pl-3 uppercase hover:text-red-500 font-bold">
                     {category.name}
                 </Link>
             })}
