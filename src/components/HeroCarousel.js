@@ -12,13 +12,13 @@ const cards = [
   {
     title: `Let the enery flow!`,
     link: `/contact`,
-    linkLabel: `Contact us`,
+    linkLabel: `Contacteaza-ne`,
     img: heroImg
   },
   {
-    title: `50% Discount`,
+    title: `Tevi - 50% Discount`,
     link: `/products`,
-    linkLabel: `Buy`,
+    linkLabel: `Cumpara`,
     img: heroImg
   }
 ];

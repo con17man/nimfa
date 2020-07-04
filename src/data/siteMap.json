@@ -1,23 +1,23 @@
 {
   "navigation": [
     {
-      "name": "Company",
+      "name": "Companie",
       "url": "/company",
       "children": [{
-          "name": "About Us",
+          "name": "Despre Noi",
           "url": "/about-us"
         },
         {
-          "name": "Advantages",
+          "name": "Avantaje",
           "url": "/advantages"
         }
       ]
     },
     {
-      "name": "Products",
+      "name": "Produse",
       "url": "/products",
       "children": [{
-          "name": "Pipes",
+          "name": "Tevi",
           "url": "/pipes",
           "children": [{
               "name": "Standarde EN & DIN",
@@ -30,7 +30,7 @@
           ]
         },
         {
-          "name": "Fittings",
+          "name": "Fitting-uri",
           "url": "/fittings",
           "children": [{
               "name": "Normal",
@@ -43,7 +43,7 @@
           ]
         },
         {
-          "name": "Flanges",
+          "name": "Flanse",
           "url": "/flanges",
           "children": [{
               "name": "EN & DIN",
@@ -62,12 +62,12 @@
       ]
     },
     {
-      "name": "Services",
+      "name": "Servicii",
       "url": "/services",
       "children": []
     },
     {
-      "name": "Industries",
+      "name": "Industrie",
       "url": "/industries",
       "children": []
     },
