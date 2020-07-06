@@ -1,34 +1,17 @@
-import React, { Component } from 'react';
-import { Link } from 'gatsby';
+import React from 'react';
+import { Link, useStaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 import Slider from 'react-slick';
 
-import heroImg from '../assets/images/oil-pipe.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-/**
- * @todo - move the array bellow to JSON.
- */
-const cards = [
-  {
-    title: `Let the enery flow!`,
-    link: `/contact`,
-    linkLabel: `Contacteaza-ne`,
-    img: heroImg
-  },
-  {
-    title: `Tevi - 50% Discount`,
-    link: `/products`,
-    linkLabel: `Cumpara`,
-    img: heroImg
-  }
-];
-
 
 
 const Hero = ({ title, link, linkLabel, img }) => (
   <div className="relative">
     <div className="relative pb-3/6 lg:pb-1/2 xl:pb-4/12">
-      <img className="absolute object-cover w-full h-full" src={img} alt="Nimfa" />
+      <div className="absolute object-cover w-full h-full">
+        <Img fluid={img.childImageSharp.fluid} alt={`Nimfa - ${title}`} />
+      </div>
     </div>
 
     <div className="flex flex-col absolute transform content-center h-full justify-center px-16 py-8 text-white top-0 w-full">
@@ -47,40 +30,59 @@ const Hero = ({ title, link, linkLabel, img }) => (
 );
 
 
+const HeroCarousel = () => {
 
-class HeroCarousel extends Component {
-  render() {
+  const queryData = useStaticQuery(graphql`
+    query heroData {
+      carousels {
+        heroCarousel {
+          title
+          linkLabel
+          link
+          img {
+            name
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
 
-    const settings = {
-      dots: false,
-      arrows: false,
-      infinite: true,
-      autoplay: true,
-      autoplaySpeed: 5000,
-      pauseOnHover: true,
-      speed: 400,
-      // initialSlide: Math.floor(Math.random() * cards.length),
-      slidesToShow: 1,
-      slidesToScroll: 1
-    };
+  const cards = queryData.carousels.heroCarousel;
 
-    return (
-      <div className="w-full bg-white">
-        <div className="relative mx-auto -mt-28 js-hero-component">
-          <Slider {...settings}>
-            {cards.map((card, i) => {
-              return <Hero key={i}
-                          title={card.title}
-                          link={card.link}
-                          linkLabel={card.linkLabel}
-                          img={card.img}>
-                      </Hero>
-            })}
-          </Slider>
-        </div>
-      </div>
-    )
+  const settings = {
+    dots: false,
+    arrows: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true,
+    speed: 400,
+    // initialSlide: Math.floor(Math.random() * cards.length),
+    slidesToShow: 1,
+    slidesToScroll: 1
   };
+
+  return (
+    <div className="w-full bg-white">
+      <div className="relative mx-auto -mt-28 js-hero-component">
+        <Slider {...settings}>
+          {cards.map((card, i) => {
+            return <Hero key={i}
+                        title={card.title}
+                        link={card.link}
+                        linkLabel={card.linkLabel}
+                        img={card.img}>
+                    </Hero>
+          })}
+        </Slider>
+      </div>
+    </div>
+  )
 };
 
 export default HeroCarousel;
