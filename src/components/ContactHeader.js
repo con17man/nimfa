@@ -22,11 +22,10 @@ const ContactHeader = () => {
         <div className="contact-header-left flex">
           { /* Filter only fb & insta */
             social.filter(s => s.icon.match(/(instagram)|(facebook)/g)).map((socialLink, i) => {
-              return <button className="rounded-full h-8 w-8 flex items-center justify-center hover:bg-gray-200" key={i+1}>
-                <a href={socialLink.url} target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={socialLink.icon.split(',')} />
-                </a>
-              </button>
+              return  <a className="rounded-full h-8 w-8 flex items-center justify-center hover:bg-gray-200"
+                        key={i+1} href={socialLink.url} target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={socialLink.icon.split(',')} />
+                      </a>
             })
           }
 
