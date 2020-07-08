@@ -40,9 +40,8 @@ const HeroCarousel = () => {
           linkLabel
           link
           img {
-            name
             childImageSharp {
-              fluid(maxWidth: 2000) {
+              fluid(maxWidth: 2000, toFormat: WEBP) {
                 ...GatsbyImageSharpFluid
               }
             }

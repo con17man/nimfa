@@ -1,0 +1,19 @@
+{
+  "quickLinks" : [
+    {
+      "name": "Produse",
+      "url": "/products",
+      "img": "../assets/images/quickLink_products.png"
+    },
+    {
+      "name": "Servicii",
+      "url": "/services",
+      "img": "../assets/images/quickLink_services.png"
+    },
+    {
+      "name": "Industrie",
+      "url": "/industries",
+      "img": "../assets/images/quickLink_industries.jpg"
+    }
+  ]
+}
