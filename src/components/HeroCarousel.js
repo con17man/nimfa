@@ -42,7 +42,7 @@ const HeroCarousel = () => {
           img {
             name
             childImageSharp {
-              fluid {
+              fluid(maxWidth: 2000) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -62,7 +62,7 @@ const HeroCarousel = () => {
     autoplaySpeed: 5000,
     pauseOnHover: true,
     speed: 400,
-    // initialSlide: Math.floor(Math.random() * cards.length),
+    initialSlide: Math.floor(Math.random() * cards.length),
     slidesToShow: 1,
     slidesToScroll: 1
   };

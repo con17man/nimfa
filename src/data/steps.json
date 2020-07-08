@@ -1,0 +1,12 @@
+{
+  "orderSteps": {
+    "title": "Cum comand?",
+    "description": "Simplu, in numai 4 pasi simpli. Dupa ce-ai gasit produsul dorit, ne suni ca sa stabilim, iti trimitem factura proforma, o platesti, noi trimitem coletul, iar tu te bucuri de ce-ai comandat.",
+    "steps": [
+      { "id": 1, "name": "Step 1", "icon": "fas,phone-alt" },
+      { "id": 2, "name": "Step 2", "icon": "fas,credit-card" },
+      { "id": 3, "name": "Step 3", "icon": "fas,shipping-fast" },
+      { "id": 4, "name": "Step 4", "icon": "fas,box-open" }
+    ]
+  }
+}
