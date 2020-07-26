@@ -2,14 +2,22 @@
   "navigation": [
     {
       "name": "Companie",
-      "url": "/company",
+      "url": "/companie",
       "children": [{
           "name": "Despre Noi",
-          "url": "/about-us"
+          "url": "/despre"
         },
         {
           "name": "Avantaje",
-          "url": "/advantages"
+          "url": "/avantaje"
+        },
+        {
+          "name": "Portofoliu",
+          "url": "/portofoliu"
+        },
+        {
+          "name": "Date si Cifre",
+          "url": "/date-cifre"
         }
       ]
     },
