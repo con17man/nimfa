@@ -18,20 +18,20 @@
 
   "advantagesCarousel": [
     {
-      "title": "Avantaj 1",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "title": "Consultanți pregătiți tehnic",
+      "description": "Consultanții noștri de vânzări sunt bine pregătiți din punct de vedere Tehnic…"
     },
     {
-      "title": "Avantaj 2",
-      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      "title": "Livrare sigură și eficientă",
+      "description": "Livrăm pe întregul teritoriu al României, și nu numai, în condiții de maximă siguranță și eficiență…"
     },
     {
-      "title": "Avantaj 3",
-      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      "title": "Calitate garantată",
+      "description": "Produsele livrate de NIMFA vin însoțite de certificate de calitate specifice fiecărui produs în parte…"
     },
     {
-      "title": "Avantaj 4",
-      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "title": "Soluții personalizate",
+      "description": "Rețeaua noastră globală de furnizori, asigură tot timpul găsirea soluțiilor optime…"
     },
     {
       "title": "Avantaj 5",
