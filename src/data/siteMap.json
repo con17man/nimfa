@@ -71,18 +71,15 @@
     },
     {
       "name": "Servicii",
-      "url": "/services",
-      "children": []
+      "url": "/services"
     },
     {
       "name": "Industrie",
-      "url": "/industries",
-      "children": []
+      "url": "/industries"
     },
     {
       "name": "Contact",
-      "url": "/contact",
-      "children": []
+      "url": "/contact"
     }
   ]
 }

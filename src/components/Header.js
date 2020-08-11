@@ -28,25 +28,36 @@ const Header = ({ siteTitle }) => {
   const NAVBAR_CATEGORIES = navigationNodesQuery.siteMap.navigation;
 
   return(
-    <div className="relative w-full text-white z-10 transition duration-500 ease-in-out js-header-wrapper">
-      <header className="container h-28 sm:px-4 lg:p-4 mx-auto flex justify-between content-center bg-black bg-opacity-50 items-center transition duration-500 ease-in-out js-header">
-        <div className="header-logo">
+    <header className="relative w-full text-white z-10 transition duration-500 ease-in-out js-header-wrapper">
+      <div className="container h-28 mx-auto flex justify-between content-center bg-black bg-opacity-50 items-center transition duration-500 ease-in-out js-header">
+        <div className="header-logo sm:px-4">
           <Link to="/">
             <img src={Logo} className="h-12" alt={siteTitle} />
           </Link>
         </div>
 
         {/* NAVBAR */}
-        <div className="header-navbar divide-x-2 divide-white">
+        <nav role="navigation" className="header-navbar h-full sm:px-4">
+          <ul className="navbar-list table h-full">
             {NAVBAR_CATEGORIES.map((category, i) => {
-                return <Link to={category.url} activeClassName="text-red-500" key={i+1}
-                  className="pr-2 pl-3 uppercase hover:text-red-500 font-bold">
-                    {category.name}
-                </Link>
+                return <li className="navbar-list-item" key={`L0_node_${i+1}`}>
+                  <Link to={category.url} activeClassName="text-red-500">
+                      {category.name}
+                  </Link>
+                  {/* sub-menu */}
+                  {category.children && <ul className="navbar-list-item-dropdown">
+                    {category.children.map((child, i) => {
+                        return <li className="navbar-list-item-dropdown-item" key={`L1_node_${i+1}`}>
+                          <Link to={child.url}>{child.name}</Link>
+                        </li>
+                    })}
+                  </ul>}
+                </li>
             })}
-        </div>
-      </header>
-    </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
   );
 };
 

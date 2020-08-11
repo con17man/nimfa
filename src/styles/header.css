@@ -1,0 +1,74 @@
+/* .header-navbar */
+  /* .navbar-list */
+    /* .navbar-list-item */
+      /* .navbar-list-item-dropdown */
+
+
+/* L0_NODE */
+.navbar-list-item {
+  @apply  table-cell
+          relative
+          align-middle
+          px-2
+          uppercase
+          font-bold
+          leading-none;
+}
+
+.navbar-list-item:hover {
+  @apply text-red-500;
+}
+
+/* WHITE SEPARATOR FOR L0_NODES */
+.navbar-list-item:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  height: 16px;
+  border-right: 2px solid #fff;
+  transform: translatey(-50%);
+}
+
+.navbar-list-item:last-of-type::before {
+  content: none;
+}
+/* !WHITE SEPARATOR FOR L0_NODES */
+
+
+/* L1_NODES - DROPDOWN */
+.navbar-list-item .navbar-list-item-dropdown {
+  @apply  absolute
+          mt-12
+          bg-black
+          hidden
+          invisible
+          opacity-0
+          transition
+          duration-500
+          ease-in-out;
+}
+
+.navbar-list-item:hover .navbar-list-item-dropdown,
+.navbar-list-item:focus-within .navbar-list-item-dropdown,
+.navbar-list-item:focus .navbar-list-item-dropdown {
+  @apply  block
+          visible
+          opacity-100
+          px-8 py-6
+          text-white
+          left-1/2
+          transform
+          -translate-x-1/2;
+}
+/* Dropdown item */
+.navbar-list-item-dropdown .navbar-list-item-dropdown-item {
+  @apply my-4;
+}
+
+.navbar-list-item-dropdown .navbar-list-item-dropdown-item:hover,
+.navbar-list-item-dropdown .navbar-list-item-dropdown-item:focus-within,
+.navbar-list-item-dropdown .navbar-list-item-dropdown-item:focus {
+  @apply text-red-500 underline;
+}
+/* !L1_NODES - DROPDOWN */

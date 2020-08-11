@@ -17,7 +17,7 @@ const ContactHeader = () => {
   const { contact: { email, phone}, info: { social } } = queryData.footer;
 
   return(
-    <div className="contact-header w-full">
+    <section className="contact-header w-full">
       <div className="container mx-auto p-2 flex justify-between">
         <div className="contact-header-left flex">
           { /* Filter only fb & insta */
@@ -40,7 +40,7 @@ const ContactHeader = () => {
           <a href={`tel:${phone}`} className="px-4 font-light hover:underline">{phone}</a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
