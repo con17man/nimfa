@@ -3,21 +3,22 @@
     {
       "name": "Companie",
       "url": "/companie",
-      "children": [{
+      "children": [
+        {
           "name": "Despre Noi",
-          "url": "/despre"
+          "url": "/companie/despre-noi"
         },
         {
           "name": "Avantaje",
-          "url": "/avantaje"
+          "url": "/companie/avantaje"
         },
         {
           "name": "Portofoliu",
-          "url": "/portofoliu"
+          "url": "/companie/portofoliu"
         },
         {
-          "name": "Date si Cifre",
-          "url": "/date-cifre"
+          "name": "Date și Cifre",
+          "url": "/companie/date-cifre"
         }
       ]
     },
@@ -71,11 +72,95 @@
     },
     {
       "name": "Servicii",
-      "url": "/services"
+      "url": "/servicii",
+      "children": [
+        {
+          "name": "TRANSPORT ȘI LOGISTICA",
+          "url": "/servicii"
+        },
+        {
+          "name": "TIMP DE LIVRARE",
+          "url": "/servicii"
+        },
+        {
+          "name": "TEVI ȘI FITTINGURI CUSTOMIZATE",
+          "url": "/servicii"
+        },
+        {
+          "name": "DEBITARE",
+          "url": "/servicii"
+        },
+        {
+          "name": "URGENȚE - 24H",
+          "url": "/servicii"
+        },
+        {
+          "name": "ASISTENȚĂ/CONSULTANȚĂ TEHNICĂ",
+          "url": "/servicii"
+        },
+        {
+          "name": "CERTIFICATE DE CALITATE",
+          "url": "/servicii"
+        },
+        {
+          "name": "TESTE ȘI ÎNCERCĂRI MATERIALE",
+          "url": "/servicii"
+        },
+        {
+          "name": "PRELUCRĂRI MECANICE",
+          "url": "/servicii"
+        },
+        {
+          "name": "PROTEJAREA SUPRAFEȚELOR",
+          "url": "/servicii"
+        },
+        {
+          "name": "AMBALARE",
+          "url": "/servicii"
+        },
+        {
+          "name": "RETUR / BUYBACK",
+          "url": "/servicii"
+        },
+        {
+          "name": "STOCARE CUSTOMIZATĂ",
+          "url": "/servicii"
+        },
+        {
+          "name": "ASISTARE FIRMĂ DE TRADING",
+          "url": "/servicii"
+        }
+      ]
     },
     {
       "name": "Industrie",
-      "url": "/industries"
+      "url": "/industrie",
+      "children": [
+        {
+          "name": "Energie",
+          "url": "/industrie/energie"
+        },
+        {
+          "name": "Constructii",
+          "url": "/industrie/constructii"
+        },
+        {
+          "name": "Petrol si Gaz",
+          "url": "/industrie/petrol-gaz"
+        },
+        {
+          "name": "Nuclear",
+          "url": "/industrie/nuclear"
+        },
+        {
+          "name": "Chimie",
+          "url": "/industrie/chimie"
+        },
+        {
+          "name": "Mecanica",
+          "url": "/industrie/mecanica"
+        }
+      ]
     },
     {
       "name": "Contact",
