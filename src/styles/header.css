@@ -16,7 +16,7 @@
 }
 
 .navbar-list-item:hover {
-  @apply text-red-500;
+  @apply text-orange;
 }
 
 /* WHITE SEPARATOR FOR L0_NODES */
@@ -69,6 +69,6 @@
 .navbar-list-item-dropdown .navbar-list-item-dropdown-item:hover,
 .navbar-list-item-dropdown .navbar-list-item-dropdown-item:focus-within,
 .navbar-list-item-dropdown .navbar-list-item-dropdown-item:focus {
-  @apply text-red-500 underline;
+  @apply text-orange underline;
 }
 /* !L1_NODES - DROPDOWN */

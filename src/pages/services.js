@@ -5,13 +5,13 @@ import Layout from '../components/layout';
 import SEO from '../components/SEO';
 import PageHero from '../components/PageHero';
 
-import heroImg from '../assets/images/services_heroImg.jpg';
+import image from '../assets/images/services_heroImg.jpg';
 
 const ServicesPage = () => (
   <Layout>
     <SEO title="Servicii" />
     {/* HERO - START*/}
-    <PageHero heroInfo={{heroImg, title: 'hello', description: 'Description'}} />
+    <PageHero heroInfo={{heroImg: image, title: 'hello', headline: 'Description'}} />
     {/* HERO - END */}
 
     {/* DEMO - STICKY SCROLL */}

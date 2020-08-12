@@ -14,7 +14,7 @@ const ContactHeader = () => {
     }
   `);
 
-  const { contact: { email, phone}, info: { social } } = queryData.footer;
+  const { contact: { email, phone }, info: { social } } = queryData.footer;
 
   return(
     <section className="contact-header w-full">

@@ -63,8 +63,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `NIMFA`,
+        short_name: `NIMFA`,
         start_url: `/`,
         background_color: fullConfig.theme.colors.red,
         theme_color: fullConfig.theme.colors.blue,

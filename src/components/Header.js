@@ -41,7 +41,7 @@ const Header = ({ siteTitle }) => {
           <ul className="navbar-list table h-full">
             {NAVBAR_CATEGORIES.map((category, i) => {
                 return <li className="navbar-list-item" key={`L0_node_${i+1}`}>
-                  <Link to={category.url} activeClassName="text-red-500">
+                  <Link to={category.url} activeClassName="text-orange">
                       {category.name}
                   </Link>
                   {/* sub-menu */}
