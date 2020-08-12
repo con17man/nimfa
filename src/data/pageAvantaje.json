@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "title": "Avantaje",
+    "headline": "<p><b>26 ani de NIMFA - întodeanuna pe stoc.</b></p><p>De ce să alegeți NIMFA? Pentru raportul excelent calitate - preț, în combinație cu un serviciu orientat către partenerii noștri.<p>",
+    "image": "../assets/images/default_heroImg.jpg"
+  },
+
+  "advantages": [
+    {
+      "title": "Consultanți pregătiți tehnic",
+      "description": "<p>Consultanții noștri de vânzări sunt bine pregătiți din punct de vedere tehnic și depun toate eforturile pentru a oferi partenerilor noștri soluția cea mai potrivită și eficientă. Consultantul care vă va prelua va fi tot timpul la curent cu statusul comenzii dumneavoastră și va fi în stare să răspundă solicitărilor în cel mai scurt timp.</p>",
+      "icon": ""
+    },
+    {
+      "title": "Livrare sigură și eficientă",
+      "description": "<p>Livrăm pe întregul teritoriu al României, și nu numai, în condiții de maximă siguranță și eficiență. Avem la dispoziție camioane proprii pentru livrare, contracte cu firmele principale de curierat și cont individual pentru bursa transporturilor. Prin aceste metode putem asigura oricând livrare eficientă, rapidă și sigură pentru partenerii noștri.</p>",
+      "icon": ""
+    },
+    {
+      "title": "Calitate garantată",
+      "description": "<p>Produsele livrate de NIMFA vin însoțite de certificate de calitate specifice fiecărui produs în parte sau adaptate la nevoile clientului. Calitatea produselor este garantată și de planul de management ISO 9001 adoptat și certificat încă din anul 2013.</p>",
+      "icon": ""
+    },
+    {
+      "title": "Soluții personalizate",
+      "description": "<p>Rețeaua noastră globală de furnizori, asigură tot timpul găsirea soluțiilor optime chiar și pentru materialele speciale de care partenerii noștri au nevoie. Găsiți o parte din comenzile personalizate realizate de noi până acum aici.</p>",
+      "icon": ""
+    }
+  ]
+}
