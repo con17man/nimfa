@@ -26,5 +26,7 @@
       "description": "<p>Rețeaua noastră globală de furnizori, asigură tot timpul găsirea soluțiilor optime chiar și pentru materialele speciale de care partenerii noștri au nevoie. Găsiți o parte din comenzile personalizate realizate de noi până acum <a class='hover:underline' href='/'>aici<a>.</p>",
       "icon": "../assets/images/badge-icon.png"
     }
-  ]
+  ],
+
+  "abstractImg": "../assets/images/abstract-bg.png"
 }
