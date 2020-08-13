@@ -35,7 +35,7 @@ module.exports = {
           '500': '#ED5154',
           '700': '#D44649'
         },
-        orange: '#DE5A2E',
+        orange: '#FF3B00',
         blue: '#2764A7'
       },
 

@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Hero = ({ title, link, linkLabel, img }) => (
   <div className="relative">
-    <div className="relative pb-3/6 lg:pb-1/2 xl:pb-4/12">
+    <div className="relative" style={{paddingBottom: '510px'}}> {/* pb-3/6 lg:pb-1/2 xl:pb-4/12 */}
       <div className="absolute object-cover w-full h-full">
         <Img fluid={img.childImageSharp.fluid} alt={`Nimfa - ${title}`} />
       </div>

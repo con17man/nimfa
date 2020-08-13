@@ -1,13 +1,14 @@
 import React from 'react';
-import { Link, useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 
 import Layout from '../../components/layout';
 import SEO from '../../components/SEO';
 import PageHero from '../../components/PageHero';
+import Asset from '../../components/Asset';
 
 const AdvantagesPage = () => {
 
-  const { pageAvantaje: { hero } } = useStaticQuery(graphql`
+  const { pageAvantaje: { hero, advantages } } = useStaticQuery(graphql`
     query queryAdvantagesPageData {
       pageAvantaje {
         hero {
@@ -21,10 +22,17 @@ const AdvantagesPage = () => {
             }
           }
         }
+
         advantages {
           description
-          icon
           title
+          icon {
+            childImageSharp {
+              fluid(maxWidth: 128) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }
@@ -32,12 +40,14 @@ const AdvantagesPage = () => {
 
   return (
     <Layout>
-      <SEO title="Avantaje" />
+      <SEO title={hero.title} />
       <PageHero heroInfo={hero} />
-      <div className="container mx-auto p-32 text-center">
-        <h1>Avantaje</h1>
-        <hr/>
-        <Link to="/">Go back to the homepage</Link>
+      <div className="w-full relative">
+        <div className="container mx-auto py-24">
+          {/* advantages items */}
+          { advantages.map((advantage, i) => <Asset assetData={advantage} key={`advantage_${i}`} /> )}
+          {/* bottom image */}
+        </div>
       </div>
     </Layout>
   );
