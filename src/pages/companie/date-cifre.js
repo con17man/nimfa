@@ -1,18 +1,56 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 import Layout from '../../components/layout';
 import SEO from '../../components/SEO';
+import PageHero from '../../components/PageHero';
 
-const StatisticsPage = () => (
-  <Layout>
-    <SEO title="Date si cifre" />
-    <div className="container mx-auto p-32 text-center">
-      <h1>Date si cifre</h1>
-      <hr/>
-      <Link to="/">Go back to the homepage</Link>
-    </div>
-  </Layout>
-)
+const DateCifre = () => {
+  const { pageDateCifre : { hero, abstractImg } } = useStaticQuery(graphql`
+    query queryDateCifre {
+      pageDateCifre {
+        hero {
+          title
+          headline
+          image {
+            childImageSharp {
+              fluid(maxWidth: 2000, toFormat: WEBP, grayscale: true) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
 
-export default StatisticsPage;
+        abstractImg {
+          childImageSharp {
+            fluid(maxWidth: 128) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
+      }
+    }
+  `);
+
+  return (
+    <Layout>
+      <SEO title={hero.title} />
+      <PageHero heroInfo={hero} />
+      <div className="w-full relative">
+        <div className="container relative mx-auto py-24">
+          {/* abstract image */}
+          <div className="absolute top-0 right-0 w-64 z-0">
+            { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} /> }
+          </div>
+
+          {/* table data */}
+          table here
+        </div>
+      </div>
+    </Layout>
+  );
+}
+
+export default DateCifre;

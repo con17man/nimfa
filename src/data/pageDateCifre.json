@@ -1,0 +1,13 @@
+{
+  "hero": {
+    "title": "Date si cifre",
+    "headline": "Știm că timpul dumneavoastră este limitat, așa ca am făcut un scurt rezumat al persoanelor și cifrelor ce definesc NIMFA, ca să ne puteți cunoaște dintr-o privire.",
+    "image": "../assets/images/default_heroImg.jpg"
+  },
+
+  "abstractImg": "../assets/images/abstract-bg-2.png",
+
+  "team": [],
+
+  "fiscalData": []
+}
