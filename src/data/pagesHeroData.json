@@ -1,0 +1,50 @@
+{
+  "pageHeadlines": [
+    {
+      "id": "certificari",
+      "pageName": "Certificari",
+      "pageHeadline": "Calitatea produselor livrate de NIMFA este garantată de planul de management ISO 9001 adoptat și certificat încă din anul 2013.",
+      "pageImage": "../assets/images/default_heroImg.jpg"
+    },
+    {
+      "id": "despre-noi",
+      "pageName": "Despre noi",
+      "pageHeadline": "NIMFA este distribuitor premium cu o expertiză tehnică cumulată de peste 100 de ani.",
+      "pageImage": "../assets/images/default_heroImg.jpg"
+    },
+    {
+      "id": "gdpr",
+      "pageName": "GDPR",
+      "pageHeadline": "<p><b>PROTECȚIA DATELOR CU CARACTER PERSONAL</b></p><p>Contact referitor la Regulamentul General privind Protectia Datelor GDPR: alexandru.ionascu@tevi-laminate.ro Tel: 0729.00.66.24</p>",
+      "pageImage": "../assets/images/default_heroImg.jpg"
+    },
+    {
+      "id": "industrii",
+      "pageName": "Industrii",
+      "pageHeadline": "Oferim o gama larga de servicii care vin...",
+      "pageImage": "../assets/images/default_heroImg.jpg"
+    },
+    {
+      "id": "tevi",
+      "pageName": "Țevi",
+      "pageHeadline": "<p>Țevile fără sudură, laminate la cald și trase la rece, reprezintă activitatea noastră principală. NIMFA vine în sprijinul partenerilor săi cu un stoc de țevi gata de livrare în cel mai scurt timp.</p>",
+      "pageImage": "../assets/images/default_heroImg.jpg"
+    },
+    {
+      "id": "servicii",
+      "pageName": "Servicii",
+      "pageHeadline": "<p>Oferim o gamă largă de servicii care vin în întâmpinarea nevoilor partenerilor noștri. Mai jos puteți găsi detalii despre fiecare în parte. Dacă aveți nelămuriri, nu ezitați să ne contactați!</p>",
+      "pageImage": "../assets/images/default_heroImg.jpg"
+    },
+
+
+
+
+    {
+      "id": "",
+      "pageName": "Title",
+      "pageHeadline": "<p>description</p>",
+      "pageImage": "../assets/images/default_heroImg.jpg"
+    }
+  ]
+}

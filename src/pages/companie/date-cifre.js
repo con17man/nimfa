@@ -15,7 +15,7 @@ const DateCifre = () => {
           headline
           image {
             childImageSharp {
-              fluid(maxWidth: 2000, toFormat: WEBP, grayscale: true) {
+              fluid(maxWidth: 2000, toFormat: WEBP) {
                 ...GatsbyImageSharpFluid
               }
             }

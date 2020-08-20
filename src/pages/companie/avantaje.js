@@ -17,7 +17,7 @@ const AdvantagesPage = () => {
           headline
           image {
             childImageSharp {
-              fluid(maxWidth: 2000, toFormat: WEBP, grayscale: true) {
+              fluid(maxWidth: 2000, toFormat: WEBP) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -29,7 +29,7 @@ const AdvantagesPage = () => {
           title
           icon {
             childImageSharp {
-              fluid(maxWidth: 128) {
+              fluid(maxWidth: 192) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -38,7 +38,7 @@ const AdvantagesPage = () => {
 
         abstractImg {
           childImageSharp {
-            fluid(maxWidth: 128) {
+            fluid(maxWidth: 512) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -52,7 +52,7 @@ const AdvantagesPage = () => {
   useEffect(() => {
     const listElements = Array.from(listRef.current.childNodes);
     const lastItem = listElements[listElements.length - 2];
-    lastItem.classList.add("md:w-7/12");
+    lastItem.classList.add("xs:w-1/2", "sm:w-8/12", "lg:w-9/12", "xl:w-10/12");
   });
 
   return (
@@ -60,7 +60,7 @@ const AdvantagesPage = () => {
       <SEO title={hero.title} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
-        <div className="container relative mx-auto py-24" ref={listRef}>
+        <div className="container relative mx-auto py-24 px-8 md:px-16 lg:px-0" ref={listRef}>
           { advantages.map((advantage, i) => <Asset assetData={advantage} key={`advantage_${i}`} /> )}
 
           {/* abstract image */}

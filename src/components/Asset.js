@@ -5,8 +5,8 @@ const Asset = ({assetData}) => {
   const { title, description, icon } = assetData;
   return (
     <div className="asset flex py-10">
-      <div className="asset-icon flex-none w-24 pr-6">
-        <Img fluid={icon.childImageSharp.fluid} alt={`Nimfa - ${title}`} />
+      <div className="asset-icon flex-none w-16 md:w-20 lg:w-24 pr-6">
+        <Img fluid={icon.childImageSharp.fluid} alt={`Nimfa - ${title}`} style={{zIndex: '-1'}} />
       </div>
 
       <div className="asset-info flex-1 border-l-2 border-orange pl-6">

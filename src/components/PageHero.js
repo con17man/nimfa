@@ -8,7 +8,7 @@ const PageHero = ({heroInfo}) => {
       <div className="relative">
         <div className="relative pb-3/6 lg:pb-2/5 xl:pb-3/12">
           <div className="absolute object-cover w-full h-full">
-            <Img fluid={image.childImageSharp.fluid} alt={`Nimfa - ${title}`} style={{position: 'unset'}} />
+            {image && <Img fluid={image.childImageSharp.fluid} alt={`Nimfa - ${title}`} style={{position: 'unset'}} />}
           </div>
         </div>
 
