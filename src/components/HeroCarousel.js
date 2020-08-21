@@ -6,7 +6,7 @@ import Slider from 'react-slick';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
-const Hero = ({ title, link, linkLabel, img }) => (
+const Hero = ({ title, link, linkLabel, img, linkCSS }) => (
   <div className="relative">
     <div className="relative" style={{paddingBottom: '510px'}}> {/* pb-3/6 lg:pb-1/2 xl:pb-4/12 */}
       <div className="absolute object-cover w-full h-full">
@@ -14,7 +14,7 @@ const Hero = ({ title, link, linkLabel, img }) => (
       </div>
     </div>
 
-    <div className="flex flex-col absolute transform content-center h-full justify-center px-16 py-8 text-center text-white top-0 w-full">
+    <div className={`flex flex-col absolute transform content-center h-full justify-center px-16 py-8 text-center ${linkCSS} top-0 w-full`}>
       <div className="relative">
         <div className="container mx-auto">
           <h1 className="font-montserrat-alternates font-bold text-5xl pb-2">{title}</h1>
@@ -39,6 +39,7 @@ const HeroCarousel = () => {
           title
           linkLabel
           link
+          linkCSS
           img {
             childImageSharp {
               fluid(maxWidth: 2000, toFormat: WEBP) {
@@ -75,7 +76,8 @@ const HeroCarousel = () => {
                         title={card.title}
                         link={card.link}
                         linkLabel={card.linkLabel}
-                        img={card.img}>
+                        img={card.img}
+                        linkCSS={card.linkCSS}>
                     </Hero>
           })}
         </Slider>
