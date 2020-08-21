@@ -1,13 +1,13 @@
 import React from 'react';
 import Slider from 'react-slick';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useStaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 
-const AdvantageItem = ({title, description}) => (
+const AdvantageItem = ({title, description, icon}) => (
   <div className="adv-item relative text-center">
-    <div className="adv-item-img h-32 w-32 my-6 rounded-full shadow-lg mx-auto bg-red-500 flex justify-center items-center text-6xl text-white">
-      <FontAwesomeIcon icon="file-image" />
+    <div className="adv-item-img h-32 w-32 my-6 rounded-full shadow-lg mx-auto bg-orange flex justify-center items-center text-6xl text-white">
+      <Img fluid={icon} className="w-24" />
     </div>
     <p className="adv-item-title font-medium uppercase">{title}</p>
     <p className="adv-item-separator font-medium">--</p>
@@ -23,6 +23,13 @@ const AdvantagesCarousel = () => {
         advantagesCarousel {
           description
           title
+          icon {
+            childImageSharp {
+              fluid(maxWidth: 192) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }
@@ -47,7 +54,7 @@ const AdvantagesCarousel = () => {
             return  <AdvantageItem key={i+1}
                       title={adv.title}
                       description={adv.description}
-                      img={adv.img}>
+                      icon={adv.icon.childImageSharp.fluid}>
                     </AdvantageItem>
           })}
         </Slider>

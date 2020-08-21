@@ -35,8 +35,8 @@ module.exports = {
           '500': '#ED5154',
           '700': '#D44649'
         },
-        orange: '#FF3B00',
-        blue: '#2764A7'
+        orange: '#f04e14',
+        blue: '#457186'
       },
 
       spacing: {

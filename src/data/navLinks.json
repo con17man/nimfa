@@ -3,17 +3,17 @@
     {
       "name": "Produse",
       "url": "/products",
-      "img": "../assets/images/quickLink_products.png"
+      "img": "../assets/images/quick-links/produse.jpg"
     },
     {
       "name": "Servicii",
       "url": "/services",
-      "img": "../assets/images/quickLink_services.png"
+      "img": "../assets/images/quick-links/servicii.jpg"
     },
     {
       "name": "Industrie",
       "url": "/industries",
-      "img": "../assets/images/quickLink_industries.jpg"
+      "img": "../assets/images/quick-links/industrii.jpg"
     }
   ]
 }
