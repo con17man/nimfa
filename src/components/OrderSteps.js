@@ -29,7 +29,7 @@ const OrderSteps = () => {
         <div className="list-items flex mx-auto max-w-2xl">
           {orderSteps.steps.map((step, i) => {
             return  <div key={i+1}
-                      className="list-item adv-item-img h-32 w-32 my-6 rounded-full shadow-xl mx-auto bg-red-500 hover:bg-red-700 flex justify-center items-center text-5xl text-white duration-300 ease-in-out transition">
+                      className="list-item adv-item-img h-32 w-32 my-6 rounded-full shadow-xl mx-auto bg-orange flex justify-center items-center text-5xl text-white duration-300 ease-in-out transition">
                         <FontAwesomeIcon icon={step.icon.split(',')} />
                     </div>
           })}

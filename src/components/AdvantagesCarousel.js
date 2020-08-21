@@ -5,7 +5,7 @@ import Img from 'gatsby-image';
 
 
 const AdvantageItem = ({title, description, icon}) => (
-  <div className="adv-item relative text-center">
+  <div className="adv-item relative text-center px-1">
     <div className="adv-item-img h-32 w-32 my-6 rounded-full shadow-lg mx-auto bg-orange flex justify-center items-center text-6xl text-white">
       <Img fluid={icon} className="w-24" />
     </div>
