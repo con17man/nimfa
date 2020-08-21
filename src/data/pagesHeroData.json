@@ -7,12 +7,6 @@
       "pageImage": "../assets/images/default_heroImg.jpg"
     },
     {
-      "id": "despre-noi",
-      "pageName": "Despre noi",
-      "pageHeadline": "NIMFA este distribuitor premium cu o expertiză tehnică cumulată de peste 100 de ani.",
-      "pageImage": "../assets/images/default_heroImg.jpg"
-    },
-    {
       "id": "gdpr",
       "pageName": "GDPR",
       "pageHeadline": "<p><b>PROTECȚIA DATELOR CU CARACTER PERSONAL</b></p><p>Contact referitor la Regulamentul General privind Protectia Datelor GDPR: alexandru.ionascu@tevi-laminate.ro Tel: 0729.00.66.24</p>",

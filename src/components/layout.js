@@ -4,11 +4,17 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 import '../utils/fontawesome';
 
+// Fix Fontawesome glitch
+// https://medium.com/@fabianterh/fixing-flashing-huge-font-awesome-icons-on-a-gatsby-static-site-787e1cfb3a18
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+
 import Header from './Header';
 import Footer from './Footer';
 import ContactHeader from './ContactHeader';
 
 const Layout = ({ children }) => {
+  config.autoAddCss = false;
 
   // TODO: Find a better way of implementing this
   // Sticky Header: https://codesandbox.io/s/react-setstate-from-event-listener-q7to8?file=/src/App.js
