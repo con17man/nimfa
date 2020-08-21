@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 import SEO from '../components/SEO';
 import PageHero from '../components/PageHero';
 
-import image from '../assets/images/services_heroImg.jpg';
+import image from '../assets/images/hp-hero/slider_hp_01.jpg';
 
 const ServicesPage = () => (
   <Layout>

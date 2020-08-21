@@ -14,7 +14,7 @@ const Hero = ({ title, link, linkLabel, img }) => (
       </div>
     </div>
 
-    <div className="flex flex-col absolute transform content-center h-full justify-center px-16 py-8 text-white top-0 w-full">
+    <div className="flex flex-col absolute transform content-center h-full justify-center px-16 py-8 text-center text-white top-0 w-full">
       <div className="relative">
         <div className="container mx-auto">
           <h1 className="font-montserrat-alternates font-bold text-5xl pb-2">{title}</h1>

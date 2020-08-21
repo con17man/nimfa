@@ -4,14 +4,38 @@
     {
       "title": "Let the enery flow!",
       "link": "/contact",
-      "linkLabel": "Contacteaza-ne",
-      "img": "../assets/images/oil-pipe.png"
+      "linkLabel": "Contact us",
+      "img": "../assets/images/hp-hero/slider_hp_01.jpg"
     },
     {
-      "title": "Tevi - 50% Discount",
-      "link": "/products",
-      "linkLabel": "Cumpara",
-      "img": "../assets/images/services_heroImg.jpg"
+      "title": "Let the enery flow!",
+      "link": "/contact",
+      "linkLabel": "Contact us",
+      "img": "../assets/images/hp-hero/slider_hp_02.jpg"
+    },
+    {
+      "title": "Let the enery flow!",
+      "link": "/contact",
+      "linkLabel": "Contact us",
+      "img": "../assets/images/hp-hero/slider_hp_03.jpg"
+    },
+    {
+      "title": "Let the enery flow!",
+      "link": "/contact",
+      "linkLabel": "Contact us",
+      "img": "../assets/images/hp-hero/slider_hp_04.jpg"
+    },
+    {
+      "title": "Let the enery flow!",
+      "link": "/contact",
+      "linkLabel": "Contact us",
+      "img": "../assets/images/hp-hero/slider_hp_05.jpg"
+    },
+    {
+      "title": "Let the enery flow!",
+      "link": "/contact",
+      "linkLabel": "Contact us",
+      "img": "../assets/images/hp-hero/slider_hp_06.jpg"
     }
   ],
 
