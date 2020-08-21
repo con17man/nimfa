@@ -4,7 +4,14 @@ import Img from "gatsby-image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
-  const queryData = useStaticQuery(graphql`
+  const {
+    footer: {
+      contact: {
+        address: { city, county, street, code, gMap }, email, phone },
+        info: { links, social },
+        logo
+      }
+    } = useStaticQuery(graphql`
     query FooterDataQuery {
       footer {
         contact {
@@ -16,29 +23,26 @@ const Footer = () => {
           links { name, url }
           social { icon, url }
         }
-      }
 
-      logo: file(relativePath: {eq: "gatsby-icon.png"}) {
-        childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
+        logo {
+          childImageSharp {
+            fluid(maxWidth: 500) {
+              ...GatsbyImageSharpFluid
+            }
           }
         }
       }
+
     }
   `);
 
-  const {
-    contact: { address: { city, county, street, code, gMap }, email, phone },
-    info: { links, social } } = queryData.footer;
-
-    const [ aboutLink, logisticsLink, privacyLink, tandcLink ] = links;
+  const [ aboutLink, logisticsLink, privacyLink, tandcLink ] = links;
 
   // const chunkLinks = new Array(Math.ceil(links.length / 2)).fill().map(_ => links.splice(0,2));
 
   return (
     <footer className="bg-raisin py-20">
-      <section className="section flex relative container mx-auto text-white text-center divide-x divide-white text-gray-500">
+      <section className="section flex relative container mx-auto text-center divide-x divide-white text-gray-500">
         <div className="w-1/3 pr-8">
           <p className="uppercase font-bold text-red-500 pb-10">Contact</p>
 
@@ -50,7 +54,7 @@ const Footer = () => {
         </div>
 
         <div className="w-1/3 px-8 flex flex-col items-center justify-center">
-          <Img fluid={queryData.logo.childImageSharp.fluid} className="w-32" />
+          <Img fluid={logo.childImageSharp.fluid} className="w-32" />
         </div>
 
         <div className="w-1/3 pl-8">
