@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Avantaje",
-    "headline": "<p><b>26 ani de NIMFA - întodeanuna pe stoc.</b></p><p>De ce să alegeți NIMFA? Pentru raportul excelent calitate - preț, în combinație cu un serviciu orientat către partenerii noștri.<p>",
+    "headline": "<p class='tracking-wide'><b>26 ani de NIMFA - întodeanuna pe stoc.</b></p><p class='tracking-wide'>De ce să alegeți NIMFA? Pentru raportul excelent calitate - preț, în combinație cu un serviciu orientat către partenerii noștri.<p>",
     "image": "../assets/images/page-headers/avantaje.jpg"
   },
 

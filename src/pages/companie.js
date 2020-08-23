@@ -14,7 +14,7 @@ const CompanyPage = () => (
         <Link to="/">Go back to the homepage</Link>
       </button>
       <button className="block">
-        <Link to="/companie/despre">Go to "Despre"</Link>
+        <Link to="companie/despre-noi">Go to "Despre Noi"</Link>
       </button>
       <button className="block">
         <Link to="/companie/date-cifre">Go to "Date si cifre"</Link>

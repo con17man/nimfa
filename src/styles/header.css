@@ -11,7 +11,8 @@
           align-middle
           px-2
           uppercase
-          font-bold
+          font-semibold
+          tracking-wide
           leading-none;
 }
 

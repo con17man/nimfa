@@ -1,11 +1,11 @@
 {
   "hero": {
     "title": "Date si cifre",
-    "headline": "Știm că timpul dumneavoastră este limitat, așa ca am făcut un scurt rezumat al persoanelor și cifrelor ce definesc NIMFA, ca să ne puteți cunoaște dintr-o privire.",
+    "headline": "<p class='tracking-wide'>Știm că timpul dumneavoastră este limitat, așa ca am făcut un scurt rezumat al persoanelor și cifrelor ce definesc NIMFA, ca să ne puteți cunoaște dintr-o privire.</p>",
     "image": "../assets/images/page-headers/date_cifre.jpg"
   },
 
-  "abstractImg": "../assets/images/abstract-bg-2.png",
+  "abstractImg": "../assets/images/abstract/abstract-1.png",
 
   "team": [],
 
