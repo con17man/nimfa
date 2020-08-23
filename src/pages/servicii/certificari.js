@@ -6,15 +6,15 @@ import Layout from '../../components/layout';
 import SEO from '../../components/SEO';
 import PageHero from '../../components/PageHero';
 
-const AboutPage = () => {
+const CertificationsPage = () => {
 
   const {
-    pageDespreNoi: {
-      hero, activityAreas, aboutParagraphs, cta, abstractImg, pageImg
+    pageCertificari: {
+      hero, certifications, certParagraphs, cta, abstractImg, pageImg
     }
   } = useStaticQuery(graphql`
-    query queryDespreNoiPageData {
-      pageDespreNoi {
+    query queryCertificariPageData {
+      pageCertificari {
         hero {
           title
           headline
@@ -27,8 +27,8 @@ const AboutPage = () => {
           }
         }
 
-        activityAreas { intro, areas }
-        aboutParagraphs
+        certifications { intro, certList }
+        certParagraphs
         cta { label, link }
 
         pageImg {
@@ -59,17 +59,18 @@ const AboutPage = () => {
         <div className="container relative mx-auto flex py-24 px-8 md:px-16 lg:px-0">
           {/* about text */}
           <div className="block font-light text-sm tracking-wide pr-10">
-            <p>{activityAreas.intro}</p>
-            <ul className='list-disc list-inside font-medium pb-6'>
-              {activityAreas.areas.map((activity, i) => <li key={i+1}>{activity}</li>)}
-            </ul>
             {/* paragraphs */}
-            {aboutParagraphs.map((paragraph, i) => <p className="pb-6" key={i+1}>{paragraph}</p>)}
+            {certParagraphs.map((paragraph, i) => <p className="pb-6" key={i+1}>{paragraph}</p>)}
 
             {/* CTA */}
-            <Link to={cta.link} className="inline-block py-4 px-16 mb-10 bg-orange text-white uppercase font-medium">
+            <Link to={cta.link} className="inline-block py-4 px-16 mb-20 bg-orange text-white uppercase font-medium">
               {cta.label}
             </Link>
+
+            <p className="pb-6">{certifications.intro}</p>
+            <ul className='font-semibold pb-6'>
+              {certifications.certList.map((certificate, i) => <li className="leading-loose" key={i+1}>{certificate}</li>)}
+            </ul>
           </div>
 
           {/* image */}
@@ -88,4 +89,4 @@ const AboutPage = () => {
   );
 }
 
-export default AboutPage;
+export default CertificationsPage;

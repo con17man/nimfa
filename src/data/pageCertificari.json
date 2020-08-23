@@ -1,0 +1,31 @@
+{
+  "hero": {
+    "title": "Certificari",
+    "headline": "<p class='tracking-wide'>Calitatea produselor livrate de NIMFA este garantată de planul de management ISO 9001 adoptat și certificat încă din anul 2013.<p>",
+    "image": "../assets/images/page-headers/certificari.jpg"
+  },
+
+  "certifications": {
+    "intro": "În același timp, fiecare produs vine însoțit de certificate specifice care atestă calitatea acestora. Producătorii cu care colaborăm sunt atent selecționați și dispun de următoarele certificări:",
+    "certList": [
+      "EN ISO 9001",
+      "AD 2000 Merkblatt W0",
+      "PED 72/23",
+      "ASTM, EN și ISO",
+      "TUV RHEINLAND, BUREAU VERITAS , DNV."
+    ]
+  },
+
+  "certParagraphs": [
+    "Calitatea produselor livrate de NIMFA este garantată de planul de management ISO 9001 adoptat și certificat încă din anul 2013."
+  ],
+
+  "cta": {
+    "label": "Descarca Certificatul",
+    "link": "/contact"
+  },
+
+  "pageImg": "../assets/images/page-img/certificari.jpg",
+
+  "abstractImg": "../assets/images/abstract/abstract-1.png"
+}
