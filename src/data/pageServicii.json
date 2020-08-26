@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "title": "GDPR",
+    "headline": "<div class='tracking-wide'> <p>PROTECȚIA DATELOR CU CARACTER PERSONAL</p> <p>Contact referitor la Regulamentul General privind Protectia Datelor GDPR: <a href='alexandru.ionascu@tevi-laminate.ro' class='hover:underline'>alexandru.ionascu@tevi-laminate.ro</a> Tel: <a href='tel:0729.00.66.24'>0729.00.66.24</a></p> <div>",
+    "image": "../assets/images/page-headers/gdpr.jpg"
+  },
+
+  "services": [
+    {
+      "title": "TRANSPORT SI LOGISTICĂ",
+      "description": "<div class='tracking-wide'>Avem la dispoziție <span class='font-semibold'>camioane proprii</span> pentru livrare, contracte cu principalele <span class='font-semibold'>firme de curierat</span> și cont individual pentru <span class='font-semibold'>bursa transporturilor</span>. Prin aceste metode putem asigura oricând livrare eficientă, rapidă și sigură pentru partenerii noștri de pe întregul teritoriu al României și nu numai.</div>",
+      "icon": "../assets/images/icons/servicii/icons_192x192-17.png"
+    },
+    {
+      "title": "TIMP DE LIVRARE",
+      "description": "<div class='tracking-wide'>Toate livrările sunt posibile în <span class='font-semibold'>12 sau 24 de ore</span> sau ca livrare expres prin transport direct. Avem resurse și parteneri de primă clasă și utilizăm o logistică sofisticată pentru a vă oferi un avantaj semnificativ față de concurență. Serviciile noastre rapide și flexibile vă permit să evitați costurile ridicate de depozitare.</div>",
+      "icon": "../assets/images/icons/servicii/icons_192x192-15.png"
+    },
+    {
+      "title": "ȚEVI ȘI FITTINGURI CUSTOMIZATE",
+      "description": "<div class='tracking-wide'><p class=' pb-2'>Realizăm tuburi <span class='font-semibold'>conform specificațiilor</span> dumneavoastră prin personalizare de calitate, la standarde europene. Avem experiența necesară și contracte cu numeroși agenți și producători, ceea ce ne permite să vă oferim un <span class='font-semibold'>preț competitiv</span>.</p> <p class='font-semibold uppercase'>Lungime</p> <p class='pb-2'>Putem livra țeava la lungimea necesară prin <span class='font-semibold'>tăiere</span> cu ajutorul fierăstrăului mecanic disponibil sau prin <span class='font-semibold'>sudare</span>.</p> <p class='font-semibold uppercase'>Diametru</p> <p class='pb-2'>Puteți comanda tuburi cu un diametru <span class='font-semibold'>mai mare de Ø 2020 mm</span> și cu grosimea peretelui de <span class='font-semibold'>150 mm</span>, însoțite de mai multe certificări de fabrică și / sau rapoarte de încercare.</div>",
+      "icon": "../assets/images/icons/servicii/icons_192x192-24.png"
+    },
+    {
+      "title": "DEBITARE / SUDARE",
+      "description": "<div class='tracking-wide'>Debităm țevi la lungimea solicitată. Putem livra țeava tăiată conform nevoilor dumneavoastră cu ajutorul fierăstrăului mecanic disponibil sau vă putem furniza țevi sudate până la lungimea dorită.</div>",
+      "icon": "../assets/images/icons/servicii/icons_192x192-30.png"
+    },
+    {
+      "title": "24 H – URGENȚE",
+      "description": "<div class='tracking-wide'> <p class='font-semibold uppercase'>Livrare din stoc:</p> <p class='pb-2'>comenzile care ajung înainte de ora 12:00 vor fi trimise în aceeași zi.</p> <p class='font-semibold uppercase'>Livrare din afara stocului:</p> <p class='pb-2'>pentru nevoi urgente, produsele pot fi aduse contra cost prin transport aerian. Acestea ajung la noi în depozit a doua zi.</p> <p>Cu <span class='font-semibold'>peste 2.000 mp</span> depozit închis și <span class='font-semibold'>13.000 mp</span> depozit deschis, suntem unul dintre cele mai mari depozite din România. Astfel, vă putem oferi zilnic produsele dorite într-un mod rapid, flexibil și fiabil.</p> </div>",
+      "icon": "../assets/images/icons/servicii/icons_192x192-22.png"
+    },
+    {
+      "title": "ASISTENȚĂ/CONSULTANȚĂ TEHNICĂ:",
+      "description": "<div class='tracking-wide'> <p class='pb-2'>Dacă aveți întrebări legate de programul nostru de stoc și / sau sunteți interesat de produse dintr-un material special, nu ezitați să ne contactați. Ca distribuitor cu experiență în domeniul oțelului, avem soluția potrivită pentru solicitarea dvs.</p> <p>office@tevi-laminate.ro</p> <p>0729.00.66.29</p> </div>",
+      "icon": "../assets/images/icons/servicii/icons_192x192-16.png"
+    },
+    {
+      "title": "CERTIFICATE DE CALITATE",
+      "description": "<div class='tracking-wide'>Calitatea produselor livrate de NIMFA este garantată în primul rând de planul de management ISO 9001 adoptat și certificat încă din anul 2013. În același timp, fiecare produs vine însoțit de certificate specifice care atestă calitatea acestora.</div>",
+      "icon": "../assets/images/icons/servicii/icons_192x192-23.png"
+    },
+    {
+      "title": "PRELUCRĂRI MECANICE",
+      "description": "<div class='tracking-wide'> <p>Gama noastră de servicii este peste pachetul obișnuit și avem o experiență dovedită în domeniul conductelor de oțel.</p> <ul class='list-inside list-disc'> <li>Tăiat țevi, ștanțare, găurire, îndoire, tăiere filet.</li> <li>Procedeul de prelucrare al flanșelor, de ex. limba / canelura, mascul / femelă, înclinarea articulației de tip inelar, foraj (neted și cu filet), prelucrarea muchiilor (în interior și exterior), găuri filetate.</li> <li>Fittinguri de fixare, conice, bare de ghidare sudate în teuri.</li> <li>Tăierea colțurilor, înclinat, în secțiuni gradate.</li> <li>Prefabricarea pieselor de țeavă în conformitate cu desene izometrice și clase de țevi.</li> </ul> </div>",
+      "icon": "../assets/images/icons/servicii/icons_192x192-25.png"
+    },
+    {
+      "title": "TESTE ȘI ÎNCERCĂRI MATERIALE",
+      "description": "<div class='tracking-wide'> <p>Următoarele verificări sunt disponibile pentru comandă:</p> <ul> <li>Certificate 3.1</li> <li>Certificare 3.2 și intent of 3.2 (de la toate tipurile de organizații de verificare)</li> <li>Test-US (Ultrasonic)</li> <li>Test presiune</li> <li>Test Raze X</li> <li>Teste magnetice</li> <li>Teste mecanice</li> <li>Examinare chimică</li> <li>WPQ / WPS</li> <li>Testare pentru rezistența la impact pentru temperaturi ridicate și scăzute</li> <li>Testare la încovoiere prin șoc</li> </ul> </div>",
+      "icon": "../assets/images/icons/servicii/icons_192x192-21.png"
+    },
+    {
+      "title": "PROTEJAREA SUPRAFEȚELOR",
+      "description": "<div class='tracking-wide'>În cazul depozitării produselor înainte de livrare, ne putem ocupa de grunduirea, lăcuirea sau acoperirea cu ulei a suprafețelor pentru rezistență la coroziune.</div>",
+      "icon": "../assets/images/icons/servicii/icons_192x192-29.png"
+    },
+    {
+      "title": "AMBALARE",
+      "description": "<div class='tracking-wide'>Pentru o descărcare cât mai simplă a produselor, le putem ambala conform solicitărilor dumneavoastră. Opțiunile includ: ambalare în cutii sau paleți, încărcare individuală sau în legături ușor de manevrat - totul în funcție de nevoile dumneavoastră.</div>",
+      "icon": "../assets/images/icons/servicii/icons_192x192-20.png"
+    },
+    {
+      "title": "RETUR / BUYBACK",
+      "description": "Acceptăm orice retur pentru produsele noastre. În cazul în care cantitatea solicitată a fost supraestimată sau greșită, vom găsi tot timpul o soluție potrivită. ",
+      "icon": "../assets/images/icons/servicii/icons_192x192-19.png"
+    },
+    {
+      "title": "STOCARE CUSTOMIZATĂ",
+      "description": "Vă oferim posibilitatea de stocare a produselor în condiții de siguranță. Suprafața depozitului nostru ne permite să păstrăm produsele ce urmează să fie livrate în funcție de necesitățile dumneavoastră.",
+      "icon": "../assets/images/icons/servicii/icons_192x192-06.png"
+    },
+    {
+      "title": "ASISTARE FIRMĂ DE TRADING",
+      "description": "Venim în ajutorul firmelor de distribuție locală care nu au posibilitatea de stocare sau livrare a produselor comercializate de noi. Asigurăm stocare și / sau livrare în toată țara, în condiții de siguranță și confidențialitate.",
+      "icon": "../assets/images/icons/servicii/icons_192x192-26.png"
+    }
+  ],
+
+  "abstractImg": "../assets/images/abstract/abstract-1.png"
+}
