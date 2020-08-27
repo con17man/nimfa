@@ -1,8 +1,8 @@
 {
   "hero": {
-    "title": "GDPR",
-    "headline": "<div class='tracking-wide'> <p>PROTECȚIA DATELOR CU CARACTER PERSONAL</p> <p>Contact referitor la Regulamentul General privind Protectia Datelor GDPR: <a href='alexandru.ionascu@tevi-laminate.ro' class='hover:underline'>alexandru.ionascu@tevi-laminate.ro</a> Tel: <a href='tel:0729.00.66.24'>0729.00.66.24</a></p> <div>",
-    "image": "../assets/images/page-headers/gdpr.jpg"
+    "title": "Servicii",
+    "headline": "<div class='tracking-wide'> <p>Oferim o gamă largă de servicii care vin în întâmpinarea nevoilor partenerilor noștri. Mai jos puteți găsi detalii despre fiecare în parte. Dacă aveți nelămuriri, nu ezitați să ne contactați!</p> <div>",
+    "image": "../assets/images/page-headers/servicii.jpg"
   },
 
   "services": [
