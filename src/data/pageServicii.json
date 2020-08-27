@@ -8,17 +8,17 @@
   "services": [
     {
       "title": "TRANSPORT SI LOGISTICĂ",
-      "description": "<div class='tracking-wide'>Avem la dispoziție <span class='font-semibold'>camioane proprii</span> pentru livrare, contracte cu principalele <span class='font-semibold'>firme de curierat</span> și cont individual pentru <span class='font-semibold'>bursa transporturilor</span>. Prin aceste metode putem asigura oricând livrare eficientă, rapidă și sigură pentru partenerii noștri de pe întregul teritoriu al României și nu numai.</div>",
+      "description": "<div class='tracking-wide'>Avem la dispoziție camioane proprii pentru livrare, contracte cu principalele firme de curierat și cont individual pentru bursa transporturilor. Prin aceste metode putem asigura oricând livrare eficientă, rapidă și sigură pentru partenerii noștri de pe întregul teritoriu al României și nu numai.</div>",
       "icon": "../assets/images/icons/servicii/icons_192x192-17.png"
     },
     {
       "title": "TIMP DE LIVRARE",
-      "description": "<div class='tracking-wide'>Toate livrările sunt posibile în <span class='font-semibold'>12 sau 24 de ore</span> sau ca livrare expres prin transport direct. Avem resurse și parteneri de primă clasă și utilizăm o logistică sofisticată pentru a vă oferi un avantaj semnificativ față de concurență. Serviciile noastre rapide și flexibile vă permit să evitați costurile ridicate de depozitare.</div>",
+      "description": "<div class='tracking-wide'>Toate livrările sunt posibile în 12 sau 24 de ore sau ca livrare expres prin transport direct. Avem resurse și parteneri de primă clasă și utilizăm o logistică sofisticată pentru a vă oferi un avantaj semnificativ față de concurență. Serviciile noastre rapide și flexibile vă permit să evitați costurile ridicate de depozitare.</div>",
       "icon": "../assets/images/icons/servicii/icons_192x192-15.png"
     },
     {
       "title": "ȚEVI ȘI FITTINGURI CUSTOMIZATE",
-      "description": "<div class='tracking-wide'><p class=' pb-2'>Realizăm tuburi <span class='font-semibold'>conform specificațiilor</span> dumneavoastră prin personalizare de calitate, la standarde europene. Avem experiența necesară și contracte cu numeroși agenți și producători, ceea ce ne permite să vă oferim un <span class='font-semibold'>preț competitiv</span>.</p> <p class='font-semibold uppercase'>Lungime</p> <p class='pb-2'>Putem livra țeava la lungimea necesară prin <span class='font-semibold'>tăiere</span> cu ajutorul fierăstrăului mecanic disponibil sau prin <span class='font-semibold'>sudare</span>.</p> <p class='font-semibold uppercase'>Diametru</p> <p class='pb-2'>Puteți comanda tuburi cu un diametru <span class='font-semibold'>mai mare de Ø 2020 mm</span> și cu grosimea peretelui de <span class='font-semibold'>150 mm</span>, însoțite de mai multe certificări de fabrică și / sau rapoarte de încercare.</div>",
+      "description": "<div class='tracking-wide'><p class=' pb-2'>Realizăm tuburi conform specificațiilor dumneavoastră prin personalizare de calitate, la standarde europene. Avem experiența necesară și contracte cu numeroși agenți și producători, ceea ce ne permite să vă oferim un preț competitiv.</p> <p class='font-semibold uppercase'>Lungime</p> <p class='pb-2'>Putem livra țeava la lungimea necesară prin tăiere cu ajutorul fierăstrăului mecanic disponibil sau prin sudare.</p> <p class='font-semibold uppercase'>Diametru</p> <p class='pb-2'>Puteți comanda tuburi cu un diametru mai mare de Ø 2020 mm și cu grosimea peretelui de 150 mm, însoțite de mai multe certificări de fabrică și / sau rapoarte de încercare.</div>",
       "icon": "../assets/images/icons/servicii/icons_192x192-24.png"
     },
     {
@@ -28,7 +28,7 @@
     },
     {
       "title": "24 H – URGENȚE",
-      "description": "<div class='tracking-wide'> <p class='font-semibold uppercase'>Livrare din stoc:</p> <p class='pb-2'>comenzile care ajung înainte de ora 12:00 vor fi trimise în aceeași zi.</p> <p class='font-semibold uppercase'>Livrare din afara stocului:</p> <p class='pb-2'>pentru nevoi urgente, produsele pot fi aduse contra cost prin transport aerian. Acestea ajung la noi în depozit a doua zi.</p> <p>Cu <span class='font-semibold'>peste 2.000 mp</span> depozit închis și <span class='font-semibold'>13.000 mp</span> depozit deschis, suntem unul dintre cele mai mari depozite din România. Astfel, vă putem oferi zilnic produsele dorite într-un mod rapid, flexibil și fiabil.</p> </div>",
+      "description": "<div class='tracking-wide'> <p class='font-semibold uppercase'>Livrare din stoc:</p> <p class='pb-2'>comenzile care ajung înainte de ora 12:00 vor fi trimise în aceeași zi.</p> <p class='font-semibold uppercase'>Livrare din afara stocului:</p> <p class='pb-2'>pentru nevoi urgente, produsele pot fi aduse contra cost prin transport aerian. Acestea ajung la noi în depozit a doua zi.</p> <p>Cu peste 2.000 mp depozit închis și 13.000 mp depozit deschis, suntem unul dintre cele mai mari depozite din România. Astfel, vă putem oferi zilnic produsele dorite într-un mod rapid, flexibil și fiabil.</p> </div>",
       "icon": "../assets/images/icons/servicii/icons_192x192-22.png"
     },
     {
@@ -43,7 +43,7 @@
     },
     {
       "title": "PRELUCRĂRI MECANICE",
-      "description": "<div class='tracking-wide'> <p>Gama noastră de servicii este peste pachetul obișnuit și avem o experiență dovedită în domeniul conductelor de oțel.</p> <ul class='list-inside list-disc'> <li>Tăiat țevi, ștanțare, găurire, îndoire, tăiere filet.</li> <li>Procedeul de prelucrare al flanșelor, de ex. limba / canelura, mascul / femelă, înclinarea articulației de tip inelar, foraj (neted și cu filet), prelucrarea muchiilor (în interior și exterior), găuri filetate.</li> <li>Fittinguri de fixare, conice, bare de ghidare sudate în teuri.</li> <li>Tăierea colțurilor, înclinat, în secțiuni gradate.</li> <li>Prefabricarea pieselor de țeavă în conformitate cu desene izometrice și clase de țevi.</li> </ul> </div>",
+      "description": "<div class='tracking-wide'> <p>Gama noastră de servicii este peste pachetul obișnuit și avem o experiență dovedită în domeniul conductelor de oțel.</p> <ul class='pl-4 list-disc'> <li>Tăiat țevi, ștanțare, găurire, îndoire, tăiere filet.</li> <li>Procedeul de prelucrare al flanșelor, de ex. limba / canelura, mascul / femelă, înclinarea articulației de tip inelar, foraj (neted și cu filet), prelucrarea muchiilor (în interior și exterior), găuri filetate.</li> <li>Fittinguri de fixare, conice, bare de ghidare sudate în teuri.</li> <li>Tăierea colțurilor, înclinat, în secțiuni gradate.</li> <li>Prefabricarea pieselor de țeavă în conformitate cu desene izometrice și clase de țevi.</li> </ul> </div>",
       "icon": "../assets/images/icons/servicii/icons_192x192-25.png"
     },
     {
