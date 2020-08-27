@@ -7,7 +7,78 @@
 
   "abstractImg": "../assets/images/abstract/abstract-1.png",
 
-  "team": [],
-
-  "fiscalData": []
+  "table": [
+    {
+      "label": "Manager General",
+      "entries": ["Ionașcu Vasile"]
+    },
+    {
+      "label": "Șef Departament Financiar și Administrator",
+      "entries": ["Ionașcu Alexandru"]
+    },
+    {
+      "label": "Manager de Achiziții",
+      "entries": ["Ionașcu Cătălin"]
+    },
+    {
+      "label": "Manager Comercial",
+      "entries": ["Ionașcu Gabriel"]
+    },
+    {
+      "label": "Anul înființării",
+      "entries": ["1992"]
+    },
+    {
+      "label": "Angajati",
+      "entries": ["20"]
+    },
+    {
+      "label": "Tipul Companiei",
+      "entries": ["SRL"]
+    },
+    {
+      "label": "Registrul Comerțului",
+      "entries": ["București"]
+    },
+    {
+      "label": "Capital social subscris și vărsat",
+      "entries": ["10.200 RON"]
+    },
+    {
+      "label": "<p class='pt-20'>Total Active 2017</p>",
+      "entries": []
+    },
+    {
+      "label": "Cod fiscal",
+      "entries": ["RO"]
+    },
+    {
+      "label": "Cod TVA",
+      "entries": ["RO 3023289"]
+    },
+    {
+      "label": "Asigurare/limită credit",
+      "entries": ["1.000.000 EURO"]
+    },
+    {
+      "label": "<div class='flex justify-center md:justify-end items-center h-full'>Cifre de Afaceri</div>",
+      "entries": ["<p class='py-4'>2019 - 18.964.045</p>", "<p class='py-4 border-orange border border-l-0 border-r-0'>2018 - 22.026.898</p>", "<p class='py-4'>2017 - 16.060.425</p>"]
+    },
+    {
+      "label": "Suprafață birouri",
+      "entries": ["800 m<sup class='font-thin'>2<sup>"]
+    },
+    {
+      "label": "Suprafața depozitului acoperit",
+      "entries": ["2.000 m<sup class='font-thin'>2<sup>"]
+    },
+    {
+      "label": "Suprafața depozitului descoperit",
+      "entries": ["13.000 m<sup class='font-thin'>2<sup>"]
+    },
+    {
+      "label": "Inventar",
+      "entries": ["5.000 tone"]
+    }
+  ]
 }
