@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "title": "Industrii",
+    "headline": "<p class='tracking-wide'>Oferim o gama larga de servicii care vin in intampinarea nevoilor partenerilor nostrii. Mai jos puteti gasi detalii despre fiecare in parte. Daca aveti nelamuri, nu ezitati sa ne contactati!<p>",
+    "image": "../assets/images/page-headers/industrii.jpg"
+  },
+
+  "industries": [
+    {
+      "name": "Energie",
+      "description": "Nimfa COM poate furniza clienților săi tuburi de cazan de înaltă calitate, care sunt capabile să reziste la temperaturi și presiuni ridicate, în toate materialele utilizate în Centralele de energie termica. Ne mandrim cu o gama larga de termocentrale pentru care livram in regim de contract, cat si in regim de urgenta, tevi si fittinguri de cea mai inalta calitate. Toate produsele comercializate de catre Nimfa com respecta normele actuale de inginerie a cazanelor cu abur în conformitate cu Directiva privind echipamentele sub presiune (PED).",
+      "icon": "../assets/images/icons/industrii/icons_192x192-35.png",
+      "cta": {
+        "label": "Contacteaza-ne",
+        "url": "/contact"
+      }
+    },
+    {
+      "name": "Constructii",
+      "description": "Tevi, table, profile, produse de armare a betonului etc. Nimfa com se Numara printer putinii distribuitori din tara care va poate oferi un pachet complet de produse in domeniul contructiilor. De la structuri si profile pa sprijiniri de maluri si tevi de protective pentru subtraversari. Toate produsele comercializate de catre societatea noastra in domeniul structural poarta marcajul CE pentru gaarantarea calitatii.",
+      "icon": "../assets/images/icons/industrii/icons_192x192-39.png",
+      "cta": {
+        "label": "Contacteaza-ne",
+        "url": "/contact"
+      }
+    },
+    {
+      "name": "Petrol si gaz",
+      "description": "Nimfa Com se afla printer principalii furnizori de tevi in industria petroliera si de gaz natural din Romania. Societatea noastra furnizează un inventar extins și specializat de P11 și P22 din aliaj scăzut; aliajul superior P5, P9 și P91; și unele dintre cele mai avansate aliaje și alte materiale pentru utilizare în aplicații de înaltă presiune, temperatură ridicată, foarte corozive. Produsele noastre corespund atât standardelor internaționale actuale (API & NACE), cât și standardelor europene (EN) și sunt utilizate, printre altele, pentru transportul și stocarea de petrol și gaze.",
+      "icon": "../assets/images/icons/industrii/icons_192x192-40.png",
+      "cta": {
+        "label": "Contacteaza-ne",
+        "url": "/contact"
+      }
+    },
+    {
+      "name": "Nuclear",
+      "description": "Cerintele de calitate pentru acest tip de materiale sunt printer cele mai stricte din lume. Nimfa Com se afla printer singurii furnizori capabili sa livreze conform cerintelor CNCAN materiale de cea mai inalta caltate, cu compozitii chimice controlate, testari si tratamente termice acreditate. Ne mandrim cu capacitatea noastra de a putea veni in ajutorul partenerilor nostri cu servicii de calitate superioara.",
+      "icon": "../assets/images/icons/industrii/icons_192x192-36.png",
+      "cta": {
+        "label": "Contacteaza-ne",
+        "url": "/contact"
+      }
+    },
+    {
+      "name": "Mecanica",
+      "description": "Nimfa Com furnizeaza o gama completa de tevi, profile si accesorii folosite in productia de masini si echipamente industriale. Pentru aceasta industrie putem furniza soluții de calitate pentru profiluri goale sudate și sudate (rotunde și pătrate), țevi de oțel de precizie, tuburi hidraulice și pre-tuburi pentru construcția de cilindri și conducte cu pereți groși, de exemplu ca substitut pentru oțel rotund.",
+      "icon": "../assets/images/icons/industrii/icons_192x192-37.png",
+      "cta": {
+        "label": "Contacteaza-ne",
+        "url": "/contact"
+      }
+    },
+    {
+      "name": "Chimie",
+      "description": "In industria chimica Nimfa Com vine cu o gama variata de produse rezistente le coroziune si diversi compoziti chimici agresivi. Toate produsele livrate pentru instalatiile din acest domeniu corespund Directivei privind echipamentele sub presiune.",
+      "icon": "../assets/images/icons/industrii/icons_192x192-38.png",
+      "cta": {
+        "label": "Contacteaza-ne",
+        "url": "/contact"
+      }
+    }
+  ],
+
+  "abstractImg": "../assets/images/abstract/abstract-1.png"
+}
