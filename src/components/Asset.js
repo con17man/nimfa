@@ -10,7 +10,7 @@ const Asset = ({assetData}) => {
       </div>
 
       <div className="asset-info flex-1 border-l-2 border-orange pl-6">
-        <p className="asset-info-title pb-4 uppercase font-bold tracking-wider">{title}</p>
+        <p className="asset-info-title pb-4 uppercase font-bold tracking-wider" id={title.toLowerCase().split(' ').join('-')}>{title}</p>
         <p className="asset-info-description text-sm font-light tracking-wide leading-snug" dangerouslySetInnerHTML={{ __html: description }} />
       </div>
     </div>

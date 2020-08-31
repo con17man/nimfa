@@ -50,27 +50,26 @@
     {
       "title": "Consultanți pregătiți tehnic",
       "description": "Consultanții noștri de vânzări sunt bine pregătiți din punct de vedere Tehnic…",
-      "icon": "../assets/images/icons/avantaje/icons_192x192-31.png"
+      "icon": "../assets/images/icons/avantaje/icons_192x192-31.png",
+      "url": "/companie/avantaje"
     },
     {
       "title": "Livrare sigură și eficientă",
       "description": "Livrăm pe întregul teritoriu al României, și nu numai, în condiții de maximă siguranță și eficiență…",
-      "icon": "../assets/images/icons/avantaje/icons_192x192-32.png"
+      "icon": "../assets/images/icons/avantaje/icons_192x192-32.png",
+      "url": "/companie/avantaje"
     },
     {
       "title": "Calitate garantată",
       "description": "Produsele livrate de NIMFA vin însoțite de certificate de calitate specifice fiecărui produs în parte…",
-      "icon": "../assets/images/icons/avantaje/icons_192x192-33.png"
+      "icon": "../assets/images/icons/avantaje/icons_192x192-33.png",
+      "url": "/companie/avantaje"
     },
     {
       "title": "Soluții personalizate",
       "description": "Rețeaua noastră globală de furnizori, asigură tot timpul găsirea soluțiilor optime…",
-      "icon": "../assets/images/icons/avantaje/icons_192x192-34.png"
-    },
-    {
-      "title": "Avantaj 5",
-      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "icon": "../assets/images/icons/avantaje/icons_192x192-31.png"
+      "icon": "../assets/images/icons/avantaje/icons_192x192-34.png",
+      "url": "/companie/avantaje"
     }
   ]
 }
