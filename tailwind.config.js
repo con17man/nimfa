@@ -16,6 +16,7 @@ module.exports = {
 
   theme: {
     fontFamily: {
+      'open-sans': ['Open Sans', 'sans-serif'],
       'montserrat': ['Montserrat', 'sans-serif'],
       'montserrat-alternates': ['Montserrat Alternates', 'sans-serif']
     },

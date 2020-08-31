@@ -6,6 +6,7 @@
 
 import 'typeface-montserrat';
 import 'typeface-montserrat-alternates';
+import 'typeface-open-sans';
 
 import './src/styles/main.css';
 
