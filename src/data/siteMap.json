@@ -3,7 +3,6 @@
   "navigation": [
     {
       "name": "Companie",
-      "url": "/companie",
       "children": [
         {
           "name": "Despre Noi",

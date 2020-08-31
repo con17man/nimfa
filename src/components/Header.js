@@ -47,9 +47,11 @@ const Header = ({ siteTitle }) => {
           <ul className="navbar-list table h-full">
             {navigation.map((category, i) => {
                 return <li className="navbar-list-item" key={`L0_node_${i+1}`}>
-                  <Link to={category.url} activeClassName="text-orange">
-                      {category.name}
-                  </Link>
+                  { category.url ?
+                    <Link to={category.url} activeClassName="text-orange">{category.name} </Link> :
+                    <span className={`cursor-pointer ${window.location.pathname.includes(category.name.toLowerCase()) ? 'text-orange': undefined}`}>{category.name}</span>
+                  }
+
                   {/* sub-menu */}
                   {category.children && <ul className="navbar-list-item-dropdown">
                     {category.children.map((child, i) => {
