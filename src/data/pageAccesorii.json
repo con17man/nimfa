@@ -1,0 +1,19 @@
+{
+  "hero": {
+    "title": "Accesorii",
+    "headline": "Tevile fara sudura, laminate la cald si trase la rece, reprezinta activitatea <br/> noastra principala. NIMFA COM vine in sprijinul partenerilor sai cu un stoc de tevi gata de livrare in cel mai scurt timp.",
+    "image": "../assets/images/page-headers/accesorii.jpg"
+  },
+
+  "pageParagraphs": [
+    "<p class='pb-6'>Vă punem la dispoziție toata gama de accesorii necesare pentru prelucrarea și montarea produselor comercializate:</p>",
+    "<p class='pb-2'><Organe de asamblare (șuruburi, piulițe, șaibe, prezoane) // din oțel, inox și aliaje // negre sau zincate;/p>",
+    "<p class='pb-2'>Discuri de debitare și polizare;</p>",
+    "<p class='pb-2'>Electrozi pentru sudură // pentru produse din oțel carbon și inox și pentru aliajele solicitate;</p>",
+    "<p class='pb-2'>Fier beton și plase de buzău;</p>",
+    "<p class='pb-2'>Grătare zincate;</p>",
+    "<p class='pb-2'>Accesorii de prindere și fixare a țevilor.</p>"
+  ],
+
+  "pageImg": "../assets/images/page-img/accesorii.jpg"
+}
