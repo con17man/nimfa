@@ -2,7 +2,7 @@
   "quickLinks" : [
     {
       "name": "Produse",
-      "url": "/products",
+      "url": "/produse",
       "img": "../assets/images/quick-links/produse.jpg"
     },
     {

@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "title": "Produse",
+    "headline": "Oferim o gama larga de produse care vin in intampi...",
+    "image": "../assets/images/page-headers/produse.jpg"
+  },
+
+  "productCategories": [
+    {
+      "name": "Tevi",
+      "url": "/produse/tevi",
+      "img": "../assets/images/page-headers/produse.jpg"
+    },
+    {
+      "name": "Flanse",
+      "url": "/produse/flanse",
+      "img": "../assets/images/page-headers/produse.jpg"
+    },
+    {
+      "name": "Fitting-uri",
+      "url": "/produse/fittings",
+      "img": "../assets/images/page-headers/produse.jpg"
+    },
+    {
+      "name": "Tabla si profile",
+      "url": "/produse/tabla-profile",
+      "img": "../assets/images/page-headers/produse.jpg"
+    },
+    {
+      "name": "Accesorii",
+      "url": "/produse/accesorii",
+      "img": "../assets/images/page-headers/produse.jpg"
+    },
+    {
+      "name": "Armaturi si robineti",
+      "url": "/produse/armaturi-robineti",
+      "img": "../assets/images/page-headers/produse.jpg"
+    }
+  ]
+}

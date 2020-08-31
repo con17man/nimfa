@@ -25,7 +25,7 @@
     },
     {
       "name": "Produse",
-      "url": "/products",
+      "url": "/produse",
       "children": [{
           "name": "Tevi",
           "url": "/pipes",

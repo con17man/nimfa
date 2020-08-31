@@ -69,6 +69,6 @@ const ServicesPage = () => {
       </div>
     </Layout>
   );
-}
+};
 
 export default ServicesPage;
