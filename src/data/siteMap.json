@@ -14,8 +14,8 @@
           "url": "/companie/avantaje"
         },
         {
-          "name": "Portofoliu",
-          "url": "/companie/portofoliu"
+          "name": "Certificari",
+          "url": "/companie/certificari"
         },
         {
           "name": "Date și Cifre",
@@ -101,7 +101,7 @@
         },
         {
           "name": "CERTIFICATE DE CALITATE",
-          "url": "/servicii/certificari"
+          "url": "/servicii"
         },
         {
           "name": "TESTE ȘI ÎNCERCĂRI MATERIALE",
