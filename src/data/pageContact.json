@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "title": "Contact",
+    "headline": "",
+    "image": "../assets/images/page-headers/contact.jpg"
+  },
+
+  "address": {
+    "fullAddress": "Soseaua de Centura 107B, Popesti-Leordeni 077160, Ilfov, Romania",
+    "companyName": "NIMFA COM SRL",
+    "gMap": {
+      "lat": "44.3508793",
+      "long": "26.1796533"
+    }
+  },
+
+  "team": [
+    {
+      "fullname": "Catalin Ionascu",
+      "email": "catalin.ionascu@tevi-laminate.ro",
+      "phone": "+40 723 230 938",
+      "image": "../assets/images/contact/catalin_ionascu.png"
+    },
+    {
+      "fullname": "Gabriel Ionascu",
+      "email": "gabriel.ionascu@tevi-laminate.ro",
+      "phone": "+40 723 149 995",
+      "image": "../assets/images/contact/gabriel_ionascu.png"
+    },
+    {
+      "fullname": "Alexandru Ionascu",
+      "email": "alexandru.ionascu@tevi-laminate.ro",
+      "phone": "+40 729 006 624",
+      "image": "../assets/images/contact/alexandru_ionascu.png"
+    },
+    {
+      "fullname": "Roxana Mihalache",
+      "email": "roxana@tevi-laminate.ro",
+      "phone": "+40 786 384 100",
+      "image": "../assets/images/contact/roxana_mihalache.png"
+    },
+    {
+      "fullname": "Horatiu Zatoschil",
+      "email": "horatiu@tevi-laminate.ro",
+      "phone": "+40 729 006 626",
+      "image": "../assets/images/contact/horatiu_zatoschil.png"
+    }
+  ]
+}
