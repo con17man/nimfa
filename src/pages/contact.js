@@ -43,7 +43,7 @@ const ContactPage = () => {
         address {
           fullAddress
           companyName
-          gMap { lat, long }
+          gMap { embeded }
         }
 
         team {
@@ -71,7 +71,8 @@ const ContactPage = () => {
           <p className="py-4 md:pt-16 uppercase text-3xl font-bold">{address.companyName}</p>
           <p className="py-4 font-light">Adresa: {address.fullAddress}</p>
 
-          {/* GMAP PLUGIN */}
+          {/* GMAP */}
+          <div dangerouslySetInnerHTML={{__html: address.gMap.embeded}}></div>
 
           {/* TEAM */}
           <div className="flex flex-wrap">

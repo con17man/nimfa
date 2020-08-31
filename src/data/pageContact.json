@@ -9,6 +9,7 @@
     "fullAddress": "Soseaua de Centura 107B, Popesti-Leordeni 077160, Ilfov, Romania",
     "companyName": "NIMFA COM SRL",
     "gMap": {
+      "embeded": "'<iframe class='w-full mb-10' src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11979.909358860656!2d26.182857730307013!3d44.34839150717241!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1fcf5b946e6ad%3A0xd4912a37633b1895!2sNIMFA-COM%20SRL!5e0!3m2!1sen!2sro!4v1598873060110!5m2!1sen!2sro' width='600' height='450' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe>",
       "lat": "44.3508793",
       "long": "26.1796533"
     }
