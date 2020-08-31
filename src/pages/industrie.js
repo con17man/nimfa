@@ -67,7 +67,7 @@ const IndustriesPage = () => {
                     role="button"
                     tabIndex={i+1}
                     key={i+1}
-                    className={`flex flex-col justify-center content-center items-center h-40 md:h-64 p-8 text-sm font-light text-center text-white uppercase hover:bg-orange ${selectedIndustry.name === industry.name ? 'bg-orange' : 'bg-blue'}`}>
+                    className={`flex flex-col justify-center content-center items-center h-40 md:h-64 p-8 text-sm font-light text-center text-white uppercase hover:bg-orange outline-none ${selectedIndustry.name === industry.name ? 'bg-orange' : 'bg-blue'}`}>
                   <Img fluid={industry.icon.childImageSharp.fluid} className="w-24" />
                   {industry.name}
                 </div>
