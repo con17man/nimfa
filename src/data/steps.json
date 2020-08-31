@@ -3,10 +3,26 @@
     "title": "Cum comand?",
     "description": "Venim în întâmpinarea nevoilor dumneavoastră și vă punem la dispoziție următoarele metode prin care ne puteți contacta:",
     "steps": [
-      { "id": 1, "name": "Step 1", "icon": "fas,phone-alt" },
-      { "id": 2, "name": "Step 2", "icon": "fas,credit-card" },
-      { "id": 3, "name": "Step 3", "icon": "fas,shipping-fast" },
-      { "id": 4, "name": "Step 4", "icon": "fas,box-open" }
+      {
+        "id": 1,
+        "name": "Clarificare",
+        "icon": "../assets/images/icons/pasi/1_clarificare.png"
+      },
+      {
+        "id": 2,
+        "name": "Comanda",
+        "icon": "../assets/images/icons/pasi/2_comanda.png"
+      },
+      {
+        "id": 3,
+        "name": "Impachetare",
+        "icon": "../assets/images/icons/pasi/3_impachetare.png"
+      },
+      {
+        "id": 4,
+        "name": "Livrare",
+        "icon": "../assets/images/icons/pasi/4_livrare.png"
+      }
     ]
   }
 }
