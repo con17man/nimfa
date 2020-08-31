@@ -1,0 +1,32 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: minmax(1fr, 175px) minmax(1fr, 175px) minmax(1fr, 175px) minmax(1fr, 175px);
+  grid-template-rows: 175px 175px;
+  gap: 8px 8px;
+  grid-template-areas: "area-1 area-1 area-2 area-2 area-3" "area-4 area-4 area-5 area-6 area-3";
+}
+
+.area-1 { grid-area: area-1; }
+
+.area-2 { grid-area: area-2; }
+
+.area-3 { grid-area: area-3; }
+
+.area-4 { grid-area: area-4; }
+
+.area-5 { grid-area: area-5; }
+
+.area-6 { grid-area: area-6; }
+
+.area-1,
+.area-2,
+.area-3,
+.area-4,
+.area-5,
+.area-6 {
+  @apply relative block;
+}
+
+.area-title {
+  @apply absolute bottom-0 pl-2 pb-2 text-sm font-semibold left-0 tracking-wide uppercase;
+}

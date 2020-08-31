@@ -9,32 +9,38 @@
     {
       "name": "Tevi",
       "url": "/produse/tevi",
-      "img": "../assets/images/page-headers/produse.jpg"
+      "img": "../assets/images/product-menu/TEVI.png",
+      "gridPosition": "area-1"
     },
     {
       "name": "Flanse",
       "url": "/produse/flanse",
-      "img": "../assets/images/page-headers/produse.jpg"
+      "img": "../assets/images/product-menu/FLANSE.png",
+      "gridPosition": "area-4"
     },
     {
       "name": "Fitting-uri",
       "url": "/produse/fittings",
-      "img": "../assets/images/page-headers/produse.jpg"
+      "img": "../assets/images/product-menu/FITTINGURI.png",
+      "gridPosition": "area-2"
     },
     {
       "name": "Tabla si profile",
       "url": "/produse/tabla-profile",
-      "img": "../assets/images/page-headers/produse.jpg"
+      "img": "../assets/images/product-menu/TABLA-PROFILE.png",
+      "gridPosition": "area-6"
     },
     {
       "name": "Accesorii",
       "url": "/produse/accesorii",
-      "img": "../assets/images/page-headers/produse.jpg"
+      "img": "../assets/images/product-menu/ACCESORII.png",
+      "gridPosition": "area-5"
     },
     {
       "name": "Armaturi si robineti",
       "url": "/produse/armaturi-robineti",
-      "img": "../assets/images/page-headers/produse.jpg"
+      "img": "../assets/images/product-menu/ARMATURI-ROBINETI.png",
+      "gridPosition": "area-3"
     }
   ]
 }
