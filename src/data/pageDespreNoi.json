@@ -6,7 +6,10 @@
   },
 
   "activityAreas": {
-    "intro": "Suntem specializați în:",
+    "intro": [
+      "Aducem soluții complete și competente în următoarele domenii: construcții de conducte, instalații termice, gaze și rafinării.",
+      "Suntem specializați în:"
+    ],
     "areas": [
       "țevi de oțel",
       "fitinguri",
@@ -16,7 +19,6 @@
   },
 
   "aboutParagraphs": [
-    "Aducem soluții complete și competente în următoarele domenii: construcții de conducte, instalații termice, gaze și rafinării.",
     "Clienții care au beneficiat până în prezent de serviciile noastre premium fac parte din industriile: energetică, chimică, construcții navale, inginerie mecanică și nu numai.",
     "NIMFA activează în domeniu de peste două decenii și a câștigat o reputație solidă în întreaga industrie ca partener de proiect. Această reputație este datorată angajamentului nostru de a găsi soluții perfect adaptate nevoilor fiecărui client în parte.",
     "Suntem conștienți că, după calitate, rapiditatea serviciilor este cea mai importantă pentru partenerii noștri. Astfel, am creat condiții optime pentru a veni cât mai repede în întâmpinarea nevoilor dumneavoastră: un depozit de peste 5.000 de tone de țevi, flanșe, fitinguri și echipamente de conducte în centrul nostru logistic din București."

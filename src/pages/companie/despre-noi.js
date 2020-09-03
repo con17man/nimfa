@@ -59,7 +59,7 @@ const AboutPage = () => {
         <div className="container relative mx-auto flex py-24 px-8 md:px-16 lg:px-0">
           {/* about text */}
           <div className="block font-light text-sm tracking-wide pr-10">
-            <p>{activityAreas.intro}</p>
+            {activityAreas.intro.map((area, i) => <p key={i+1} className="pb-2">{area}</p>)}
             <ul className='list-disc list-inside font-medium pb-6'>
               {activityAreas.areas.map((activity, i) => <li key={i+1}>{activity}</li>)}
             </ul>
