@@ -138,27 +138,27 @@
       "children": [
         {
           "name": "Energie",
-          "url": "/industrie/energie"
+          "url": "/industrie"
         },
         {
           "name": "Constructii",
-          "url": "/industrie/constructii"
+          "url": "/industrie"
         },
         {
           "name": "Petrol si Gaz",
-          "url": "/industrie/petrol-gaz"
+          "url": "/industrie"
         },
         {
           "name": "Nuclear",
-          "url": "/industrie/nuclear"
+          "url": "/industrie"
         },
         {
           "name": "Chimie",
-          "url": "/industrie/chimie"
+          "url": "/industrie"
         },
         {
           "name": "Mecanica",
-          "url": "/industrie/mecanica"
+          "url": "/industrie"
         }
       ]
     },

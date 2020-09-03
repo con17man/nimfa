@@ -25,7 +25,7 @@ const TeamMember = ({member}) => {
 
 const ContactPage = () => {
 
-  const { pageContact: {hero, address, team} } = useStaticQuery(graphql`
+  const { pageContact: {hero, address, team, abstractImg} } = useStaticQuery(graphql`
     query queryContactPageData {
       pageContact {
         hero {
@@ -58,6 +58,14 @@ const ContactPage = () => {
             }
           }
         }
+
+        abstractImg {
+          childImageSharp {
+            fluid(maxWidth: 512) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   `);
@@ -78,6 +86,11 @@ const ContactPage = () => {
           <div className="flex flex-wrap">
             { team.map((member, i) => <div className="w-full lg:w-1/2" key={i+1}><TeamMember member={member} /></div> )}
           </div>
+        </div>
+
+        {/* abstract image */}
+        <div className="absolute opacity-25" style={{width: '36rem', zIndex: '-1', right: '-150px', bottom: '-100px'}}>
+          { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} style={{transform: 'rotate(270deg)'}} /> }
         </div>
       </div>
     </Layout>

@@ -4,6 +4,7 @@ import Img from 'gatsby-image';
 import PropTypes from 'prop-types';
 
 const Header = ({ siteTitle }) => {
+  const pathName = typeof window !== 'undefined' ? window.location.pathname : '';
 
   const {siteMap: { navigation, logo } } = useStaticQuery(graphql`
     query NavigationNodesQuery {
@@ -49,7 +50,7 @@ const Header = ({ siteTitle }) => {
                 return <li className="navbar-list-item" key={`L0_node_${i+1}`}>
                   { category.url ?
                     <Link to={category.url} activeClassName="text-orange">{category.name} </Link> :
-                    <span className={`cursor-pointer ${window.location.pathname.includes(category.name.toLowerCase()) ? 'text-orange': undefined}`}>{category.name}</span>
+                    <span className={`cursor-pointer ${pathName.includes(category.name.toLowerCase()) ? 'text-orange': undefined}`}>{category.name}</span>
                   }
 
                   {/* sub-menu */}
