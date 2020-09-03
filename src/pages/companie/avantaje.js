@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
@@ -47,20 +47,12 @@ const AdvantagesPage = () => {
     }
   `);
 
-  const listRef = useRef(null);
-
-  useEffect(() => {
-    const listElements = Array.from(listRef.current.childNodes);
-    const lastItem = listElements[listElements.length - 2];
-    lastItem.classList.add("xs:w-1/2", "sm:w-8/12", "lg:w-9/12", "xl:w-10/12");
-  });
-
   return (
     <Layout>
       <SEO title={hero.title} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
-        <div className="container relative mx-auto py-24 px-8 md:px-16 lg:px-0" ref={listRef}>
+        <div className="container relative mx-auto py-24 px-8 md:px-16 lg:px-0">
           { advantages.map((advantage, i) => <Asset assetData={advantage} key={`advantage_${i}`} /> )}
 
           {/* abstract image */}
