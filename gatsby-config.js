@@ -13,12 +13,12 @@ module.exports = {
     author: `Pixelots Digital Agency & CTRD`,
   },
   plugins: [
-    {
-        resolve: `gatsby-plugin-mdx`,
-        options: {
-            defaultLayouts: { default: path.resolve('./src/components/layout.js') },
-        }
-    },
+    // {
+    //     resolve: `gatsby-plugin-mdx`,
+    //     options: {
+    //         defaultLayouts: { default: path.resolve('./src/components/layout.js') },
+    //     }
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
