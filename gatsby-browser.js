@@ -4,9 +4,9 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-import 'typeface-montserrat';
+// import 'typeface-open-sans';
+// import 'typeface-montserrat';
 import 'typeface-montserrat-alternates';
-import 'typeface-open-sans';
 
 import './src/styles/main.css';
 

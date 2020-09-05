@@ -4,5 +4,6 @@
 /*! purgecss end ignore */
 @tailwind utilities;
 
+@import 'fonts.css';
 @import 'header.css';
 @import 'products.css';
