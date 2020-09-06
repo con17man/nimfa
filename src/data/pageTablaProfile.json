@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "title": "Tablă și Profile",
+    "headline": "<p class='tracking-wide'>Țevile fără sudură, laminate la cald și trase la rece, reprezintă activitatea noastră principală. NIMFA vine în sprijinul partenerilor săi cu un stoc de țevi gata de livrare în cel mai scurt timp.<p>",
+    "image": "../assets/images/page-headers/produse_tabla_profile.jpg"
+  },
+
+  "products": [
+    {
+      "title": "Tablă",
+      "table": {
+        "columns": [ "Grosimi", "Formate", "Tip", "Utilizare" ],
+        "columnWidths": ["w-2/12", "w-3/12", "w-3/12", "w-4/12"],
+        "rows": [
+          [ "0,5 mm – 200 mm", "Formate standard: 1000 x 1000", "Tablă laminată la cald", "Structural" ],
+          [ "", "1250 x 2500", "Tablă laminată la rece", "Decorativ" ],
+          [ "", "1500 x 3000", "Tablă zincată", "Rezistente la presiune" ],
+          [ "", "1500 x 6000", "Tablă striată", "Rezistente la temperaturi ridicate și scăzute" ],
+          [ "", "2000 x 6000", "Tablă cutată", "Rezistente la uzură" ],
+          [ "", "+ Formate și forme cf. specificațiilor*", "", "" ]
+        ],
+        "adnotations": [
+          "* De exemplu, discuri și inele debitate cu plasmă sau laser"
+        ]
+      },
+      "materials": [
+        "Tablă decapată: DC01, DC03, DC04, DC05, DC06;",
+        "Tablă structurală: S235JR/J0, S275JR/J0/J2, S355JR/J0/J2, S355NL, S460NL, S269QL;",
+        "Tablă rezistentă la temperaturi ridicate și presiuni: P265GH, P290GH, P355GH, 16Mo3, 13Crmo4-5, 12CrMo19-5, 10CrMo9-10, SA516 gr 60, SA516 gr 70, SA387 gr 11/ 12/22, MONEL 400, Alloy 600/800;",
+        "Tablă decorativă: Corten (S355J0WP/S355J2WP);",
+        "Tablă rezistentă la temperaturi scăzute și presiuni: P355NH/NL1/2, P460NH/Nl1/2;",
+        "Tablă cu proprietăți mecanice: 20MnCr5, 42Crmo4; ",
+        "Tablă din inox: W1.4301/4304( AISI 304/304L), W1.4401/4404(AISI 316/316L), W1.4541 (AISI 321), W1.4571 (AISI 316Ti), W1.4845, W1.4841 și alte aliaje la cerere; ",
+        "Tablă rezistentă la uzură: CREAUSABRAO, HARDOX, BRINAR."
+      ],
+      "imgs": [
+        "../assets/images/page-img/tabla-profile_01.jpg"
+      ]
+    },
+    {
+      "title": "Profile",
+      "table": {
+        "columns": [ "Formă", "Producție", "Utilizare" ],
+        "columnWidths": ["w-4/12", "w-4/12", "w-4/12"],
+        "rows": [
+          [ "Rotund", "Laminate la cald", "Structural" ],
+          [ "Pătrat", "Trase la rece", "Decorativ" ],
+          [ "Hexqgon", "", "Rezistente la uzură" ],
+          [ "Platbandă", "", "Mecanice" ],
+          [ "Profile tip ''I'' (INP/IPE)", "Laminate la cald", "" ],
+          [ "Profile tip ''U'' (UNP/UPE)", "", "" ],
+          [ "Profile tip ''H'' (HEA/HEB)", "", "" ],
+          [ "Profile tip ''L'' (Corniere)", "", "" ]
+        ]
+      },
+      "materials": [
+        "Profile structurale: S235JR/J0, S275JR/J0/J2, S355JR/J0/J2, S355NL, S460NL, S269QL;",
+        "Profile aliate pentru diverse aplicații: P265GH, P290GH, ASTM A105, ASTM A350 gr. LF2, 16Mo3, 13Crmo4-5, 12CrMo19-5, 10CrMo9-10, X10CrMoVNb9-1, ASTM A182 gr F11/F12/F22/F91;",
+        "Profile cu proprietăți mecanice: 20MnCr5, 42Crmo4, E235/355/470;",
+        "Profile din inox: W1.4301/4304( AISI 304/304L), W1.4401/4404(AISI 316/316L), W1.4541 (AISI 321), W1.4571 (AISI 316Ti), W1.4845, W1.4841 și alte aliaje la cerere."
+      ],
+      "imgs": [
+        "../assets/images/page-img/tabla-profile_02.jpg",
+        "../assets/images/abstract/abstract-1.png"
+      ],
+      "description": "Dacă produsele dorite nu se regăsesc în lista de mai sus, vă rugăm să ne contactați. Găsim soluții pentru orice solicitare de țevi din inox sau aliaje speciale, cu termene de livrare de până la 2 săptămâni din stocurile partenerilor noștri externi."
+    }
+  ]
+}

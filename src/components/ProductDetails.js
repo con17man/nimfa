@@ -37,9 +37,10 @@ const ProductDetails = ({product, reversed}) => {
 };
 
 const ProductTable = ({tableData}) => {
-  const {columns, rows, columnWidths } = tableData;
+  const {columns, rows, columnWidths, adnotations } = tableData;
 
   return (
+    <>
     <table className="table w-full my-6">
       <thead>
         <tr>
@@ -48,12 +49,14 @@ const ProductTable = ({tableData}) => {
       </thead>
       <tbody>
         {rows.map((row, i) => {
-          return <tr key={i+1} className="hover:bg-blue hover:text-white">
+          return <tr key={i+1}>
             {row.map((cellData, j) => <td key={j+1} className="p-1 leading-snug border-l border-orange first:border-l-0 last:border-r-0">{cellData}</td>)}
           </tr>
         })}
       </tbody>
     </table>
+    {adnotations && <p className="pt-2">{adnotations}</p>}
+    </>
   );
 };
 
