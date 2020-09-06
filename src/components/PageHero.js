@@ -15,7 +15,7 @@ const PageHero = ({heroInfo}) => {
         <div className="flex flex-col absolute transform content-end h-full justify-end px-16 py-8 text-white top-0 w-full">
           <div className="relative">
             <div className="container mx-auto">
-              <h1 className="font-montserrat-alternates font-semibold text-5xl tracking-wider">{title}</h1>
+              <h1 className="font-montserrat-alternates font-semibold text-5xl tracking-wider" dangerouslySetInnerHTML={{ __html: title }} />
               <div className="text-sm pb-4 w-8/12" dangerouslySetInnerHTML={{ __html: headline }} />
             </div>
           </div>

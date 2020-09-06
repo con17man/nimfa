@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "title": "Armături și Robineți",
+    "headline": "<p class='tracking-wide text-black'>Tevile fara sudura, laminate la cald si trase la rece, reprezinta ...<p>",
+    "image": "../assets/images/page-headers/armaturi_robineti.jpg"
+  },
+
+  "products": [
+    {
+      "title": "Armături",
+      "table": {
+        "columns": [ "Denumire", "Presiuni", "Tip conexiune" ],
+        "columnWidths": ["w-5/12", "w-3/12", "w-4/12"],
+        "rows": [
+          [ "Vane industriale manuale și automatizate",     "EN: PN2,5 – PN400",      "Flanșe" ],
+          [ "Clapețe de sens",                              "ASME: 150# - 3000#",     "Filet (NPT / BSP)" ],
+          [ "Filtre pentru impurități",                     "",                       "Cap sudură (BW)" ],
+          [ "Compensatori de presiune",                     "",                       "Mufă scolu (SW)" ]
+        ]
+      },
+      "materials": [
+        "Fontă, Cupru, Bronz, Alamă",
+        "Oțel carbon – ASMT A216, P265GH, ASTM A105, ASTM A350 LF2, ASTM A182 gr. F5/F11/F22;",
+        "Inox - W1.4301/4304( AISI 304/304L), W1.4401/4404(AISI 316/316L), W1.4541 (AISI 321), W1.4571 (AISI 316Ti), W1.4845, W1.4841 și alte aliaje la cerere."
+      ],
+      "imgs": [
+        "../assets/images/page-img/armaturi-robineti_01.jpg"
+      ]
+    },
+    {
+      "title": "Robineți",
+      "table": {
+        "columns": [ "Tip", "Presiuni", "Tip conexiune" ],
+        "columnWidths": ["w-5/12", "w-3/12", "w-4/12"],
+        "rows": [
+          [ "Robinet cu bilă (sferă)",      "EN: PN2,5 – PN400",      "Flanșe" ],
+          [ "Robinet închidere sertar",     "ASME: 150# - 3000#",     "Filet (NPT / BSP)" ],
+          [ "Robinet ventil",               "",                       "Cap sudură (BW)" ],
+          [ "Robinet de reținere",          "",                       "Mufă scolu (SW)" ]
+        ]
+      },
+      "materials": [
+        "Fontă, Cupru, Bronz, Alamă",
+        "Oțel carbon – ASMT A216, P265GH, ASTM A105, ASTM A350 LF2, ASTM A182 gr. F5/F11/F22;",
+        "Inox - W1.4301/4304( AISI 304/304L), W1.4401/4404(AISI 316/316L), W1.4541 (AISI 321), W1.4571 (AISI 316Ti), W1.4845, W1.4841 și alte aliaje la cerere."
+      ],
+      "imgs": [
+        "../assets/images/page-img/armaturi-robineti_02.jpg",
+        "../assets/images/abstract/abstract-1.png"
+      ]
+    }
+  ]
+}

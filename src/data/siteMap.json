@@ -27,7 +27,7 @@
       "url": "/produse",
       "children": [{
           "name": "Tevi",
-          "url": "/pipes",
+          "url": "/tevi",
           "children": [{
               "name": "Standarde EN & DIN",
               "url": "standard-en_din"
@@ -40,7 +40,7 @@
         },
         {
           "name": "Fitting-uri",
-          "url": "/fittings",
+          "url": "/fittinguri",
           "children": [{
               "name": "Normal",
               "url": "normal-fittings"
@@ -53,7 +53,7 @@
         },
         {
           "name": "Flanse",
-          "url": "/flanges",
+          "url": "/flanse",
           "children": [{
               "name": "EN & DIN",
               "url": "en_din-flanges"

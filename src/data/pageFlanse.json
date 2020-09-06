@@ -1,0 +1,85 @@
+{
+  "hero": {
+    "title": "Flanșe",
+    "headline": "<p class='tracking-wide'>Tevile fara sudura, laminate la cald si trase la rece, reprezinta ...<p>",
+    "image": "../assets/images/page-headers/flanse.jpg"
+  },
+
+  "products": [
+    {
+      "title": "Flanșe conform normelor EN și DIN",
+      "table": {
+        "columns": [ "Denumire", "Tip EN 1092-1", "DIN", "PN" ],
+        "columnWidths": ["w-4/12", "w-2/12", "w-3/12", "w-3/12"],
+        "rows": [
+          [ "Flanșe plate",         "01",          "2573 / 2576",                                      "6 - 400" ],
+          [ "Flanșe cu gât",        "11",          "2627 / 2638",                                      "6 - 400" ],
+          [ "Flanșe oarbe",         "05",          "2527",                                             "6 - 400" ],
+          [ "Flanșe filetate",      "13",          "2588 / 2565 / 2569",                               "6 - 400" ],
+          [ "Flanșe libere",        "02 / 04",     "2641 / 2642/ 2655 / 2656 / 2673 / 2676",           "6 - 400" ],
+          [ "Guler pentru sudare",  "32",          "2641 / 2642/ 2655 / 2656",                         "6 - 400" ],
+          [ "Gât pentru sudare",    "34",          "2673 / 2676",                                      "6 - 400" ]
+        ]
+      },
+      "dimensions": [
+        "DN10 – DN2000;",
+        "S235JR, S355J2;",
+        "P245GH, P250GH, P265GH, P280GH;",
+        "16Mo3, 13CrMo4-5, 10CrMo9-10;",
+        "P280N/NH, P355N/NH, P355QH;",
+        "W1.4301, W1.4303, W1.4401, W1.4404, W1.4541, W1.4571;",
+        "W1.4462 (duplex), W1.4410 (superduplex);"
+      ],
+      "materials": [
+        "Materiale și aliaje speciale conform solicitărilor dumneavoastră."
+      ],
+      "imgs": [
+        "../assets/images/page-img/flanse_01.jpg"
+      ]
+    },
+    {
+      "title": "Flanșe conform normelor ASME /API",
+      "table": {
+        "columns": [ "Denumire", "Standard" ],
+        "columnWidths": ["w-7/12", "w-5/12"],
+        "rows": [
+          ["Flanșe cu gât (WN)",          "ASME B 16.5/16.47" ],
+          ["Flanșe oarbe",                "ASME B 16.5/16.47" ],
+          ["Flanșe plate (SO)",           "ASME B 16.5" ],
+          ["Flanșe libere",               "ASME B 16.5" ],
+          ["Flanșe filetate",             "ASME B 16.5" ],
+          ["Flanșe mufă soclu (SW)",      "ASME B 16.5" ],
+          ["Flanșe cu gât lung (LWN)",    "ASME B 16.5" ]
+        ]
+      },
+      "pressureRange": [
+        "150, 300, 400, 600, 900, 1500, 2000, 2500, 3000, 5000, 10000, 15000, 20000;"
+      ],
+      "dimensions": [
+        "½” – 48”",
+        "dimensiuni speciale conform specificațiilor dumneavoastră."
+      ],
+      "materials": [
+        "A/SA 105/C21;",
+        "A/SA 182 Gr. F5, F9, F11, F12, F22, F91;",
+        "A/SA 350 Gr. LF2;",
+        "A/SA 694 Gr. F52, F60, F65;",
+        "A/SA 182 Gr. F304/L, F316/L, F321;",
+        "1.4541, 1.4571;",
+        "F53 (Superduplex), F51 (Duplex);",
+        "Aliaje speciale"
+      ],
+      "imgs": [
+        "../assets/images/page-img/flanse_02.jpg",
+        "../assets/images/abstract/abstract-1.png"
+      ]
+    },
+    {
+      "title": "Flanșe speciale",
+      "description": "Dacă flanșele de care aveți nevoie nu se regăsesc în tipurile exprimate mai sus, va rugăm să ne trimiteți specificațiile de care aveți nevoie. Experții noștri vor reveni cu o ofertă competentă, creată special pentru proiectul dumneavoastră.",
+      "imgs": [
+        "../assets/images/page-img/flanse_03.jpg"
+      ]
+    }
+  ]
+}
