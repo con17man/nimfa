@@ -9,8 +9,8 @@ const ProductDetails = ({product, reversed}) => {
     <section className={`container relative mx-auto flex ${reversed ? 'flex-row-reverse' : ''} pt-24 pb-12 px-8 md:px-16 lg:px-0 -mb-12 bg-white`}>
       {/* image */}
       <div className="flex-none pl-10">
-        {abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} style={{width: '350px', marginBottom: '1rem'}} />}
-        <Img fluid={productImg.childImageSharp.fluid} style={{width: '350px'}} />
+        {abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} style={{width: '300px', marginBottom: '1rem'}} />}
+        <Img fluid={productImg.childImageSharp.fluid} style={{width: '300px'}} />
       </div>
 
       {/* content */}
@@ -20,11 +20,11 @@ const ProductDetails = ({product, reversed}) => {
         {/* Product table */}
         {table && <ProductTable tableData={table} /> }
 
-        {/* Product Materials */}
-        { materials && <ProductProperty list={materials} listName="Materiale" /> }
-
         {/* Product Dimensions */}
         { dimensions &&  <ProductProperty list={dimensions} listName="Dimensiuni" /> }
+
+        {/* Product Materials */}
+        { materials && <ProductProperty list={materials} listName="Materiale" /> }
 
         {/* Product Pressure Range */}
         {pressureRange && <ProductProperty list={pressureRange} listName="Clasa de presiune(#)" /> }

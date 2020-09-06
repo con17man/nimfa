@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "title": "Țevi",
+    "headline": "<p class='tracking-wide'>Țevile fără sudură, laminate la cald și trase la rece, reprezintă activitatea noastră principală. NIMFA vine în sprijinul partenerilor săi cu un stoc de țevi gata de livrare în cel mai scurt timp.<p>",
+    "image": "../assets/images/page-headers/tevi.jpg"
+  },
+
+  "products": [
+    {
+      "title": "Țevi după standarde EN și DIN",
+      "table": {
+        "columns": [ "Standard", "Utilizare" ],
+        "columnWidths": ["w-4/12", "w-8/12"],
+        "rows": [
+          [ "EN10216-1 – 4", "Țevi din oțel carbon fără sudură, utilizate pentru presiune" ],
+          [ "EN10217-1 – 6", "Țevi din oțel carbon sudate pentru presiune" ],
+          [ "EN 10210-1/2", "Țevi din oțel carbon fără sudură, utilizate în scop structural" ],
+          [ "EN 10219-1/2", "Țevi din oțel carbon sudate longitudinal sau elicoidal cu scop structural" ],
+          [ "EN 10305-1-5", "Țevi din oțel fără sudură, trase la rece pentru precizie" ],
+          [ "EN 10208-1/2", "Țevi utilizate pentru combustibili" ]
+        ]
+      },
+      "dimensions": [
+        "Diametre exterioare (conform standardelor menționate mai sus): ø10,3 mm - ø711,0 mm (țevi fără sudură) și ø21,3 mm - ø2540,0 mm (țevi sudate);",
+        "Grosimile (conform standardelor menționate mai sus): 1,20 mm - 100,00 mm"
+      ],
+      "materials": [
+        "Oțel pentru presiune la temperaturi ambientale: P235TR1/2, P265TR1/2;",
+        "Oțel și aliaje folosite pentru temperaturi ridicate: P235GH, P265GH, 16Mo3, 13CrMo4-5, 10CrMo9-10, X10CrMoVNb9-1, X20CrMoV11-1;",
+        "Oțel folosit pentru temperaturi scăzute: P215NL12, P265NL1/2;",
+        "Oțel cu granulație fină: P275NL1/2, P355N/NH, P355NL1/NL2;",
+        "Oțel structural: S235JR, S275JR/J0, S355J2;",
+        "Oțel pentru linii de combustibil: L235GA, L245GA, L290GA, L360GA, L245NB/MB, L290NB/MB, L360NB/MB;",
+        "Inox: X5CrNi18-10 (w1.4301), X2CrNi19-11(w1.4306), X5CrNiMo17-12-2 (w1.4401), X2CrNiMo17-13-2(w1.4404), X6CrNiTi18-10 (w1.4541), XCrNiMoTi17-12-2(w1.4571), inox duplex si superduplex, cât și aliaje speciale."
+      ],
+      "imgs": [
+        "../assets/images/page-img/tevi_01.jpg"
+      ]
+    },
+    {
+      "title": "Țevi dupa standard ASME",
+      "table": {
+        "columns": [ "Standard", "Utilizare" ],
+        "columnWidths": ["w-4/12", "w-8/12"],
+        "rows": [
+          ["A/SA53",              "Țevi din oțel fără sudură utilizate pentru presiune"],
+          ["A/SA106 & A/SA335",   "Țevi din oțel fără sudură utilizate pentru presiune și temperaturi ridicate"],
+          ["A/SA 333",            "Țevi din oțel fără sudură utilizate pentru presiune și temperaturi scăzute"],
+          ["API 5L",              "Țevi din oțel sudate și fără sudură folosite pentru industria petrolului și gazului"]
+        ]
+      },
+      "dimensions": [
+        "Diametre Cf. ASME B36.10 – 1/8” - 36”",
+        "Grosimi: SCH 10S – SCH XXS"
+      ],
+      "materials": [
+        "ASTM A/SA53 – Grad B;",
+        "ASTM A/SA106 &amp; A/SA335 – Grad B, P5, P9, P11, P22, P91;",
+        "ASTM A/SA 333 – Grad 6;",
+        "API 5L – PSL 1 / PSL 2 – Grad B, X42, X52, X60, X65, X70;",
+        "ASTM A/SA321 – TP304/304L, TP316/316L, TP321, TP316Ti, inox duplex si superduplex, cât și aliaje speciale."
+      ],
+      "imgs": [
+        "../assets/images/page-img/tevi_02.jpg",
+        "../assets/images/abstract/abstract-1.png"
+      ],
+      "description": "Dacă produsele dorite nu se regăsesc în lista de mai sus, vă rugăm să ne contactați. Găsim soluții pentru orice solicitare de țevi din inox sau aliaje speciale, cu termene de livrare de până la 2 săptămâni din stocurile partenerilor noștri externi."
+    }
+  ]
+}
