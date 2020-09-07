@@ -8,7 +8,7 @@ const ProductDetails = ({product, reversed}) => {
   return (
     <section className={`container relative mx-auto flex ${reversed ? 'flex-row-reverse' : ''} pt-24 pb-12 px-8 md:px-16 lg:px-0 -mb-12 bg-white`}>
       {/* image */}
-      <div className="flex-none pl-10">
+      <div className={`flex-none ${reversed ? 'pl-10' : 'pr-10'}`}>
         {abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} style={{width: '300px', marginBottom: '1rem'}} />}
         <Img fluid={productImg.childImageSharp.fluid} style={{width: '300px'}} />
       </div>
