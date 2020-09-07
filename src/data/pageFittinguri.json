@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "title": "Fittinguri",
+    "headline": "",
+    "image": "../assets/images/page-headers/fittinguri.jpg"
+  },
+
+  "products": [
+    {
+      "title": "Fittinguri din oțel și inox (standard EN și DIN)",
+      "table": {
+        "columns": [ "Denumire produs", "Standard", "Dimensiuni" ],
+        "columnWidths": ["w-4/12", "w-4/12", "w-4/12"],
+        "rows": [
+          [ "Coturi 45⁰, 90⁰, 180⁰",      "EN 10253-1/4",     "Ø17,20 – 610,00 mm" ],
+          [ "Tip 2D (R~1DN)",             "Tip A și tip B",   "Grosimi: 2,0 – 85,90 mm" ],
+          [ "Tip 3D (R~1,5DN)",           "DIN 2605",         "" ],
+          [ "Tip 5D (R~2,5DN)",           "DIN 2615",         "" ],
+          [ "Teuri",                      "DIN 2616",         "" ],
+          [ "Reducții",                   "",                 "" ]
+        ]
+      },
+      "materials": [
+        "P235TR1/2; P265TR1/2",
+        "P235GH; P265GH; 16Mo3; 13CrMo4-5; 10CrMo9-10; X10CrMoVNb9-1;",
+        "X20CrMoV11-1;",
+        "P275NL1/2; P355NL1/NL2; P215NL; P265NL; P275NH/ P355NH",
+        "L290NB; L360NB",
+        "W1.4301/1.4306, w1.4401/1.4404, w1.4541, w1.4571, inox duplex și superduplex, cât și aliaje speciale."
+      ],
+      "imgs": [
+        "../assets/images/page-img/fittinguri_01.jpg"
+      ]
+    },
+
+    {
+      "title": "Fittinguri din oțel și inox (standarde ASME)",
+      "table": {
+        "columns": [ "Denumire produs", "Standard", "Dimensiuni" ],
+        "columnWidths": ["w-4/12", "w-4/12", "w-4/12"],
+        "rows": [
+          [ "Coturi 45⁰, 90⁰, 180⁰",      "ASME B16.9",       "NPS 3/8” (17,20 mm) – NPS" ],
+          [ "SR – raza scurta (R~1DN)",   "",                 "36”(914,40 mm)" ],
+          [ "LR – raza lunga (R~1,5DN)",  "",                 "SCH10S – SCH XXS" ],
+          [ "Teuri",                      "",                 "" ],
+          [ "Reducții",                   "",                 "" ]
+        ]
+      },
+      "materials": [
+        "ASTM A234 – WPB, WP5, WP9, WP11, WP22, WP91;",
+        "ASTM A420 – WPL6, WPL3;",
+        "ASTM A820 – WPHY42, WPHY52;",
+        "ASTM A403 – 304/304L, 316/316L, 321; 316Ti, inox duplex și superduplex, cât și aliaje speciale."
+      ],
+      "imgs": [
+        "../assets/images/page-img/fittinguri_01.jpg"
+      ]
+    },
+
+    {
+      "title": "Fittinguri forjate pentru presiuni ridicate",
+      "table": {
+        "columns": [ "Denumire", "Standard", "Dimensiuni", "Tip Conexiuni" ],
+        "columnWidths": ["w-3/12", "w-3/12", "w-3/12", "w-3/12"],
+        "rows": [
+          [ "Coturi 45⁰ si 90⁰",              "ASME B16.11",      "¼” – 4”",      "Filetate NPT / BSP" ],
+          [ "Teuri",                          "",                 "",             "Mufă soclu (SW)" ],
+          [ "Mufe (coupling)",                "",                 "",             "" ],
+          [ "Nipluri hexagonale sau",         "",                 "",             "" ],
+          [ "produse din țeavă rotundă",      "",                 "",             "" ],
+          [ "Reducții",                       "",                 "",             "" ],
+          [ "Sockolet",                       "MSS SP 97",        "",             "Filetate NPT / BSP" ],
+          [ "Weldolet",                       "",                 "",             "Mufă soclu (SW)" ],
+          [ "Threadolet",                     "",                 "",             "Cap Sudură (BW)" ],
+          [ "Flangeolet",                     "",                 "",             "" ],
+          [ "Elbolet",                        "",                 "",             "" ]
+        ]
+      },
+      "materials": [
+        "ASTM A105;",
+        "ASTM A350 grad LF2;",
+        "ASTM A182 grad F5, F9, F11, F22, F91;",
+        "ASTM A182 grad F304/304L, F316/316L, F321, F316Ti, inox duplex și superduplex, cât și aliaje speciale."
+      ],
+      "imgs": [
+        "../assets/images/page-img/fittinguri_02.jpg",
+        "../assets/images/abstract/abstract-1.png"
+      ]
+    },
+
+    {
+      "title": "Fittinguri la comandă",
+      "description": "<ul> <li>Curbe cu rază și lungime solicitată din oțel carbon, inox și aliaje speciale;</li> <li>Fittinguri executate din bară rotundă (block type);</li> <li>Diverse fittinguri pentru presiuni ridicate, executate din materiale standardizate EN și dimensiuni ASME sau viceversa.</li> </ul>",
+      "imgs": [
+        "../assets/images/page-img/fittinguri_03.jpg"
+      ]
+    }
+  ]
+}

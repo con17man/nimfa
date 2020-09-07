@@ -18,7 +18,7 @@ const ProductDetails = ({product, reversed}) => {
         <div className="w-full bg-orange text-white uppercase font-semibold px-4 py-1">{title}</div>
 
         {/* Product table */}
-        {table && <ProductTable tableData={table} /> }
+        { table && <ProductTable tableData={table} /> }
 
         {/* Product Dimensions */}
         { dimensions &&  <ProductProperty list={dimensions} listName="Dimensiuni" /> }
@@ -27,10 +27,10 @@ const ProductDetails = ({product, reversed}) => {
         { materials && <ProductProperty list={materials} listName="Materiale" /> }
 
         {/* Product Pressure Range */}
-        {pressureRange && <ProductProperty list={pressureRange} listName="Clasa de presiune(#)" /> }
+        { pressureRange && <ProductProperty list={pressureRange} listName="Clasa de presiune(#)" /> }
 
         {/* Product Description */}
-        {description && <p className="pt-8">{description}</p>}
+        { description && <p className="pt-8" dangerouslySetInnerHTML={{__html: description}} /> }
       </div>
     </section>
   );
