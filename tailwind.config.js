@@ -74,6 +74,7 @@ module.exports = {
   variants: {
     borderWidth: ['responsive', 'first', 'last', 'hover', 'focus'],
     padding: ['responsive', 'first', 'last'],
+    divideWidth: ['responsive', 'first', 'last'],
   },
 
   plugins: [

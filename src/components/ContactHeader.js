@@ -34,10 +34,12 @@ const ContactHeader = () => {
           </button>
         </div>
 
-        <div className="contact-header-right flex justify-center items-center divide-x divide-black text-sm">
-          <span className="px-4 font-medium uppercase">Solicita Oferta</span>
-          <a href={`mailto:${email}`} className="px-4 font-light hover:underline">{email}</a>
-          <a href={`tel:${phone}`} className="px-4 font-light hover:underline">{phone}</a>
+        <div className="contact-header-right flex justify-center items-center text-sm">
+          <span className="font-medium uppercase">Solicita Oferta:</span>
+          <div className="inline divide-x divide-black">
+            <a href={`mailto:${email}`} className="px-4 font-light hover:underline">{email}</a>
+            <a href={`tel:${phone}`} className="px-4 font-light hover:underline">{phone}</a>
+          </div>
         </div>
       </div>
     </section>
