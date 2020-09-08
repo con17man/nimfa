@@ -12,7 +12,7 @@ const TablaProfilePage = () => {
     pageTablaProfile {
       hero {
         title
-        titleColor
+        darkTextColor
         headline
         image {
           childImageSharp {

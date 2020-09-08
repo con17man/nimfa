@@ -2,7 +2,8 @@
   "hero": {
     "title": "Fittinguri",
     "headline": "",
-    "image": "../assets/images/page-headers/fittinguri.jpg"
+    "image": "../assets/images/page-headers/fittinguri.jpg",
+    "darkTextColor": false
   },
 
   "products": [

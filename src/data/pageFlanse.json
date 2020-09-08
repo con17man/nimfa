@@ -2,7 +2,8 @@
   "hero": {
     "title": "Flanșe",
     "headline": "",
-    "image": "../assets/images/page-headers/flanse.jpg"
+    "image": "../assets/images/page-headers/flanse.jpg",
+    "darkTextColor": false
   },
 
   "products": [
