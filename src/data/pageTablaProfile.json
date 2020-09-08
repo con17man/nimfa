@@ -2,7 +2,8 @@
   "hero": {
     "title": "Tablă și Profile",
     "headline": "",
-    "image": "../assets/images/page-headers/produse_tabla_profile.jpg"
+    "image": "../assets/images/page-headers/produse_tabla_profile.jpg",
+    "titleColor": "text-black"
   },
 
   "products": [

@@ -2,7 +2,8 @@
   "hero": {
     "title": "Armături și Robineți",
     "headline": "<p class='tracking-wide text-black'>Tevile fara sudura, laminate la cald si trase la rece, reprezinta ...<p>",
-    "image": "../assets/images/page-headers/armaturi_robineti.jpg"
+    "image": "../assets/images/page-headers/armaturi_robineti.jpg",
+    "titleColor": "text-black"
   },
 
   "products": [

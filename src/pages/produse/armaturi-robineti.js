@@ -12,6 +12,7 @@ const ArmaturiRobinetiPage = () => {
     pageArmaturiRobineti {
       hero {
         title
+        titleColor
         headline
         image {
           childImageSharp {
