@@ -9,9 +9,8 @@
   @apply  table-cell
           relative
           align-middle
-          px-2
+          px-4
           uppercase
-          font-semibold
           tracking-wide
           leading-none;
 }
@@ -40,7 +39,6 @@
 /* L1_NODES - DROPDOWN */
 .navbar-list-item .navbar-list-item-dropdown {
   @apply  absolute
-          mt-12
           bg-black
           hidden
           invisible

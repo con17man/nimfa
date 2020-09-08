@@ -23,6 +23,9 @@ const Layout = ({ children }) => {
     const headerWrapper = document.querySelector('.js-header-wrapper');
     const header = document.querySelector('.js-header');
     const main = document.querySelector('.js-main-content');
+    const wideLogo = document.querySelector('.js-wideLogo');
+    const scrollLogo = document.querySelector('.js-scrollLogo');
+    const subMenus = Array.from(document.querySelectorAll('.js-nav-dropdown'));
     const topToHeader = headerWrapper.getBoundingClientRect().top; // headerWrapper.offsetTop
 
     const stickyHeader = () => {
@@ -31,14 +34,28 @@ const Layout = ({ children }) => {
         // Header on top
         headerWrapper.classList.remove('relative');
         headerWrapper.classList.add('fixed', 'top-0', 'bg-black');
-        header.classList.remove('bg-black', 'bg-opacity-50');
+        header.classList.remove('bg-black', 'bg-opacity-50', 'h-28');
+        header.classList.add('h-16');
         main.classList.add('pt-28');
+        wideLogo.classList.add('hidden');
+        scrollLogo.classList.remove('hidden');
+        subMenus.forEach(menu => {
+          menu.classList.add('mt-6');
+          menu.classList.remove('mt-12');
+        });
       } else {
         // Header NOT on top
         headerWrapper.classList.add('relative');
         headerWrapper.classList.remove('fixed', 'top-0', 'bg-black');
-        header.classList.add('bg-black', 'bg-opacity-50');
+        header.classList.remove('h-16');
+        header.classList.add('bg-black', 'bg-opacity-50', 'h-28');
         main.classList.remove('pt-28');
+        wideLogo.classList.remove('hidden');
+        scrollLogo.classList.add('hidden');
+        subMenus.forEach(menu => {
+          menu.classList.remove('mt-6');
+          menu.classList.add('mt-12');
+        });
       }
     };
 

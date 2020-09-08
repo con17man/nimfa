@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 const Header = ({ siteTitle }) => {
   const pathName = typeof window !== 'undefined' ? window.location.pathname : '';
 
-  const {siteMap: { navigation, logo } } = useStaticQuery(graphql`
+  const {siteMap: { navigation, logos: [wideLogo, scrollLogo] } } = useStaticQuery(graphql`
     query NavigationNodesQuery {
       siteMap {
         navigation {
@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => {
           }
         }
 
-        logo {
+        logos {
           childImageSharp {
             fluid(maxWidth: 2000, toFormat: WEBP) {
               ...GatsbyImageSharpFluid
@@ -36,10 +36,11 @@ const Header = ({ siteTitle }) => {
 
   return(
     <header className="relative w-full text-white z-10 transition duration-500 ease-in-out js-header-wrapper">
-      <div className="container h-28 mx-auto flex justify-between content-center bg-black bg-opacity-50 items-center transition duration-500 ease-in-out js-header">
+      <div className="container h-28 mx-auto flex justify-between content-center bg-black bg-opacity-50 items-center js-header">
         <div className="header-logo">
           <Link to="/">
-            <Img fluid={logo.childImageSharp.fluid} className="w-40" alt={siteTitle} />
+            <Img fluid={wideLogo.childImageSharp.fluid} className="js-wideLogo w-40" alt={siteTitle} />
+            <Img fluid={scrollLogo.childImageSharp.fluid} className="js-scrollLogo w-20 hidden" alt={siteTitle} />
           </Link>
         </div>
 
@@ -54,7 +55,7 @@ const Header = ({ siteTitle }) => {
                   }
 
                   {/* sub-menu */}
-                  {category.children && <ul className="navbar-list-item-dropdown">
+                  {category.children && <ul className="navbar-list-item-dropdown mt-12 js-nav-dropdown">
                     {category.children.map((child, i) => {
                         return <li className="navbar-list-item-dropdown-item" key={`L1_node_${i+1}`}>
                           <Link to={child.url}>{child.name}</Link>

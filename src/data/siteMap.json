@@ -1,5 +1,8 @@
 {
-  "logo": "../assets/images/logo/logo_wide_white.png",
+  "logos": [
+    "../assets/images/logo/logo_wide_white.png",
+    "../assets/images/logo/logo_wide_white_scroll.png"
+  ],
   "navigation": [
     {
       "name": "Companie",
