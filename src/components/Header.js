@@ -50,8 +50,8 @@ const Header = ({ siteTitle }) => {
             {navigation.map((category, i) => {
                 return <li className="navbar-list-item last:pr-6" key={`L0_node_${i+1}`}>
                   { category.url ?
-                    <Link to={category.url} activeClassName="text-orange">{category.name} </Link> :
-                    <span className={`cursor-pointer ${pathName.includes(category.name.toLowerCase()) ? 'text-orange': undefined}`}>{category.name}</span>
+                    <Link to={category.url} activeClassName="text-orange-500">{category.name} </Link> :
+                    <span className={`cursor-pointer ${pathName.includes(category.name.toLowerCase()) ? 'text-orange-500': undefined}`}>{category.name}</span>
                   }
 
                   {/* sub-menu */}

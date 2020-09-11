@@ -62,7 +62,7 @@
     },
     {
       "label": "<div class='flex justify-center md:justify-end items-center h-full'>Cifre de Afaceri</div>",
-      "entries": ["<p class='py-4'>2019 - 18.964.045</p>", "<p class='py-4 border-t border-b border-orange'>2018 - 22.026.898</p>", "<p class='py-4'>2017 - 16.060.425</p>"]
+      "entries": ["<p class='py-4'>2019 - 18.964.045</p>", "<p class='py-4 border-t border-b border-orange-500'>2018 - 22.026.898</p>", "<p class='py-4'>2017 - 16.060.425</p>"]
     },
     {
       "label": "Suprafață birouri",

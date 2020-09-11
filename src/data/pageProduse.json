@@ -10,37 +10,56 @@
       "name": "Tevi",
       "url": "/produse/tevi",
       "img": "../assets/images/product-menu/TEVI.png",
-      "gridPosition": "area-1"
+      "gridPosition": "area-1",
+      "subMenu": [
+        { "name": "EN și DIN", "url": "/produse/tevi#" },
+        { "name": "ASME", "url": "/produse/tevi#" }
+      ]
     },
     {
       "name": "Flanse",
       "url": "/produse/flanse",
       "img": "../assets/images/product-menu/FLANSE.png",
-      "gridPosition": "area-4"
+      "gridPosition": "area-4",
+      "subMenu": [
+        { "name": "EN și DIN", "url": "/produse/flanse#" },
+        { "name": "ASME", "url": "/produse/flanse#" },
+        { "name": "Speciale", "url": "/produse/flanse#" }
+      ]
     },
     {
       "name": "Fitting-uri",
       "url": "/produse/fittinguri",
       "img": "../assets/images/product-menu/FITTINGURI.png",
-      "gridPosition": "area-2"
+      "gridPosition": "area-2",
+      "subMenu": [
+        { "name": "EN și DIN", "url": "/produse/fittinguri#" },
+        { "name": "ASME", "url": "/produse/fittinguri#" },
+        { "name": "Presiuni ridicate", "url": "/produse/fittinguri#" },
+        { "name": "La comanda", "url": "/produse/fittinguri#" }
+      ]
     },
     {
       "name": "Tabla si profile",
       "url": "/produse/tabla-profile",
       "img": "../assets/images/product-menu/TABLA-PROFILE.png",
-      "gridPosition": "area-6"
+      "gridPosition": "area-5"
     },
     {
       "name": "Accesorii",
       "url": "/produse/accesorii",
       "img": "../assets/images/product-menu/ACCESORII.png",
-      "gridPosition": "area-5"
+      "gridPosition": "area-6"
     },
     {
       "name": "Armaturi si robineti",
       "url": "/produse/armaturi-robineti",
       "img": "../assets/images/product-menu/ARMATURI-ROBINETI.png",
-      "gridPosition": "area-3"
+      "gridPosition": "area-3",
+      "subMenu": [
+        { "name": "Armături", "url": "/produse/armaturi-robineti#" },
+        { "name": "Robineți", "url": "/produse/armaturi-robineti#" }
+      ]
     }
   ]
 }

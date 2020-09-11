@@ -15,7 +15,7 @@ const ProductDetails = ({product, reversed}) => {
 
       {/* content */}
       <div className={`flex-1 px-6 font-light text-sm tracking-wide cursor-default`}>
-        <div className="w-full bg-orange text-white uppercase font-semibold px-4 py-1">{title}</div>
+        <div className="w-full bg-orange-500 text-white uppercase font-semibold px-4 py-1">{title}</div>
 
         {/* Product table */}
         { table && <ProductTable tableData={table} /> }
@@ -44,13 +44,13 @@ const ProductTable = ({tableData}) => {
     <table className="table w-full my-6">
       <thead>
         <tr>
-          {columns.map((column, i) => <th key={i+1} className={`${columnWidths[i]} uppercase p-1 border border-orange border-t-0 first:border-l-0 last:border-r-0`}>{column}</th>)}
+          {columns.map((column, i) => <th key={i+1} className={`${columnWidths[i]} uppercase p-1 border border-orange-500 border-t-0 first:border-l-0 last:border-r-0`}>{column}</th>)}
         </tr>
       </thead>
       <tbody>
         {rows.map((row, i) => {
           return <tr key={i+1}>
-            {row.map((cellData, j) => <td key={j+1} className="p-1 leading-snug border-l border-orange first:border-l-0 last:border-r-0">{cellData}</td>)}
+            {row.map((cellData, j) => <td key={j+1} className="p-1 leading-snug border-l border-orange-500 first:border-l-0 last:border-r-0">{cellData}</td>)}
           </tr>
         })}
       </tbody>
@@ -63,7 +63,7 @@ const ProductTable = ({tableData}) => {
 const ProductProperty = ({list, listName}) => {
   return (
     <>
-      <p className="pt-8 uppercase font-semibold border-b border-orange">{listName}:</p>
+      <p className="pt-8 uppercase font-semibold border-b border-orange-500">{listName}:</p>
       <ul>
         {list.map((item, i) => <li key={i+1} className="py-1 first:pt-6">{item}</li>)}
       </ul>

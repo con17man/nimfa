@@ -35,7 +35,7 @@ const OrderSteps = () => {
         <div className="list-items flex justify-center mx-auto max-w-3xl">
           {orderSteps.steps.map((step, i) => {
             return  <div key={i+1} className="px-6">
-                      <div className="list-item adv-item-img h-32 w-32 my-6 rounded-full shadow-xl mx-auto bg-orange flex justify-center items-center text-5xl text-white duration-300 ease-in-out transition">
+                      <div className="list-item adv-item-img h-32 w-32 my-6 rounded-full shadow-xl mx-auto bg-orange-500 flex justify-center items-center text-5xl text-white duration-300 ease-in-out transition">
                           <Img fluid={step.icon.childImageSharp.fluid} className="w-24" />
                       </div>
                       <p className="uppercase font-medium tracking-wide">{step.name}</p>

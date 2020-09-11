@@ -1,6 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import Layout from '../components/layout';
 import SEO from '../components/SEO';
@@ -33,11 +34,16 @@ const ProductsPage = () => {
             }
           }
           gridPosition
+          subMenu { name, url }
         }
 
       }
     }
   `);
+
+  const subMenuClass = (str) => {
+    return `${str.charAt(0)}${str.charAt(str.length-1)}`;
+  };
 
   return (
     <Layout>
@@ -46,11 +52,19 @@ const ProductsPage = () => {
       <div className="relative container mx-auto -mb-8 p-28 bg-grey">
         <div className="grid-container">
           {productCategories.map((category, i) => {
-            return <div key={i+1} className={category.gridPosition}>
-              <Link to={category.url}>
+            return <div key={i+1} className={`grid-container-category ${category.gridPosition}`}>
+              <span>
                 <Img fluid={category.img.childImageSharp.fluid} className="object-cover w-full h-full" />
                 <p className="area-title">{category.name}</p>
-              </Link>
+                {/* Category Submenu */}
+                <div className={`grid-container-category-submenu ${subMenuClass(category.gridPosition)}-grid`}>
+                  <Link to={category.url} className={`${subMenuClass(category.gridPosition)}-main`}>
+                    <p className="text-5xl"><FontAwesomeIcon icon="file-image" /></p>
+                    {category.name}
+                  </Link>
+                  {category.subMenu && category.subMenu.map((item, i) => <Link to={item.url} key={i+1} className={`relative ${subMenuClass(category.gridPosition)}-sub-${i+1}`}>{item.name} <p className="text-5xl"><FontAwesomeIcon icon="file-image" /></p></Link>)}
+                </div>
+              </span>
             </div>
           })}
         </div>

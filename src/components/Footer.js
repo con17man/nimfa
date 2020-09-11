@@ -44,7 +44,7 @@ const Footer = () => {
     <footer className="bg-raisin py-20">
       <section className="section flex relative container mx-auto text-center divide-x divide-white text-gray-500">
         <div className="w-1/3 pr-8">
-          <p className="uppercase font-bold text-orange pb-10">Contact</p>
+          <p className="uppercase font-bold text-orange-500 pb-10">Contact</p>
 
           <a href={gMap} target="_blank" rel="noopener noreferrer" className="block hover:text-white">{`${street}, ${city} ${code}, ${county}`}</a>
 
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
 
         <div className="w-1/3 pl-8">
-          <p className="uppercase font-bold text-orange pb-10">Informatii</p>
+          <p className="uppercase font-bold text-orange-500 pb-10">Informatii</p>
 
           {/* TODO - REFACTOR SPLITING */}
           <div className="divide-x divide-white">

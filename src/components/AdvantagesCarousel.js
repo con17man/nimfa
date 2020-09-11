@@ -7,7 +7,7 @@ import Img from 'gatsby-image';
 const AdvantageItem = ({title, description, icon, url}) => (
   <Link to={`${url}#${title.toLowerCase().split(' ').join('-')}`}>
     <div className="adv-item relative text-center px-2">
-      <div className="adv-item-img h-32 w-32 my-6 rounded-full shadow-lg mx-auto bg-orange flex justify-center items-center text-6xl text-white">
+      <div className="adv-item-img h-32 w-32 my-6 rounded-full shadow-lg mx-auto bg-orange-500 flex justify-center items-center text-6xl text-white">
         <Img fluid={icon} className="w-24" />
       </div>
       <p className="adv-item-title font-medium uppercase">{title}</p>

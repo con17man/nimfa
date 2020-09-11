@@ -67,7 +67,7 @@ const IndustriesPage = () => {
                     role="button"
                     tabIndex={i+1}
                     key={i+1}
-                    className={`flex flex-col justify-center content-center items-center h-40 md:h-64 p-8 text-sm font-light text-center text-white uppercase hover:bg-orange outline-none ${selectedIndustry.name === industry.name ? 'bg-orange' : 'bg-blue'}`}>
+                    className={`flex flex-col justify-center content-center items-center h-40 md:h-64 p-8 text-sm font-light text-center text-white uppercase hover:bg-orange-500 outline-none ${selectedIndustry.name === industry.name ? 'bg-orange-500' : 'bg-blue-500'}`}>
                   <Img fluid={industry.icon.childImageSharp.fluid} className="w-24" />
                   {industry.name}
                 </div>
@@ -80,7 +80,7 @@ const IndustriesPage = () => {
             <p className="pb-10">{selectedIndustry.description}</p>
 
             {/* CTA */}
-            <Link to={selectedIndustry.cta.url} className="inline-block py-4 px-16 mb-20 bg-orange text-white uppercase font-medium">
+            <Link to={selectedIndustry.cta.url} className="inline-block py-4 px-16 mb-20 bg-orange-500 text-white uppercase font-medium">
               {selectedIndustry.cta.label}
             </Link>
             </div>

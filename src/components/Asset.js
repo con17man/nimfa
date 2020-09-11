@@ -19,7 +19,7 @@ const Asset = ({assetData, css}) => {
         <Img fluid={icon.childImageSharp.fluid} alt={`Nimfa - ${title}`} style={{zIndex: '-1'}} />
       </div>
 
-      <div className="asset-info flex-1 border-l-2 border-orange pl-6">
+      <div className="asset-info flex-1 border-l-2 border-orange-500 pl-6">
         <div className="asset-info-title pb-4 uppercase font-bold tracking-wider" id={title.toLowerCase().split(' ').join('-')}>{title}</div>
         <div className="asset-info-description text-sm font-light tracking-wide leading-snug" dangerouslySetInnerHTML={{ __html: htmlDescr }} />
       </div>

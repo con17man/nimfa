@@ -7,15 +7,10 @@
 }
 
 .area-1 { grid-area: area-1; }
-
 .area-2 { grid-area: area-2; }
-
 .area-3 { grid-area: area-3; }
-
 .area-4 { grid-area: area-4; }
-
 .area-5 { grid-area: area-5; }
-
 .area-6 { grid-area: area-6; }
 
 .area-1,
@@ -30,3 +25,161 @@
 .area-title {
   @apply absolute bottom-0 pl-2 pb-2 text-sm font-semibold left-0 tracking-wide uppercase;
 }
+
+
+
+
+
+.grid-container-category .grid-container-category-submenu {
+  @apply hidden;
+}
+
+.grid-container-category:hover .grid-container-category-submenu,
+.grid-container-category:focus-within .grid-container-category-submenu,
+.grid-container-category:focus .grid-container-category-submenu {
+  @apply grid absolute z-10 tracking-wide uppercase font-medium;
+  top: -2rem;
+  bottom: -2rem;
+  left: -2rem;
+  right: -2rem;
+}
+
+
+/* SUBMENU GRIDS */
+
+.a1-grid {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0.5em 0.5em;
+  grid-template-areas:
+    "a1-main a1-sub-1"
+    "a1-main a1-sub-2";
+  @apply text-white;
+}
+
+.a1-grid .a1-main { grid-area: a1-main; }
+.a1-grid .a1-sub-1 { grid-area: a1-sub-1; }
+.a1-grid .a1-sub-2 { grid-area: a1-sub-2; }
+
+.a1-grid .a1-main,
+.a1-grid .a1-sub-1,
+.a1-grid .a1-sub-2 { @apply bg-orange-500 p-4; }
+
+.a1-grid .a1-main:hover,
+.a1-grid .a1-sub-1:hover,
+.a1-grid .a1-sub-2:hover { @apply bg-orange-700; }
+
+
+
+
+
+
+.a2-grid {
+  grid-template-columns: repeat(2, 1fr) 2fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0.5em 0.5em;
+  grid-template-areas:
+    "a2-sub-1 a2-sub-3 a2-main"
+    "a2-sub-2 a2-sub-4 a2-main";
+  @apply text-white;
+}
+
+.a2-grid .a2-sub-1 { grid-area: a2-sub-1; }
+.a2-grid .a2-sub-2 { grid-area: a2-sub-2; }
+.a2-grid .a2-sub-3 { grid-area: a2-sub-3; }
+.a2-grid .a2-sub-4 { grid-area: a2-sub-4; }
+.a2-grid .a2-main { grid-area: a2-main; }
+
+.a2-grid .a2-sub-1,
+.a2-grid .a2-sub-2,
+.a2-grid .a2-sub-3,
+.a2-grid .a2-sub-4,
+.a2-grid .a2-main { @apply bg-gray-500 p-4; }
+
+.a2-grid .a2-sub-1:hover,
+.a2-grid .a2-sub-2:hover,
+.a2-grid .a2-sub-3:hover,
+.a2-grid .a2-sub-4:hover,
+.a2-grid .a2-main:hover { @apply bg-gray-700; }
+
+
+
+
+
+.a3-grid {
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0.5em 0.5em;
+  grid-template-areas:
+    "a3-main"
+    "a3-sub-1"
+    "a3-sub-2";
+  @apply text-black;
+}
+
+.a3-grid .a3-main { grid-area: a3-main; }
+.a3-grid .a3-sub-1 { grid-area: a3-sub-1; }
+.a3-grid .a3-sub-2 { grid-area: a3-sub-2; }
+
+.a3-grid .a3-main,
+.a3-grid .a3-sub-1,
+.a3-grid .a3-sub-2 { @apply bg-grey p-4; }
+
+.a3-grid .a3-main:hover,
+.a3-grid .a3-sub-1:hover,
+.a3-grid .a3-sub-2:hover { @apply bg-grey; }
+
+
+
+
+
+
+.a4-grid {
+  grid-template-columns: 2fr repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0.5em 0.5em;
+  grid-template-areas:
+    "a4-main a4-sub-1 a4-sub-2"
+    "a4-main a4-sub-3 a4-sub-3";
+  @apply text-white;
+}
+
+.a4-grid .a4-main { grid-area: a4-main; }
+.a4-grid .a4-sub-1 { grid-area: a4-sub-1; }
+.a4-grid .a4-sub-2 { grid-area: a4-sub-2; }
+.a4-grid .a4-sub-3 { grid-area: a4-sub-3; }
+
+.a4-grid .a4-main,
+.a4-grid .a4-sub-1,
+.a4-grid .a4-sub-2,
+.a4-grid .a4-sub-3 { @apply bg-blue-500 p-4; }
+
+.a4-grid .a4-main:hover,
+.a4-grid .a4-sub-1:hover,
+.a4-grid .a4-sub-2:hover,
+.a4-grid .a4-sub-3:hover { @apply bg-blue-700; }
+
+.a1-main,
+.a2-main,
+.a4-main,
+.a5-main,
+.a6-main { @apply flex flex-col justify-center items-center p-4; }
+
+.a3-main { @apply flex-row-reverse; }
+.a5-main { @apply bg-orange-500 text-white; }
+.a6-main { @apply bg-gray-500 text-white; }
+
+
+.a1-sub-1,
+.a1-sub-2,
+.a3-sub-1,
+.a3-sub-2,
+.a3-main,
+.a4-sub-3 { @apply flex justify-between items-center; }
+
+.a2-sub-1,
+.a2-sub-2,
+.a2-sub-3,
+.a2-sub-4,
+.a4-sub-1,
+.a4-sub-2 { @apply flex flex-col-reverse items-center text-center; }
