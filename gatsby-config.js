@@ -69,7 +69,7 @@ module.exports = {
         background_color: fullConfig.theme.colors.red,
         theme_color: fullConfig.theme.colors.blue,
         display: `minimal-ui`,
-        icon: `src/assets/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/assets/images/nimfa_favicon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
