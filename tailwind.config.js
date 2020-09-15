@@ -33,6 +33,7 @@ module.exports = {
         raisin: '#222222',
         grey: '#F1F1F1',
         gray: {
+          '100': '#DEDEDE',
           '500': '#363D3E',
           '700': '#252A2B'
         },

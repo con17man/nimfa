@@ -7,28 +7,16 @@ const ContactHeader = () => {
     query ContactHeaderQuery {
       footer {
         contact { email, phone }
-        info {
-          social { icon, url }
-        }
       }
     }
   `);
 
-  const { contact: { email, phone }, info: { social } } = queryData.footer;
+  const { contact: { email, phone } } = queryData.footer;
 
   return(
     <section className="contact-header w-full">
       <div className="container mx-auto p-2 flex justify-between">
         <div className="contact-header-left flex">
-          { /* Filter only fb & insta */
-            social.filter(s => s.icon.match(/(instagram)|(facebook)/g)).map((socialLink, i) => {
-              return  <a className="rounded-full h-8 w-8 flex items-center justify-center hover:bg-gray-200"
-                        key={i+1} href={socialLink.url} target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={socialLink.icon.split(',')} />
-                      </a>
-            })
-          }
-
           <button className="font-light px-2 rounded hover:bg-gray-200">
             <span className="lowercase text-sm">search</span> <FontAwesomeIcon icon='search' />
           </button>

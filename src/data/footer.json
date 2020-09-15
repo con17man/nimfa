@@ -2,8 +2,8 @@
   "logo": "../assets/images/logo/logo_tall_white.png",
   "contact": {
     "address": {
-      "street": "Soseaua de Centura 107B",
-      "city": "Popesti-Leordeni",
+      "street": "Șoseaua de Centură 107B",
+      "city": "Popești-Leordeni",
       "county": "Ilfov",
       "code": "077160",
       "gMap": "https://goo.gl/maps/Y2nwSYh9ANGTgG4T6"
@@ -18,7 +18,7 @@
         "url": "/companie/despre-noi"
       },
       {
-        "name": "Transport si Logistica",
+        "name": "Transport și logistică",
         "url": "/logistics"
       },
       {
@@ -26,7 +26,7 @@
         "url": "/privacy-policy"
       },
       {
-        "name": "Termeni si Conditii",
+        "name": "Termeni și condiții",
         "url": "/companie/gdpr"
       }
     ],

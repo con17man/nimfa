@@ -1,14 +1,13 @@
 import React from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import Img from "gatsby-image";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
   const {
     footer: {
       contact: {
         address: { city, county, street, code, gMap }, email, phone },
-        info: { links, social },
+        info: { links },
         logo
       }
     } = useStaticQuery(graphql`
@@ -42,7 +41,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-raisin py-20">
-      <section className="section flex relative container mx-auto text-center divide-x divide-white text-gray-500">
+      <section className="section flex relative container mx-auto text-center divide-x divide-white text-gray-100">
         <div className="w-1/3 pr-8">
           <p className="uppercase font-bold text-orange-500 pb-10">Contact</p>
 
@@ -58,7 +57,7 @@ const Footer = () => {
         </div>
 
         <div className="w-1/3 pl-8">
-          <p className="uppercase font-bold text-orange-500 pb-10">Informatii</p>
+          <p className="uppercase font-bold text-orange-500 pb-10">INFORMAȚII</p>
 
           {/* TODO - REFACTOR SPLITING */}
           <div className="divide-x divide-white">
@@ -68,18 +67,6 @@ const Footer = () => {
           <div className="divide-x divide-white">
             <Link to={privacyLink.url} className="px-2 hover:text-white">{privacyLink.name}</Link>
             <Link to={tandcLink.url} className="px-2 hover:text-white">{tandcLink.name}</Link>
-          </div>
-
-          {/* {links.map((link, i) => {
-              return <Link to={link.url} key={i+1} className="px-2 hover:underline">{link.name}</Link>
-            })} */}
-
-          <div className="pt-10">
-            {social.map((socialLink, i) => {
-              return <a href={socialLink.url} target="_blank" rel="noopener noreferrer" key={i+1} className="px-2 hover:text-white">
-                <FontAwesomeIcon icon={socialLink.icon.split(',')} />
-              </a>
-            })}
           </div>
         </div>
       </section>

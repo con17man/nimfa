@@ -10,12 +10,12 @@
       },
       {
         "id": 2,
-        "name": "Comanda",
+        "name": "COMANDĂ",
         "icon": "../assets/images/icons/pasi/2_comanda.png"
       },
       {
         "id": 3,
-        "name": "Impachetare",
+        "name": "ÎMPACHETARE",
         "icon": "../assets/images/icons/pasi/3_impachetare.png"
       },
       {
