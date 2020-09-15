@@ -37,7 +37,7 @@ const Header = ({ siteTitle }) => {
   return(
     <header className="relative w-full text-white z-10 transition duration-500 ease-in-out js-header-wrapper">
       <div className="container h-28 mx-auto flex justify-between content-center bg-black bg-opacity-50 items-center js-header">
-        <div className="header-logo">
+        <div className="header-logo pl-6">
           <Link to="/">
             <Img fluid={wideLogo.childImageSharp.fluid} className="js-wideLogo w-40" alt={siteTitle} />
             <Img fluid={scrollLogo.childImageSharp.fluid} className="js-scrollLogo w-20 hidden" alt={siteTitle} />
