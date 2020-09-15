@@ -13,18 +13,6 @@
       "entries": ["Ionașcu Vasile"]
     },
     {
-      "label": "Șef Departament Financiar și Administrator",
-      "entries": ["Ionașcu Alexandru"]
-    },
-    {
-      "label": "Manager de Achiziții",
-      "entries": ["Ionașcu Cătălin"]
-    },
-    {
-      "label": "Manager Comercial",
-      "entries": ["Ionașcu Gabriel"]
-    },
-    {
       "label": "Anul înființării",
       "entries": ["1992"]
     },
@@ -61,8 +49,8 @@
       "entries": ["1.000.000 EURO"]
     },
     {
-      "label": "<div class='flex justify-center md:justify-end items-center h-full'>Cifre de Afaceri</div>",
-      "entries": ["<p class='py-4'>2019 - 18.964.045</p>", "<p class='py-4 border-t border-b border-orange-500'>2018 - 22.026.898</p>", "<p class='py-4'>2017 - 16.060.425</p>"]
+      "label": "<div class=\"flex justify-center md:justify-end items-center h-full\">Cifre de Afaceri</div>",
+      "entries": ["2019 - 18.964.045", "2018 - 22.026.898", "2017 - 16.060.425"]
     },
     {
       "label": "Suprafață birouri",

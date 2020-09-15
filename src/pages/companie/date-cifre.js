@@ -46,7 +46,12 @@ const DateCifre = () => {
           {table.map((row, i) => {
             return <div className="flex flex-wrap tracking-wider" key={`row_${i+1}`}>
               <div className="w-full md:w-1/2 text-center md:text-right font-medium px-8 py-1 md:py-4 border-0 border-orange-500 md:border-b md:border-r" dangerouslySetInnerHTML={{ __html: row.label }} key={`label_${i+1}`} />
-              <div className="w-full md:w-1/2 text-center md:text-left font-light px-8 py-2 md:py-4 border-0 border-orange-500 border-b">{row.entries.map((entry, i) => <div dangerouslySetInnerHTML={{ __html: entry }} key={`entry_${i+1}`} /> )}</div>
+              <div className={`w-full md:w-1/2 text-center md:text-left font-light ${row.entries.length > 1 ? '' : 'py-2 md:py-4'} border-0 border-orange-500 border-b`}>
+                {row.entries.map((entry, i) => {
+                return  <p key={`entry_${i+1}`}>
+                          <span dangerouslySetInnerHTML={{ __html: entry }} className={`pl-8 ${row.entries.length > 1 ? 'block py-2 md:py-4' : ''} ${i > 0 ? ' border-t border-orange-500' : ''}`} />
+                        </p>} )}
+              </div>
             </div>
           })}
 
