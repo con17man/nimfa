@@ -7,9 +7,9 @@ import SEO from '../components/SEO';
 import PageHero from '../components/PageHero';
 
 const IndustriesPage = () => {
-  const { pageIndustrie : { hero, industries, abstractImg } } = useStaticQuery(graphql`
-    query queryIndustriePageData {
-      pageIndustrie {
+  const { pageIndustrii : { hero, industries, abstractImg } } = useStaticQuery(graphql`
+    query queryIndustriiPageData {
+      pageIndustrii {
         hero {
           title
           headline
@@ -88,8 +88,8 @@ const IndustriesPage = () => {
         </div>
 
         {/* abstract image */}
-        <div className="absolute top-0 right-0 w-1/2 opacity-25" style={{zIndex: '-1',transform: 'rotateX(180deg) rotate(270deg)'}}>
-          { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} /> }
+        <div className="absolute bottom-0 right-0 opacity-25" style={{width: '36rem', zIndex: '-1', transform: 'rotateY(180deg)'}}>
+          { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} style={{transform: 'rotateY(180deg)'}} /> }
         </div>
       </div>
     </Layout>
