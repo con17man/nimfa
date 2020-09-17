@@ -27,51 +27,7 @@
     },
     {
       "name": "Produse",
-      "url": "/produse",
-      "children": [{
-          "name": "Tevi",
-          "url": "/tevi",
-          "children": [{
-              "name": "Standarde EN & DIN",
-              "url": "standard-en_din"
-            },
-            {
-              "name": "Standard ASME",
-              "url": "standard-en_din"
-            }
-          ]
-        },
-        {
-          "name": "Fitting-uri",
-          "url": "/fittinguri",
-          "children": [{
-              "name": "Normal",
-              "url": "normal-fittings"
-            },
-            {
-              "name": "Forged",
-              "url": "forged-fittings"
-            }
-          ]
-        },
-        {
-          "name": "Flanse",
-          "url": "/flanse",
-          "children": [{
-              "name": "EN & DIN",
-              "url": "en_din-flanges"
-            },
-            {
-              "name": "ASME/API",
-              "url": "asme_api-flanges"
-            },
-            {
-              "name": "Special",
-              "url": "special-flanges"
-            }
-          ]
-        }
-      ]
+      "url": "/produse"
     },
     {
       "name": "Servicii",

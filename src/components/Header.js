@@ -2,11 +2,12 @@ import React from 'react';
 import { Link, useStaticQuery, graphql } from "gatsby";
 import Img from 'gatsby-image';
 import PropTypes from 'prop-types';
+import { ProductsGrid } from '../pages/produse';
 
 const Header = ({ siteTitle }) => {
   const pathName = typeof window !== 'undefined' ? window.location.pathname : '';
 
-  const {siteMap: { navigation, logos: [wideLogo, scrollLogo] } } = useStaticQuery(graphql`
+  const {siteMap: { navigation, logos: [wideLogo, scrollLogo] }, pageProduse: { productCategories } } = useStaticQuery(graphql`
     query NavigationNodesQuery {
       siteMap {
         navigation {
@@ -15,10 +16,6 @@ const Header = ({ siteTitle }) => {
           children {
             name
             url
-            children {
-              name
-              url
-            }
           }
         }
 
@@ -31,6 +28,23 @@ const Header = ({ siteTitle }) => {
         }
 
       }
+
+      pageProduse {
+        productCategories {
+          name
+          url
+          img {
+            childImageSharp {
+              fluid(maxWidth: 500, toFormat: WEBP) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          gridPosition
+          subMenu { name, url }
+        }
+      }
+
     }
   `);
 
@@ -48,20 +62,30 @@ const Header = ({ siteTitle }) => {
         <nav role="navigation" className="header-navbar h-full">
           <ul className="navbar-list table h-full">
             {navigation.map((category, i) => {
-                return <li className="navbar-list-item last:pr-6" key={`L0_node_${i+1}`}>
+                return <li className={`navbar-list-item last:pr-6 ${category.name !== 'Produse' ? 'relative item-separator': ''}`} key={`L0_node_${i+1}`}>
                   { category.url ?
                     <Link to={category.url} activeClassName="text-orange-500">{category.name} </Link> :
                     <span className={`cursor-pointer ${pathName.includes(category.name.toLowerCase()) ? 'text-orange-500': undefined}`}>{category.name}</span>
                   }
 
                   {/* sub-menu */}
-                  {category.children && <ul className="navbar-list-item-dropdown mt-12 js-nav-dropdown">
-                    {category.children.map((child, i) => {
-                        return <li className="navbar-list-item-dropdown-item" key={`L1_node_${i+1}`}>
-                          <Link to={child.url}>{child.name}</Link>
-                        </li>
-                    })}
-                  </ul>}
+                  {category.children &&
+                    <ul className="navbar-list-item-dropdown mt-12 js-nav-dropdown">
+                      {category.children.map((child, i) => {
+                          return <li className="navbar-list-item-dropdown-item" key={`L1_node_${i+1}`}>
+                            <Link to={child.url}>{child.name}</Link>
+                          </li>
+                      })}
+                    </ul>
+                  }
+
+                  {/* CUSTOM MENU FOR PRODUCTS */}
+                  {category.name === 'Produse' &&
+                  <div className="w-full navbar-list-item-dropdown mt-12 js-nav-dropdown" style={{padding: '5rem 7rem'}}>
+                    <div className="container mx-auto">
+                      <ProductsGrid categories={productCategories} />
+                    </div>
+                  </div>}
                 </li>
             })}
           </ul>

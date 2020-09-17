@@ -7,7 +7,6 @@
 /* L0_NODE */
 .navbar-list-item {
   @apply  table-cell
-          relative
           align-middle
           px-4
           uppercase
@@ -20,19 +19,26 @@
 }
 
 /* WHITE SEPARATOR FOR L0_NODES */
-.navbar-list-item:before {
+.navbar-list-item.item-separator:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 16px;
+  border-left: 2px solid #fff;
+  transform: translatey(-50%);
+}
+.navbar-list-item.item-separator:first-of-type:before {
   content: "";
   position: absolute;
   right: 0;
   top: 50%;
   height: 16px;
+  border-left: none;
   border-right: 2px solid #fff;
   transform: translatey(-50%);
 }
 
-.navbar-list-item:last-of-type::before {
-  content: none;
-}
 /* !WHITE SEPARATOR FOR L0_NODES */
 
 
