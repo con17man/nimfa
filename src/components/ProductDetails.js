@@ -1,12 +1,14 @@
 import React from 'react';
 import Img from 'gatsby-image';
 
+import { slugify } from './Helpers';
+
 const ProductDetails = ({product, reversed}) => {
 
   const {title, table, materials, dimensions, pressureRange, imgs: [productImg, abstractImg], description } = product;
 
   return (
-    <section className={`container relative mx-auto flex ${reversed ? 'flex-row-reverse' : ''} pt-24 pb-12 px-8 md:px-16 lg:px-0 -mb-12 bg-white`}>
+    <section id={slugify(title)} className={`container relative mx-auto flex ${reversed ? 'flex-row-reverse' : ''} pt-24 pb-12 px-8 md:px-16 lg:px-0 -mb-12 bg-white`}>
       {/* image */}
       <div className={`flex-none px-6`}>
         {abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} style={{width: '300px', marginBottom: '1rem'}} />}

@@ -79,7 +79,7 @@
       "children": [
         {
           "name": "TRANSPORT ȘI LOGISTICA",
-          "url": "/servicii#transport-si-logistică"
+          "url": "/servicii#transport-si-logistica"
         },
         {
           "name": "TIMP DE LIVRARE",
@@ -87,19 +87,19 @@
         },
         {
           "name": "TEVI ȘI FITTINGURI CUSTOMIZATE",
-          "url": "/servicii#țevi-și-fittinguri-customizate"
+          "url": "/servicii#tevi-si-fittinguri-customizate"
         },
         {
           "name": "DEBITARE",
-          "url": "/servicii#debitare-/-sudare"
+          "url": "/servicii#debitare---sudare"
         },
         {
           "name": "URGENȚE - 24H",
-          "url": "/servicii#24-h-–-urgențe"
+          "url": "/servicii#24-h--urgente"
         },
         {
           "name": "ASISTENȚĂ/CONSULTANȚĂ TEHNICĂ",
-          "url": "/servicii#asistență/consultanță-tehnică"
+          "url": "/servicii#asistenta-consultanta-tehnica"
         },
         {
           "name": "CERTIFICATE DE CALITATE",
@@ -107,15 +107,15 @@
         },
         {
           "name": "TESTE ȘI ÎNCERCĂRI MATERIALE",
-          "url": "/servicii#teste-și-încercări-materiale"
+          "url": "/servicii#teste-si-incercari-materiale"
         },
         {
           "name": "PRELUCRĂRI MECANICE",
-          "url": "/servicii#prelucrări-mecanice"
+          "url": "/servicii#prelucrari-mecanice"
         },
         {
           "name": "PROTEJAREA SUPRAFEȚELOR",
-          "url": "/servicii#protejarea-suprafețelor"
+          "url": "/servicii#protejarea-suprafetelor"
         },
         {
           "name": "AMBALARE",
@@ -123,15 +123,15 @@
         },
         {
           "name": "RETUR / BUYBACK",
-          "url": "/servicii#retur-/-buyback"
+          "url": "/servicii#retur---buyback"
         },
         {
           "name": "STOCARE CUSTOMIZATĂ",
-          "url": "/servicii#stocare-customizată"
+          "url": "/servicii#stocare-customizata"
         },
         {
           "name": "ASISTARE FIRMĂ DE TRADING",
-          "url": "/servicii#asistare-firmă-de-trading"
+          "url": "/servicii#asistare-firma-de-trading"
         }
       ]
     },

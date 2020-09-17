@@ -12,8 +12,8 @@
       "img": "../assets/images/product-menu/TEVI.png",
       "gridPosition": "area-1",
       "subMenu": [
-        { "name": "EN și DIN", "url": "/produse/tevi#" },
-        { "name": "ASME", "url": "/produse/tevi#" }
+        { "name": "EN și DIN", "url": "/produse/tevi#tevi-dupa-standarde-en-si-din" },
+        { "name": "ASME", "url": "/produse/tevi#tevi-dupa-standard-asme" }
       ]
     },
     {
@@ -22,9 +22,9 @@
       "img": "../assets/images/product-menu/FLANSE.png",
       "gridPosition": "area-4",
       "subMenu": [
-        { "name": "EN și DIN", "url": "/produse/flanse#" },
-        { "name": "ASME", "url": "/produse/flanse#" },
-        { "name": "Speciale", "url": "/produse/flanse#" }
+        { "name": "EN și DIN", "url": "/produse/flanse#flanse-conform-normelor-en-si-din" },
+        { "name": "ASME", "url": "/produse/flanse#flanse-conform-normelor-asme--api" },
+        { "name": "Speciale", "url": "/produse/flanse#flanse-speciale" }
       ]
     },
     {
@@ -33,10 +33,10 @@
       "img": "../assets/images/product-menu/FITTINGURI.png",
       "gridPosition": "area-2",
       "subMenu": [
-        { "name": "EN și DIN", "url": "/produse/fittinguri#" },
-        { "name": "ASME", "url": "/produse/fittinguri#" },
-        { "name": "Presiuni ridicate", "url": "/produse/fittinguri#" },
-        { "name": "La comanda", "url": "/produse/fittinguri#" }
+        { "name": "EN și DIN", "url": "/produse/fittinguri#fittinguri-din-otel-si-inox-standard-en-si-din" },
+        { "name": "ASME", "url": "/produse/fittinguri#fittinguri-din-otel-si-inox-standarde-asme" },
+        { "name": "Presiuni ridicate", "url": "/produse/fittinguri#fittinguri-forjate-pentru-presiuni-ridicate" },
+        { "name": "La comanda", "url": "/produse/fittinguri#fittinguri-la-comanda" }
       ]
     },
     {
@@ -57,8 +57,8 @@
       "img": "../assets/images/product-menu/ARMATURI-ROBINETI.png",
       "gridPosition": "area-3",
       "subMenu": [
-        { "name": "Armături", "url": "/produse/armaturi-robineti#" },
-        { "name": "Robineți", "url": "/produse/armaturi-robineti#" }
+        { "name": "Armături", "url": "/produse/armaturi-robineti#armaturi" },
+        { "name": "Robineți", "url": "/produse/armaturi-robineti#robineti" }
       ]
     }
   ]
