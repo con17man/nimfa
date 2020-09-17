@@ -20,6 +20,7 @@ const TeviPage = () => {
             }
           }
         }
+        darkTextColor
       }
 
       products {
