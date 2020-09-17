@@ -77,10 +77,10 @@ const IndustriesPage = () => {
             {/* INDUSTRY DESCRIPTION */}
             <div className="w-1/2 py-4 pl-8 md:pl-16 font-light text-sm tracking-wide">
             <p className="font-semibold uppercase tracking-wider text-2xl pb-10">{selectedIndustry.name}</p>
-            <p className="pb-10">{selectedIndustry.description}</p>
+            <div className="pb-10" dangerouslySetInnerHTML={{__html: selectedIndustry.description}} />
 
             {/* CTA */}
-            <Link to={selectedIndustry.cta.url} className="inline-block py-4 px-16 mb-20 bg-orange-500 text-white uppercase font-medium">
+            <Link to={selectedIndustry.cta.url} className="inline-block py-4 px-16 bg-orange-500 text-white uppercase font-medium">
               {selectedIndustry.cta.label}
             </Link>
             </div>

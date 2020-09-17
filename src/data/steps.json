@@ -1,7 +1,7 @@
 {
   "orderSteps": {
     "title": "Cum comand?",
-    "description": "Venim în întâmpinarea nevoilor dumneavoastră și vă punem la dispoziție următoarele metode prin care ne puteți contacta:",
+    "description": "<p>Vă invităm să ne contactați pentru a demara procesul de comandă.</p><p>Acesta constă în 4 pași simpli:</p>",
     "steps": [
       {
         "id": 1,
@@ -10,12 +10,12 @@
       },
       {
         "id": 2,
-        "name": "COMANDĂ",
+        "name": "Comandă",
         "icon": "../assets/images/icons/pasi/2_comanda.png"
       },
       {
         "id": 3,
-        "name": "ÎMPACHETARE",
+        "name": "Împachetare",
         "icon": "../assets/images/icons/pasi/3_impachetare.png"
       },
       {
