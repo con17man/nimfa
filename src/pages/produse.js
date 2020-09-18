@@ -32,10 +32,6 @@ const ProductsGrid = ({ categories }) => {
                 category.subMenu.map((item, i) => {
                   return  <Link to={item.url} key={i+1} className={`relative ${subMenuClass(category.gridPosition)}-sub-${i+1}`}>
                             {item.name}
-                            <div className="text-5xl">
-                              {category.icon && <Img fluid={category.icon.childImageSharp.fluid} className="w-20" />}
-                              {/* <FontAwesomeIcon icon="file-image" /> */}
-                            </div>
                           </Link>
                 })
               }

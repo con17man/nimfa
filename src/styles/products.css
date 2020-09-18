@@ -38,10 +38,10 @@
 .grid-container-category:focus-within .grid-container-category-submenu,
 .grid-container-category:focus .grid-container-category-submenu {
   @apply grid absolute z-10 tracking-wide uppercase font-medium;
-  top: -2rem;
-  bottom: -2rem;
-  left: -2rem;
-  right: -2rem;
+  top: -2.5rem;
+  bottom: -2.5rem;
+  left: -2.5rem;
+  right: -2.5rem;
 }
 
 
@@ -180,11 +180,11 @@
 .a3-sub-1,
 .a3-sub-2,
 .a3-main,
-.a4-sub-3 { @apply flex justify-between items-center; }
+.a4-sub-3 { @apply flex justify-center items-center; } /* justify-between */
 
 .a2-sub-1,
 .a2-sub-2,
 .a2-sub-3,
 .a2-sub-4,
 .a4-sub-1,
-.a4-sub-2 { @apply flex flex-col-reverse items-center text-center; }
+.a4-sub-2 { @apply flex items-center text-center; } /* flex-col-reverse */
