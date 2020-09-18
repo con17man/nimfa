@@ -1,7 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import Layout from '../components/layout';
 import SEO from '../components/SEO';
@@ -23,17 +23,19 @@ const ProductsGrid = ({ categories }) => {
             <p className="area-title text-black">{category.name}</p>
             {/* Category Submenu */}
             <div className={`grid-container-category-submenu ${subMenuClass(category.gridPosition)}-grid`}>
+
               <Link to={category.url} className={`${subMenuClass(category.gridPosition)}-main`}>
-                <p className="text-5xl"><FontAwesomeIcon icon="file-image" /></p>
+                <div className="text-5xl">{category.icon && <Img fluid={category.icon.childImageSharp.fluid} className="w-20" />}</div>
                 {category.name}
               </Link>
               {category.subMenu &&
                 category.subMenu.map((item, i) => {
                   return  <Link to={item.url} key={i+1} className={`relative ${subMenuClass(category.gridPosition)}-sub-${i+1}`}>
                             {item.name}
-                            <p className="text-5xl">
-                              <FontAwesomeIcon icon="file-image" />
-                            </p>
+                            <div className="text-5xl">
+                              {category.icon && <Img fluid={category.icon.childImageSharp.fluid} className="w-20" />}
+                              {/* <FontAwesomeIcon icon="file-image" /> */}
+                            </div>
                           </Link>
                 })
               }
@@ -70,6 +72,13 @@ const ProductsPage = () => {
           img {
             childImageSharp {
               fluid(maxWidth: 500, toFormat: WEBP) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          icon {
+            childImageSharp {
+              fluid(maxWidth: 192, toFormat: WEBP) {
                 ...GatsbyImageSharpFluid
               }
             }

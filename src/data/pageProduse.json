@@ -11,6 +11,7 @@
       "url": "/produse/tevi",
       "img": "../assets/images/product-menu/TEVI.png",
       "gridPosition": "area-1",
+      "icon": "../assets/images/icons/product-menu/tevi.png",
       "subMenu": [
         { "name": "EN și DIN", "url": "/produse/tevi#tevi-dupa-standarde-en-si-din" },
         { "name": "ASME", "url": "/produse/tevi#tevi-dupa-standard-asme" }
@@ -21,6 +22,7 @@
       "url": "/produse/flanse",
       "img": "../assets/images/product-menu/FLANSE.png",
       "gridPosition": "area-4",
+      "icon": "../assets/images/icons/product-menu/flanse.png",
       "subMenu": [
         { "name": "EN și DIN", "url": "/produse/flanse#flanse-conform-normelor-en-si-din" },
         { "name": "ASME", "url": "/produse/flanse#flanse-conform-normelor-asme--api" },
@@ -32,6 +34,7 @@
       "url": "/produse/fittinguri",
       "img": "../assets/images/product-menu/FITTINGURI.png",
       "gridPosition": "area-2",
+      "icon": "../assets/images/icons/product-menu/fittinguri.png",
       "subMenu": [
         { "name": "EN și DIN", "url": "/produse/fittinguri#fittinguri-din-otel-si-inox-standard-en-si-din" },
         { "name": "ASME", "url": "/produse/fittinguri#fittinguri-din-otel-si-inox-standarde-asme" },
@@ -43,19 +46,22 @@
       "name": "Tabla si profile",
       "url": "/produse/tabla-profile",
       "img": "../assets/images/product-menu/TABLA-PROFILE.png",
-      "gridPosition": "area-5"
+      "gridPosition": "area-5",
+      "icon": "../assets/images/icons/product-menu/tabla-profile.png"
     },
     {
       "name": "Accesorii",
       "url": "/produse/accesorii",
       "img": "../assets/images/product-menu/ACCESORII.png",
-      "gridPosition": "area-6"
+      "gridPosition": "area-6",
+      "icon": "../assets/images/icons/product-menu/accesorii.png"
     },
     {
       "name": "Armaturi si robineti",
       "url": "/produse/armaturi-robineti",
       "img": "../assets/images/product-menu/ARMATURI-ROBINETI.png",
       "gridPosition": "area-3",
+      "icon": "../assets/images/icons/product-menu/armaturi-robineti.png",
       "subMenu": [
         { "name": "Armături", "url": "/produse/armaturi-robineti#armaturi" },
         { "name": "Robineți", "url": "/produse/armaturi-robineti#robineti" }

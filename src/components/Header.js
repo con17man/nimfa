@@ -40,6 +40,13 @@ const Header = ({ siteTitle }) => {
               }
             }
           }
+          icon {
+            childImageSharp {
+              fluid(maxWidth: 192, toFormat: WEBP) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           gridPosition
           subMenu { name, url }
         }

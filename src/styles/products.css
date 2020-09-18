@@ -127,7 +127,12 @@
 
 .a3-grid .a3-main:hover,
 .a3-grid .a3-sub-1:hover,
-.a3-grid .a3-sub-2:hover { @apply bg-grey; }
+.a3-grid .a3-sub-2:hover { @apply bg-gray-100; }
+
+
+.a3-main img,
+.a3-sub-1 img,
+.a3-sub-2 img { filter: invert(1); }
 
 
 
