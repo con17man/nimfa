@@ -80,7 +80,7 @@ const Header = ({ siteTitle }) => {
                     <ul className="navbar-list-item-dropdown mt-12 js-nav-dropdown">
                       {category.children.map((child, i) => {
                           return <li className="navbar-list-item-dropdown-item" key={`L1_node_${i+1}`}>
-                            <Link to={child.url} onClick={(evt) => evt.target.blur()}>{child.name}</Link>
+                            <Link to={child.url} state={{id: i}} onClick={(evt) => evt.target.blur()}>{child.name}</Link>
                           </li>
                       })}
                     </ul>

@@ -93,31 +93,31 @@
     },
     {
       "name": "Industrii",
-      "url": "/industrii",
+      "url": "/industrii#energie",
       "children": [
         {
           "name": "Energie",
-          "url": "/industrii"
+          "url": "/industrii#energie"
         },
         {
           "name": "Constructii",
-          "url": "/industrii"
+          "url": "/industrii#constructii"
         },
         {
           "name": "Petrol si Gaz",
-          "url": "/industrii"
+          "url": "/industrii#petrol-si-gaz"
         },
         {
           "name": "Nuclear",
-          "url": "/industrii"
-        },
-        {
-          "name": "Chimie",
-          "url": "/industrii"
+          "url": "/industrii#nuclear"
         },
         {
           "name": "Mecanica",
-          "url": "/industrii"
+          "url": "/industrii#mecanica"
+        },
+        {
+          "name": "Chimie",
+          "url": "/industrii#chimie"
         }
       ]
     },

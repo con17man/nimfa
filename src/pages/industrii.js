@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
 
 import Layout from '../components/layout';
 import SEO from '../components/SEO';
 import PageHero from '../components/PageHero';
+import { slugify } from '../components/Helpers';
 
-const IndustriesPage = () => {
+const IndustriesPage = (props) => {
   const { pageIndustrii : { hero, industries, abstractImg } } = useStaticQuery(graphql`
     query queryIndustriiPageData {
       pageIndustrii {
@@ -47,9 +48,17 @@ const IndustriesPage = () => {
     }
   `);
 
-  const [ initIndustry ] = industries;
+  const [lastHash, setLastHash] = useState(props.location.hash);
+  const [ selectedIndustry, setSelectedIndustry ] = useState(industries[props.location.state.id || 0]);
 
-  const [ selectedIndustry, setSelectedIndustry ] = useState(initIndustry);
+  useEffect(() => {
+    const {hash, state} = props.location;
+    if (hash !== lastHash) {
+      setLastHash(hash); // update with the last visited hash
+      setSelectedIndustry(industries[state.id]); // update industry view
+    }
+  }, [props.location, lastHash, industries]);
+
 
   return (
     <Layout>
@@ -67,6 +76,7 @@ const IndustriesPage = () => {
                     role="button"
                     tabIndex={i+1}
                     key={i+1}
+                    id={slugify(industry.name)}
                     className={`flex flex-col justify-center content-center items-center h-40 md:h-64 p-8 text-sm font-light text-center text-white uppercase hover:bg-orange-500 outline-none ${selectedIndustry.name === industry.name ? 'bg-orange-500' : 'bg-blue-500'}`}>
                   <Img fluid={industry.icon.childImageSharp.fluid} className="w-24" />
                   {industry.name}
