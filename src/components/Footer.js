@@ -35,7 +35,7 @@ const Footer = () => {
     }
   `);
 
-  const [ aboutLink, logisticsLink, privacyLink, tandcLink ] = links;
+  // const [ aboutLink, logisticsLink, privacyLink, tandcLink ] = links;
 
   // const chunkLinks = new Array(Math.ceil(links.length / 2)).fill().map(_ => links.splice(0,2));
 
@@ -59,15 +59,19 @@ const Footer = () => {
         <div className="w-1/3 pl-8">
           <p className="uppercase font-bold text-orange-500 pb-10">INFORMAȚII</p>
 
-          {/* TODO - REFACTOR SPLITING */}
           <div className="divide-x divide-white">
+            {links.map((link, i) => (
+              <Link to={link.url} key={i+1} className="px-2 hover:text-white">{link.name}</Link>
+            ))}
+          </div>
+          {/* <div className="divide-x divide-white">
             <Link to={aboutLink.url} className="px-2 hover:text-white">{aboutLink.name}</Link>
             <Link to={logisticsLink.url} className="px-2 hover:text-white">{logisticsLink.name}</Link>
           </div>
           <div className="divide-x divide-white">
             <Link to={privacyLink.url} className="px-2 hover:text-white">{privacyLink.name}</Link>
             <Link to={tandcLink.url} className="px-2 hover:text-white">{tandcLink.name}</Link>
-          </div>
+          </div> */}
         </div>
       </section>
     </footer>

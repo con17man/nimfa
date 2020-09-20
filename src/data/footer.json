@@ -18,12 +18,8 @@
         "url": "/companie/despre-noi"
       },
       {
-        "name": "Transport și logistică",
-        "url": "/logistics"
-      },
-      {
         "name": "Privacy Policy",
-        "url": "/privacy-policy"
+        "url": "/companie/gdpr"
       },
       {
         "name": "Termeni și condiții",

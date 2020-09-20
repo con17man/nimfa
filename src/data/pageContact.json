@@ -17,19 +17,19 @@
 
   "team": [
     {
-      "fullname": "Catalin Ionascu",
+      "fullname": "Catalin Ionașcu",
       "email": "catalin.ionascu@tevi-laminate.ro",
       "phone": "+40 723 230 938",
       "image": "../assets/images/contact/catalin_ionascu.png"
     },
     {
-      "fullname": "Gabriel Ionascu",
+      "fullname": "Gabriel Ionașcu",
       "email": "gabriel.ionascu@tevi-laminate.ro",
       "phone": "+40 723 149 995",
       "image": "../assets/images/contact/gabriel_ionascu.png"
     },
     {
-      "fullname": "Alexandru Ionascu",
+      "fullname": "Alexandru Ionașcu",
       "email": "alexandru.ionascu@tevi-laminate.ro",
       "phone": "+40 729 006 624",
       "image": "../assets/images/contact/alexandru_ionascu.png"
