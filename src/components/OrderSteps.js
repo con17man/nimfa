@@ -30,8 +30,8 @@ const OrderSteps = () => {
   return(
     <div className="order-steps w-full py-12">
       <div className="steps-list container mx-auto text-center">
-        <p className="list-title font-montserrat-alternates font-semibold text-4xl tracking-wider">{orderSteps.title}</p>
-        <p className="list-description font-light mx-auto max-w-2xl py-2" dangerouslySetInnerHTML={{__html: orderSteps.description}} />
+        <div className="list-title font-montserrat-alternates font-semibold text-4xl tracking-wider">{orderSteps.title}</div>
+        <div className="list-description font-light mx-auto max-w-2xl py-2" dangerouslySetInnerHTML={{__html: orderSteps.description}} />
         <div className="list-items flex justify-center mx-auto max-w-3xl">
           {orderSteps.steps.map((step, i) => {
             return  <div key={i+1} className="px-6">

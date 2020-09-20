@@ -24,13 +24,13 @@ const ProductsGrid = ({ categories }) => {
             {/* Category Submenu */}
             <div className={`grid-container-category-submenu ${subMenuClass(category.gridPosition)}-grid`}>
 
-              <Link to={category.url} className={`${subMenuClass(category.gridPosition)}-main`}>
+              <Link to={category.url} onClick={(evt) => evt.target.blur()} className={`${subMenuClass(category.gridPosition)}-main`}>
                 <div className="text-5xl">{category.icon && <Img fluid={category.icon.childImageSharp.fluid} className="w-20" />}</div>
                 {category.name}
               </Link>
               {category.subMenu &&
                 category.subMenu.map((item, i) => {
-                  return  <Link to={item.url} key={i+1} className={`relative ${subMenuClass(category.gridPosition)}-sub-${i+1}`}>
+                  return  <Link to={item.url} onClick={(evt) => evt.target.blur()} key={i+1} className={`relative ${subMenuClass(category.gridPosition)}-sub-${i+1}`}>
                             {item.name}
                           </Link>
                 })
