@@ -49,7 +49,7 @@ const IndustriesPage = (props) => {
   `);
 
   const [lastHash, setLastHash] = useState(props.location.hash);
-  const [ selectedIndustry, setSelectedIndustry ] = useState(industries[props.location.state.id || 0]);
+  const [ selectedIndustry, setSelectedIndustry ] = useState(industries[(props.location.state && props.location.state.id) || 0]);
 
   useEffect(() => {
     const {hash, state} = props.location;
