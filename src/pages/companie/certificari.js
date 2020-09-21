@@ -1,10 +1,12 @@
 import React from 'react';
-import { useStaticQuery, graphql, Link } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import Layout from '../../components/layout';
 import SEO from '../../components/SEO';
 import PageHero from '../../components/PageHero';
+
+import certificatePDF from '../../assets/files/ISO_9001-2019_2021.pdf';
 
 const CertificationsPage = () => {
 
@@ -63,9 +65,9 @@ const CertificationsPage = () => {
             {certParagraphs.map((paragraph, i) => <p className="pb-6" key={i+1}>{paragraph}</p>)}
 
             {/* CTA */}
-            <Link to={cta.link} className="inline-block py-4 px-16 mb-20 bg-orange-500 text-white uppercase font-medium">
+            <a href={certificatePDF} download className="inline-block py-4 px-16 mb-20 bg-orange-500 text-white uppercase font-medium">
               {cta.label}
-            </Link>
+            </a>
 
             <p className="pb-6">{certifications.intro}</p>
             <ul className='font-semibold pb-6'>

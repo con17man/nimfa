@@ -22,7 +22,7 @@
 
   "cta": {
     "label": "Descarca Certificatul",
-    "link": "/contact"
+    "link": "../assets/files/ISO_9001-2019_2021.pdf"
   },
 
   "pageImg": "../assets/images/page-img/certificari.jpg",
