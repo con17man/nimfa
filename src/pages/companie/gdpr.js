@@ -43,7 +43,7 @@ const GDPRPage = () => {
       <SEO title={hero.title} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
-        <div className="container relative mx-auto py-24 px-8 md:px-16 lg:px-0">
+        <div className="container relative mx-auto py-24 px-8 md:px-16 lg:px-0 tracking-wide">
           {gdprParagraphs.map((paragraph, i) => <div key={i+1} dangerouslySetInnerHTML={{ __html: paragraph }} /> )}
         </div>
 
