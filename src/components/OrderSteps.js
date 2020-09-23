@@ -28,7 +28,7 @@ const OrderSteps = () => {
   const orderSteps = queryData.steps.orderSteps;
 
   return(
-    <div className="order-steps w-full py-12">
+    <div className="order-steps w-full py-12" id="cum-comand">
       <div className="steps-list container mx-auto text-center">
         <div className="list-title font-montserrat-alternates font-semibold text-4xl tracking-wider">{orderSteps.title}</div>
         <div className="list-description font-light mx-auto max-w-2xl py-2" dangerouslySetInnerHTML={{__html: orderSteps.description}} />

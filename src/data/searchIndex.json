@@ -1,0 +1,281 @@
+{
+  "allHits": [
+    {
+      "text": [
+        "Cum comand?",
+        "Clarificare",
+        "Comanda",
+        "Impachetare",
+        "Livrare"
+      ],
+      "path": "/#cum-comand"
+    },
+    {
+      "text": ["Tevi"],
+      "path": "/produse/tevi"
+    },
+    {
+      "text": [
+        "Tevi dupa standarde EN si DIN"
+      ],
+      "path": "/produse/tevi#tevi-dupa-standarde-en-si-din"
+    },
+    {
+      "text": ["Tevi dupa standard ASME"],
+      "path": "/produse/tevi#tevi-dupa-standard-asme"
+    },
+    {
+      "text": ["Fittinguri"],
+      "path": "/produse/fittinguri"
+    },
+    {
+      "text": [
+        "Fittinguri din otel si inox (standard EN si DIN)",
+        "Coturi 45 EN/DIN", "Coturi 90 EN/DIN", "Coturi 180 EN/DIN",
+        "Tip 2D", "Tip 3D", "Tip 5D", "Teuri EN/DIN", "Reductii EN/DIN"
+      ],
+      "path": "/produse/fittinguri#fittinguri-din-otel-si-inox-standard-en-si-din"
+    },
+    {
+      "text": [
+        "Fittinguri din otel si inox (standarde ASME)",
+        "Coturi 45 ASME", "Coturi 90 ASME", "Coturi 180 ASME",
+        "Raza scurta", "Raza lunga", "Teuri ASME", "Reductii ASME"
+      ],
+      "path": "/fittinguri#fittinguri-din-otel-si-inox-standarde-asme"
+    },
+    {
+      "text": [
+        "Fittinguri forjate pentru presiuni ridicate",
+        "Mufe (coupling)", "Nipluri hexagonale", "Sockolet", "Weldolet", "Threadolet", "Flangeolet", "Elbolet"
+      ],
+      "path": "/produse/fittinguri#fittinguri-forjate-pentru-presiuni-ridicate"
+    },
+    {
+      "text": ["Fittinguri la comanda"],
+      "path": "/produse/fittinguri#fittinguri-la-comanda"
+    },
+    {
+      "text": ["Flanse"],
+      "path": "/produse/flanse"
+    },
+    {
+      "text": [
+        "Flanse conform normelor EN si DIN",
+        "Flanșe plate - EN/DIN",
+        "Flanșe cu gât - EN/DIN",
+        "Flanșe oarbe - EN/DIN",
+        "Flanșe filetate - EN/DIN",
+        "Flanșe libere - EN/DIN",
+        "Guler pentru sudare - EN/DIN",
+        "Gât pentru sudare - EN/DIN"
+      ],
+      "path": "/produse/flanse#flanse-conform-normelor-en-si-din"
+    },
+    {
+      "text": [
+        "Flanse conform normelor ASME /API",
+        "Flanșe cu gât (WN) - ASME/API",
+        "Flanșe oarbe - ASME/API",
+        "Flanșe plate (SO) - ASME/API",
+        "Flanșe libere - ASME/API",
+        "Flanșe filetate - ASME/API",
+        "Flanșe mufă soclu (SW) - ASME/API",
+        "Flanșe cu gât lung (LWN) - ASME/API"
+      ],
+      "path": "/produse/flanse#flanse-conform-normelor-asme--api"
+    },
+    {
+      "text": ["Flanse speciale"],
+      "path": "/produse/flanse#flanse-speciale"
+    },
+    {
+      "text": ["Tabla si Profile"],
+      "path": "/produse/tabla-profile"
+    },
+    {
+      "text": ["Tabla"],
+      "path": "/produse/tabla-profile#tabla"
+    },
+    {
+      "text": ["Profile"],
+      "path": "/produse/tabla-profile#profile"
+    },
+    {
+      "text": [
+        "Accesorii",
+        "Discuri de debitare si polizare",
+        "Electrozi pentru sudura",
+        "Produse din otel carbon si inox si pentru aliajele solicitate",
+        "Fier beton si plase de buzau",
+        "Gratare zincate",
+        "Accesorii de prindere si fixare a tevilor"
+      ],
+      "path": "/produse/accesorii"
+    },
+    {
+      "text": [
+        "Despre Noi",
+        "Specializari",
+        "Distribiutor",
+        "Operatiuni globale"
+      ],
+      "path": "/companie/despre-noi"
+    },
+    {
+      "text": [
+        "Certificari",
+        "Descarca certificat",
+        "EN ISO 9001",
+        "AD 2000 Merkblatt W0",
+        "PED 72/23",
+        "ASTM, EN si ISO",
+        "TUV RHEINLAND, BUREAU VERITAS , DNV."
+      ],
+      "path": "/companie/certificari"
+    },
+    {
+      "text": [
+        "Date si cifre",
+        "Cifre de afaceri",
+        "Inventar"
+      ],
+      "path": "/companie/date-cifre"
+    },
+    {
+      "text": [
+        "Armaturi si Robineti"
+      ],
+      "path": "/produse/armaturi-robineti"
+    },
+    {
+      "text": [
+        "Armaturi",
+        "Vane industriale manuale si automatizate",
+        "Clapete de sens",
+        "Filtre pentru impuritati",
+        "Compensatori de presiune"
+      ],
+      "path": "/produse/armaturi-robineti#armaturi"
+    },
+    {
+      "text": [
+        "Robineti",
+        "Robinet cu bila (sfera)",
+        "Robinet inchidere sertar",
+        "Robinet ventil",
+        "Robinet de retinere"
+      ],
+      "path": "/produse/armaturi-robineti#robineti"
+    },
+    {
+      "text": ["Servicii"],
+      "path": "/servicii"
+    },
+    {
+      "text": ["TRANSPORT SI LOGISTICA"],
+      "path": "/servicii#transport-si-logistica"
+    },
+    {
+      "text": ["TIMP DE LIVRARE"],
+      "path": "/servicii#timp-de-livrare"
+    },
+    {
+      "text": ["TEVI SI FITTINGURI CUSTOMIZATE"],
+      "path": "/servicii#tevi-si-fittinguri-customizate"
+    },
+    {
+      "text": ["DEBITARE"],
+      "path": "/servicii#debitare---sudare"
+    },
+    {
+      "text": ["URGENTE - 24H"],
+      "path": "/servicii#24-h--urgente"
+    },
+    {
+      "text": ["ASISTENTA/CONSULTANTA TEHNICA"],
+      "path": "/servicii#asistenta-consultanta-tehnica"
+    },
+    {
+      "text": ["CERTIFICATE DE CALITATE"],
+      "path": "/servicii#certificate-de-calitate"
+    },
+    {
+      "text": [
+        "TESTE SI INCERCARI MATERIALE",
+        "Certificate 3.1",
+        "Certificare 3.2 si intent of 3.2 (de la toate tipurile de organizatii de verificare)",
+        "Test-US (Ultrasonic)",
+        "Test presiune",
+        "Test Raze X",
+        "Teste magnetice",
+        "Teste mecanice",
+        "Examinare chimica",
+        "WPQ / WPS",
+        "Testare pentru rezistenta la impact pentru temperaturi ridicate si scazute",
+        "Testare la incovoiere prin soc"
+      ],
+      "path": "/servicii#teste-si-incercari-materiale"
+    },
+    {
+      "text": ["PRELUCRARI MECANICE"],
+      "path": "/servicii#prelucrari-mecanice"
+    },
+    {
+      "text": ["PROTEJAREA SUPRAFETELOR"],
+      "path": "/servicii#protejarea-suprafetelor"
+    },
+    {
+      "text": ["AMBALARE"],
+      "path": "/servicii#ambalare"
+    },
+    {
+      "text": ["RETUR / BUYBACK"],
+      "path": "/servicii#retur---buyback"
+    },
+    {
+      "text": ["STOCARE CUSTOMIZATA"],
+      "path": "/servicii#stocare-customizata"
+    },
+    {
+      "text": ["ASISTARE FIRMA DE TRADING"],
+      "path": "/servicii#asistare-firma-de-trading"
+    },
+    {
+      "text": ["Energie"],
+      "path": "/industrii#energie"
+    },
+    {
+      "text": ["Constructii"],
+      "path": "/industrii#constructii"
+    },
+    {
+      "text": [
+        "Petrol si Gaz",
+        "Petrol",
+        "Gaz"
+      ],
+      "path": "/industrii#petrol-si-gaz"
+    },
+    {
+      "text": ["Nuclear"],
+      "path": "/industrii#nuclear"
+    },
+    {
+      "text": ["Mecanica"],
+      "path": "/industrii#mecanica"
+    },
+    {
+      "text": ["Chimie"],
+      "path": "/industrii#chimie"
+    },
+    {
+      "text": ["Contact"],
+      "path": "/contact"
+    },
+    {
+      "text": [""],
+      "path": "/"
+    }
+  ]
+}
