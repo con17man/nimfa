@@ -6,22 +6,23 @@ const PageHero = ({heroInfo}) => {
   return (
     <div className="relative mx-auto -mt-28">
       <div className="relative">
-        <div className="relative pb-3/6 lg:pb-2/5 xl:pb-3/12">
+        <div className="relative pb-9/12 md:pb-6/12 lg:pb-5/12 xl:pb-3/12">
           <div className="absolute object-cover w-full h-full">
             {image && <Img fluid={image.childImageSharp.fluid} alt={`Nimfa - ${title}`} style={{position: 'unset'}} />}
           </div>
         </div>
 
-        <div className="flex flex-col absolute transform content-end h-full justify-end px-16 py-8 text-white top-0 w-full">
+        <div className="flex flex-col absolute transform content-end h-full justify-center md:justify-end pt-28 md:pt-0 px-16 py-8 text-white top-0 w-full">
           <div className="relative">
             <div className="container mx-auto">
-              <h1 className={`font-montserrat-alternates font-semibold text-5xl tracking-wider ${darkTextColor && darkTextColor ? 'text-black': 'text-white'}`}>{title}</h1>
-              <div className={`tracking-wide text-sm pb-4 w-8/12 ${darkTextColor && darkTextColor ? 'text-black': 'text-white'}`} dangerouslySetInnerHTML={{ __html: headline }} />
+              <h1 className={`font-montserrat-alternates font-bold text-3xl md:text-5xl tracking-wider ${darkTextColor && darkTextColor ? 'text-black': 'text-white'}`}>{title}</h1>
+              <div className={`hidden md:block tracking-wide text-sm pb-4 w-8/12 ${darkTextColor && darkTextColor ? 'text-black': 'text-white'}`} dangerouslySetInnerHTML={{ __html: headline }} />
             </div>
           </div>
         </div>
 
       </div>
+      <div className="block md:hidden tracking-wide text-sm px-16 pt-10 w-full text-black" dangerouslySetInnerHTML={{ __html: headline }} />
     </div>
   )
 }

@@ -49,7 +49,7 @@ const DateCifre = () => {
               <div className={`w-full md:w-1/2 text-center md:text-left font-light ${row.entries.length > 1 ? '' : 'py-2 md:py-4'} border-0 border-orange-500 border-b`}>
                 {row.entries.map((entry, i) => {
                 return  <p key={`entry_${i+1}`}>
-                          <span dangerouslySetInnerHTML={{ __html: entry }} className={`pl-8 ${row.entries.length > 1 ? 'block py-2 md:py-4' : ''} ${i > 0 ? ' border-t border-orange-500' : ''}`} />
+                          <span dangerouslySetInnerHTML={{ __html: entry }} className={`py-2 md:pl-8 ${row.entries.length > 1 ? 'block py-2 md:py-4' : ''} ${i > 0 ? ' border-t border-orange-500' : ''}`} />
                         </p>} )}
               </div>
             </div>
