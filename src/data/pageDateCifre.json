@@ -33,7 +33,7 @@
       "entries": ["10.200 RON"]
     },
     {
-      "label": "<p class='pt-20'>Total Active 2017</p>",
+      "label": "<p class='pt-20'></p>",
       "entries": []
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "label": "<div class=\"flex justify-end items-center h-full\">Cifre de Afaceri</div>",
-      "entries": ["2019 - 18.964.045", "2018 - 22.026.898", "2017 - 16.060.425"]
+      "entries": ["2019 - 18.964.045 RON", "2018 - 22.026.898 RON", "2017 - 16.060.425 RON"]
     },
     {
       "label": "Suprafață birouri",

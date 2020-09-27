@@ -11,15 +11,15 @@
       "title": "Flanșe conform normelor EN și DIN",
       "table": {
         "columns": [ "Denumire", "Tip EN 1092-1", "DIN", "PN" ],
-        "columnWidths": ["w-4/12", "w-2/12", "w-4/12", "w-2/12"],
+        "columnWidths": ["w-4/12", "w-2/12 px-2", "w-4/12", "w-2/12"],
         "rows": [
-          [ "Flanșe plate",         "01",          "2573 / 2576",                                      "6 - 400" ],
+          [ "Flanșe plate",         "01",          "2573 / 2576",                                      "6 - 100" ],
           [ "Flanșe cu gât",        "11",          "2627 / 2638",                                      "6 - 400" ],
-          [ "Flanșe oarbe",         "05",          "2527",                                             "6 - 400" ],
-          [ "Flanșe filetate",      "13",          "2588 / 2565 / 2569",                               "6 - 400" ],
-          [ "Flanșe libere",        "02 / 04",     "2641 / 2642/ 2655 / 2656 / 2673 / 2676",           "6 - 400" ],
-          [ "Guler pentru sudare",  "32",          "2641 / 2642/ 2655 / 2656",                         "6 - 400" ],
-          [ "Gât pentru sudare",    "34",          "2673 / 2676",                                      "6 - 400" ]
+          [ "Flanșe oarbe",         "05",          "2527",                                             "6 - 100" ],
+          [ "Flanșe filetate",      "13",          "2588 / 2565 / 2569",                               "6 - 100" ],
+          [ "Flanșe libere",        "02 / 04",     "2641 / 2642/ 2655 / 2656 / 2673 / 2676",           "6 - 16" ],
+          [ "Guler pentru sudare",  "32",          "2641 / 2642/ 2655 / 2656",                         "6 - 16" ],
+          [ "Gât pentru sudare",    "34",          "2673 / 2676",                                      "6 - 40" ]
         ]
       },
       "dimensions": [
