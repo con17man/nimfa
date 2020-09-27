@@ -69,7 +69,7 @@ const Header = ({ siteTitle }) => {
         <nav role="navigation" className="header-navbar h-full">
           <ul className="navbar-list table h-full">
             {navigation.map((category, i) => {
-                return <li className={`navbar-list-item last:pr-6 ${category.name !== 'Produse' ? 'relative item-separator': ''}`} key={`L0_node_${i+1}`}>
+                return <li className={`navbar-list-item lg:last:pr-6 ${category.name !== 'Produse' ? 'relative item-separator': ''}`} key={`L0_node_${i+1}`}>
                   { category.url ?
                     <Link to={category.url} activeClassName="text-orange-500">{category.name} </Link> :
                     <span className={`cursor-pointer ${pathName.includes(category.name.toLowerCase()) ? 'text-orange-500': undefined}`}>{category.name}</span>

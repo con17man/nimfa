@@ -40,9 +40,9 @@ const Footer = () => {
   // const chunkLinks = new Array(Math.ceil(links.length / 2)).fill().map(_ => links.splice(0,2));
 
   return (
-    <footer className="bg-raisin py-20">
-      <section className="section flex relative container mx-auto text-center divide-x divide-white text-gray-100">
-        <div className="w-1/3 pr-8">
+    <footer className="bg-raisin md:py-20">
+      <section className="section flex flex-col w-8/12 md:w-full md:flex-row relative container mx-auto text-center md:divide-x divide-white text-gray-100">
+        <div className="w-full md:w-1/3 order-2 md:order-1 md:pr-8 py-10 md:py-0">
           <p className="uppercase font-bold text-orange-500 pb-10">Contact</p>
 
           <a href={gMap} target="_blank" rel="noopener noreferrer" className="block hover:text-white">{`${street}, ${city} ${code}, ${county}`}</a>
@@ -52,11 +52,11 @@ const Footer = () => {
           <a href={`mailto:${email}`} className="block hover:text-white">{email}</a>
         </div>
 
-        <div className="w-1/3 px-8 flex flex-col items-center justify-center">
+        <div className="w-full md:w-1/3 order-1 md:order-2 px-8 py-10 md:py-0 flex flex-col items-center justify-center">
           <Img fluid={logo.childImageSharp.fluid} className="w-32" />
         </div>
 
-        <div className="w-1/3 pl-8">
+        <div className="w-full md:w-1/3 order-3 md:pl-8 py-10 md:py-0">
           <p className="uppercase font-bold text-orange-500 pb-10">INFORMAȚII</p>
 
           <div className="divide-x divide-white">

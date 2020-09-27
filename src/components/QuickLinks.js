@@ -37,10 +37,10 @@ const QuickLinks = () => {
 
   return(
     <div className="quick-links-wrapper w-full">
-      <div className="container mx-auto relative grid grid-flow-col grid-cols-3 gap-2 text-center md:px-16 -mt-20">
+      <div className="container mx-auto relative grid grid-flow-row md:grid-flow-col grid-rows-3 md:grid-rows-1 md:grid-cols-3 gap-2 text-center md:px-16 -mt-20">
         {quickLinks.map((section, i) => {
           return  <Link to={section.url} key={i+1} className="relative block overflow-hidden">
-                    <div className="bg-cover bg-center py-56 hover:bg-blue-500 hover:text-white uppercase font-semibold text-xl text-white tracking-wider"
+                    <div className="bg-cover bg-center py-24 md:py-56 hover:bg-blue-500 hover:text-white uppercase font-semibold text-xl text-white tracking-wider"
                         tabIndex={-1} role="link"
                         style={{backgroundImage: `url(${section.img.childImageSharp.fluid.src})`}}
                         onFocus={(el) => changeBG(el.target, section.img.childImageSharp.fluid.src)}

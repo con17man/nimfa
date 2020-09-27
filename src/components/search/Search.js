@@ -81,8 +81,8 @@ const Search = () => {
 
   return(
     <div className="z-20">
-      <button className="font-light px-2 rounded hover:bg-gray-200" onClick={() => setToggleModal(!toggleModal)}>
-        <span className="lowercase text-sm">Search</span> <FontAwesomeIcon icon='search' />
+      <button className="flex items-center font-light p-2 rounded hover:bg-gray-100 focus:bg-gray-100" onClick={() => setToggleModal(!toggleModal)}>
+        <span className="lowercase text-sm pr-1">Search</span> <FontAwesomeIcon icon='search' />
       </button>
 
       <SearchModal
