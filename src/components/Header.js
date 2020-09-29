@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useStaticQuery, graphql } from "gatsby";
 import Img from 'gatsby-image';
 import PropTypes from 'prop-types';
@@ -6,6 +6,16 @@ import { ProductsGrid } from '../pages/produse';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Header = ({ siteTitle }) => {
+
+  const [ toggleMobileMenu, setToggleMobileMenu ] = useState(false);
+  const [ toggleMobileSub, setToggleMobileSub ] = useState(false);
+  const [ selectedMobileNode, setSelectedMobileNode ] = useState('');
+
+  const openSubMenu = (e) => {
+    setToggleMobileSub(true);
+    setSelectedMobileNode(e.target.innerHTML);
+  };
+
   const pathName = typeof window !== 'undefined' ? window.location.pathname : '';
 
   const {siteMap: { navigation, logos: [wideLogo, scrollLogo] }, pageProduse: { productCategories } } = useStaticQuery(graphql`
@@ -100,10 +110,36 @@ const Header = ({ siteTitle }) => {
         </nav>
 
         {/* NAVBAR - MOBILE/TABLET */}
-        <button className="text-gray-100 focus:text-white block lg:hidden px-4 py-2 mr-4 text-2xl outline-none focus:outline-none">
-          <FontAwesomeIcon icon="bars" />
+        <button className="text-gray-100 focus:text-white block lg:hidden px-3 py-2 mr-3 text-2xl outline-none focus:outline-none"
+          onClick={() => setToggleMobileMenu(!toggleMobileMenu)}>
+          {toggleMobileMenu ? <FontAwesomeIcon icon="times" /> : <FontAwesomeIcon icon="bars" />}
         </button>
       </div>
+
+      { toggleMobileMenu &&
+        <div className="fixed w-full lg:hidden bg-black p-6 h-full overflow-scroll">
+          <ul className="text-3xl uppercase">
+            {navigation.map((category, i) => {
+              return (category.children ?
+              // Nodes with subcategories
+              <li key={i+1} className={`py-2 ${selectedMobileNode === category.name ? 'text-orange-500' : ''}`} onClick={(e) => openSubMenu(e)} onKeyDown={() => null} role="none">
+                {category.name}
+                {toggleMobileSub && (selectedMobileNode === category.name) && <ul className="pl-4 font-normal text-lg text-white focus:text-orange-500">
+                  {category.children && category.children.map((child, i) => (
+                    <li className="py-2 capitalize" key={i+1}>
+                      <Link to={child.url} state={{id: i}} onClick={() => setToggleMobileMenu(false)}> {child.name} </Link>
+                    </li>
+                  ))}
+                </ul>}
+              </li> :
+              // Nodes without subcategories
+              <li key={i+1} className="py-2">
+                <Link to={category.url} state={{id: i}} onClick={() => setToggleMobileMenu(false)}> {category.name} </Link>
+              </li>
+            )})}
+          </ul>
+        </div>
+      }
     </header>
   );
 };

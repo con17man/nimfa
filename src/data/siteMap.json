@@ -27,7 +27,33 @@
     },
     {
       "name": "Produse",
-      "url": "/produse"
+      "url": "/produse",
+      "children": [
+        {
+          "name": "Tevi",
+          "url": "/produse/tevi"
+        },
+        {
+          "name": "Flanse",
+          "url": "/produse/flanse"
+        },
+        {
+          "name": "Fittinguri",
+          "url": "/produse/fittinguri"
+        },
+        {
+          "name": "Tabla si profile",
+          "url": "/produse/tabla-profile"
+        },
+        {
+          "name": "Accesorii",
+          "url": "/produse/accesorii"
+        },
+        {
+          "name": "Armaturi si robineti",
+          "url": "/produse/armaturi-robineti"
+        }
+      ]
     },
     {
       "name": "Servicii",

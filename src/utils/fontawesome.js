@@ -8,6 +8,7 @@ library.add(
   // General Icons
   faSearch,
   faTimes,
+  faBars,
   faRss,
   faCaretLeft,
   faCaretRight,
@@ -17,7 +18,6 @@ library.add(
   faCreditCard,
   faShippingFast,
   faBoxOpen,
-  faBars,
 
   // Brands Icons
   faFacebook,
