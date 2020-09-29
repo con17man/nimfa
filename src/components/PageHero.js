@@ -16,13 +16,13 @@ const PageHero = ({heroInfo}) => {
           <div className="relative">
             <div className="container mx-auto">
               <h1 className={`font-montserrat-alternates font-bold text-3xl md:text-5xl tracking-wider ${darkTextColor && darkTextColor ? 'text-black': 'text-white'}`}>{title}</h1>
-              <div className={`hidden md:block tracking-wide text-sm pb-4 w-8/12 ${darkTextColor && darkTextColor ? 'text-black': 'text-white'}`} dangerouslySetInnerHTML={{ __html: headline }} />
+              {headline && <div className={`hidden lg:block tracking-wide text-sm pb-4 w-8/12 ${darkTextColor && darkTextColor ? 'text-black': 'text-white'}`} dangerouslySetInnerHTML={{ __html: headline }} />}
             </div>
           </div>
         </div>
 
       </div>
-      <div className="block md:hidden tracking-wide text-sm px-16 pt-10 w-full text-black" dangerouslySetInnerHTML={{ __html: headline }} />
+      {headline && <div className="block md:hidden tracking-wide text-sm px-8 md:px-16 pt-10 w-full text-black" dangerouslySetInnerHTML={{ __html: headline }} />}
     </div>
   )
 }

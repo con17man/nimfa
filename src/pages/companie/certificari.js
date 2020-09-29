@@ -58,14 +58,14 @@ const CertificationsPage = () => {
       <SEO title={hero.title} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
-        <div className="container relative mx-auto flex py-24 px-8 md:px-16 lg:px-0">
+        <div className="container relative mx-auto flex py-8 md:py-24 px-8 md:px-16 lg:px-0">
           {/* about text */}
-          <div className="block font-light text-sm tracking-wide pr-10">
+          <div className="block font-light text-sm tracking-wide md:pr-10">
             {/* paragraphs */}
             {certParagraphs.map((paragraph, i) => <p className="pb-6" key={i+1}>{paragraph}</p>)}
 
             {/* CTA */}
-            <a href={certificatePDF} download className="inline-block py-4 px-16 mb-20 bg-orange-500 text-white uppercase font-medium">
+            <a href={certificatePDF} download className="inline-block py-4 px-8 lg:px-16 mb-10 lg:mb-20 bg-orange-500 text-white uppercase font-medium">
               {cta.label}
             </a>
 
@@ -76,7 +76,7 @@ const CertificationsPage = () => {
           </div>
 
           {/* image */}
-          <div className="flex-none">
+          <div className="hidden md:block flex-none">
             <Img fluid={pageImg.childImageSharp.fluid} />
             <p className="font-montserrat-alternates font-bold text-center text-3xl tracking-wide py-6">Let the energy flow!</p>
           </div>

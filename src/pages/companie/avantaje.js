@@ -52,11 +52,11 @@ const AdvantagesPage = () => {
       <SEO title={hero.title} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
-        <div className="container relative mx-auto py-24 px-8 md:px-16 lg:px-0">
+        <div className="container relative mx-auto py-8 md:py-24 px-8 md:px-16 lg:px-0">
           { advantages.map((advantage, i) => <Asset assetData={advantage} key={`advantage_${i}`} css={`${advantages.length === i+1 ? '"xs:w-1/2 sm:w-8/12 lg:w-9/12 xl:w-10/12"' : null}`} /> )}
 
           {/* abstract image */}
-          <div className="absolute bottom-0 right-0 w-64" style={{zIndex: '-1'}}>
+          <div className="absolute bottom-0 right-0 w-64 opacity-25 md:opacity-100" style={{zIndex: '-1'}}>
             { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} /> }
           </div>
         </div>

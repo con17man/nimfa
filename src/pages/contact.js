@@ -11,10 +11,10 @@ const TeamMember = ({member}) => {
 
   return (
     <div className="flex py-6">
-      <div className="flex-none w-40 h-40 rounded-full">
-        <Img fluid={image.childImageSharp.fluid} alt={fullname} />
+      <div className="flex-none w-24 h-24 md:h-40 md:w-40">
+        <Img fluid={image.childImageSharp.fluid} className="rounded-full" alt={fullname} />
       </div>
-      <div className="flex flex-col content-center justify-center">
+      <div className="flex flex-col content-center justify-center text-sm">
         <p className="font-bold">{fullname}</p>
         <a href={`mailto:${email}`} className="py-1 hover:underline">{email}</a>
         <a href={`tel:${phone}`} className="py-1 hover:underline">{phone}</a>
@@ -75,12 +75,12 @@ const ContactPage = () => {
       <SEO title={hero.title} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
-        <div className="container relative mx-auto py-24 px-8 md:px-16 lg:px-0 tracking-wide">
+        <div className="container relative mx-auto py-8 md:py-24 px-8 md:px-16 lg:px-0 tracking-wide">
           <p className="py-4 md:pt-16 uppercase text-3xl font-bold">{address.companyName}</p>
           <p className="py-4 font-light">Adresa: {address.fullAddress}</p>
 
           {/* GMAP */}
-          <div dangerouslySetInnerHTML={{__html: address.gMap.embeded}}></div>
+          <div className="-mx-8 md:mx-0" dangerouslySetInnerHTML={{__html: address.gMap.embeded}}></div>
 
           {/* TEAM */}
           <div className="flex flex-wrap">

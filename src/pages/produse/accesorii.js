@@ -42,14 +42,14 @@ const AccessoriesPage = () => {
       <SEO title={hero.title} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
-        <div className="container relative mx-auto flex pt-24 pb-12 px-8 md:px-16 lg:px-0 -mb-12 bg-white">
+        <div className="container relative mx-auto block lg:flex py-8 md:py-24 pb-12 px-8 md:px-16 lg:px-0 mb-0 lg:-mb-12 bg-white">
           {/* image */}
-          <div className="flex-none pl-10">
-            <Img fluid={pageImg.childImageSharp.fluid} style={{width: '350px'}} />
+          <div className="w-full lg:max-w-sm flex-none pl-0 lg:pl-10">
+            <Img fluid={pageImg.childImageSharp.fluid} className="h-40 lg:h-auto object-cover" />
           </div>
 
           {/* text */}
-          <div className="block pl-10 font-light tracking-wide">
+          <div className="block pl-0 lg:pl-10 py-8 lg:py-0 font-light tracking-wide">
             {pageParagraphs.map((paragraph, i) => <div key={i+1} dangerouslySetInnerHTML={{ __html: paragraph }} />)}
           </div>
         </div>

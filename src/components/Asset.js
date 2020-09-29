@@ -16,7 +16,7 @@ const Asset = ({assetData, css}) => {
   }, [description]);
 
   return (
-    <div className={`asset flex py-10 ${css ? css : ''}`}>
+    <div className={`asset flex py-10 first:pt-0 ${css ? css : ''}`}>
       <div className="asset-icon flex-none w-20 md:w-24 lg:w-28 pr-6">
         <Img fluid={icon.childImageSharp.fluid} alt={`Nimfa - ${title}`} style={{zIndex: '-1'}} />
       </div>

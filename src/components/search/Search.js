@@ -33,7 +33,7 @@ const SearchModal = ({ show, onClose, searchIndex }) => {
 
         <span className="hidden sm:inline-block sm:align-middle sm:h-screen"></span>
 
-        <div className="inline-block text-left overflow-hidden transform transition-all sm:align-middle sm:w-full max-w-lg rounded" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+        <div className="inline-block text-left overflow-hidden transform transition-all sm:align-middle w-full max-w-lg rounded" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
           <div className="bg-white p-4">
             <div className="flex">
                 <input className="bg-white focus:outline-none rounded block w-11/12 px-2 appearance-none leading-normal" value={searchTerm} onChange={handleChange} type="text" placeholder="Cauta..." />

@@ -48,7 +48,7 @@ const IndustriesPage = (props) => {
     }
   `);
 
-  const [lastHash, setLastHash] = useState(props.location.hash);
+  const [ lastHash, setLastHash ] = useState(props.location.hash);
   const [ selectedIndustry, setSelectedIndustry ] = useState(industries[(props.location.state && props.location.state.id) || 0]);
 
   useEffect(() => {
@@ -65,34 +65,49 @@ const IndustriesPage = (props) => {
       <SEO title={hero.title} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
-        <div className="container relative mx-auto py-24 md:px-4">
+        <div className="container relative mx-auto py-8 md:py-24 px-8">
           <div className="flex flex-wrap tracking-wider">
             {/* INDUSTRIES LIST */}
-            <div className="w-1/2 grid gap-1 lg:gap-2 grid-cols-2 md:grid-cols-3">
+            <div className="w-full md:w-1/2 grid gap-2 md:gap-1 lg:gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
               {industries.map((industry, i) => {
-                return <div
-                    onClick={() => setSelectedIndustry(industry)}
-                    onKeyDown={() => setSelectedIndustry(industry)}
-                    role="button"
-                    tabIndex={i+1}
-                    key={i+1}
-                    id={slugify(industry.name)}
-                    className={`flex flex-col justify-center content-center items-center h-40 md:h-64 p-8 text-sm font-light text-center text-white uppercase hover:bg-orange-500 outline-none ${selectedIndustry.name === industry.name ? 'bg-orange-500' : 'bg-blue-500'}`}>
-                  <Img fluid={industry.icon.childImageSharp.fluid} className="w-24" />
-                  {industry.name}
-                </div>
+                return (
+                  <div key={i+1}>
+                    <div
+                      onClick={() => setSelectedIndustry(industry)}
+                      onKeyDown={() => setSelectedIndustry(industry)}
+                      role="button"
+                      tabIndex={i+1}
+                      id={slugify(industry.name)}
+                      className={`flex flex-row md:flex-col justify-center content-center items-center md:h-48 lg:h-64 md:p-8 text-sm font-light text-center text-white uppercase
+                        outline-none hover:bg-orange-500 ${selectedIndustry.name === industry.name ? 'bg-orange-500' : 'bg-blue-500'}`}
+                    >
+                      <Img fluid={industry.icon.childImageSharp.fluid} className="w-20 md:w-24 ml-6 md:ml-0" />
+                      <div className="flex-1 md:flex-none pr-6 md:pr-0">{industry.name}</div>
+                    </div>
+
+                    {/* INDUSTRY DESCRIPTION - MOBILE */}
+                    {(selectedIndustry.name === industry.name) && <div className="block md:hidden py-8">
+                      <p className="font-semibold uppercase tracking-wider text-xl md:text-2xl pb-6">{selectedIndustry.name}</p>
+                      <div className="pb-10 font-light leading-snug" dangerouslySetInnerHTML={{__html: selectedIndustry.description}} />
+                      {/* CTA */}
+                      <Link to={selectedIndustry.cta.url} className="inline-block py-4 px-8 bg-orange-500 text-white uppercase font-medium">
+                        {selectedIndustry.cta.label}
+                      </Link>
+                    </div>}
+                  </div>
+                )
               })}
             </div>
 
-            {/* INDUSTRY DESCRIPTION */}
-            <div className="w-1/2 py-4 pl-8 md:pl-16 font-light text-sm tracking-wide">
-            <p className="font-semibold uppercase tracking-wider text-2xl pb-10">{selectedIndustry.name}</p>
-            <div className="pb-10" dangerouslySetInnerHTML={{__html: selectedIndustry.description}} />
+            {/* INDUSTRY DESCRIPTION - TABLET/DESKTOP */}
+            <div className="hidden md:block w-full md:w-1/2 py-4 pl-8 md:pl-16 font-light text-sm tracking-wide">
+              <p className="font-semibold uppercase tracking-wider text-2xl pb-10">{selectedIndustry.name}</p>
+              <div className="pb-10" dangerouslySetInnerHTML={{__html: selectedIndustry.description}} />
 
-            {/* CTA */}
-            <Link to={selectedIndustry.cta.url} className="inline-block py-4 px-16 bg-orange-500 text-white uppercase font-medium">
-              {selectedIndustry.cta.label}
-            </Link>
+              {/* CTA */}
+              <Link to={selectedIndustry.cta.url} className="inline-block py-4 px-16 bg-orange-500 text-white uppercase font-medium">
+                {selectedIndustry.cta.label}
+              </Link>
             </div>
           </div>
         </div>

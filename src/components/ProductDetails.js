@@ -8,15 +8,15 @@ const ProductDetails = ({product, reversed}) => {
   const {title, table, materials, dimensions, pressureRange, imgs: [productImg, abstractImg], description } = product;
 
   return (
-    <section id={slugify(title)} className={`container relative mx-auto flex ${reversed ? 'flex-row-reverse' : ''} pt-24 pb-12 px-8 md:px-16 lg:px-0 -mb-12 bg-white`}>
+    <section id={slugify(title)} className={`container relative mx-auto block lg:flex ${reversed ? 'lg:flex-row-reverse' : ''} pt-8 lg:pt-24 pb-12 px-8 md:px-16 lg:px-0 mb-0 lg:-mb-12 bg-white`}>
       {/* image */}
-      <div className={`flex-none px-6`}>
-        {abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} style={{width: '300px', marginBottom: '1rem'}} />}
-        <Img fluid={productImg.childImageSharp.fluid} style={{width: '300px'}} />
+      <div className={`w-full lg:max-w-sm flex-none px-0 pb-1 lg:px-6 lg:pb-0`}>
+        {abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} className="hidden lg:block" style={{width: '300px', marginBottom: '1rem'}} />}
+        <Img fluid={productImg.childImageSharp.fluid} className="h-40 lg:h-auto object-cover" />
       </div>
 
       {/* content */}
-      <div className={`flex-1 px-6 font-light text-sm tracking-wide cursor-default`}>
+      <div className={`flex-1 px-0 lg:px-6 font-light text-sm tracking-wide cursor-default`}>
         <div className="w-full bg-orange-500 text-white uppercase font-semibold px-4 py-1">{title}</div>
 
         {/* Product table */}

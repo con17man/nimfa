@@ -41,7 +41,7 @@ const DateCifre = () => {
       <SEO title={hero.title} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
-        <div className="container relative mx-auto py-24 md:px-4">
+        <div className="container relative mx-auto py-8 md:py-24 md:px-4">
 
           {table.map((row, i) => {
             return <div className="flex flex-wrap tracking-wider" key={`row_${i+1}`}>
@@ -56,7 +56,7 @@ const DateCifre = () => {
           })}
 
           {/* abstract image */}
-          <div className="absolute top-0 right-0 w-64" style={{zIndex: '-1', transform: 'translateY(-50%) rotateX(180deg)'}}>
+          <div className="absolute top-0 right-0 w-64 opacity-25 md:opacity-100 -mt-6 md:mt-0" style={{zIndex: '-1', transform: 'translateY(-50%) rotateX(180deg)'}}>
             { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} /> }
           </div>
         </div>
