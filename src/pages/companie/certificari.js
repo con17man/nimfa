@@ -58,7 +58,7 @@ const CertificationsPage = () => {
       <SEO title={hero.title} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
-        <div className="container relative mx-auto flex py-8 md:py-24 px-8 md:px-16 lg:px-0">
+        <div className="container relative mx-auto block lg:flex py-8 md:py-24 px-8 md:px-16 lg:px-0">
           {/* about text */}
           <div className="block font-light text-sm tracking-wide md:pr-10">
             {/* paragraphs */}
@@ -76,14 +76,14 @@ const CertificationsPage = () => {
           </div>
 
           {/* image */}
-          <div className="hidden md:block flex-none">
-            <Img fluid={pageImg.childImageSharp.fluid} />
+          <div className="w-full lg:max-w-sm flex-none pl-0 lg:pl-10">
+            <Img fluid={pageImg.childImageSharp.fluid} className="h-40 lg:h-auto object-cover" />
             <p className="font-montserrat-alternates font-bold text-center text-3xl tracking-wide py-6">Let the energy flow!</p>
           </div>
         </div>
 
         {/* abstract image */}
-        <div className="absolute bottom-0 left-0 opacity-25" style={{width: '36rem', zIndex: '-1'}}>
+        <div className="absolute bottom-0 left-0 opacity-25 w-84 md:w-150" style={{zIndex: '-1'}}>
           { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} style={{transform: 'rotateY(180deg)'}} /> }
         </div>
       </div>
