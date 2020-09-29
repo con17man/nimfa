@@ -3,6 +3,7 @@ import { Link, useStaticQuery, graphql } from "gatsby";
 import Img from 'gatsby-image';
 import PropTypes from 'prop-types';
 import { ProductsGrid } from '../pages/produse';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Header = ({ siteTitle }) => {
   const pathName = typeof window !== 'undefined' ? window.location.pathname : '';
@@ -57,7 +58,7 @@ const Header = ({ siteTitle }) => {
 
   return(
     <header className="relative w-full text-white z-10 transition duration-500 ease-in-out js-header-wrapper">
-      <div className="container h-28 mx-auto flex justify-between content-center bg-black bg-opacity-50 items-center js-header">
+      <div className="container h-28 mx-auto flex justify-between content-center bg-black bg-opacity-100 lg:bg-opacity-50 items-center js-header">
         <div className="header-logo pl-6">
           <Link to="/">
             <Img fluid={wideLogo.childImageSharp.fluid} className="js-wideLogo w-40" alt={siteTitle} />
@@ -65,9 +66,9 @@ const Header = ({ siteTitle }) => {
           </Link>
         </div>
 
-        {/* NAVBAR */}
+        {/* NAVBAR - DESKTOP*/}
         <nav role="navigation" className="header-navbar h-full">
-          <ul className="navbar-list table h-full">
+          <ul className="navbar-list hidden lg:table h-full">
             {navigation.map((category, i) => {
                 return <li className={`navbar-list-item lg:last:pr-6 ${category.name !== 'Produse' ? 'relative item-separator': ''}`} key={`L0_node_${i+1}`}>
                   { category.url ?
@@ -97,6 +98,11 @@ const Header = ({ siteTitle }) => {
             })}
           </ul>
         </nav>
+
+        {/* NAVBAR - MOBILE/TABLET */}
+        <button className="text-gray-100 focus:text-white block lg:hidden px-4 py-2 mr-4 text-2xl outline-none focus:outline-none">
+          <FontAwesomeIcon icon="bars" />
+        </button>
       </div>
     </header>
   );
