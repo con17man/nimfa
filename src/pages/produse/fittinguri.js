@@ -15,7 +15,7 @@ const FittinguriPage = () => {
         headline
         image {
           childImageSharp {
-            fluid(maxWidth: 2000, toFormat: WEBP) {
+            fluid(maxWidth: 2000, toFormat: PNG) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -28,7 +28,7 @@ const FittinguriPage = () => {
         materials
         imgs {
           childImageSharp {
-            fluid(maxWidth: 2000, toFormat: WEBP) {
+            fluid(maxWidth: 2000, toFormat: PNG) {
               ...GatsbyImageSharpFluid
             }
           }

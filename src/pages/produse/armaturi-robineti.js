@@ -16,7 +16,7 @@ const ArmaturiRobinetiPage = () => {
         headline
         image {
           childImageSharp {
-            fluid(maxWidth: 2000, toFormat: WEBP) {
+            fluid(maxWidth: 2000, toFormat: PNG) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -29,7 +29,7 @@ const ArmaturiRobinetiPage = () => {
         materials
         imgs {
           childImageSharp {
-            fluid(maxWidth: 2000, toFormat: WEBP) {
+            fluid(maxWidth: 2000, toFormat: PNG) {
               ...GatsbyImageSharpFluid
             }
           }

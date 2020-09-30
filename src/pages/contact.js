@@ -33,7 +33,7 @@ const ContactPage = () => {
           headline
           image {
             childImageSharp {
-              fluid(maxWidth: 2000, toFormat: WEBP) {
+              fluid(maxWidth: 2000, toFormat: PNG) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -52,7 +52,7 @@ const ContactPage = () => {
           phone
           image {
             childImageSharp {
-              fluid(maxWidth: 2000, toFormat: WEBP) {
+              fluid(maxWidth: 2000, toFormat: PNG) {
                 ...GatsbyImageSharpFluid
               }
             }
