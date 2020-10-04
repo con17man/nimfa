@@ -118,16 +118,16 @@ const Header = ({ siteTitle }) => {
 
       { toggleMobileMenu &&
         <div className="fixed w-full lg:hidden bg-black p-6 h-full overflow-scroll">
-          <ul className="text-3xl uppercase">
+          <ul className="text-lg font-semibold uppercase">
             {navigation.map((category, i) => {
               return (category.children ?
               // Nodes with subcategories
               <li key={i+1} className={`py-2 ${selectedMobileNode === category.name ? 'text-orange-500' : ''}`} onClick={(e) => openSubMenu(e)} onKeyDown={() => null} role="none">
                 {category.name}
-                {toggleMobileSub && (selectedMobileNode === category.name) && <ul className="pl-4 font-normal text-lg text-white focus:text-orange-500">
+                {toggleMobileSub && (selectedMobileNode === category.name) && <ul className="pl-4 font-normal text-white focus:text-orange-500">
                   {category.children && category.children.map((child, i) => (
                     <li className="py-2 capitalize" key={i+1}>
-                      <Link to={child.url} state={{id: i}} onClick={() => setToggleMobileMenu(false)}> {child.name} </Link>
+                      <Link to={child.url} state={{id: i}} onClick={() => setToggleMobileMenu(false)}> {child.name.toLowerCase()} </Link>
                     </li>
                   ))}
                 </ul>}
