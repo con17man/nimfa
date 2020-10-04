@@ -58,8 +58,8 @@ const ServicesPage = () => {
         </div> */}
 
         <div className="container relative mx-auto flex flex-wrap py-8 md:py-24 px-8 md:px-16 lg:px-0">
-          <div className="w-full lg:w-1/2 pr-2 lg:pr-6">{services.filter((s, i) => !(i % 2)).map((service, i) => <Asset assetData={service} key={`service_l_${i}`} />)}</div>
-          <div className="w-full lg:w-1/2 pl-2 lg:pl-6">{services.filter((s, i) => (i % 2)).map((service, i) => <Asset assetData={service} key={`service_r_${i}`} />)}</div>
+          <div className="w-full lg:w-1/2 lg:pr-6">{services.filter((s, i) => !(i % 2)).map((service, i) => <Asset assetData={service} key={`service_l_${i}`} />)}</div>
+          <div className="w-full lg:w-1/2 lg:pl-6">{services.filter((s, i) => (i % 2)).map((service, i) => <Asset assetData={service} key={`service_r_${i}`} />)}</div>
         </div>
 
         {/* abstract image */}

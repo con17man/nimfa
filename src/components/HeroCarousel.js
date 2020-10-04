@@ -63,7 +63,7 @@ const HeroCarousel = () => {
     dots: false,
     arrows: false,
     infinite: true,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
     speed: 400,
