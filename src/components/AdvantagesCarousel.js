@@ -44,8 +44,9 @@ const AdvantagesCarousel = () => {
   const sliderSettings = {
     dots: false,
     arrows: false,
-    infinite: false,
-    autoplay: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 7000,
     slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
@@ -54,7 +55,6 @@ const AdvantagesCarousel = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          // arrows: true
         }
       },
       {
@@ -62,7 +62,6 @@ const AdvantagesCarousel = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-          // arrows: true
         }
       },
       {
@@ -70,14 +69,13 @@ const AdvantagesCarousel = () => {
         settings: {
           slidesToShow: 4,
           slidesToScroll: 1,
-          // arrows: true
         }
       }
     ]
   };
 
   return (
-    <div className="adv-wrapper w-full bg-grey -mt-32 md:-mt-16 pb-32">
+    <div className="adv-wrapper w-full bg-grey -mt-16 pb-32">
       <div className="adv-slider relative max-w-xl lg:max-w-3xl mx-auto">
         <Slider {...sliderSettings}>
           {advantages.map((adv, i) => {
