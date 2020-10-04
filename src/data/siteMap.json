@@ -16,7 +16,7 @@
           "url": "/companie/avantaje"
         },
         {
-          "name": "Certificari",
+          "name": "Certificări",
           "url": "/companie/certificari"
         },
         {
@@ -30,11 +30,11 @@
       "url": "/produse",
       "children": [
         {
-          "name": "Tevi",
+          "name": "Țevi",
           "url": "/produse/tevi"
         },
         {
-          "name": "Flanse",
+          "name": "Flanșe",
           "url": "/produse/flanse"
         },
         {
@@ -42,7 +42,7 @@
           "url": "/produse/fittinguri"
         },
         {
-          "name": "Tabla si profile",
+          "name": "Tablă și Profile",
           "url": "/produse/tabla-profile"
         },
         {
@@ -50,7 +50,7 @@
           "url": "/produse/accesorii"
         },
         {
-          "name": "Armaturi si robineti",
+          "name": "Armături și Robineți",
           "url": "/produse/armaturi-robineti"
         }
       ]
@@ -60,7 +60,7 @@
       "url": "/servicii",
       "children": [
         {
-          "name": "TRANSPORT ȘI LOGISTICA",
+          "name": "TRANSPORT ȘI LOGISTICĂ",
           "url": "/servicii#transport-si-logistica"
         },
         {
@@ -68,7 +68,7 @@
           "url": "/servicii#timp-de-livrare"
         },
         {
-          "name": "TEVI ȘI FITTINGURI CUSTOMIZATE",
+          "name": "ȚEVI ȘI FITTINGURI CUSTOMIZATE",
           "url": "/servicii#tevi-si-fittinguri-customizate"
         },
         {
@@ -126,11 +126,11 @@
           "url": "/industrii#energie"
         },
         {
-          "name": "Constructii",
+          "name": "Construcții",
           "url": "/industrii#constructii"
         },
         {
-          "name": "Petrol si Gaz",
+          "name": "Petrol și Gaz",
           "url": "/industrii#petrol-si-gaz"
         },
         {
@@ -138,7 +138,7 @@
           "url": "/industrii#nuclear"
         },
         {
-          "name": "Mecanica",
+          "name": "Mecanică",
           "url": "/industrii#mecanica"
         },
         {

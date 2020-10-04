@@ -11,7 +11,7 @@
       "title": "Flanșe conform normelor EN și DIN",
       "table": {
         "columns": [ "Denumire", "Tip EN 1092-1", "DIN", "PN" ],
-        "columnWidths": ["w-4/12", "w-3/12 md:w-2/12 px-2", "w-3/12 md:w-4/12", "w-2/12"],
+        "columnWidths": ["w-3/12 md:w-4/12", "w-3/12 md:w-2/12 px-2", "w-3/12 md:w-4/12", "w-3/12 md:w-2/12"],
         "rows": [
           [ "Flanșe plate",         "01",          "2573 / 2576",                                      "6-100" ],
           [ "Flanșe cu gât",        "11",          "2627 / 2638",                                      "6-400" ],
@@ -23,15 +23,15 @@
         ]
       },
       "dimensions": [
-        "DN10 – DN2000;",
+        "DN10 – DN2000;"
+      ],
+      "materials": [
         "S235JR, S355J2;",
         "P245GH, P250GH, P265GH, P280GH;",
         "16Mo3, 13CrMo4-5, 10CrMo9-10;",
         "P280N/NH, P355N/NH, P355QH;",
         "W1.4301, W1.4303, W1.4401, W1.4404, W1.4541, W1.4571;",
-        "W1.4462 (duplex), W1.4410 (superduplex);"
-      ],
-      "materials": [
+        "W1.4462 (duplex), W1.4410 (superduplex);",
         "Materiale și aliaje speciale conform solicitărilor dumneavoastră."
       ],
       "imgs": [

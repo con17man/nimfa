@@ -39,11 +39,11 @@
         { "name": "EN și DIN", "url": "/produse/fittinguri#fittinguri-din-otel-si-inox-standard-en-si-din" },
         { "name": "ASME", "url": "/produse/fittinguri#fittinguri-din-otel-si-inox-standarde-asme" },
         { "name": "Presiuni ridicate", "url": "/produse/fittinguri#fittinguri-forjate-pentru-presiuni-ridicate" },
-        { "name": "La comanda", "url": "/produse/fittinguri#fittinguri-la-comanda" }
+        { "name": "La comandă", "url": "/produse/fittinguri#fittinguri-la-comanda" }
       ]
     },
     {
-      "name": "Tabla si profile",
+      "name": "Tablă și profile",
       "url": "/produse/tabla-profile",
       "img": "../assets/images/product-menu/TABLA-PROFILE.png",
       "gridPosition": "area-5",
@@ -57,7 +57,7 @@
       "icon": "../assets/images/icons/product-menu/accesorii.png"
     },
     {
-      "name": "Armaturi si robineti",
+      "name": "Armături si robineți",
       "url": "/produse/armaturi-robineti",
       "img": "../assets/images/product-menu/ARMATURI-ROBINETI.png",
       "gridPosition": "area-3",

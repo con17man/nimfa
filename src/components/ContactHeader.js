@@ -21,7 +21,7 @@ const ContactHeader = () => {
         </div>
 
         <div className="contact-header-right flex justify-center items-center text-sm">
-          <span className="hidden md:block font-medium uppercase">Solicita Oferta:</span>
+          <span className="hidden md:block font-medium uppercase">Solicită ofertă:</span>
           <div className="inline divide-x divide-black">
             <a href={`mailto:${email}`} className="inline-block px-4 font-light hover:underline">{email}</a>
             <a href={`tel:${phone}`} className="hidden md:inline-block px-4 font-light hover:underline">{phone}</a>
