@@ -6,13 +6,15 @@ import Slider from 'react-slick';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
-const Hero = ({ title, link, linkLabel, img, linkCSS }) => {
+const Hero = ({ card }) => {
+
+  const { title, link, linkLabel, img, linkCSS } = card;
 
   return (
   <div className="relative">
     <div className="relative " style={{paddingBottom: '510px'}}> {/* pb-3/6 lg:pb-1/2 xl:pb-4/12 */}
       <div className="absolute object-cover w-full h-full">
-        <Img fluid={img.childImageSharp.fluid} alt={`Nimfa - ${title}`} className="pb-138 lg:pb-0" />
+        <Img fluid={img.childImageSharp.fluid} alt={`Nimfa - ${title}`} className="pb-84 lg:pb-0" />
       </div>
     </div>
 
@@ -74,15 +76,7 @@ const HeroCarousel = () => {
     <div className="w-full bg-white">
       <div className="relative mx-auto -mt-28 js-hero-component">
         <Slider {...settings}>
-          {cards.map((card, i) => {
-            return <Hero key={i}
-                        title={card.title}
-                        link={card.link}
-                        linkLabel={card.linkLabel}
-                        img={card.img}
-                        linkCSS={card.linkCSS}>
-                    </Hero>
-          })}
+          {cards.map((card, i) => <Hero key={i} card={card} /> )}
         </Slider>
       </div>
     </div>

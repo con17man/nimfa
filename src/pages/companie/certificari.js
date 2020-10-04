@@ -65,7 +65,7 @@ const CertificationsPage = () => {
             {certParagraphs.map((paragraph, i) => <p className="pb-6" key={i+1}>{paragraph}</p>)}
 
             {/* CTA */}
-            <a href={certificatePDF} download className="inline-block py-4 px-8 lg:px-16 mb-10 lg:mb-20 bg-orange-500 text-white uppercase font-medium">
+            <a href={certificatePDF} download className="inline-block py-4 px-4 lg:px-16 mb-10 lg:mb-20 bg-orange-500 text-white uppercase font-medium">
               {cta.label}
             </a>
 

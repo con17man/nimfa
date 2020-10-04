@@ -12,7 +12,7 @@ const PageHero = ({heroInfo}) => {
           </div>
         </div>
 
-        <div className="flex flex-col absolute transform content-end h-full justify-center md:justify-end pt-28 md:pt-0 px-16 py-8 text-white top-0 w-full">
+        <div className="flex flex-col absolute transform content-end h-full justify-center md:justify-end pt-28 md:pt-0 px-8 md:px-16 py-8 text-white top-0 w-full">
           <div className="relative">
             <div className="container mx-auto">
               <h1 className={`font-montserrat-alternates font-bold text-3xl md:text-5xl tracking-wider ${darkTextColor && darkTextColor ? 'text-black': 'text-white'}`}>{title}</h1>

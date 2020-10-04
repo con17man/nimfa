@@ -41,10 +41,10 @@ const DateCifre = () => {
       <SEO title={hero.title} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
-        <div className="container relative mx-auto py-8 md:py-24 md:px-4">
+        <div className="container relative mx-auto py-8 md:py-24 md:px-4 tracking-wider">
 
           {table.map((row, i) => {
-            return <div className="flex flex-wrap tracking-wider" key={`row_${i+1}`}>
+            return <div className="flex flex-wrap" key={`row_${i+1}`}>
               <div className="w-full md:w-1/2 text-center md:text-right font-medium px-8 py-1 md:py-4 border-0 border-orange-500 md:border-b md:border-r" dangerouslySetInnerHTML={{ __html: row.label }} key={`label_${i+1}`} />
               <div className={`w-full md:w-1/2 text-center md:text-left font-light ${row.entries.length > 1 ? '' : 'py-2 md:py-4'} border-0 border-orange-500 border-b`}>
                 {row.entries.map((entry, i) => {
