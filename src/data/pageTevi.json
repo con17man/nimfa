@@ -11,13 +11,13 @@
       "title": "Țevi după standarde EN și DIN",
       "table": {
         "columns": [ "Standard", "Utilizare" ],
-        "columnWidths": ["w-4/12", "w-8/12"],
+        "columnWidths": ["w-3/12", "w-9/12"],
         "rows": [
-          [ "EN10216-1 – 4", "Țevi din oțel carbon fără sudură, utilizate pentru presiune" ],
-          [ "EN10217-1 – 6", "Țevi din oțel carbon sudate pentru presiune" ],
-          [ "EN 10210-1/2", "Țevi din oțel carbon fără sudură, utilizate în scop structural" ],
-          [ "EN 10219-1/2", "Țevi din oțel carbon sudate longitudinal sau elicoidal cu scop structural" ],
-          [ "EN 10305-1-5", "Țevi din oțel fără sudură, trase la rece pentru precizie" ]
+          [ "EN10216-1/4", "Țevi din oțel carbon fără sudură, utilizate pentru presiune" ],
+          [ "EN10217-1/6", "Țevi din oțel carbon sudate pentru presiune" ],
+          [ "EN10210-1/2", "Țevi din oțel carbon fără sudură, utilizate în scop structural" ],
+          [ "EN10219-1/2", "Țevi din oțel carbon sudate longitudinal sau elicoidal cu scop structural" ],
+          [ "EN10305-1-5", "Țevi din oțel fără sudură, trase la rece pentru precizie" ]
         ]
       },
       "dimensions": [
@@ -27,11 +27,11 @@
       "materials": [
         "Oțel pentru presiune la temperaturi ambientale: P235TR1/2, P265TR1/2;",
         "Oțel și aliaje folosite pentru temperaturi ridicate: P235GH, P265GH, 16Mo3, 13CrMo4-5, 10CrMo9-10, X10CrMoVNb9-1, X20CrMoV11-1;",
-        "Oțel folosit pentru temperaturi scăzute: P215NL12, P265NL1/2;",
+        "Oțel folosit pentru temperaturi scăzute: P215NL, P265NL1/2;",
         "Oțel cu granulație fină: P275NL1/2, P355N/NH, P355NL1/NL2;",
         "Oțel structural: S235JR, S275JR/J0, S355J2;",
         "Oțel pentru linii de combustibil: L235GA, L245GA, L290GA, L360GA, L245NB/MB, L290NB/MB, L360NB/MB;",
-        "Inox: X5CrNi18-10 (w1.4301), X2CrNi19-11(w1.4306), X5CrNiMo17-12-2 (w1.4401), X2CrNiMo17-13-2(w1.4404), X6CrNiTi18-10 (w1.4541), XCrNiMoTi17-12-2(w1.4571), inox duplex si superduplex, cât și aliaje speciale."
+        "Inox: X5CrNi18-10 (W1.4301), X2CrNi19-11(W1.4306), X5CrNiMo17-12-2 (W1.4401), X2CrNiMo17-13-2(W1.4404), X6CrNiTi18-10 (W1.4541), XCrNiMoTi17-12-2(W1.4571), inox duplex si superduplex, cât și aliaje speciale."
       ],
       "imgs": [
         "../assets/images/page-img/tevi_01.jpg"
