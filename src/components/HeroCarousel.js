@@ -12,9 +12,9 @@ const Hero = ({ card }) => {
 
   return (
   <div className="relative">
-    <div className="relative " style={{paddingBottom: '510px'}}> {/* pb-3/6 lg:pb-1/2 xl:pb-4/12 */}
+    <div className="relative pb-108 md:pb-138">
       <div className="absolute object-cover w-full h-full">
-        <Img fluid={img.childImageSharp.fluid} alt={`Nimfa - ${title}`} className="pb-84 lg:pb-0" />
+        <Img fluid={img.childImageSharp.fluid} alt={`Nimfa - ${title}`} className="pb-64 lg:pb-0" />
       </div>
     </div>
 
@@ -63,7 +63,7 @@ const HeroCarousel = () => {
     dots: false,
     arrows: false,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 5000,
     pauseOnHover: true,
     speed: 400,
@@ -74,7 +74,7 @@ const HeroCarousel = () => {
 
   return (
     <div className="w-full bg-white">
-      <div className="relative mx-auto -mt-28 js-hero-component">
+      <div className="relative mx-auto -mt-1 lg:-mt-28 js-hero-component">
         <Slider {...settings}>
           {cards.map((card, i) => <Hero key={i} card={card} /> )}
         </Slider>

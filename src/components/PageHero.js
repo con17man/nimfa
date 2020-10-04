@@ -4,11 +4,11 @@ import Img from 'gatsby-image';
 const PageHero = ({heroInfo}) => {
   const { title, headline, image, darkTextColor } = heroInfo;
   return (
-    <div className="relative mx-auto -mt-28">
+    <div className="relative mx-auto lg:-mt-28">
       <div className="relative">
-        <div className="relative pb-9/12 md:pb-6/12 lg:pb-5/12 xl:pb-3/12">
+        <div className="relative pb-72 md:pb-96">
           <div className="absolute object-cover w-full h-full">
-            {image && <Img fluid={image.childImageSharp.fluid} alt={`Nimfa - ${title}`} style={{position: 'unset'}} />}
+            <Img fluid={image.childImageSharp.fluid} alt={`Nimfa - ${title}`} className="pb-40 lg:pb-0" />
           </div>
         </div>
 
