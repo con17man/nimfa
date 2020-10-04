@@ -10,6 +10,11 @@ import PageHero from '../components/PageHero';
 
 const ProductsGrid = ({ categories }) => {
 
+  /**
+   * @description this mehtod generates a class name based on the grid area
+   * @param {string} grid area of the section
+   * @returns {string} area-1 => a1
+   */
   const subMenuClass = (str) => {
     return `${str.charAt(0)}${str.charAt(str.length-1)}`;
   };
@@ -19,8 +24,10 @@ const ProductsGrid = ({ categories }) => {
       {categories.map((category, i) => {
         return <div key={i+1} className={`grid-container-category ${category.gridPosition}`}>
           <span>
-            <Img fluid={category.img.childImageSharp.fluid} className="object-cover w-full h-full" />
-            <p className="area-title text-black">{category.name}</p>
+            <Link to={category.url} onClick={(evt) => evt.target.blur()}>
+              <Img fluid={category.img.childImageSharp.fluid} className="object-cover w-full h-full" />
+              <p className="area-title text-black">{category.name}</p>
+            </Link>
             {/* Category Submenu */}
             <div className={`grid-container-category-submenu ${subMenuClass(category.gridPosition)}-grid`}>
 
@@ -91,7 +98,7 @@ const ProductsPage = () => {
     <Layout>
       <SEO title={hero.title} />
       <PageHero heroInfo={hero} />
-      <section className="relative container mx-auto -mb-8 p-28 bg-grey">
+      <section className="relative container mx-auto mb-0 lg:-mb-12 p-8 lg:p-28 bg-grey">
         <ProductsGrid categories={productCategories} />
       </section>
     </Layout>
