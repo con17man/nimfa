@@ -22,7 +22,7 @@ const Asset = ({assetData, css}) => {
       </div>
 
       <div className="asset-info flex-1 border-l-2 border-orange-500 pl-6">
-        <div className="asset-info-title pb-4 uppercase font-bold tracking-wider" id={slugify(title)}>{title}</div>
+        <div className="asset-info-title pb-4 uppercase font-bold tracking-wider break-words" id={slugify(title)}>{title}</div>
         <div className="asset-info-description text-sm font-light tracking-wide leading-snug" dangerouslySetInnerHTML={{ __html: htmlDescr }} />
       </div>
     </div>

@@ -56,7 +56,7 @@ const AboutPage = () => {
       <SEO title={hero.title} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
-        <div className="container relative mx-auto block lg:flex py-8 md:py-24 px-8 md:px-16 lg:px-0">
+        <div className="container relative mx-auto block lg:flex py-8 md:py-20 px-8 md:px-16 lg:px-0">
           {/* about text */}
           <div className="block font-light text-sm tracking-wide md:pr-10">
             {activityAreas.intro.map((area, i) => <p key={i+1} className="pb-2">{area}</p>)}
