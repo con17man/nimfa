@@ -19,6 +19,7 @@ const Layout = ({ children }) => {
   // Sticky Header: https://codesandbox.io/s/react-setstate-from-event-listener-q7to8?file=/src/App.js
   useEffect(() => {
 
+    const headerContact = document.querySelector('.js-contact-header');
     const headerWrapper = document.querySelector('.js-header-wrapper');
     const header = document.querySelector('.js-header');
     const main = document.querySelector('.js-main-content');
@@ -29,7 +30,7 @@ const Layout = ({ children }) => {
 
     const stickyHeader = () => {
 
-      if (window.scrollY >= topToHeader) {
+      if (topToHeader <= window.scrollY && window.scrollY > headerContact.getBoundingClientRect().top) {
         // Header on top
         headerWrapper.classList.remove('relative');
         headerWrapper.classList.add('fixed', 'top-0', 'bg-black');

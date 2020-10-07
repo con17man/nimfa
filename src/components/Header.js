@@ -3,9 +3,9 @@ import { Link, useStaticQuery, graphql } from "gatsby";
 import Img from 'gatsby-image';
 import PropTypes from 'prop-types';
 
-import ContactHeader from './ContactHeader';
 import { ProductsGrid } from '../pages/produse';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import ContactHeader from './ContactHeader';
 
 const Header = ({ siteTitle }) => {
 
@@ -70,7 +70,7 @@ const Header = ({ siteTitle }) => {
 
   return(
     <>
-    <ContactHeader />
+    <ContactHeader/>
     <header className="relative w-full text-white z-10 transition duration-500 ease-in-out js-header-wrapper">
       <div className="container h-28 mx-auto flex justify-between content-center bg-black bg-opacity-100 lg:bg-opacity-50 items-center js-header">
         <div className="header-logo pl-6">
