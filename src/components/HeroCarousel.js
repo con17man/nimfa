@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, useStaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
 import Slider from 'react-slick';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -12,15 +11,8 @@ const Hero = ({ card }) => {
 
   return (
   <div className="relative">
-    <div className="relative pb-108 md:pb-138">
-      <div className="absolute object-cover w-full h-full">
-        <Img fluid={img.childImageSharp.fluid} alt={`Nimfa - ${title}`} className="pb-64 lg:pb-0" />
-      </div>
-    </div>
-
-    <div className={`flex flex-col absolute transform content-center h-full justify-center px-16 py-8 md:text-center ${linkCSS} top-0 w-full`}>
-      <div className="relative">
-        <div className="container mx-auto">
+    <div className="w-full bg-cover bg-center text-left md:text-center py-28 md:py-48 lg:py-56" style={{backgroundImage: `url(${img.childImageSharp.fluid.src})`}}>
+      <div className={`container mx-auto px-8 md:px-16 ${linkCSS}`}>
           <h1 className="md:hidden font-montserrat-alternates font-bold leading-snug text-3xl pb-4" dangerouslySetInnerHTML={{__html: title.split(' ').join('<br/>') }} />
           <h1 className="hidden md:block font-montserrat-alternates font-bold text-5xl pb-2">{title}</h1>
           <p className="uppercase">
@@ -28,7 +20,6 @@ const Hero = ({ card }) => {
               {linkLabel} <FontAwesomeIcon icon="angle-right" />
             </Link>
           </p>
-        </div>
       </div>
     </div>
   </div>
@@ -63,7 +54,7 @@ const HeroCarousel = () => {
     dots: false,
     arrows: false,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 5000,
     pauseOnHover: true,
     speed: 400,

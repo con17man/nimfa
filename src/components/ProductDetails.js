@@ -43,10 +43,10 @@ const ProductTable = ({tableData}) => {
 
   return (
     <>
-    <table className="table w-full my-6">
+    <table className="table w-full my-6 break-words text-sm md:text-base">
       <thead>
         <tr>
-          {columns.map((column, i) => <th key={i+1} className={`${columnWidths[i]} uppercase break-all p-1 border border-orange-500 border-t-0 first:border-l-0 last:border-r-0`}>{column}</th>)}
+          {columns.map((column, i) => <th key={i+1} className={`${columnWidths[i]} uppercase p-1 border border-orange-500 border-t-0 first:border-l-0 last:border-r-0`}>{column}</th>)}
         </tr>
       </thead>
       <tbody>
