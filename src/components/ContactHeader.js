@@ -14,7 +14,7 @@ const ContactHeader = () => {
   const { contact: { email, phone } } = queryData.footer;
 
   return(
-    <section className="contact-header w-full">
+    <section className="contact-header w-full relative">
       <div className="container mx-auto p-2 flex justify-between">
         <div className="contact-header-left flex">
           <Search />

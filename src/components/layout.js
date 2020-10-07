@@ -11,7 +11,6 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 
 import Header from './Header';
 import Footer from './Footer';
-import ContactHeader from './ContactHeader';
 
 const Layout = ({ children }) => {
   config.autoAddCss = false;
@@ -78,7 +77,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <ContactHeader />
       <Header siteTitle={data.site.siteMetadata.title} />
 
         <main className="js-main-content">

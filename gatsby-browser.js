@@ -4,8 +4,6 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-import 'typeface-montserrat-alternates';
-
 import './src/styles/main.css';
 
 import 'slick-carousel/slick/slick.css';
