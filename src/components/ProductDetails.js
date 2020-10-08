@@ -16,7 +16,7 @@ const ProductDetails = ({product, reversed}) => {
       </div>
 
       {/* content */}
-      <div className={`flex-1 px-0 lg:px-6 font-light text-sm tracking-wide cursor-default`}>
+      <div className={`flex-1 px-0 lg:px-6 font-light text-sm lg:text-base tracking-wide cursor-default`}>
         <div className="w-full bg-orange-500 text-white uppercase font-semibold px-4 py-1">{title}</div>
 
         {/* Product table */}
@@ -33,6 +33,13 @@ const ProductDetails = ({product, reversed}) => {
 
         {/* Product Description */}
         { description && <p className="pt-8" dangerouslySetInnerHTML={{__html: description}} /> }
+
+        <div className="hidden opacity-0">
+          <div className="w-2/12 md:w-2/12"></div>
+          <div className="w-3/12 md:w-3/12"></div>
+          <div className="w-4/12 md:w-4/12"></div>
+          <div className="w-6/12 md:w-6/12"></div>
+        </div>
       </div>
     </section>
   );
@@ -41,9 +48,11 @@ const ProductDetails = ({product, reversed}) => {
 const ProductTable = ({tableData}) => {
   const {columns, rows, columnWidths, adnotations } = tableData;
 
+
+
   return (
-    <>
-    <table className="table w-full my-6 break-words text-sm md:text-base">
+    <div className="relative overflow-scroll disable-scrollbars">
+    <table className="table w-full my-6 break-words text-sm lg:text-base">
       <thead>
         <tr>
           {columns.map((column, i) => <th key={i+1} className={`${columnWidths[i]} uppercase p-1 border border-orange-500 border-t-0 first:border-l-0 last:border-r-0`}>{column}</th>)}
@@ -58,7 +67,7 @@ const ProductTable = ({tableData}) => {
       </tbody>
     </table>
     {adnotations && <p className="pt-2">{adnotations}</p>}
-    </>
+    </div>
   );
 };
 

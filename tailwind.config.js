@@ -8,6 +8,7 @@ module.exports = {
     './src/**/*.tsx',
     '.src/**/*.md',
     '.src/**/*.mdx',
+    '.src/**/*.json'
   ],
 
   corePlugins: {
