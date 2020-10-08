@@ -60,6 +60,8 @@ const DateCifre = () => {
             { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} /> }
           </div>
         </div>
+
+        <div className="hidden opacity-0 md:justify-end"></div>
       </div>
     </Layout>
   );
