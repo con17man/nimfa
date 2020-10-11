@@ -1,14 +1,14 @@
 {
   "hero": {
-    "title": "Fittinguri",
+    "title": "Fitinguri",
     "headline": "",
-    "image": "../assets/images/page-headers/fittinguri.jpg",
+    "image": "../assets/images/page-headers/fitinguri.jpg",
     "darkTextColor": false
   },
 
   "products": [
     {
-      "title": "Fittinguri din oțel și inox (standard EN și DIN)",
+      "title": "Fitinguri din oțel și inox (standard EN și DIN)",
       "table": {
         "columns": [ "Denumire produs", "Standard", "Dimensiuni" ],
         "columnWidths": ["w-4/12", "w-4/12", "w-4/12"],
@@ -30,12 +30,12 @@
         "W1.4301/1.4306, W1.4401/1.4404, W1.4541, W1.4571, inox duplex și superduplex, cât și aliaje speciale."
       ],
       "imgs": [
-        "../assets/images/page-img/fittinguri_01.jpg"
+        "../assets/images/page-img/fitinguri_01.jpg"
       ]
     },
 
     {
-      "title": "Fittinguri din oțel și inox (standarde ASME)",
+      "title": "Fitinguri din oțel și inox (standarde ASME)",
       "table": {
         "columns": [ "Denumire produs", "Standard", "Dimensiuni" ],
         "columnWidths": ["w-4/12", "w-4/12", "w-4/12"],
@@ -54,12 +54,12 @@
         "ASTM A403 – 304/304L, 316/316L, 321; 316Ti, inox duplex și superduplex, cât și aliaje speciale."
       ],
       "imgs": [
-        "../assets/images/page-img/fittinguri_01B.jpg"
+        "../assets/images/page-img/fitinguri_01B.jpg"
       ]
     },
 
     {
-      "title": "Fittinguri forjate pentru presiuni ridicate",
+      "title": "Fitinguri forjate pentru presiuni ridicate",
       "table": {
         "columns": [ "Denumire", "Standard", "Dimensiuni", "Tip Conexiuni" ],
         "columnWidths": ["w-3/12", "w-3/12", "w-3/12", "w-3/12"],
@@ -84,16 +84,16 @@
         "ASTM A182 grad F304/304L, F316/316L, F321, F316Ti, inox duplex și superduplex, cât și aliaje speciale."
       ],
       "imgs": [
-        "../assets/images/page-img/fittinguri_02.jpg",
+        "../assets/images/page-img/fitinguri_02.jpg",
         "../assets/images/abstract/abstract-1.png"
       ]
     },
 
     {
-      "title": "Fittinguri la comandă",
-      "description": "<ul> <li>Curbe cu rază și lungime solicitată din oțel carbon, inox și aliaje speciale;</li> <li>Fittinguri executate din bară rotundă (block type);</li> <li>Diverse fittinguri pentru presiuni ridicate, executate din materiale standardizate EN și dimensiuni ASME sau viceversa.</li> </ul>",
+      "title": "Fitinguri la comandă",
+      "description": "<ul> <li>Curbe cu rază și lungime solicitată din oțel carbon, inox și aliaje speciale;</li> <li>Fitinguri executate din bară rotundă (block type);</li> <li>Diverse fitinguri pentru presiuni ridicate, executate din materiale standardizate EN și dimensiuni ASME sau viceversa.</li> </ul>",
       "imgs": [
-        "../assets/images/page-img/fittinguri_03.jpg"
+        "../assets/images/page-img/fitinguri_03.jpg"
       ]
     }
   ]

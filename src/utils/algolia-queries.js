@@ -90,7 +90,7 @@ const pageQuery = `{
       }
     }
   }
-  allPageFittinguri {
+  allPageFitinguri {
     edges {
       node {
         id

@@ -25,35 +25,35 @@
       "path": "/produse/tevi#tevi-dupa-standard-asme"
     },
     {
-      "text": ["Fittinguri"],
-      "path": "/produse/fittinguri"
+      "text": ["Fitinguri"],
+      "path": "/produse/fitinguri"
     },
     {
       "text": [
-        "Fittinguri din otel si inox (standard EN si DIN)",
+        "Fitinguri din otel si inox (standard EN si DIN)",
         "Coturi 45 EN/DIN", "Coturi 90 EN/DIN", "Coturi 180 EN/DIN",
         "Tip 2D", "Tip 3D", "Tip 5D", "Teuri EN/DIN", "Reductii EN/DIN"
       ],
-      "path": "/produse/fittinguri#fittinguri-din-otel-si-inox-standard-en-si-din"
+      "path": "/produse/fitinguri#fitinguri-din-otel-si-inox-standard-en-si-din"
     },
     {
       "text": [
-        "Fittinguri din otel si inox (standarde ASME)",
+        "Fitinguri din otel si inox (standarde ASME)",
         "Coturi 45 ASME", "Coturi 90 ASME", "Coturi 180 ASME",
         "Raza scurta", "Raza lunga", "Teuri ASME", "Reductii ASME"
       ],
-      "path": "/produse/fittinguri#fittinguri-din-otel-si-inox-standarde-asme"
+      "path": "/produse/fitinguri#fitinguri-din-otel-si-inox-standarde-asme"
     },
     {
       "text": [
-        "Fittinguri forjate pentru presiuni ridicate",
+        "Fitinguri forjate pentru presiuni ridicate",
         "Mufe (coupling)", "Nipluri hexagonale", "Sockolet", "Weldolet", "Threadolet", "Flangeolet", "Elbolet"
       ],
-      "path": "/produse/fittinguri#fittinguri-forjate-pentru-presiuni-ridicate"
+      "path": "/produse/fitinguri#fitinguri-forjate-pentru-presiuni-ridicate"
     },
     {
-      "text": ["Fittinguri la comanda"],
-      "path": "/produse/fittinguri#fittinguri-la-comanda"
+      "text": ["Fitinguri la comanda"],
+      "path": "/produse/fitinguri#fitinguri-la-comanda"
     },
     {
       "text": ["Flanse"],
@@ -181,8 +181,8 @@
       "path": "/servicii#timp-de-livrare"
     },
     {
-      "text": ["TEVI SI FITTINGURI CUSTOMIZATE"],
-      "path": "/servicii#tevi-si-fittinguri-customizate"
+      "text": ["TEVI SI FITINGURI CUSTOMIZATE"],
+      "path": "/servicii#tevi-si-fitinguri-customizate"
     },
     {
       "text": ["DEBITARE"],

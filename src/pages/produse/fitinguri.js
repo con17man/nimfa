@@ -6,10 +6,10 @@ import SEO from '../../components/SEO';
 import PageHero from '../../components/PageHero';
 import ProductDetails from '../../components/ProductDetails';
 
-const FittinguriPage = () => {
-  const { pageFittinguri: {hero, products} } = useStaticQuery(graphql`
-  query queryFittinguriPageData {
-    pageFittinguri {
+const FitinguriPage = () => {
+  const { pageFitinguri: {hero, products} } = useStaticQuery(graphql`
+  query queryFitinguriPageData {
+    pageFitinguri {
       hero {
         title
         headline
@@ -50,4 +50,4 @@ const FittinguriPage = () => {
   );
 };
 
-export default FittinguriPage;
+export default FitinguriPage;

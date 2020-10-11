@@ -30,16 +30,16 @@
       ]
     },
     {
-      "name": "Fittinguri",
-      "url": "/produse/fittinguri",
-      "img": "../assets/images/product-menu/FITTINGURI.png",
+      "name": "Fitinguri",
+      "url": "/produse/fitinguri",
+      "img": "../assets/images/product-menu/FITINGURI.png",
       "gridPosition": "area-2",
-      "icon": "../assets/images/icons/product-menu/fittinguri.png",
+      "icon": "../assets/images/icons/product-menu/fitinguri.png",
       "subMenu": [
-        { "name": "EN și DIN", "url": "/produse/fittinguri#fittinguri-din-otel-si-inox-standard-en-si-din" },
-        { "name": "ASME", "url": "/produse/fittinguri#fittinguri-din-otel-si-inox-standarde-asme" },
-        { "name": "Presiuni ridicate", "url": "/produse/fittinguri#fittinguri-forjate-pentru-presiuni-ridicate" },
-        { "name": "La comandă", "url": "/produse/fittinguri#fittinguri-la-comanda" }
+        { "name": "EN și DIN", "url": "/produse/fitinguri#fitinguri-din-otel-si-inox-standard-en-si-din" },
+        { "name": "ASME", "url": "/produse/fitinguri#fitinguri-din-otel-si-inox-standarde-asme" },
+        { "name": "Presiuni ridicate", "url": "/produse/fitinguri#fitinguri-forjate-pentru-presiuni-ridicate" },
+        { "name": "La comandă", "url": "/produse/fitinguri#fitinguri-la-comanda" }
       ]
     },
     {
