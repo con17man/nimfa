@@ -14,7 +14,7 @@
       "icon": "../assets/images/icons/product-menu/tevi.png",
       "subMenu": [
         { "name": "EN și DIN", "url": "/produse/tevi#tevi-dupa-standarde-en-si-din" },
-        { "name": "ASME", "url": "/produse/tevi#tevi-dupa-standard-asme" }
+        { "name": "ASME", "url": "/produse/tevi#tevi-dupa-standard-asme-api-5l" }
       ]
     },
     {
