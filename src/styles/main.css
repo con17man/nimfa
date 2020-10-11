@@ -26,3 +26,8 @@ scrollbar-width: none; /* Firefox */
 .slick-prev:before {
   content: none !important;
 }
+
+@media only screen and (min-width: 768px) {
+  .slick-next { right: -2rem !important; }
+  .slick-prev { left: -2rem !important; }
+}

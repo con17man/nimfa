@@ -17,7 +17,7 @@ const CustomArrow = ({ arrow, className, style, onClick }) => {
     zIndex: '50',
   };
 
-  const positioning = arrow === 'right' ? {right: '1rem'} : arrow === 'left' ? {left: '1rem'} : {};
+  const positioning = arrow === 'right' ? {right: '2rem'} : arrow === 'left' ? {left: '2rem'} : {};
 
   return (
     <div
