@@ -19,3 +19,10 @@
 scrollbar-width: none; /* Firefox */
 -ms-overflow-style: none;  /* IE 10+ */
 }
+
+
+
+.slick-next:before,
+.slick-prev:before {
+  content: none !important;
+}

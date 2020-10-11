@@ -3,7 +3,32 @@ import Slider from 'react-slick';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
 import { slugify } from './Helpers';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+const CustomArrow = ({ arrow, className, style, onClick }) => {
+  const globalArrowStyles = {
+    display: 'block',
+    top: '70%',
+    fontSize: '2.5rem',
+    color: '#363D3E',
+    lineHeight: '1',
+    width: 'auto',
+    height: 'auto',
+    zIndex: '50',
+  };
+
+  const positioning = arrow === 'right' ? {right: '1rem'} : arrow === 'left' ? {left: '1rem'} : {};
+
+  return (
+    <div
+      className={className}
+      style={{ ...style, ...globalArrowStyles, ...positioning}}
+      onClick={onClick}
+    >
+      <FontAwesomeIcon icon={`chevron-${arrow}`} />
+    </div>
+  );
+};
 
 const AdvantageItem = ({title, description, icon, url}) => (
   <Link to={`${url}#${slugify(title)}`}>
@@ -43,12 +68,14 @@ const AdvantagesCarousel = () => {
 
   const sliderSettings = {
     dots: false,
-    arrows: false,
+    arrows: true,
     infinite: true,
     autoplay: true,
     autoplaySpeed: 7000,
     slidesToShow: 4,
     slidesToScroll: 1,
+    nextArrow: <CustomArrow arrow="right" />,
+    prevArrow: <CustomArrow arrow="left" />,
     responsive: [
       {
         breakpoint: 640,
@@ -67,6 +94,7 @@ const AdvantagesCarousel = () => {
       {
         breakpoint: 1024,
         settings: {
+          arrows: false,
           slidesToShow: 4,
           slidesToScroll: 1,
         }
