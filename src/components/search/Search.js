@@ -1,14 +1,20 @@
-import React, { Fragment, useEffect, useState } from 'react';
+import React, { useRef, Fragment, useEffect, useState } from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 const SearchModal = ({ show, onClose, searchIndex }) => {
 
+  const searchInput = useRef(null);
   const [ searchTerm, setSearchTerm ] = useState('');
   const [ searchHits, setSearchHits ] = useState([]); // searchIndex.allHits
 
   useEffect(() => {
+
+    if(show) {
+      searchInput.current.focus();
+    }
+
     const results = searchIndex.allHits.map(hit => {
       return {
         path: hit.path,
@@ -17,7 +23,7 @@ const SearchModal = ({ show, onClose, searchIndex }) => {
     });
 
     setSearchHits(results);
-  }, [searchTerm, searchIndex]);
+  }, [searchTerm, searchIndex, show]);
 
   const handleChange = e => {
     setSearchTerm(e.target.value);
@@ -36,18 +42,17 @@ const SearchModal = ({ show, onClose, searchIndex }) => {
         <div className="inline-block text-left overflow-hidden transform transition-all sm:align-middle w-full max-w-lg rounded" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
           <div className="bg-white p-4">
             <div className="flex">
-                <input className="bg-white focus:outline-none rounded block w-11/12 px-2 appearance-none leading-normal" value={searchTerm} onChange={handleChange} type="text" placeholder="Cauta..." />
-                <button onClick={onClose} className="rounded-full w-10 h-10 hover:bg-gray-100">
+                <input className="bg-white focus:outline-none rounded block w-11/12 px-2 appearance-none leading-normal" ref={searchInput} value={searchTerm} onChange={handleChange} type="text" placeholder="Cauta..." />
+                <button onClick={onClose} className="rounded-full w-10 h-10 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none">
                   <FontAwesomeIcon icon="times" />
                 </button>
-              {/* <div className="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10"></div> */}
             </div>
 
             <div className="flex flex-col h-64 overflow-scroll">
               {searchTerm.length !==0 && searchHits.map((hit, i) => (
                 <Fragment key={i}>
                   {hit && hit.text.map((entry, j) => (
-                    <Link to={hit.path} key={j} onClick={onClose} className="block px-2 py-1 hover:bg-gray-100 rounded">
+                    <Link to={hit.path} key={j} onClick={onClose} className="block px-2 py-1 hover:bg-orange-500 focus:bg-orange-500 hover:text-white focus:text-white focus:outline-none rounded">
                       {entry.length < 50 ? entry : `${entry.substr(0, 50)}...`}
                     </Link>))
                   }
