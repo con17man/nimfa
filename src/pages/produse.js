@@ -22,7 +22,7 @@ const ProductsGrid = ({ categories }) => {
   return (
     <div className="grid-container">
       {categories.map((category, i) => {
-        return <div key={i+1} className={`grid-container-category ${category.gridPosition}`}>
+        return <div key={i+1} className={`grid-container-category ${category.gridPosition} whitespace-normal`}>
           <span>
             <Link to={category.url} onClick={(evt) => evt.target.blur()}>
               <Img fluid={category.img.childImageSharp.fluid} className="object-cover w-full h-full" />

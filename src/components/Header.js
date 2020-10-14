@@ -82,12 +82,12 @@ const Header = ({ siteTitle }) => {
 
         {/* NAVBAR - DESKTOP*/}
         <nav role="navigation" className="header-navbar h-full">
-          <ul className="navbar-list hidden lg:table h-full">
+          <ul className="navbar-list hidden lg:table h-full whitespace-no-wrap">
             {navigation.map((category, i) => {
-                return <li className={`navbar-list-item lg:last:pr-6 ${category.name !== 'Produse' ? 'relative item-separator': ''}`} key={`L0_node_${i+1}`}>
+                return <li className={`navbar-list-item lg:last:pr-6 ${category.name !== 'Produse' ? 'relative item-separator': 'sub-products'}`} key={`L0_node_${i+1}`}>
                   { category.url ?
                     <Link to={category.url} activeClassName="text-orange-500">{category.name} </Link> :
-                    <span className={`cursor-pointer ${pathName.includes(category.name.toLowerCase()) ? 'text-orange-500': undefined}`}>{category.name}</span>
+                    <span className={`cursor-pointer ${pathName.includes(category.name.toLowerCase()) ? 'text-orange-500': ''}`}>{category.name}</span>
                   }
 
                   {/* sub-menu */}

@@ -57,8 +57,8 @@
 /* SUBMENU GRIDS */
 
 .a1-grid {
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(124px, 1fr));
+  grid-template-rows: repeat(2, minmax(122px, 1fr));
   gap: 0.5em 0.5em;
   grid-template-areas:
     "a1-main a1-sub-1"
@@ -84,8 +84,8 @@
 
 
 .a2-grid {
-  grid-template-columns: repeat(2, 1fr) 2fr;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(124px, 1fr)) 2fr;
+  grid-template-rows: repeat(2, minmax(124px, 1fr));
   gap: 0.5em 0.5em;
   grid-template-areas:
     "a2-sub-1 a2-sub-3 a2-main"
@@ -117,7 +117,7 @@
 
 .a3-grid {
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(3, minmax(140px, 1fr));
   gap: 0.5em 0.5em;
   grid-template-areas:
     "a3-main"
@@ -149,8 +149,8 @@
 
 
 .a4-grid {
-  grid-template-columns: 2fr repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 2fr repeat(2, minmax(124px, 1fr));
+  grid-template-rows: repeat(2, minmax(124px, 1fr));
   gap: 0.5em 0.5em;
   grid-template-areas:
     "a4-main a4-sub-1 a4-sub-2"
@@ -196,4 +196,19 @@
 .a2-sub-3,
 .a2-sub-4,
 .a4-sub-1,
-.a4-sub-2 { @apply flex items-center text-center; } /* flex-col-reverse */
+.a4-sub-2 { @apply flex items-center text-center justify-center; } /* flex-col-reverse */
+
+
+.a5-grid,
+.a6-grid {
+  grid-template-columns: minmax(255px, 1fr);
+  grid-template-rows: minmax(255px, 1fr);
+}
+
+.a5-grid {
+  grid-template-areas: "a5-main";
+}
+
+.a6-grid {
+  grid-template-areas: "a6-main";
+}
