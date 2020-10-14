@@ -10,7 +10,7 @@ const Hero = ({ card }) => {
   const { title, link, linkLabel, img, linkCSS } = card;
 
   return (
-  <div className="relative">
+  <div className="relative" aria-hidden="true">
     <div className="w-full bg-cover bg-center text-left md:text-center py-28 md:py-48 lg:py-56" style={{backgroundImage: `url(${img.childImageSharp.fluid.src})`}}>
       <div className={`container mx-auto px-8 md:px-16 ${linkCSS}`}>
           <h1 className="md:hidden font-montserrat-alternates font-bold leading-snug text-3xl pb-4" dangerouslySetInnerHTML={{__html: title.split(' ').join('<br/>') }} />

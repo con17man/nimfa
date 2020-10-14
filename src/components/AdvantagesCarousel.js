@@ -24,6 +24,7 @@ const CustomArrow = ({ arrow, className, style, onClick }) => {
       className={className}
       style={{ ...style, ...globalArrowStyles, ...positioning}}
       onClick={onClick}
+      role="none"
     >
       <FontAwesomeIcon icon={`chevron-${arrow}`} />
     </div>
@@ -70,7 +71,7 @@ const AdvantagesCarousel = () => {
     dots: false,
     arrows: true,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 7000,
     slidesToShow: 4,
     slidesToScroll: 1,
