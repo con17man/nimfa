@@ -12,7 +12,7 @@
       "icon": "../assets/images/icons/industrii/icons_192x192-35.png",
       "cta": {
         "label": "Contactează-ne",
-        "url": "/contact"
+        "url": "/contact/"
       }
     },
     {
@@ -21,7 +21,7 @@
       "icon": "../assets/images/icons/industrii/icons_192x192-39.png",
       "cta": {
         "label": "Contactează-ne",
-        "url": "/contact"
+        "url": "/contact/"
       }
     },
     {
@@ -30,7 +30,7 @@
       "icon": "../assets/images/icons/industrii/icons_192x192-40.png",
       "cta": {
         "label": "Contactează-ne",
-        "url": "/contact"
+        "url": "/contact/"
       }
     },
     {
@@ -39,7 +39,7 @@
       "icon": "../assets/images/icons/industrii/icons_192x192-36.png",
       "cta": {
         "label": "Contactează-ne",
-        "url": "/contact"
+        "url": "/contact/"
       }
     },
     {
@@ -48,7 +48,7 @@
       "icon": "../assets/images/icons/industrii/icons_192x192-37.png",
       "cta": {
         "label": "Contactează-ne",
-        "url": "/contact"
+        "url": "/contact/"
       }
     },
     {
@@ -57,7 +57,7 @@
       "icon": "../assets/images/icons/industrii/icons_192x192-38.png",
       "cta": {
         "label": "Contactează-ne",
-        "url": "/contact"
+        "url": "/contact/"
       }
     }
   ],

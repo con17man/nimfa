@@ -10,13 +10,13 @@ import SimpleCTA from '../components/SimpleCTA';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Acasă" />
 
     <HeroCarousel />
     <AdvantagesCarousel />
     <QuickLinks />
     <OrderSteps />
-    <SimpleCTA title="We look forward to work with you!" cta={{label: 'Contact', link: '/contact'}} />
+    <SimpleCTA title="We look forward to work with you!" cta={{label: 'Contact', link: '/contact/'}} />
 
   </Layout>
 );

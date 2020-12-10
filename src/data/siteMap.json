@@ -9,55 +9,55 @@
       "children": [
         {
           "name": "Despre Noi",
-          "url": "/companie/despre-noi"
+          "url": "/companie/despre-noi/"
         },
         {
           "name": "Avantaje",
-          "url": "/companie/avantaje"
+          "url": "/companie/avantaje/"
         },
         {
           "name": "Certificări",
-          "url": "/companie/certificari"
+          "url": "/companie/certificari/"
         },
         {
           "name": "Date și Cifre",
-          "url": "/companie/date-cifre"
+          "url": "/companie/date-cifre/"
         }
       ]
     },
     {
       "name": "Produse",
-      "url": "/produse",
+      "url": "/produse/",
       "children": [
         {
           "name": "Țevi",
-          "url": "/produse/tevi"
+          "url": "/produse/tevi/"
         },
         {
           "name": "Flanșe",
-          "url": "/produse/flanse"
+          "url": "/produse/flanse/"
         },
         {
           "name": "Fitinguri",
-          "url": "/produse/fitinguri"
+          "url": "/produse/fitinguri/"
         },
         {
           "name": "Tablă și Profile",
-          "url": "/produse/tabla-profile"
+          "url": "/produse/tabla-profile/"
         },
         {
           "name": "Accesorii",
-          "url": "/produse/accesorii"
+          "url": "/produse/accesorii/"
         },
         {
           "name": "Armături și Robineți",
-          "url": "/produse/armaturi-robineti"
+          "url": "/produse/armaturi-robineti/"
         }
       ]
     },
     {
       "name": "Servicii",
-      "url": "/servicii",
+      "url": "/servicii/",
       "children": [
         {
           "name": "TRANSPORT ȘI LOGISTICĂ",
@@ -149,7 +149,7 @@
     },
     {
       "name": "Contact",
-      "url": "/contact"
+      "url": "/contact/"
     }
   ]
 }

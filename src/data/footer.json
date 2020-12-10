@@ -15,21 +15,21 @@
     "links": [
       {
         "name": "Despre noi",
-        "url": "/companie/despre-noi"
+        "url": "/companie/despre-noi/"
       },
       {
         "name": "Privacy Policy",
-        "url": "/companie/gdpr"
+        "url": "/companie/gdpr/"
       },
       {
         "name": "Termeni și condiții",
-        "url": "/companie/gdpr"
+        "url": "/companie/gdpr/"
       }
     ],
     "social": [
       {
         "icon": "fab,facebook",
-        "url": "https://www.facebook.com/SC-NIMFA-COM-SRL-344245936022842"
+        "url": "https://www.facebook.com/SC-NIMFA-COM-SRL-344245936022842/"
       },
       {
         "icon": "fab,instagram",

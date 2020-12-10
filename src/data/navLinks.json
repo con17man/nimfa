@@ -2,17 +2,17 @@
   "quickLinks" : [
     {
       "name": "Produse",
-      "url": "/produse",
+      "url": "/produse/",
       "img": "../assets/images/quick-links/produse.jpg"
     },
     {
       "name": "Servicii",
-      "url": "/servicii",
+      "url": "/servicii/",
       "img": "../assets/images/quick-links/servicii.jpg"
     },
     {
       "name": "Industrii",
-      "url": "/industrii",
+      "url": "/industrii/",
       "img": "../assets/images/quick-links/industrii.jpg"
     }
   ]

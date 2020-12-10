@@ -12,7 +12,7 @@
     },
     {
       "text": ["Tevi"],
-      "path": "/produse/tevi"
+      "path": "/produse/tevi/"
     },
     {
       "text": [
@@ -26,7 +26,7 @@
     },
     {
       "text": ["Fitinguri"],
-      "path": "/produse/fitinguri"
+      "path": "/produse/fitinguri/"
     },
     {
       "text": [
@@ -57,7 +57,7 @@
     },
     {
       "text": ["Flanse"],
-      "path": "/produse/flanse"
+      "path": "/produse/flanse/"
     },
     {
       "text": [
@@ -91,7 +91,7 @@
     },
     {
       "text": ["Tabla si Profile"],
-      "path": "/produse/tabla-profile"
+      "path": "/produse/tabla-profile/"
     },
     {
       "text": ["Tabla"],
@@ -111,7 +111,7 @@
         "Gratare zincate",
         "Accesorii de prindere si fixare a tevilor"
       ],
-      "path": "/produse/accesorii"
+      "path": "/produse/accesorii/"
     },
     {
       "text": [
@@ -120,7 +120,7 @@
         "Distribiutor",
         "Operatiuni globale"
       ],
-      "path": "/companie/despre-noi"
+      "path": "/companie/despre-noi/"
     },
     {
       "text": [
@@ -132,7 +132,7 @@
         "ASTM, EN si ISO",
         "TUV RHEINLAND, BUREAU VERITAS , DNV."
       ],
-      "path": "/companie/certificari"
+      "path": "/companie/certificari/"
     },
     {
       "text": [
@@ -140,13 +140,13 @@
         "Cifre de afaceri",
         "Inventar"
       ],
-      "path": "/companie/date-cifre"
+      "path": "/companie/date-cifre/"
     },
     {
       "text": [
         "Armaturi si Robineti"
       ],
-      "path": "/produse/armaturi-robineti"
+      "path": "/produse/armaturi-robineti/"
     },
     {
       "text": [
@@ -170,7 +170,7 @@
     },
     {
       "text": ["Servicii"],
-      "path": "/servicii"
+      "path": "/servicii/"
     },
     {
       "text": ["TRANSPORT SI LOGISTICA"],
@@ -271,7 +271,7 @@
     },
     {
       "text": ["Contact"],
-      "path": "/contact"
+      "path": "/contact/"
     },
     {
       "text": [""],
