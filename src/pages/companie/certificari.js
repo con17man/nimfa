@@ -6,9 +6,9 @@ import Layout from '../../components/layout';
 import SEO from '../../components/SEO';
 import PageHero from '../../components/PageHero';
 
-import certificatePDF from '../../assets/files/ISO_9001-2019_2021.pdf';
-
 const CertificationsPage = () => {
+
+  const certificatePDF = `../../assets/files/ISO_9001-2019_2021.pdf`;
 
   const {
     pageCertificari: {
