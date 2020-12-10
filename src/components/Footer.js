@@ -49,7 +49,7 @@ const Footer = () => {
 
           <a href={`tel:${phone}`} className="block py-4 hover:text-white">{`TEL/FAX: ${phone}`}</a>
 
-          <a href={`mailto:${email}`} className="block hover:text-white">{email}</a>
+          <a href={`mailto:${email}`} target="_blank" rel="noopener noreferrer" className="block hover:text-white">{email}</a>
         </div>
 
         <div className="w-full md:w-1/3 order-1 md:order-2 px-8 py-10 md:py-0 flex flex-col items-center justify-center">

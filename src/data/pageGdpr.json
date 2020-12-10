@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "GDPR",
-    "headline": "<div class='tracking-wide'> <p>PROTECȚIA DATELOR CU CARACTER PERSONAL</p> <p>Contact referitor la Regulamentul General privind Protectia Datelor GDPR: <a href='alexandru.ionascu@tevi-laminate.ro' class='hover:underline'>alexandru.ionascu@tevi-laminate.ro</a> Tel: <a href='tel:0729.00.66.24'>0729.00.66.24</a></p> <div>",
+    "headline": "<div class='tracking-wide'> <p>PROTECȚIA DATELOR CU CARACTER PERSONAL</p> <p>Contact referitor la Regulamentul General privind Protectia Datelor GDPR: <a href='mailto:alexandru.ionascu@tevi-laminate.ro' target='_blank' rel='noopener noreferrer' class='hover:underline'>alexandru.ionascu@tevi-laminate.ro</a> Tel: <a href='tel:0729.00.66.24'>0729.00.66.24</a></p> <div>",
     "image": "../assets/images/page-headers/gdpr.jpg"
   },
 

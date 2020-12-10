@@ -16,7 +16,7 @@ const TeamMember = ({member}) => {
       </div>
       <div className="flex flex-col content-center justify-center text-sm">
         <p className="font-bold">{fullname}</p>
-        <a href={`mailto:${email}`} className="py-1 hover:underline">{email}</a>
+        <a href={`mailto:${email}`} target="_blank" rel="noopener noreferrer" className="py-1 hover:underline">{email}</a>
         <a href={`tel:${phone}`} className="py-1 hover:underline">{phone}</a>
       </div>
     </div>
