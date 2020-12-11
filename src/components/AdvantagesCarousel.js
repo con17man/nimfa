@@ -35,7 +35,7 @@ const AdvantageItem = ({title, description, icon, url}) => (
   <Link to={`${url}#${slugify(title)}`}>
     <div className="adv-item relative text-center px-24 md:px-2">
       <div className="adv-item-img h-32 w-32 my-6 rounded-full shadow-lg mx-auto bg-orange-500 flex justify-center items-center text-6xl text-white">
-        <Img fluid={icon} className="w-24" />
+        <Img fluid={icon} className="w-24" alt={title} />
       </div>
       <p className="adv-item-title font-medium uppercase">{title}</p>
       <p className="adv-item-separator font-medium">--</p>

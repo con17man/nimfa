@@ -57,7 +57,7 @@ const DateCifre = () => {
 
           {/* abstract image */}
           <div className="absolute top-0 right-0 w-64 opacity-25 md:opacity-100 -mt-6 md:mt-0" style={{zIndex: '-1', transform: 'translateY(-50%) rotateX(180deg)'}}>
-            { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} /> }
+            { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} alt={`Nimfa`} /> }
           </div>
         </div>
 

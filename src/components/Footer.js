@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
 
         <div className="w-full md:w-1/3 order-1 md:order-2 px-8 py-10 md:py-0 flex flex-col items-center justify-center">
-          <Img fluid={logo.childImageSharp.fluid} className="w-32" />
+          <Img fluid={logo.childImageSharp.fluid} alt="Nimfa - Tevi Laminate" className="w-32" />
         </div>
 
         <div className="w-full md:w-1/3 order-3 md:pl-8 py-10 md:py-0">

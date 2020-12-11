@@ -77,14 +77,14 @@ const CertificationsPage = () => {
 
           {/* image */}
           <div className="w-full lg:max-w-sm flex-none pl-0 lg:pl-10">
-            <Img fluid={pageImg.childImageSharp.fluid} className="h-40 lg:h-auto object-cover" />
+            <Img fluid={pageImg.childImageSharp.fluid} className="h-40 lg:h-auto object-cover" alt={`${hero.title}, Let the energy flow`} />
             <p className="font-montserrat-alternates font-bold text-center text-3xl tracking-wide py-6">Let the energy flow!</p>
           </div>
         </div>
 
         {/* abstract image */}
         <div className="absolute bottom-0 left-0 opacity-25 w-84 md:w-150" style={{zIndex: '-1'}}>
-          { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} style={{transform: 'rotateY(180deg)'}} /> }
+          { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} alt={`Nimfa`} style={{transform: 'rotateY(180deg)'}} /> }
         </div>
       </div>
     </Layout>

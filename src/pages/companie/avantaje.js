@@ -57,7 +57,7 @@ const AdvantagesPage = () => {
 
           {/* abstract image */}
           <div className="absolute bottom-0 right-0 w-64 opacity-25 md:opacity-100" style={{zIndex: '-1'}}>
-            { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} /> }
+            { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} alt={`Nimfa`} /> }
           </div>
         </div>
       </div>

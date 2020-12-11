@@ -11,8 +11,8 @@ const ProductDetails = ({product, reversed}) => {
     <section id={slugify(title)} className={`container relative mx-auto block lg:flex ${reversed ? 'lg:flex-row-reverse' : ''} pt-8 lg:pt-24 pb-12 px-8 md:px-16 lg:px-0 mb-0 lg:-mb-12 bg-white`}>
       {/* image */}
       <div className={`w-full lg:max-w-sm flex-none px-0 pb-1 lg:px-6 lg:pb-0`}>
-        {abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} className="hidden lg:block" style={{width: '300px', marginBottom: '1rem'}} />}
-        <Img fluid={productImg.childImageSharp.fluid} className="h-40 lg:h-auto object-cover" />
+        {abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} alt={`Nimfa`} className="hidden lg:block" style={{width: '300px', marginBottom: '1rem'}} />}
+        <Img fluid={productImg.childImageSharp.fluid} alt={`Nimfa - ${title}`} className="h-40 lg:h-auto object-cover" />
       </div>
 
       {/* content */}

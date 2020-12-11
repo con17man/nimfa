@@ -12,7 +12,7 @@ const TeamMember = ({member}) => {
   return (
     <div className="flex py-6">
       <div className="flex-none w-24 h-24 md:h-40 md:w-40">
-        <Img fluid={image.childImageSharp.fluid} className="rounded-full" alt={fullname} />
+        <Img fluid={image.childImageSharp.fluid} className="rounded-full" alt={`Nimfa - ${fullname}`} />
       </div>
       <div className="flex flex-col content-center justify-center text-sm">
         <p className="font-bold">{fullname}</p>
@@ -90,7 +90,7 @@ const ContactPage = () => {
 
         {/* abstract image */}
         <div className="absolute bottom-0 right-0 opacity-25" style={{width: '36rem', zIndex: '-1', transform: 'rotateY(180deg)'}}>
-          { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} style={{transform: 'rotateY(180deg)'}} /> }
+          { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} alt={`Nimfa`} style={{transform: 'rotateY(180deg)'}} /> }
         </div>
       </div>
     </Layout>

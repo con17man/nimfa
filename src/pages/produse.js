@@ -6,6 +6,7 @@ import Img from 'gatsby-image';
 import Layout from '../components/layout';
 import SEO from '../components/SEO';
 import PageHero from '../components/PageHero';
+// import { slugify } from '../components/Helpers';
 
 
 const ProductsGrid = ({ categories }) => {
@@ -25,14 +26,14 @@ const ProductsGrid = ({ categories }) => {
         return <div key={i+1} className={`grid-container-category ${category.gridPosition} whitespace-normal`}>
           <span>
             <Link to={category.url} onClick={(evt) => evt.target.blur()}>
-              <Img fluid={category.img.childImageSharp.fluid} className="object-cover w-full h-full" />
+              <Img fluid={category.img.childImageSharp.fluid} className="object-cover w-full h-full" alt={category.name} />
               <p className="area-title text-black">{category.name}</p>
             </Link>
             {/* Category Submenu */}
             <div className={`grid-container-category-submenu ${subMenuClass(category.gridPosition)}-grid`}>
 
               <Link to={category.url} onClick={(evt) => evt.target.blur()} className={`${subMenuClass(category.gridPosition)}-main`}>
-                <div className="text-5xl">{category.icon && <Img fluid={category.icon.childImageSharp.fluid} className="w-20" />}</div>
+                <div className="text-5xl">{category.icon && <Img fluid={category.icon.childImageSharp.fluid} className="w-20" alt={category.name} />}</div>
                 {category.name}
               </Link>
               {category.subMenu &&

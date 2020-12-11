@@ -81,7 +81,7 @@ const IndustriesPage = (props) => {
                       className={`flex flex-row md:flex-col justify-center content-center items-center md:h-48 lg:h-64 md:p-8 text-sm font-light text-center text-white uppercase
                         outline-none hover:bg-orange-500 ${selectedIndustry.name === industry.name ? 'bg-orange-500' : 'bg-blue-500'}`}
                     >
-                      <Img fluid={industry.icon.childImageSharp.fluid} className="w-20 md:w-24 ml-6 md:ml-0" />
+                      <Img fluid={industry.icon.childImageSharp.fluid} alt={`Nimfa - ${industry.name}`} className="w-20 md:w-24 ml-6 md:ml-0" />
                       <div className="flex-1 md:flex-none pr-6 md:pr-0">{industry.name}</div>
                     </div>
 
@@ -114,7 +114,7 @@ const IndustriesPage = (props) => {
 
         {/* abstract image */}
         <div className="absolute bottom-0 right-0 opacity-25" style={{width: '36rem', zIndex: '-1', transform: 'rotateY(180deg)'}}>
-          { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} style={{transform: 'rotateY(180deg)'}} /> }
+          { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} alt={`Nimfa`} style={{transform: 'rotateY(180deg)'}} /> }
         </div>
       </div>
     </Layout>
