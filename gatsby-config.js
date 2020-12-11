@@ -10,8 +10,8 @@ module.exports = {
   siteMetadata: {
     title: `Nimfa`,
     description: `Cel mai mare furnizor de tevi laminate din Romania`,
-    website: `tevi-laminate.ro`,
-    author: `Pixelots Digital Agency & CTRD`,
+    website: `https://www.tevi-laminate.ro`,
+    author: `Pixelots Digital Agency & Constantin R.`,
   },
   plugins: [
     // {
@@ -50,6 +50,12 @@ module.exports = {
       }
     },
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      options: {
+        siteUrl: `https://www.tevi-laminate.ro`,
+      },
+    },
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

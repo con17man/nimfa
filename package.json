@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "Codebase for Nimfa (http://tevi-laminate.ro). Project in collaboration with Pixelots Agency.",
+  "description": "Codebase for Nimfa (https://www.tevi-laminate.ro). Project in collaboration with Pixelots Agency.",
   "version": "0.1.0",
   "author": "Constantin Radu <radu17constantin@gmail.com>",
   "dependencies": {
@@ -22,6 +22,7 @@
     "gatsby-plugin-offline": "^3.1.2",
     "gatsby-plugin-postcss": "^2.3.3",
     "gatsby-plugin-react-helmet": "^3.2.2",
+    "gatsby-plugin-react-helmet-canonical-urls": "^1.4.0",
     "gatsby-plugin-sass": "^2.2.4",
     "gatsby-plugin-sharp": "^2.5.3",
     "gatsby-source-filesystem": "^2.2.2",
