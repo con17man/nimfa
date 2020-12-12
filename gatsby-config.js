@@ -10,16 +10,10 @@ module.exports = {
   siteMetadata: {
     title: `Nimfa`,
     description: `Cel mai mare furnizor de tevi laminate din Romania`,
-    website: `https://www.tevi-laminate.ro`,
+    siteUrl: `https://www.tevi-laminate.ro`,
     author: `Pixelots Digital Agency & Constantin R.`,
   },
   plugins: [
-    // {
-    //     resolve: `gatsby-plugin-mdx`,
-    //     options: {
-    //         defaultLayouts: { default: path.resolve('./src/components/layout.js') },
-    //     }
-    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -89,19 +83,42 @@ module.exports = {
         icon: `src/assets/images/nimfa_favicon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/categorii-subcategorii.xml`,
+        createLinkInHead: true,
+        query: `{
+          site {
+            siteMetadata {
+              siteUrl
+            }
+          }
 
-    // {
-    //   resolve: `gatsby-plugin-algolia`,
-    //   options: {
-    //     appId: process.env.GATSBY_ALGOLIA_APP_ID,
-    //     apiKey: process.env.ALGOLIA_ADMIN_KEY,
-    //     indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
-    //     queries: require("./src/utils/algolia-queries"),
-    //     chunkSize: 10,
-    //   },
-    // }
+          allSitePage {
+            nodes {
+              path
+            }
+          }
+        }`,
+        resolveSiteUrl: ({site}) => site.siteMetadata.siteUrl,
+        serialize: ({ site, allSitePage }) => {
+          return allSitePage.nodes.map((node) => {
+            const { siteUrl } = site.siteMetadata;
+            return {
+              url: `${siteUrl}${node.path}`,
+              lastmod: new Date(1607731505384).toISOString().slice(0,10), // hardcoded Date for now, as we don't have another way of getting "last modified" date
+            };
+          })
+        }
+      }
+    },
+    {
+      resolve: `gatsby-image-sitemap`, // change default name inside the plugin (as the options feature is not available to overwite default settings)
+      options: {
+        output: `/pagini-produs.xml`,
+        createLinkInHead: true,
+      }
+    },
   ],
 }
