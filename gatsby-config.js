@@ -120,5 +120,16 @@ module.exports = {
         createLinkInHead: true,
       }
     },
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: `https://www.tevi-laminate.ro`,
+        sitemap: [
+          `https://www.tevi-laminate.ro/categorii-subcategorii.xml`,
+          `https://www.tevi-laminate.ro/pagini-produs.xml`,
+        ],
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
   ],
 }

@@ -24,6 +24,7 @@
     "gatsby-plugin-postcss": "^2.3.3",
     "gatsby-plugin-react-helmet": "^3.2.2",
     "gatsby-plugin-react-helmet-canonical-urls": "^1.4.0",
+    "gatsby-plugin-robots-txt": "^1.5.3",
     "gatsby-plugin-sass": "^2.2.4",
     "gatsby-plugin-sharp": "^2.5.3",
     "gatsby-plugin-sitemap": "^2.8.0",
