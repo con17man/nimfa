@@ -12,6 +12,7 @@ const TablaProfilePage = () => {
     pageTablaProfile {
       hero {
         title
+        metaTitle
         darkTextColor
         headline
         image {
@@ -41,7 +42,7 @@ const TablaProfilePage = () => {
 
   return (
     <Layout>
-      <SEO title={hero.title} />
+      <SEO title={hero.metaTitle} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
         {products.map((product, i) => <ProductDetails key={i+1} product={product} reversed={i % 2 === 0 ? false : true } />)}

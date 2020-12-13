@@ -14,6 +14,7 @@ const ServicesPage = () => {
       pageServicii {
         hero {
           title
+          metaTitle
           headline
           image {
             childImageSharp {
@@ -49,7 +50,7 @@ const ServicesPage = () => {
 
   return (
     <Layout>
-      <SEO title={hero.title} />
+      <SEO title={hero.metaTitle} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
         {/* TODO: Find a better way to split and correctly diplay info on page */}

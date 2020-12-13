@@ -13,6 +13,7 @@ const IndustriesPage = (props) => {
       pageIndustrii {
         hero {
           title
+          metaTitle
           headline
           image {
             childImageSharp {
@@ -62,7 +63,7 @@ const IndustriesPage = (props) => {
 
   return (
     <Layout>
-      <SEO title={hero.title} />
+      <SEO title={hero.metaTitle} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
         <div className="container relative mx-auto py-8 md:py-24 px-8">

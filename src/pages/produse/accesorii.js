@@ -13,6 +13,7 @@ const AccessoriesPage = () => {
       pageAccesorii {
         hero {
           title
+          metaTitle
           headline
           image {
             childImageSharp {
@@ -39,7 +40,7 @@ const AccessoriesPage = () => {
 
   return (
     <Layout>
-      <SEO title={hero.title} />
+      <SEO title={hero.metaTitle} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
         <div className="container relative mx-auto block lg:flex py-8 md:py-24 pb-12 px-8 md:px-16 lg:px-0 mb-0 lg:-mb-12 bg-white">

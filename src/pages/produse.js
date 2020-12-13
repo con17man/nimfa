@@ -60,6 +60,7 @@ const ProductsPage = () => {
       pageProduse {
         hero {
           title
+          metaTitle
           headline
           image {
             childImageSharp {
@@ -97,7 +98,7 @@ const ProductsPage = () => {
 
   return (
     <Layout>
-      <SEO title={hero.title} />
+      <SEO title={hero.metaTitle} />
       <PageHero heroInfo={hero} />
       <section className="relative container mx-auto mb-0 lg:-mb-12 p-8 lg:p-28 bg-grey">
         <ProductsGrid categories={productCategories} />
