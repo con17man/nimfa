@@ -1,0 +1,39 @@
+## Base Redirects ##
+
+# Turn on Rewrite Engine
+RewriteEngine On
+
+# Remove trailing slash from non-filepath urls
+RewriteCond %{REQUEST_URI} /(.+)/$
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ https://www.tevi-laminate.ro/%1 [R=301,L]
+
+# Include trailing slash on directory
+RewriteCond %{REQUEST_URI} !(.+)/$
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.+)$ https://www.tevi-laminate.ro/$1/ [R=301,L]
+
+# Force HTTPS and remove WWW
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [OR,NC]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www.tevi-laminate.ro/$1 [R=301,L]
+
+# Redirects
+Redirect 301 "http://tevi-laminate.ro" "https://www.tevi-laminate.ro/"
+Redirect 301 "https://tevi-laminate.ro" "https://www.tevi-laminate.ro/"
+Redirect 301 "http://www.tevi-laminate.ro" "https://www.tevi-laminate.ro/"
+Redirect 301 "https://www.tevi-laminate.ro" "https://www.tevi-laminate.ro/"
+
+Redirect 301 "/index.php" "/"
+Redirect 301 "/gdpr.php" "/companie/gdpr/"
+Redirect 301 "/date-tehnice/convertor-system-de-masurari/index.php" "/servicii/"
+Redirect 301 "/date-tehnice/convertor-system-de-masurari/gdpr.php" "/servicii/"
+Redirect 301 "/servicii/cutare-tabla/gdpr.php" "/servicii/"
+Redirect 301 "/servicii/cutare-tabla/index.php" "/servicii/"
+Redirect 301 "/servicii/cutare-tabla/" "/servicii/"
+Redirect 301 "/page/13/index.php" "/produse/"
+Redirect 301 "/companie/gdpr/alexandru.ionascu@tevi-laminate.ro" "/companie/gdpr/"
+Redirect 301 "/page/13/" "/servicii/"
+
+ErrorDocument 404 https://www.tevi-laminate.ro/404/
