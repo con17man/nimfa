@@ -67,7 +67,7 @@ const AboutPage = () => {
             {aboutParagraphs.map((paragraph, i) => <p className="pb-6" key={i+1}>{paragraph}</p>)}
 
             {/* CTA */}
-            <Link to={cta.link} className="inline-block py-4 px-8 lg:px-16 mb-10 bg-orange-500 text-white uppercase font-medium">
+            <Link to={cta.link} className="inline-block py-4 px-8 lg:px-16 mb-10 bg-orange-500 hover:bg-orange-700 text-white uppercase font-medium">
               {cta.label}
             </Link>
           </div>

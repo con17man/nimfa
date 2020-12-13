@@ -91,7 +91,7 @@ const IndustriesPage = (props) => {
                       <p className="font-semibold uppercase tracking-wider text-xl md:text-2xl pb-6">{selectedIndustry.name}</p>
                       <div className="pb-10 font-light leading-snug" dangerouslySetInnerHTML={{__html: selectedIndustry.description}} />
                       {/* CTA */}
-                      <Link to={selectedIndustry.cta.url} className="inline-block py-4 px-8 bg-orange-500 text-white uppercase font-medium">
+                      <Link to={selectedIndustry.cta.url} className="inline-block py-4 px-8 bg-orange-500 focus:bg-orange-700 text-white uppercase font-medium">
                         {selectedIndustry.cta.label}
                       </Link>
                     </div>}
@@ -106,7 +106,7 @@ const IndustriesPage = (props) => {
               <div className="pb-10" dangerouslySetInnerHTML={{__html: selectedIndustry.description}} />
 
               {/* CTA */}
-              <Link to={selectedIndustry.cta.url} className="inline-block py-4 px-16 bg-orange-500 text-white uppercase font-medium">
+              <Link to={selectedIndustry.cta.url} className="inline-block py-4 px-16 bg-orange-500 hover:bg-orange-700 text-white uppercase font-medium">
                 {selectedIndustry.cta.label}
               </Link>
             </div>

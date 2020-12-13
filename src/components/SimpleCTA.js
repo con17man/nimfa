@@ -10,7 +10,7 @@ const SimpleCTA = ({title, cta}) => {
     <div className="simple-cta w-full bg-grey text-center py-12">
       <p className="simple-cta-title max-w-sm mx-auto mb-6 font-montserrat-alternates font-semibold text-4xl tracking-wider">{title}</p>
       <Link to={cta.link}>
-        <button className="py-4 px-16 bg-orange-500 text-white uppercase font-medium">{cta.label}</button>
+        <button className="py-4 px-16 bg-orange-500 hover:bg-orange-700 text-white uppercase font-medium">{cta.label}</button>
       </Link>
     </div>
   );
