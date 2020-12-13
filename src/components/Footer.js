@@ -35,10 +35,6 @@ const Footer = () => {
     }
   `);
 
-  // const [ aboutLink, logisticsLink, privacyLink, tandcLink ] = links;
-
-  // const chunkLinks = new Array(Math.ceil(links.length / 2)).fill().map(_ => links.splice(0,2));
-
   return (
     <footer className="bg-raisin md:py-20">
       <section className="section flex flex-col w-8/12 md:w-full md:flex-row relative container mx-auto text-center md:divide-x divide-white text-gray-100">
@@ -64,14 +60,6 @@ const Footer = () => {
               <Link to={link.url} key={i+1} className="px-2 hover:text-white">{link.name}</Link>
             ))}
           </div>
-          {/* <div className="divide-x divide-white">
-            <Link to={aboutLink.url} className="px-2 hover:text-white">{aboutLink.name}</Link>
-            <Link to={logisticsLink.url} className="px-2 hover:text-white">{logisticsLink.name}</Link>
-          </div>
-          <div className="divide-x divide-white">
-            <Link to={privacyLink.url} className="px-2 hover:text-white">{privacyLink.name}</Link>
-            <Link to={tandcLink.url} className="px-2 hover:text-white">{tandcLink.name}</Link>
-          </div> */}
         </div>
       </section>
     </footer>
