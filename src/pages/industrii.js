@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
 
@@ -17,7 +17,7 @@ const IndustriesPage = (props) => {
           headline
           image {
             childImageSharp {
-              fluid(maxWidth: 2280, toFormat: PNG) {
+              fluid(maxWidth: 2280, toFormat: PNG, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -30,7 +30,7 @@ const IndustriesPage = (props) => {
           cta { label, url }
           icon {
             childImageSharp {
-              fluid(maxWidth: 192) {
+              fluid(maxWidth: 192, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -39,7 +39,7 @@ const IndustriesPage = (props) => {
 
         abstractImg {
           childImageSharp {
-            fluid(maxWidth: 1000) {
+            fluid(maxWidth: 1000, quality: 90) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -49,17 +49,7 @@ const IndustriesPage = (props) => {
     }
   `);
 
-  const [ lastHash, setLastHash ] = useState(props.location.hash);
   const [ selectedIndustry, setSelectedIndustry ] = useState(industries[(props.location.state && props.location.state.id) || 0]);
-
-  useEffect(() => {
-    const {hash, state} = props.location;
-    if (hash !== lastHash) {
-      setLastHash(hash); // update with the last visited hash
-      setSelectedIndustry(industries[state.id]); // update industry view
-    }
-  }, [props.location, lastHash, industries]);
-
 
   return (
     <Layout>

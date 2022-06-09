@@ -15,7 +15,7 @@ const DateCifre = () => {
           headline
           image {
             childImageSharp {
-              fluid(maxWidth: 2280, toFormat: PNG) {
+              fluid(maxWidth: 2280, toFormat: PNG, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -26,7 +26,7 @@ const DateCifre = () => {
 
         abstractImg {
           childImageSharp {
-            fluid(maxWidth: 128) {
+            fluid(maxWidth: 128, quality: 90) {
               ...GatsbyImageSharpFluid
             }
           }

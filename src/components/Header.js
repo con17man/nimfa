@@ -34,7 +34,7 @@ const Header = ({ siteTitle }) => {
 
         logos {
           childImageSharp {
-            fluid(maxWidth: 2000, toFormat: PNG) {
+            fluid(maxWidth: 2000, toFormat: PNG, quality: 90) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -48,14 +48,14 @@ const Header = ({ siteTitle }) => {
           url
           img {
             childImageSharp {
-              fluid(maxWidth: 500, toFormat: PNG) {
+              fluid(maxWidth: 500, toFormat: PNG, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }
           }
           icon {
             childImageSharp {
-              fluid(maxWidth: 192, toFormat: PNG) {
+              fluid(maxWidth: 192, toFormat: PNG, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }

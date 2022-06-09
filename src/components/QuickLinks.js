@@ -12,7 +12,7 @@ const QuickLinks = () => {
           name
           img {
             childImageSharp {
-              fluid(maxWidth: 500, toFormat: PNG) {
+              fluid(maxWidth: 500, toFormat: PNG, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }

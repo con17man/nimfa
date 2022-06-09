@@ -14,7 +14,7 @@ const OrderSteps = () => {
           steps {
             icon {
               childImageSharp {
-                fluid(maxWidth: 192) {
+                fluid(maxWidth: 192, quality: 90) {
                   ...GatsbyImageSharpFluid
                 }
               }

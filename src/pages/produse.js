@@ -64,7 +64,7 @@ const ProductsPage = () => {
           headline
           image {
             childImageSharp {
-              fluid(maxWidth: 2280, toFormat: PNG) {
+              fluid(maxWidth: 2280, toFormat: PNG, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -76,14 +76,14 @@ const ProductsPage = () => {
           url
           img {
             childImageSharp {
-              fluid(maxWidth: 500, toFormat: PNG) {
+              fluid(maxWidth: 500, toFormat: PNG, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }
           }
           icon {
             childImageSharp {
-              fluid(maxWidth: 192, toFormat: PNG) {
+              fluid(maxWidth: 192, toFormat: PNG, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }

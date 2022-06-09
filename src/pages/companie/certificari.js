@@ -24,7 +24,7 @@ const CertificationsPage = () => {
           headline
           image {
             childImageSharp {
-              fluid(maxWidth: 2280, toFormat: PNG) {
+              fluid(maxWidth: 2280, toFormat: PNG, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -37,7 +37,7 @@ const CertificationsPage = () => {
 
         pageImg {
           childImageSharp {
-            fluid(maxWidth: 512) {
+            fluid(maxWidth: 512, quality: 90) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -45,7 +45,7 @@ const CertificationsPage = () => {
 
         abstractImg {
           childImageSharp {
-            fluid(maxWidth: 512) {
+            fluid(maxWidth: 512, quality: 90) {
               ...GatsbyImageSharpFluid
             }
           }

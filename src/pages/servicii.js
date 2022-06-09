@@ -18,7 +18,7 @@ const ServicesPage = () => {
           headline
           image {
             childImageSharp {
-              fluid(maxWidth: 2280, toFormat: PNG) {
+              fluid(maxWidth: 2280, toFormat: PNG, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -30,7 +30,7 @@ const ServicesPage = () => {
           title
           icon {
             childImageSharp {
-              fluid(maxWidth: 192) {
+              fluid(maxWidth: 192, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -39,7 +39,7 @@ const ServicesPage = () => {
 
         abstractImg {
           childImageSharp {
-            fluid(maxWidth: 512) {
+            fluid(maxWidth: 512, quality: 90) {
               ...GatsbyImageSharpFluid
             }
           }

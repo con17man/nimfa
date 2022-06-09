@@ -33,7 +33,7 @@ const ContactPage = () => {
           headline
           image {
             childImageSharp {
-              fluid(maxWidth: 2280, toFormat: PNG, fit: COVER) {
+              fluid(maxWidth: 2280, toFormat: PNG, fit: COVER, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -52,7 +52,7 @@ const ContactPage = () => {
           phone
           image {
             childImageSharp {
-              fluid(maxWidth: 2000, toFormat: PNG) {
+              fluid(maxWidth: 2000, toFormat: PNG, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -61,7 +61,7 @@ const ContactPage = () => {
 
         abstractImg {
           childImageSharp {
-            fluid(maxWidth: 512) {
+            fluid(maxWidth: 512, quality: 90) {
               ...GatsbyImageSharpFluid
             }
           }

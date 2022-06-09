@@ -25,7 +25,7 @@ const Footer = () => {
 
         logo {
           childImageSharp {
-            fluid(maxWidth: 500) {
+            fluid(maxWidth: 500, quality: 90) {
               ...GatsbyImageSharpFluid
             }
           }

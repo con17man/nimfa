@@ -16,7 +16,7 @@ const FlansePage = () => {
         headline
         image {
           childImageSharp {
-            fluid(maxWidth: 2280, toFormat: PNG) {
+            fluid(maxWidth: 2280, toFormat: PNG, quality: 90) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -31,7 +31,7 @@ const FlansePage = () => {
         materials
         imgs {
           childImageSharp {
-            fluid(maxWidth: 2000, toFormat: PNG) {
+            fluid(maxWidth: 2000, toFormat: PNG, quality: 90) {
               ...GatsbyImageSharpFluid
             }
           }
