@@ -113,13 +113,18 @@ module.exports = {
         }
       }
     },
-    {
-      resolve: `gatsby-image-sitemap`, // change default name inside the plugin (as the options feature is not available to overwite default settings)
-      options: {
-        output: `/pagini-produs.xml`,
-        createLinkInHead: true,
-      }
-    },
+    // {
+    //   /*
+    //    * change default name "sitemapPath" inside the plugin (as the
+    //    * options feature is not available to overwite default settings)
+    //    * "node_modules/gatsby-image-sitemap/default-options.js"
+    //    */
+    //   resolve: `gatsby-image-sitemap`,
+    //   options: {
+    //     output: `/pagini-produs.xml`,
+    //     createLinkInHead: true,
+    //   }
+    // },
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
