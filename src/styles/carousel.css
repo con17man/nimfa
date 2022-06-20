@@ -1,0 +1,34 @@
+.nf-carousel .slick-dots {
+  bottom: 24px;
+}
+
+.nf-carousel .slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 0 2px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.nf-carousel .nf-carousel--dot {
+  width: 10px;
+  height: 10px;
+  padding: 0px;
+  margin: 0px;
+  border: 1.5px solid white;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.nf-carousel .slick-dots li .nf-carousel--dot:before,
+.nf-carousel .slick-dots li.slick-active .nf-carousel--dot:before {
+  content: none;
+}
+
+.nf-carousel .slick-dots li .nf-carousel--dot:focus,
+.nf-carousel .slick-dots li .nf-carousel--dot:hover,
+.nf-carousel .slick-dots li.slick-active .nf-carousel--dot {
+  background: #fff;
+}

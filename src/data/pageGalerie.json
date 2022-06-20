@@ -5,5 +5,140 @@
     "headline": "",
     "image": "../assets/images/page-headers/flanse.jpg",
     "darkTextColor": false
-  }
+  },
+
+  "galeries": [
+    {
+      "name": "Aerial view",
+      "icon": "../assets/images/icons/industrii/icons_192x192-35.png",
+      "carousel": [
+        {
+          "img": "../assets/images/page-headers/industrii.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-headers/flanse.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-headers/date_cifre.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-headers/despre_noi.jpg",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "name": "Hala",
+      "icon": "../assets/images/icons/industrii/icons_192x192-35.png",
+      "carousel": [
+        {
+          "img": "../assets/images/page-headers/industrii.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-headers/flanse.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-headers/date_cifre.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-headers/despre_noi.jpg",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "name": "Debitari si servicii",
+      "icon": "../assets/images/icons/industrii/icons_192x192-35.png",
+      "carousel": [
+        {
+          "img": "../assets/images/page-headers/industrii.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-headers/flanse.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-headers/date_cifre.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-headers/despre_noi.jpg",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "name": "Produse",
+      "icon": "../assets/images/icons/industrii/icons_192x192-35.png",
+      "carousel": [
+        {
+          "img": "../assets/images/page-headers/industrii.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-headers/flanse.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-headers/date_cifre.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-headers/despre_noi.jpg",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "name": "Siguranta si eficienta",
+      "icon": "../assets/images/icons/industrii/icons_192x192-35.png",
+      "carousel": [
+        {
+          "img": "../assets/images/page-headers/industrii.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-headers/flanse.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-headers/date_cifre.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-headers/despre_noi.jpg",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "name": "Verificare de calitate",
+      "icon": "../assets/images/icons/industrii/icons_192x192-35.png",
+      "carousel": [
+        {
+          "img": "../assets/images/page-headers/industrii.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-headers/flanse.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-headers/date_cifre.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-headers/despre_noi.jpg",
+          "name": ""
+        }
+      ]
+    }
+  ]
 }
