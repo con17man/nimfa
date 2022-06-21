@@ -10,7 +10,7 @@ import { slugify } from '../../components/Helpers';
 
 const GaleryPage = () => {
 
-  const { pageGalerie: {hero, galeries} } = useStaticQuery(graphql`
+  const { pageGalerie: {hero, galeries, team} } = useStaticQuery(graphql`
     query queryGaleryPageData {
       pageGalerie {
         hero {
@@ -47,6 +47,17 @@ const GaleryPage = () => {
           }
         }
 
+        team {
+          alt
+          img {
+            childImageSharp {
+              fluid(maxWidth: 1000, quality: 90) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+
       }
     }
   `);
@@ -76,6 +87,7 @@ const GaleryPage = () => {
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
         <div className="container relative mx-auto py-8 md:py-24 px-8">
+          {/* CAROUSEL GALERY */}
           <div className="flex flex-wrap tracking-wider">
             {/* GALERY SELECTOR AREA */}
             <div className="w-full md:w-1/3 grid gap-2 md:gap-1 lg:gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
@@ -112,6 +124,27 @@ const GaleryPage = () => {
               </Slider>
             </div>
           </div>
+
+          {/* CAROUSEL -- TEAM */}
+          <div className="relative mx-auto mt-8 nf-carousel">
+            <Slider {...settings}>
+              {team.map((img, i) => {
+                return (
+                  <Img fluid={img.img.childImageSharp.fluid} alt={img.alt} className="w-20 md:w-24 ml-6 md:ml-0" key={i+1} />
+                )
+              })}
+            </Slider>
+          </div>
+          <div className="w-full bg-orange-500 text-white text-center text-xl uppercase font-semibold tracking-wide px-4 py-1 -mt-2">
+            Echipa Nimfa
+          </div>
+
+          {/* VIDEO */}
+          <div className="relative w-full mt-8 nf-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/k5OLfSxey2A" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          </div>
+
+
         </div>
       </div>
     </Layout>

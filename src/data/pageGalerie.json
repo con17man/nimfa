@@ -140,5 +140,20 @@
         }
       ]
     }
+  ],
+
+  "team": [
+    {
+      "img": "../assets/images/page-galerie/echipa/team_1.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/echipa/team_2.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/echipa/team_3.jpg",
+      "alt": "Echipa Nimfa"
+    }
   ]
 }
