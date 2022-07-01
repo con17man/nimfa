@@ -74,7 +74,7 @@ const GaleryPage = () => {
     pauseOnHover: true,
     speed: 400,
     lazyLoad: true,
-    initialSlide: Math.floor(Math.random() * galeries.length),
+    // initialSlide: Math.floor(Math.random() * galeries.length),
     slidesToShow: 1,
     slidesToScroll: 1,
     appendDots: dots => <ul> {dots} </ul>,
@@ -90,29 +90,27 @@ const GaleryPage = () => {
           {/* CAROUSEL GALERY */}
           <div className="flex flex-wrap tracking-wider">
             {/* GALERY SELECTOR AREA */}
-            <div className="w-full md:w-1/3 grid gap-2 md:gap-1 lg:gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+            <div className="w-full md:w-3/12 grid gap-2 grid-cols-1 md:grid-cols-2">
               {galeries.map((galery, i) => {
                 return (
-                  <div key={i+1}>
-                    <div
-                      onClick={() => setSelectedGalery(galery)}
-                      onKeyDown={() => setSelectedGalery(galery)}
-                      role="button"
-                      tabIndex={i+1}
-                      id={slugify(galery.name)}
-                      className={`flex flex-row md:flex-col justify-center content-center items-center md:h-40 md:p-4 text-sm font-light text-center text-white uppercase
-                        outline-none hover:bg-orange-500 ${selectedGalery.name === galery.name ? 'bg-orange-500' : 'bg-blue-500'}`}
-                    >
-                      <Img fluid={galery.icon.childImageSharp.fluid} alt={`Nimfa - ${galery.name}`} className="w-10 ml-6 md:ml-0" />
-                      <div className="flex-1 md:flex-none pt-3 md:pr-0">{galery.name}</div>
-                    </div>
+                  <div key={i+1}
+                    onClick={() => setSelectedGalery(galery)}
+                    onKeyDown={() => setSelectedGalery(galery)}
+                    role="button"
+                    tabIndex={i+1}
+                    id={slugify(galery.name)}
+                    className={`flex flex-row md:flex-col justify-center content-center items-center md:h-36 md:p-2 text-sm font-light text-center text-white uppercase
+                      outline-none hover:bg-orange-500 ${selectedGalery.name === galery.name ? 'bg-orange-500' : 'bg-blue-500'}`}
+                  >
+                    <Img fluid={galery.icon.childImageSharp.fluid} alt={`Nimfa - ${galery.name}`} className="w-10 ml-6 md:ml-0" />
+                    <div className="flex-1 md:flex-none pt-3 md:pr-0 text-xs">{galery.name}</div>
                   </div>
                 )
               })}
             </div>
 
             {/* SELECTED GALERY VIEW */}
-            <div className="w-full md:w-2/3 pl-8 nf-carousel">
+            <div className="w-full md:w-9/12 pl-2 nf-carousel">
               <Slider {...settings}>
                 {selectedGalery.carousel.map((image, i) => {
                   return (
@@ -135,7 +133,7 @@ const GaleryPage = () => {
               })}
             </Slider>
           </div>
-          <div className="w-full bg-orange-500 text-white text-center text-xl uppercase font-semibold tracking-wide px-4 py-1 -mt-2">
+          <div className="w-full bg-orange-500 text-white text-center text-xl uppercase font-semibold tracking-wide px-4 py-1 -mt-3">
             Echipa Nimfa
           </div>
 
