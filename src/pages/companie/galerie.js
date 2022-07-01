@@ -29,7 +29,7 @@ const GaleryPage = () => {
           name
           icon {
             childImageSharp {
-              fluid(maxWidth: 192, quality: 90) {
+              fluid(maxWidth: 88, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -103,8 +103,8 @@ const GaleryPage = () => {
                       className={`flex flex-row md:flex-col justify-center content-center items-center md:h-40 md:p-4 text-sm font-light text-center text-white uppercase
                         outline-none hover:bg-orange-500 ${selectedGalery.name === galery.name ? 'bg-orange-500' : 'bg-blue-500'}`}
                     >
-                      <Img fluid={galery.icon.childImageSharp.fluid} alt={`Nimfa - ${galery.name}`} className="w-20 md:w-24 ml-6 md:ml-0" />
-                      <div className="flex-1 md:flex-none pr-6 md:pr-0">{galery.name}</div>
+                      <Img fluid={galery.icon.childImageSharp.fluid} alt={`Nimfa - ${galery.name}`} className="w-10 ml-6 md:ml-0" />
+                      <div className="flex-1 md:flex-none pt-3 md:pr-0">{galery.name}</div>
                     </div>
                   </div>
                 )
@@ -143,6 +143,9 @@ const GaleryPage = () => {
           <div className="relative w-full mt-8 nf-video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/k5OLfSxey2A" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
+
+          {/* SMALL CAROUSELS */}
+          <div></div>
 
 
         </div>

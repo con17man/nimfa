@@ -3,139 +3,195 @@
     "title": "Galerie",
     "metaTitle": "",
     "headline": "",
-    "image": "../assets/images/page-headers/flanse.jpg",
+    "image": "../assets/images/page-headers/galerie.jpeg",
     "darkTextColor": false
   },
 
   "galeries": [
     {
       "name": "Aerial view",
-      "icon": "../assets/images/icons/industrii/icons_192x192-35.png",
+      "icon": "../assets/images/page-galerie/carousel-galery/_icons/01-aerialView.png",
       "carousel": [
         {
-          "img": "../assets/images/page-headers/industrii.jpg",
-          "name": ""
+          "img": "../assets/images/page-galerie/carousel-galery/aerial-view/aerialView_01.jpg",
+          "name": "Nimfa - Aerial view image"
         },
         {
-          "img": "../assets/images/page-headers/flanse.jpg",
-          "name": ""
+          "img": "../assets/images/page-galerie/carousel-galery/aerial-view/aerialView_02.jpg",
+          "name": "Nimfa - Aerial view image"
         },
         {
-          "img": "../assets/images/page-headers/date_cifre.jpg",
-          "name": ""
+          "img": "../assets/images/page-galerie/carousel-galery/aerial-view/aerialView_03.jpg",
+          "name": "Nimfa - Aerial view image"
         },
         {
-          "img": "../assets/images/page-headers/despre_noi.jpg",
-          "name": ""
+          "img": "../assets/images/page-galerie/carousel-galery/aerial-view/aerialView_04.jpg",
+          "name": "Nimfa - Aerial view image"
+        },
+        {
+          "img": "../assets/images/page-galerie/carousel-galery/aerial-view/aerialView_05.jpg",
+          "name": "Nimfa - Aerial view image"
+        },
+        {
+          "img": "../assets/images/page-galerie/carousel-galery/aerial-view/aerialView_06.jpg",
+          "name": "Nimfa - Aerial view image"
+        },
+        {
+          "img": "../assets/images/page-galerie/carousel-galery/aerial-view/aerialView_07.jpg",
+          "name": "Nimfa - Aerial view image"
         }
       ]
     },
     {
       "name": "Hala",
-      "icon": "../assets/images/icons/industrii/icons_192x192-35.png",
+      "icon": "../assets/images/page-galerie/carousel-galery/_icons/02-hala.png",
       "carousel": [
         {
-          "img": "../assets/images/page-headers/industrii.jpg",
+          "img": "../assets/images/page-galerie/carousel-galery/hala/hala01.jpg",
           "name": ""
         },
         {
-          "img": "../assets/images/page-headers/flanse.jpg",
+          "img": "../assets/images/page-galerie/carousel-galery/hala/hala02.jpg",
           "name": ""
         },
         {
-          "img": "../assets/images/page-headers/date_cifre.jpg",
+          "img": "../assets/images/page-galerie/carousel-galery/hala/hala03.jpg",
           "name": ""
         },
         {
-          "img": "../assets/images/page-headers/despre_noi.jpg",
+          "img": "../assets/images/page-galerie/carousel-galery/hala/hala04.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousel-galery/hala/hala05.jpg",
           "name": ""
         }
       ]
     },
     {
       "name": "Debitari si servicii",
-      "icon": "../assets/images/icons/industrii/icons_192x192-35.png",
+      "icon": "../assets/images/page-galerie/carousel-galery/_icons/03-debitariServicii.png",
       "carousel": [
         {
-          "img": "../assets/images/page-headers/industrii.jpg",
+          "img": "../assets/images/page-galerie/carousel-galery/debitare-si-servicii/debitareServicii_01.jpg",
           "name": ""
         },
         {
-          "img": "../assets/images/page-headers/flanse.jpg",
+          "img": "../assets/images/page-galerie/carousel-galery/debitare-si-servicii/debitareServicii_02.jpg",
           "name": ""
         },
         {
-          "img": "../assets/images/page-headers/date_cifre.jpg",
+          "img": "../assets/images/page-galerie/carousel-galery/debitare-si-servicii/debitareServicii_03.jpg",
           "name": ""
         },
         {
-          "img": "../assets/images/page-headers/despre_noi.jpg",
+          "img": "../assets/images/page-galerie/carousel-galery/debitare-si-servicii/debitareServicii_04.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousel-galery/debitare-si-servicii/debitareServicii_05.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousel-galery/debitare-si-servicii/debitareServicii_06.jpg",
           "name": ""
         }
       ]
     },
     {
       "name": "Produse",
-      "icon": "../assets/images/icons/industrii/icons_192x192-35.png",
+      "icon": "../assets/images/page-galerie/carousel-galery/_icons/04-produse.png",
       "carousel": [
         {
-          "img": "../assets/images/page-headers/industrii.jpg",
+          "img": "../assets/images/page-galerie/carousel-galery/produse/produse_01.jpg",
           "name": ""
         },
         {
-          "img": "../assets/images/page-headers/flanse.jpg",
+          "img": "../assets/images/page-galerie/carousel-galery/produse/produse_02.jpg",
           "name": ""
         },
         {
-          "img": "../assets/images/page-headers/date_cifre.jpg",
+          "img": "../assets/images/page-galerie/carousel-galery/produse/produse_03.jpg",
           "name": ""
         },
         {
-          "img": "../assets/images/page-headers/despre_noi.jpg",
+          "img": "../assets/images/page-galerie/carousel-galery/produse/produse_04.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousel-galery/produse/produse_05.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousel-galery/produse/produse_06.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousel-galery/produse/produse_07.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousel-galery/produse/produse_08.jpg",
           "name": ""
         }
       ]
     },
     {
       "name": "Siguranta si eficienta",
-      "icon": "../assets/images/icons/industrii/icons_192x192-35.png",
+      "icon": "../assets/images/page-galerie/carousel-galery/_icons/05-sigurantaEficienta.png",
       "carousel": [
         {
-          "img": "../assets/images/page-headers/industrii.jpg",
+          "img": "../assets/images/page-galerie/carousel-galery/siguranta-si-eficienta/sigurantaEficienta_01.jpg",
           "name": ""
         },
         {
-          "img": "../assets/images/page-headers/flanse.jpg",
+          "img": "../assets/images/page-galerie/carousel-galery/siguranta-si-eficienta/sigurantaEficienta_02.jpg",
           "name": ""
         },
         {
-          "img": "../assets/images/page-headers/date_cifre.jpg",
+          "img": "../assets/images/page-galerie/carousel-galery/siguranta-si-eficienta/sigurantaEficienta_03.jpg",
           "name": ""
         },
         {
-          "img": "../assets/images/page-headers/despre_noi.jpg",
+          "img": "../assets/images/page-galerie/carousel-galery/siguranta-si-eficienta/sigurantaEficienta_04.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousel-galery/siguranta-si-eficienta/sigurantaEficienta_05.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousel-galery/siguranta-si-eficienta/sigurantaEficienta_06.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousel-galery/siguranta-si-eficienta/sigurantaEficienta_07.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousel-galery/siguranta-si-eficienta/sigurantaEficienta_08.jpg",
           "name": ""
         }
       ]
     },
     {
       "name": "Verificare de calitate",
-      "icon": "../assets/images/icons/industrii/icons_192x192-35.png",
+      "icon": "../assets/images/page-galerie/carousel-galery/_icons/06-verificareCalitate.png",
       "carousel": [
         {
-          "img": "../assets/images/page-headers/industrii.jpg",
+          "img": "../assets/images/page-galerie/carousel-galery/verificare-de-calitate/verificareCalitate_01.jpg",
           "name": ""
         },
         {
-          "img": "../assets/images/page-headers/flanse.jpg",
+          "img": "../assets/images/page-galerie/carousel-galery/verificare-de-calitate/verificareCalitate_02.jpg",
           "name": ""
         },
         {
-          "img": "../assets/images/page-headers/date_cifre.jpg",
+          "img": "../assets/images/page-galerie/carousel-galery/verificare-de-calitate/verificareCalitate_03.jpg",
           "name": ""
         },
         {
-          "img": "../assets/images/page-headers/despre_noi.jpg",
+          "img": "../assets/images/page-galerie/carousel-galery/verificare-de-calitate/verificareCalitate_04.jpg",
           "name": ""
         }
       ]
@@ -144,15 +200,99 @@
 
   "team": [
     {
-      "img": "../assets/images/page-galerie/echipa/team_1.jpg",
+      "img": "../assets/images/page-galerie/carousel-team/echipa_01.jpg",
       "alt": "Echipa Nimfa"
     },
     {
-      "img": "../assets/images/page-galerie/echipa/team_2.jpg",
+      "img": "../assets/images/page-galerie/carousel-team/echipa_02.jpg",
       "alt": "Echipa Nimfa"
     },
     {
-      "img": "../assets/images/page-galerie/echipa/team_3.jpg",
+      "img": "../assets/images/page-galerie/carousel-team/echipa_03.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_04.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_05.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_06.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_07.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_08.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_09.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_10.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_11.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_12.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_13.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_14.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_15.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_16.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_16-1.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_17.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_17-1.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_18.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_19.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_20.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_21.jpg",
+      "alt": "Echipa Nimfa"
+    },
+    {
+      "img": "../assets/images/page-galerie/carousel-team/echipa_22.jpg",
       "alt": "Echipa Nimfa"
     }
   ]
