@@ -38,7 +38,7 @@ const SmallCarousel = ({carousel, index}) => {
   return (
     <div className="mt-6">
       <div className={`relative mx-auto nf-carousel ${hasBorder ? 'nf-carousel--border bg-orange-500': ''}`}>
-        <Slider {...carouselSettings} className={`${hasBorder ? 'p-10': ''}`}>
+        <Slider {...carouselSettings} className={`${hasBorder ? 'px-6 py-10': ''}`}>
           {gallery.map((img, i) => {
             return (
               <Img fluid={img.img.childImageSharp.fluid} alt={img.name} key={i+1} />
