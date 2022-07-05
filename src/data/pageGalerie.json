@@ -576,5 +576,7 @@
         }
       ]
     }
-  ]
+  ],
+
+  "abstractImg": "../assets/images/abstract/abstract-1.png"
 }

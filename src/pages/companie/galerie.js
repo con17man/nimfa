@@ -16,17 +16,16 @@ const carouselSettings = {
   fade: true,
   arrows: false,
   infinite: true,
-  // autoplay: true,
-  // autoplaySpeed: 5000,
   pauseOnHover: true,
   speed: 400,
   lazyLoad: true,
   // initialSlide: Math.floor(Math.random() * galeries.length),
-  initialSlide: 1,
   slidesToShow: 1,
   slidesToScroll: 1,
   appendDots: dots => <ul> {dots} </ul>,
-  customPaging: i => <button aria-label="slide-btn" className="nf-carousel--dot" key={i+1} />
+  customPaging: i => <button aria-label="slide-btn" className="nf-carousel--dot" key={i+1} />,
+  afterChange: () => console.log('--after change'),
+  beforeChange: (current, next) => console.log('--current', current ,'\n', '--next', next)
 };
 
 
@@ -54,7 +53,7 @@ const SmallCarousel = ({carousel, index}) => {
 
 const GaleryPage = () => {
 
-  const { pageGalerie: {hero, galeries, team, smallCarousels} } = useStaticQuery(graphql`
+  const { pageGalerie: {hero, galeries, team, smallCarousels, abstractImg} } = useStaticQuery(graphql`
     query queryGaleryPageData {
       pageGalerie {
         hero {
@@ -116,6 +115,14 @@ const GaleryPage = () => {
           }
         }
 
+        abstractImg {
+          childImageSharp {
+            fluid(maxWidth: 512, quality: 90) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
       }
     }
   `);
@@ -127,6 +134,12 @@ const GaleryPage = () => {
       <SEO title={hero.title} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
+
+        {/* abstract image */}
+        <div className="absolute top-0 right-0 opacity-25" style={{width: '36rem', zIndex: '-1', transform: 'rotate(180deg)'}}>
+          { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} alt={`Nimfa`} style={{transform: 'rotateY(180deg)'}} /> }
+        </div>
+
         <div className="container relative mx-auto py-8 md:py-24 px-8">
           {/* CAROUSEL GALERY */}
           <div className="flex flex-wrap tracking-wider">
@@ -185,7 +198,6 @@ const GaleryPage = () => {
               <track src="captions_en.vtt" kind="captions" srcLang="en" label="english_captions" />
               Sorry, your browser doesn't support embedded videos.
             </video>
-            {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/k5OLfSxey2A" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
           </div>
 
           {/* SMALL CAROUSELS */}
@@ -193,7 +205,11 @@ const GaleryPage = () => {
               { smallCarousels.map((carousel, i) => <SmallCarousel carousel={carousel} index={i} key={i} /> )}
           </div>
 
+        </div>
 
+        {/* abstract image */}
+        <div className="absolute bottom-0 left-0 opacity-25 w-84 md:w-150" style={{zIndex: '-1'}}>
+          { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} alt={`Nimfa`} style={{transform: 'rotateY(180deg)'}} /> }
         </div>
       </div>
     </Layout>
