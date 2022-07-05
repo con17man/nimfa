@@ -2,6 +2,14 @@
   bottom: 24px;
 }
 
+.nf-carousel .slick-prev {
+  left: 0 !important;
+}
+
+.nf-carousel .slick-next {
+  right: 0 !important;
+}
+
 .nf-carousel.nf-carousel--border .slick-dots {
   left: 50%;
   transform: translateX(-50%);

@@ -11,10 +11,31 @@ import videoSrc from '../../assets/video/nimfa.mp4';
 import videoPoster from '../../assets/video/nimfa-video-poster.png';
 
 
+const CarouselArrow = ({ className, style, onClick, direction }) => {
+  return (
+    <div
+      onClick={onClick}
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        height: "100%",
+        width: "50%",
+        [direction]: "0 !important",
+        zIndex: "1"
+      }}
+      role="none"
+    >
+      {direction === "right" ? ">" : "<"}
+    </div>
+  );
+};
+
+
 const carouselSettings = {
   dots: true,
   fade: true,
-  arrows: false,
+  arrows: true,
   infinite: true,
   pauseOnHover: true,
   speed: 400,
@@ -24,8 +45,8 @@ const carouselSettings = {
   slidesToScroll: 1,
   appendDots: dots => <ul> {dots} </ul>,
   customPaging: i => <button aria-label="slide-btn" className="nf-carousel--dot" key={i+1} />,
-  afterChange: () => console.log('--after change'),
-  beforeChange: (current, next) => console.log('--current', current ,'\n', '--next', next)
+  nextArrow: <CarouselArrow direction="right" />,
+  prevArrow: <CarouselArrow direction="left" />
 };
 
 
