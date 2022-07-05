@@ -7,6 +7,8 @@ import Layout from '../../components/layout';
 import SEO from '../../components/SEO';
 import PageHero from '../../components/PageHero';
 import { slugify } from '../../components/Helpers';
+import videoSrc from '../../assets/video/nimfa.mp4';
+import videoPoster from '../../assets/video/nimfa-video-poster.png';
 
 
 const carouselSettings = {
@@ -20,6 +22,7 @@ const carouselSettings = {
   speed: 400,
   lazyLoad: true,
   // initialSlide: Math.floor(Math.random() * galeries.length),
+  initialSlide: 1,
   slidesToShow: 1,
   slidesToScroll: 1,
   appendDots: dots => <ul> {dots} </ul>,
@@ -176,8 +179,13 @@ const GaleryPage = () => {
           </div>
 
           {/* VIDEO */}
-          <div className="relative w-full mt-8 nf-video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/k5OLfSxey2A" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <div className="relative w-full mt-8">
+            <video controls className='nf-video' poster={videoPoster}>
+              <source src={videoSrc} type="video/mp4" />
+              <track src="captions_en.vtt" kind="captions" srcLang="en" label="english_captions" />
+              Sorry, your browser doesn't support embedded videos.
+            </video>
+            {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/k5OLfSxey2A" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
           </div>
 
           {/* SMALL CAROUSELS */}
