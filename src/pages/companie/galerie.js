@@ -8,9 +8,48 @@ import SEO from '../../components/SEO';
 import PageHero from '../../components/PageHero';
 import { slugify } from '../../components/Helpers';
 
+
+const carouselSettings = {
+  dots: true,
+  fade: true,
+  arrows: false,
+  infinite: true,
+  // autoplay: true,
+  // autoplaySpeed: 5000,
+  pauseOnHover: true,
+  speed: 400,
+  lazyLoad: true,
+  // initialSlide: Math.floor(Math.random() * galeries.length),
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  appendDots: dots => <ul> {dots} </ul>,
+  customPaging: i => <button aria-label="slide-btn" className="nf-carousel--dot" key={i+1} />
+};
+
+
+const SmallCarousel = ({carousel}) => {
+  const {text, gallery} = carousel;
+
+  return (
+    <div className="mt-6">
+      <div className="relative mx-auto nf-carousel">
+        <Slider {...carouselSettings}>
+          {gallery.map((img, i) => {
+            return (
+              <Img fluid={img.img.childImageSharp.fluid} alt={img.name} key={i+1} />
+            )
+          })}
+        </Slider>
+      </div>
+      <div dangerouslySetInnerHTML={{__html: text}} className="text-sm mt-6" />
+    </div>
+  );
+};
+
+
 const GaleryPage = () => {
 
-  const { pageGalerie: {hero, galeries, team} } = useStaticQuery(graphql`
+  const { pageGalerie: {hero, galeries, team, smallCarousels} } = useStaticQuery(graphql`
     query queryGaleryPageData {
       pageGalerie {
         hero {
@@ -58,28 +97,25 @@ const GaleryPage = () => {
           }
         }
 
+        smallCarousels {
+          text
+          gallery {
+            name
+            img {
+              childImageSharp {
+                fluid(maxWidth: 1000, quality: 90) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+
       }
     }
   `);
 
   const [ selectedGalery, setSelectedGalery ] = useState(galeries[0]);
-
-  const settings = {
-    dots: true,
-    fade: true,
-    arrows: false,
-    infinite: true,
-    // autoplay: true,
-    // autoplaySpeed: 5000,
-    pauseOnHover: true,
-    speed: 400,
-    lazyLoad: true,
-    // initialSlide: Math.floor(Math.random() * galeries.length),
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    appendDots: dots => <ul> {dots} </ul>,
-    customPaging: i => <button aria-label="slide-btn" className="nf-carousel--dot" key={i+1} />
-  };
 
   return (
     <Layout>
@@ -111,7 +147,7 @@ const GaleryPage = () => {
 
             {/* SELECTED GALERY VIEW */}
             <div className="w-full md:w-9/12 pl-2 nf-carousel">
-              <Slider {...settings}>
+              <Slider {...carouselSettings}>
                 {selectedGalery.carousel.map((image, i) => {
                   return (
                     <div key={i+1} className="relative" aria-hidden="true">
@@ -125,7 +161,7 @@ const GaleryPage = () => {
 
           {/* CAROUSEL -- TEAM */}
           <div className="relative mx-auto mt-8 nf-carousel">
-            <Slider {...settings}>
+            <Slider {...carouselSettings}>
               {team.map((img, i) => {
                 return (
                   <Img fluid={img.img.childImageSharp.fluid} alt={img.alt} className="w-20 md:w-24 ml-6 md:ml-0" key={i+1} />
@@ -143,7 +179,9 @@ const GaleryPage = () => {
           </div>
 
           {/* SMALL CAROUSELS */}
-          <div></div>
+          <div className='grid gap-4 grid-cols-1 md:grid-cols-2 mt-8'>
+              { smallCarousels.map((carousel, i) => <SmallCarousel carousel={carousel} key={i} /> )}
+          </div>
 
 
         </div>

@@ -295,5 +295,286 @@
       "img": "../assets/images/page-galerie/carousel-team/echipa_22.jpg",
       "alt": "Echipa Nimfa"
     }
+  ],
+
+  "smallCarousels": [
+    {
+      "text": "<p><b>Fitinguri aliate</b> din materiale similare cu EN 10253-2 tip B si flanse cf. EN 1092-1</p><br/> <p><b>Dimensiuni:</b> ½” – 3” (21,3 mm – 88,9 mm)</p><br/> <p><b>Produse din rotunduri aliate:</b> 11CrMo9-10; 10CrMo9-10; 13CrMo4-5;</p><br/> <p><b>Productie:</b> Germania;</p>",
+      "gallery": [
+        {
+          "img": "../assets/images/page-galerie/carousels-small/01-Fitinguri-Aliate/FitinguriAliate_01.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/01-Fitinguri-Aliate/FitinguriAliate_02.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/01-Fitinguri-Aliate/FitinguriAliate_03.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/01-Fitinguri-Aliate/FitinguriAliate_04.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/01-Fitinguri-Aliate/FitinguriAliate_05.jpg",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "text": "<p><b>Livrare fitinguri</b> cf. EN 10253-2 tip A</p><br/> <p><b>Dimensiuni:</b> DN700 – DN1000</p><br/> <p><b>Material:</b> ASTM A234 WPB / P235TR1 / P265GH;</p><br/> <p><b>Productie:</b> China;</p>",
+      "gallery": [
+        {
+          "img": "../assets/images/page-galerie/carousels-small/02-Livrare-Fitinguri/LivrareFitinguri_01.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/02-Livrare-Fitinguri/LivrareFitinguri_02.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/02-Livrare-Fitinguri/LivrareFitinguri_03.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/02-Livrare-Fitinguri/LivrareFitinguri_04.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/02-Livrare-Fitinguri/LivrareFitinguri_05.jpg",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "text": "<p><b>Tevi si fitinguri fara sudura</b> cf. EN 10216-5 ; EN 10253-2 ; ASME B36.10 ; ASME B16.9 ;</p><br/> <p><b>Dimensiuni</b>: ½“ – 12“ (21,3 mm – 323,9 mm)</p><br/> <p><b>Materiale:</b> W1.4571 / AISI 316Ti ; W1.4401/W1.4404/AISI 316/ AISI 316L ;</p><br/> <p><b>Productie:</b> Ukraina, China, Germania;</p>",
+      "gallery": [
+        {
+          "img": "../assets/images/page-galerie/carousels-small/03-Tevi-si-fitinguri-fara-sudura/Tevi-si-fitinguri-fara-sudura_v01.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/03-Tevi-si-fitinguri-fara-sudura/Tevi-si-fitinguri-fara-sudura_v02.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/03-Tevi-si-fitinguri-fara-sudura/Tevi-si-fitinguri-fara-sudura_v03.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/03-Tevi-si-fitinguri-fara-sudura/Tevi-si-fitinguri-fara-sudura_v04.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/03-Tevi-si-fitinguri-fara-sudura/Tevi-si-fitinguri-fara-sudura_v05.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/03-Tevi-si-fitinguri-fara-sudura/Tevi-si-fitinguri-fara-sudura_v06.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/03-Tevi-si-fitinguri-fara-sudura/Tevi-si-fitinguri-fara-sudura_v07.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/03-Tevi-si-fitinguri-fara-sudura/Tevi-si-fitinguri-fara-sudura_v08.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/03-Tevi-si-fitinguri-fara-sudura/Tevi-si-fitinguri-fara-sudura_v09.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/03-Tevi-si-fitinguri-fara-sudura/Tevi-si-fitinguri-fara-sudura_v10.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/03-Tevi-si-fitinguri-fara-sudura/Tevi-si-fitinguri-fara-sudura_v11.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/03-Tevi-si-fitinguri-fara-sudura/Tevi-si-fitinguri-fara-sudura_v12.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/03-Tevi-si-fitinguri-fara-sudura/Tevi-si-fitinguri-fara-sudura_v13.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/03-Tevi-si-fitinguri-fara-sudura/Tevi-si-fitinguri-fara-sudura_v14.jpg",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "text": "<p><b>Rola de platbanda</b> cf. EN 10132-4</p><br/> <p><b>Dimensiune:</b> 2,50 mm x 120 mm</p><br/> <p><b>Material:</b> C75S</p><br/> <p><b>Productie:</b> Spania</p>",
+      "gallery": [
+        {
+          "img": "../assets/images/page-galerie/carousels-small/04-Rola-Platbanda/RolaPlatbanda_01.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/04-Rola-Platbanda/RolaPlatbanda_02.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/04-Rola-Platbanda/RolaPlatbanda_03.jpg",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "text": "<p><b>Teava din inox</b> sudata longitudinal produsa din table groasa cf. ASTM A358</p><br/> <p><b>Dimensiuni:</b> 355,6 – 609,6 mm</p><br/> <p><b>Material:</b> AISI 304 / 304L / 316 / 316L;</p><br/> <p><b>Productie:</b> Italia</p>",
+      "gallery": [
+        {
+          "img": "../assets/images/page-galerie/carousels-small/05-Teava-Inox/TeavaInox_01.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/05-Teava-Inox/TeavaInox_02.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/05-Teava-Inox/TeavaInox_03.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/05-Teava-Inox/TeavaInox_04.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/05-Teava-Inox/TeavaInox_05.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/05-Teava-Inox/TeavaInox_06.jpg",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "text": "<p><b>Produse nestandardizate</b> executate conform desenului tehnic furnizat de catre client</p><br/> <p><b>Material:</b> NI-HARD 4</p><br/> <p><b>Productie:</b> Cehia</p>",
+      "gallery": [
+        {
+          "img": "../assets/images/page-galerie/carousels-small/06-Produse-Nestandardizate/ProduseNestandardizate_01.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/06-Produse-Nestandardizate/ProduseNestandardizate_02.jpg",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "text": "<p><b>Platbanda din otel</b> conform EN 10058</p><br/> <p><b>DIMENSIUNI:</b> 75 x 40 ; 80 x 45 mm</p><br/> <p><b>Material:</b> C45</p><br/> <p><b>Productie:</b> Turcia</p>",
+      "gallery": [
+        {
+          "img": "../assets/images/page-galerie/carousels-small/07-Platbanda-Otel/PlatbandaOtel_01.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/07-Platbanda-Otel/PlatbandaOtel_02.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/07-Platbanda-Otel/PlatbandaOtel_03.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/07-Platbanda-Otel/PlatbandaOtel_04.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/07-Platbanda-Otel/PlatbandaOtel_05.jpg",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "text": "<p><b>Teava din otel</b> fara sudura cf EN 10216-2</p><br/> <p>Ø406,4 x 60,00 mm ; Ø355,6 x 40,00 mm;</p><br/> <p><b>Material:</b> 14MoV6-3;</p><br/> <p><b>Productie:</b> Cehia, Italia;</p>",
+      "gallery": [
+        {
+          "img": "../assets/images/page-galerie/carousels-small/08-Teava-Otel/TeavaOtel_01.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/08-Teava-Otel/TeavaOtel_02.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/08-Teava-Otel/TeavaOtel_03.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/08-Teava-Otel/TeavaOtel_04.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/08-Teava-Otel/TeavaOtel_05.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/08-Teava-Otel/TeavaOtel_06.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/08-Teava-Otel/TeavaOtel_07.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/08-Teava-Otel/TeavaOtel_08.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/08-Teava-Otel/TeavaOtel_09.jpg",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "text": "<p><b>Teava sudata elicoidal</b> conform EN 10219-1</p><br/> <p><b>Dimenisiuni:</b> 1626 x 10,00 mm</p><br/> <p><b>Material:</b> S275JR</p><br/> <p><b>Productie:</b> Turcia</p>",
+      "gallery": [
+        {
+          "img": "../assets/images/page-galerie/carousels-small/09-Teava-Sudata-Elicoidal/TeavaSudataElicoidal_01.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/09-Teava-Sudata-Elicoidal/TeavaSudataElicoidal_02.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/09-Teava-Sudata-Elicoidal/TeavaSudataElicoidal_03.jpg",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "text": "<p><b>Teava sudata longitudinal</b> EFW conform ASTM A671 / ASTM A672</p><br/> <p>Ø1067,0 x 20,67 mm; Ø1067,0 x 36,00 mm; Ø508,0 x 26,10 mm; Ø610,0 x 30,90 mm;</p><br/> <p><b>Material:</b> CC65 / L70</p><br/> <p><b>Productie:</b> China</p>",
+      "gallery": [
+        {
+          "img": "../assets/images/page-galerie/carousels-small/10-Teava-Sudata-Longitudinal/TeavaSudataLongitudinal_01.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/10-Teava-Sudata-Longitudinal/TeavaSudataLongitudinal_02.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/10-Teava-Sudata-Longitudinal/TeavaSudataLongitudinal_03.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/10-Teava-Sudata-Longitudinal/TeavaSudataLongitudinal_04.jpg",
+          "name": ""
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/10-Teava-Sudata-Longitudinal/TeavaSudataLongitudinal_05.jpg",
+          "name": ""
+        }
+      ]
+    }
   ]
 }
