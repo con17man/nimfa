@@ -27,13 +27,15 @@ const carouselSettings = {
 };
 
 
-const SmallCarousel = ({carousel}) => {
+const SmallCarousel = ({carousel, index}) => {
   const {text, gallery} = carousel;
+
+  const hasBorder = !(index % 4 < 2);
 
   return (
     <div className="mt-6">
-      <div className="relative mx-auto nf-carousel">
-        <Slider {...carouselSettings}>
+      <div className={`relative mx-auto nf-carousel ${hasBorder ? 'nf-carousel--border bg-orange-500': ''}`}>
+        <Slider {...carouselSettings} className={`${hasBorder ? 'p-10': ''}`}>
           {gallery.map((img, i) => {
             return (
               <Img fluid={img.img.childImageSharp.fluid} alt={img.name} key={i+1} />
@@ -180,7 +182,7 @@ const GaleryPage = () => {
 
           {/* SMALL CAROUSELS */}
           <div className='grid gap-4 grid-cols-1 md:grid-cols-2 mt-8'>
-              { smallCarousels.map((carousel, i) => <SmallCarousel carousel={carousel} key={i} /> )}
+              { smallCarousels.map((carousel, i) => <SmallCarousel carousel={carousel} index={i} key={i} /> )}
           </div>
 
 

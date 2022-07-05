@@ -2,6 +2,12 @@
   bottom: 24px;
 }
 
+.nf-carousel.nf-carousel--border .slick-dots {
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 16px;
+}
+
 .nf-carousel .slick-dots li {
   position: relative;
   display: inline-block;

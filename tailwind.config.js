@@ -40,6 +40,10 @@ module.exports = {
 
     extend: {
 
+      borderWidth: {
+        '40': '2.5rem'
+      },
+
       height: {
         '36': '9rem'
       },
