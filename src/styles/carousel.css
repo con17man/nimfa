@@ -1,5 +1,6 @@
 .nf-carousel .slick-dots {
-  bottom: 24px;
+  bottom: 18px;
+  z-index: 2;
 }
 
 .nf-carousel .slick-prev {
@@ -19,16 +20,16 @@
 .nf-carousel .slick-dots li {
   position: relative;
   display: inline-block;
-  width: 16px;
-  height: 16px;
+  width: 10px;
+  height: 10px;
   margin: 0 2px;
   padding: 0;
   cursor: pointer;
 }
 
 .nf-carousel .nf-carousel--dot {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   padding: 0px;
   margin: 0px;
   border: 1.5px solid white;
