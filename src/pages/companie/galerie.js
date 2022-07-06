@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import Slider from 'react-slick';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import Layout from '../../components/layout';
 import SEO from '../../components/SEO';
@@ -26,7 +27,7 @@ const CarouselArrow = ({ className, style, onClick, direction }) => {
       }}
       role="none"
     >
-      {direction === "right" ? ">" : "<"}
+      <FontAwesomeIcon icon={direction === "right" ? "angle-right" : "angle-left"} width="16" height="16" />
     </div>
   );
 };
@@ -186,7 +187,7 @@ const GaleryPage = () => {
 
             {/* SELECTED GALERY VIEW */}
             <div className="w-full md:w-9/12 pl-2 nf-carousel">
-              <Slider {...carouselSettings}>
+              <Slider {...carouselSettings} key={Date.now()}>
                 {selectedGalery.carousel.map((image, i) => {
                   return (
                     <div key={i+1} className="relative" aria-hidden="true">
