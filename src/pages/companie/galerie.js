@@ -178,15 +178,15 @@ const GaleryPage = () => {
                     className={`flex flex-row md:flex-col justify-center content-center items-center md:h-36 md:p-2 text-sm font-light text-center text-white uppercase
                       outline-none hover:bg-orange-500 ${selectedGalery.name === galery.name ? 'bg-orange-500' : 'bg-blue-500'}`}
                   >
-                    <Img fluid={galery.icon.childImageSharp.fluid} alt={`Nimfa - ${galery.name}`} className="w-10 ml-6 md:ml-0" />
-                    <div className="flex-1 md:flex-none pt-3 md:pr-0 text-xs">{galery.name}</div>
+                    <Img fluid={galery.icon.childImageSharp.fluid} alt={`Nimfa - ${galery.name}`} className="hidden md:block w-10 ml-6 md:ml-0" />
+                    <div className="flex-1 md:flex-none p-3 md:pt-3 md:pr-0 text-xs">{galery.name}</div>
                   </div>
                 )
               })}
             </div>
 
             {/* SELECTED GALERY VIEW */}
-            <div className="w-full md:w-9/12 pl-2 nf-carousel">
+            <div className="w-full md:w-9/12 mt-2 md:m-0 md:pl-2 nf-carousel">
               <Slider {...carouselSettings} key={Date.now()}>
                 {selectedGalery.carousel.map((image, i) => {
                   return (
@@ -209,7 +209,7 @@ const GaleryPage = () => {
               })}
             </Slider>
           </div>
-          <div className="w-full bg-orange-500 text-white text-center text-xl uppercase font-semibold tracking-wide px-4 py-1 -mt-3">
+          <div className="w-full bg-orange-500 text-white text-center text-xl uppercase font-semibold tracking-wide px-4 py-1 -mt-2">
             Echipa Nimfa
           </div>
 
