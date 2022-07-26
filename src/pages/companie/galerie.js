@@ -38,6 +38,8 @@ const carouselSettings = {
   fade: true,
   arrows: true,
   infinite: true,
+  autoplay: true,
+  autoplaySpeed: 5000,
   pauseOnHover: true,
   speed: 400,
   lazyLoad: true,
@@ -179,7 +181,7 @@ const GaleryPage = () => {
                       outline-none hover:bg-orange-500 ${selectedGalery.name === galery.name ? 'bg-orange-500' : 'bg-blue-500'}`}
                   >
                     <Img fluid={galery.icon.childImageSharp.fluid} alt={`Nimfa - ${galery.name}`} className="hidden md:block w-10 ml-6 md:ml-0" />
-                    <div className="flex-1 md:flex-none p-3 md:pt-3 md:pr-0 text-xs">{galery.name}</div>
+                    <div className="flex-1 md:flex-none p-2 md:p-0 md:pt-3 text-xs">{galery.name}</div>
                   </div>
                 )
               })}

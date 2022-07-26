@@ -18,7 +18,7 @@
     },
     {
       "label": "Angajati",
-      "entries": ["20"]
+      "entries": ["25"]
     },
     {
       "label": "Tipul Companiei",
@@ -46,7 +46,7 @@
     },
     {
       "label": "<div class=\"flex justify-center md:justify-end items-center h-full\">Cifre de Afaceri</div>",
-      "entries": ["2020 – 19.331.307 RON", "2019 - 18.964.045 RON", "2018 - 22.026.898 RON"]
+      "entries": ["2021 – 36.648.140 RON", "2020 – 19.627.536 RON", "2019 - 18.996.161 RON"]
     },
     {
       "label": "Suprafață birouri",
