@@ -235,6 +235,8 @@ const GaleryPage = () => {
         <div className="absolute bottom-0 left-0 opacity-25 w-84 md:w-150" style={{zIndex: '-1'}}>
           { abstractImg && <Img fluid={abstractImg.childImageSharp.fluid} alt={`Nimfa`} style={{transform: 'rotateY(180deg)'}} /> }
         </div>
+
+        <div className='hidden underline'></div>
       </div>
     </Layout>
   );
