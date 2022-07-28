@@ -206,7 +206,7 @@ const GaleryPage = () => {
             <Slider {...carouselSettings}>
               {team.map((img, i) => {
                 return (
-                  <Img fluid={img.img.childImageSharp.fluid} alt={img.alt} className="w-20 md:w-24 ml-6 md:ml-0" key={i+1} />
+                  <Img fluid={img.img.childImageSharp.fluid} alt={img.alt} key={i+1} />
                 )
               })}
             </Slider>
