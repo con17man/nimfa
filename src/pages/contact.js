@@ -11,7 +11,7 @@ const TeamMember = ({member}) => {
 
   return (
     <div className="flex py-6">
-      <div className="flex-none w-24 h-24 md:h-40 md:w-40">
+      <div className="flex-none w-24 h-24 pr-4 md:h-40 md:w-40">
         <Img fluid={image.childImageSharp.fluid} className="rounded-full" alt={`Nimfa - ${fullname}`} />
       </div>
       <div className="flex flex-col content-center justify-center text-sm">
