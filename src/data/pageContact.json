@@ -45,6 +45,24 @@
       "email": "horatiu@tevi-laminate.ro",
       "phone": "+40 729 006 626",
       "image": "../assets/images/contact/horatiu_zatoschil.png"
+    },
+    {
+      "fullname": "Anca Chirila",
+      "email": "anca.chirila@tevi-laminate.ro",
+      "phone": "+40 761 595 325",
+      "image": "../assets/images/contact/anca_chirila.png"
+    },
+    {
+      "fullname": "Andreea Petre",
+      "email": "andreea.petre@tevi-laminate.ro",
+      "phone": "+40 753 114 582",
+      "image": "../assets/images/contact/andreea_petre.png"
+    },
+    {
+      "fullname": "Mariana Mirlescu",
+      "email": "mariana.mirlescu@tevi-laminate.ro",
+      "phone": "+40 774 562 657",
+      "image": "../assets/images/contact/mariana_mirlescu.png"
     }
   ],
 
