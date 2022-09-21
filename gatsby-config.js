@@ -66,6 +66,7 @@ module.exports = {
       options: {
         trackingIds: [
           "G-QSYETR36M5", // Google Analytics / GA
+          "UA-183261445-1" // Google Universal Analytics / UA
           // "AW-CONVERSION_ID", // Google Ads / Adwords / AW
           // "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
         ],
