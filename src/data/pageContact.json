@@ -59,10 +59,16 @@
       "image": "../assets/images/contact/andreea_petre.png"
     },
     {
-      "fullname": "Mariana Mirlescu",
-      "email": "mariana.mirlescu@tevi-laminate.ro",
+      "fullname": "Ovidiu Vișan",
+      "email": "ovidiu.visan@tevi-laminate.ro",
+      "phone": "+40 787 358 093",
+      "image": "../assets/images/contact/ovidiu_visan.png"
+    },
+    {
+      "fullname": "Ionel Guțoi",
+      "email": "ionel.gutoi@tevi-laminate.ro",
       "phone": "+40 774 562 657",
-      "image": "../assets/images/contact/mariana_mirlescu.png"
+      "image": "../assets/images/contact/ionel_gutoi.png"
     }
   ],
 

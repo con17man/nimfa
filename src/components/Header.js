@@ -7,7 +7,7 @@ import { ProductsGrid } from '../pages/produse';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ContactHeader from './ContactHeader';
 
-const Header = ({ siteTitle }) => {
+const Header = ({ siteTitle = `` }) => {
 
   const [ toggleMobileMenu, setToggleMobileMenu ] = useState(false);
   const [ toggleMobileSub, setToggleMobileSub ] = useState(false);
@@ -153,11 +153,6 @@ const Header = ({ siteTitle }) => {
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-};
-
-
-Header.defaultProps = {
-  siteTitle: ``,
 };
 
 export default React.memo(Header);

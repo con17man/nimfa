@@ -4,7 +4,7 @@
       /* .navbar-list-item-dropdown */
 
 .js-header-wrapper:hover {
-  @apply  bg-black;
+  @apply bg-black;
 }
 
 .navbar-list-item:hover.sub-products .navbar-list-item-dropdown {

@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import Layout from '../components/layout';
-import SEO from '../components/SEO';
+import Seo from '../components/Seo';
 import PageHero from '../components/PageHero';
 import Asset from '../components/Asset';
 
@@ -50,7 +50,7 @@ const ServicesPage = () => {
 
   return (
     <Layout>
-      <SEO title={hero.metaTitle} />
+      <Seo title={hero.metaTitle} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
         {/* TODO: Find a better way to split and correctly diplay info on page */}

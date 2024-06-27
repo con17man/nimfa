@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import Layout from '../../components/layout';
-import SEO from '../../components/SEO';
+import Seo from '../../components/Seo';
 import PageHero from '../../components/PageHero';
 
 const AccessoriesPage = () => {
@@ -40,7 +40,7 @@ const AccessoriesPage = () => {
 
   return (
     <Layout>
-      <SEO title={hero.metaTitle} />
+      <Seo title={hero.metaTitle} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
         <div className="container relative mx-auto block lg:flex py-8 md:py-24 pb-12 px-8 md:px-16 lg:px-0 mb-0 lg:-mb-12 bg-white">

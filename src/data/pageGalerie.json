@@ -575,6 +575,41 @@
           "name": ""
         }
       ]
+    },
+    {
+      "text": "<p><b><a href='/produse/tevi' class='underline'>Teava din otel</a></b> fara sudura cf EN 10216-2 cu aripioare</p><br/> <p>Ø31,8 x 3,20 mm</p><br/> <p><b>Material:</b> <a href='/produse/tevi/'>P265GH, DC01</a></p><br/> <p><b>Productie:</b> Europa</p>",
+      "gallery": [
+        {
+          "img": "../assets/images/page-galerie/carousels-small/11-Teava-Otel-Fara-Sudura/01.jpg",
+          "name": "Teava din otel"
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/11-Teava-Otel-Fara-Sudura/02.jpg",
+          "name": "Teava din otel"
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/11-Teava-Otel-Fara-Sudura/03.jpg",
+          "name": "Teava din otel"
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/11-Teava-Otel-Fara-Sudura/04.jpg",
+          "name": "Teava din otel"
+        }
+      ]
+    },
+
+    {
+      "text": "<p><b><a href='/produse/tevi' class='underline'>Teava din aluminiu</a></b></p><br/>",
+      "gallery": [
+        {
+          "img": "../assets/images/page-galerie/carousels-small/12-Teava-Aluminiu/02.jpg",
+          "name": "Teava din aluminiu"
+        },
+        {
+          "img": "../assets/images/page-galerie/carousels-small/12-Teava-Aluminiu/04.jpg",
+          "name": "Teava din aluminiu"
+        }
+      ]
     }
   ],
 

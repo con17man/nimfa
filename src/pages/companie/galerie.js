@@ -5,7 +5,7 @@ import Slider from 'react-slick';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import Layout from '../../components/layout';
-import SEO from '../../components/SEO';
+import Seo from '../../components/Seo';
 import PageHero from '../../components/PageHero';
 import { slugify } from '../../components/Helpers';
 import videoSrc from '../../assets/video/nimfa.mp4';
@@ -155,7 +155,7 @@ const GaleryPage = () => {
 
   return (
     <Layout>
-      <SEO title={hero.title} />
+      <Seo title={hero.title} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
 

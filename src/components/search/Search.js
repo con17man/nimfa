@@ -43,7 +43,7 @@ const SearchModal = ({ show, onClose, searchIndex }) => {
           <div className="bg-white p-4">
             <div className="flex">
                 <input className="bg-white focus:outline-none rounded block w-11/12 px-2 appearance-none leading-normal" ref={searchInput} value={searchTerm} onChange={handleChange} type="text" placeholder="Cauta..." />
-                <button onClick={onClose} className="rounded-full w-10 h-10 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none">
+                <button onClick={onClose} className="rounded-full w-10 h-10 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none" aria-label="search">
                   <FontAwesomeIcon icon="times" />
                 </button>
             </div>
@@ -86,7 +86,11 @@ const Search = () => {
 
   return(
     <div className="z-20">
-      <button className="flex items-center font-light p-2 rounded hover:bg-gray-100 focus:bg-gray-100" onClick={() => setToggleModal(!toggleModal)}>
+      <button
+        className="flex items-center font-light p-2 rounded hover:bg-gray-100 focus:bg-gray-100"
+        onClick={() => setToggleModal(!toggleModal)}
+        aria-label="search modal"
+      >
         <span className="lowercase text-sm pr-1">Search</span> <FontAwesomeIcon icon='search' />
       </button>
 

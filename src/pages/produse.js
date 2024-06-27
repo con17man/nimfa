@@ -4,7 +4,7 @@ import Img from 'gatsby-image';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import Layout from '../components/layout';
-import SEO from '../components/SEO';
+import Seo from '../components/Seo';
 import PageHero from '../components/PageHero';
 // import { slugify } from '../components/Helpers';
 
@@ -98,7 +98,7 @@ const ProductsPage = () => {
 
   return (
     <Layout>
-      <SEO title={hero.metaTitle} />
+      <Seo title={hero.metaTitle} />
       <PageHero heroInfo={hero} />
       <section className="relative container mx-auto mb-0 lg:-mb-12 p-8 lg:p-28 bg-grey">
         <ProductsGrid categories={productCategories} />

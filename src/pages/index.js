@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SEO from '../components/SEO';
+import Seo from '../components/Seo';
 import Layout from '../components/layout';
 import HeroCarousel from '../components/HeroCarousel';
 import AdvantagesCarousel from '../components/AdvantagesCarousel';
@@ -10,7 +10,7 @@ import SimpleCTA from '../components/SimpleCTA';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Acasă" />
+    <Seo title="Acasă" />
 
     <HeroCarousel />
     <AdvantagesCarousel />

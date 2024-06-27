@@ -4,12 +4,6 @@
 /*! purgecss end ignore */
 @tailwind utilities;
 
-@import 'fonts.css';
-@import 'header.css';
-@import 'products.css';
-@import 'carousel.css';
-
-
 
 .disable-scrollbars::-webkit-scrollbar {
   width: 0px;

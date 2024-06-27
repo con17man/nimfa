@@ -5,6 +5,10 @@
  */
 
 import './src/styles/main.css';
+import './src/styles/fonts.css';
+import './src/styles/header.css';
+import './src/styles/products.css';
+import './src/styles/carousel.css';
 
 import 'slick-carousel/slick/slick.css';
 import "slick-carousel/slick/slick-theme.css";

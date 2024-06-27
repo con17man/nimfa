@@ -3,13 +3,13 @@ import { Link } from 'gatsby';
 
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import SEO from '../components/SEO';
+import Seo from '../components/Seo';
 
 const NotFoundPage = () => {
 
   return (
     <>
-      <SEO title="404: Pagina nu există" />
+      <Seo title="404: Pagina nu există" />
 
       <Header siteTitle="Nimfa" />
       <div className="flex flex-col justify-center items-center md:h-screen bg-raisin text-center lg:-mt-28">

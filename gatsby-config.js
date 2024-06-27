@@ -78,42 +78,42 @@ module.exports = {
         name: `NIMFA`,
         short_name: `NIMFA`,
         start_url: `/`,
-        background_color: fullConfig.theme.colors.red,
-        theme_color: fullConfig.theme.colors.blue,
+        background_color: fullConfig.theme.colors.red['500'],
+        theme_color: fullConfig.theme.colors.blue['500'],
         display: `minimal-ui`,
         icon: `src/assets/images/nimfa_favicon.png`, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        output: `/categorii-subcategorii.xml`,
-        createLinkInHead: true,
-        query: `{
-          site {
-            siteMetadata {
-              siteUrl
-            }
-          }
+    // {
+    //   resolve: `gatsby-plugin-sitemap`,
+    //   options: {
+    //     output: `/categorii-subcategorii.xml`,
+    //     createLinkInHead: true,
+    //     query: `{
+    //       site {
+    //         siteMetadata {
+    //           siteUrl
+    //         }
+    //       }
 
-          allSitePage {
-            nodes {
-              path
-            }
-          }
-        }`,
-        resolveSiteUrl: ({site}) => site.siteMetadata.siteUrl,
-        serialize: ({ site, allSitePage }) => {
-          return allSitePage.nodes.map((node) => {
-            const { siteUrl } = site.siteMetadata;
-            return {
-              url: `${siteUrl}${node.path}`,
-              lastmod: new Date(1607731505384).toISOString().slice(0,10), // hardcoded Date for now, as we don't have another way of getting "last modified" date
-            };
-          })
-        }
-      }
-    },
+    //       allSitePage {
+    //         nodes {
+    //           path
+    //         }
+    //       }
+    //     }`,
+    //     resolveSiteUrl: ({site}) => site.siteMetadata.siteUrl,
+    //     serialize: ({ site, allSitePage }) => {
+    //       return allSitePage.nodes.map((node) => {
+    //         const { siteUrl } = site.siteMetadata;
+    //         return {
+    //           url: `${siteUrl}${node.path}`,
+    //           lastmod: new Date(1607731505384).toISOString().slice(0,10), // hardcoded Date for now, as we don't have another way of getting "last modified" date
+    //         };
+    //       })
+    //     }
+    //   }
+    // },
     // {
     //   /*
     //    * change default name "sitemapPath" inside the plugin (as the

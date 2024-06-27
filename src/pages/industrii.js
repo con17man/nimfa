@@ -3,7 +3,7 @@ import { useStaticQuery, graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
 
 import Layout from '../components/layout';
-import SEO from '../components/SEO';
+import Seo from '../components/Seo';
 import PageHero from '../components/PageHero';
 import { slugify } from '../components/Helpers';
 
@@ -51,9 +51,22 @@ const IndustriesPage = (props) => {
 
   const [ selectedIndustry, setSelectedIndustry ] = useState(industries[(props.location.state && props.location.state.id) || 0]);
 
+  /**
+   *
+   * @param {string} industry
+   * @param {string} id
+   * @description select which section to display & replace url history so that
+   * when user goes back after navigating through sections page returned will
+   * be different from Industries
+   */
+  const selectIndustry = (industry, id) => {
+    setSelectedIndustry(industry);
+    window.history.replaceState(null, null, `/industrii#${id}`);
+  };
+
   return (
     <Layout>
-      <SEO title={hero.metaTitle} />
+      <Seo title={hero.metaTitle} />
       <PageHero heroInfo={hero} />
       <div className="w-full relative">
         <div className="container relative mx-auto py-8 md:py-24 px-8">
@@ -64,8 +77,8 @@ const IndustriesPage = (props) => {
                 return (
                   <div key={i+1}>
                     <div
-                      onClick={() => setSelectedIndustry(industry)}
-                      onKeyDown={() => setSelectedIndustry(industry)}
+                      onClick={() => selectIndustry(industry, slugify(industry.name))}
+                      onKeyDown={() => selectIndustry(industry, slugify(industry.name))}
                       role="button"
                       tabIndex={i+1}
                       id={slugify(industry.name)}
